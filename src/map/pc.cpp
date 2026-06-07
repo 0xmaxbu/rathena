@@ -2364,7 +2364,7 @@ void pc_reg_received(map_session_data *sd)
 
 	sd->langtype = static_cast<int32>(pc_readaccountreg(sd, add_str(LANGTYPE_VAR)));
 	if (msg_checklangtype(sd->langtype,true) < 0)
-		sd->langtype = 0; //invalid langtype reset to default
+		sd->langtype = 4; //default to Chinese (CHN)
 
 	// Cash shop
 	sd->cashPoints = static_cast<int32>(pc_readaccountreg(sd, add_str(CASHPOINT_VAR)));
