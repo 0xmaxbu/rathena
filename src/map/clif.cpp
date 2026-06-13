@@ -26007,7 +26007,7 @@ void clif_parse_BotCommand(int32 fd, map_session_data* sd) {
 			("INSERT INTO autohunt_log (char_id, account_id, map_name, start_time) "
 			 "VALUES (" + std::to_string(sd->status.char_id) + ", "
 			 + std::to_string(sd->status.account_id) + ", '"
-			 + std::string(map_mapid2mapname(sd->bl.m)) + "', NOW())").c_str());
+			 + std::string(map_mapid2mapname(sd->m)) + "', NOW())").c_str());
 		Sql_FreeResult(mmysql_handle);
 		clif_send_bot_status(sd, 0, 0, 0);  // status=0 成功
 		break;
@@ -26023,7 +26023,7 @@ void clif_parse_BotCommand(int32 fd, map_session_data* sd) {
 		break;
 	}
 	case 2: {  // offline_start — C++ 预校验 + NPC 桥接
-		std::string mapname = map_mapid2mapname(sd->bl.m);
+		std::string mapname = map_mapid2mapname(sd->m);
 		int32 err = bot_offline_validate(sd, mapname.c_str());
 
 		if (err != 0) {
