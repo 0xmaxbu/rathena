@@ -2046,4 +2046,13 @@
 	parseable_packet( HEADER_CZ_MOVE_ITEM_TO_PERSONAL, sizeof( PACKET_CZ_MOVE_ITEM_TO_PERSONAL ), clif_parse_MoveFromKafraFav, 0 );
 #endif
 
+// =============================================================================
+// Phase 11 — 内挂/离线挂机自定义封包 (PACKETVER 20191223)
+// CZ_BOT_COMMAND (0x0b6f): 6 字节固定格式 [type(2)][len(2)][cmd(2)]
+//   handler 只读 command 字段（偏移 4），cmd 取值 0-4，越界静默忽略。
+//   R3-#2 fix: 只传 command 偏移 4（parseable_packet 以 0 为终止标记）。
+// ZC_BOT_STATUS (0x0b70): 服务端→客户端固定 9 字节，无需在此注册。
+// =============================================================================
+	parseable_packet( HEADER_CZ_BOT_COMMAND, sizeof( PACKET_CZ_BOT_COMMAND ), clif_parse_BotCommand, 4 );
+
 #endif /* CLIF_PACKETDB_HPP */

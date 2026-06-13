@@ -2254,6 +2254,42 @@ DEFINE_PACKET_HEADER(ZC_WARPLIST, 0x11c)
 #endif
 DEFINE_PACKET_HEADER(ZC_MSG_COLOR, 0x9cd);
 
+// =============================================================================
+// Phase 11 — 内挂/离线挂机系统自定义封包 (PACKETVER 20191223)
+// 设计原则: 客户端完全模拟用户行为，服务端只负责统计。
+//   除 cmd=4 (积分查询) 外，其他响应无需回传 data。
+// 参考: .planning/phases/11-bot-auto-hunt-offline/11-CONTEXT.md (D-22/D-51)
+// =============================================================================
+
+// CZ_BOT_COMMAND = [int16 packetType][int16 packetLength][int16 command] = 6 字节
+// command 取值 0-4，cmd 0-4 均无 payload（固定 6 字节）。
+// clif_packetdb: parseable_packet(HEADER_CZ_BOT_COMMAND, sizeof(...), clif_parse_BotCommand, 4)
+//   偏移 4 = command 字段（R3-#2 fix: handler 只读 command 一个字段）。
+struct PACKET_CZ_BOT_COMMAND {
+	int16 packetType;     // 0x0b6f
+	int16 packetLength;   // = 6 (cmd 0-4 均无 payload)
+	int16 command;        // 0-4 (见 D-23 枚举)
+} __attribute__((packed));
+DEFINE_PACKET_HEADER(CZ_BOT_COMMAND, 0x0b6f)
+
+// ZC_BOT_STATUS = [int16 packetType][int16 command][uint8 status][int32 data1] = 9 字节
+// R2-02 fix: 固定封包，无 packetLength 字段（rAthena 固定封包惯例；roBrowserLegacy
+//   receive() 对固定封包只消费 packetID 2B，构造函数从 offset+2 读 payload）。
+// status 编码 (D-51):
+//   0 = 成功 / 1 = 失败或拒绝 / 2 = 积分不足 (cmd2) / 3 = 地图不支持 (cmd2)
+//   4 = pending (cmd2, N5 fix: C++ 校验通过，等待 NPC 处理)
+// data1 仅 cmd=4 (积分查询) 携带当前积分；其他 cmd 均为 0。
+// 客户端内挂完全模拟用户行为，服务端只负责统计；装饰性信息（在线人数/挂机秒数等）
+//   由客户端本地维护，不通过本封包回传。
+struct PACKET_ZC_BOT_STATUS {
+	int16 packetType;     // 0x0b70
+	int16 command;        // 回显请求命令编号（客户端区分响应类型）
+	uint8 status;         // 0=成功 1=拒绝 2=积分不足 3=地图不支持 4=pending
+	int32 data1;          // 仅 cmd=4: 当前积分；其他 cmd=0
+} __attribute__((packed));
+static_assert(sizeof(PACKET_ZC_BOT_STATUS) == 9, "R2-02: ZC_BOT_STATUS must be 9 bytes (no packetLength field)");
+DEFINE_PACKET_HEADER(ZC_BOT_STATUS, 0x0b70)
+
 
 const int16 MAX_INVENTORY_ITEM_PACKET_NORMAL = ( ( INT16_MAX - ( sizeof( struct packet_itemlist_normal ) - ( sizeof( struct NORMALITEM_INFO ) * MAX_ITEMLIST) ) ) / sizeof( struct NORMALITEM_INFO ) );
 const int16 MAX_INVENTORY_ITEM_PACKET_EQUIP = ( ( INT16_MAX - ( sizeof( struct packet_itemlist_equip ) - ( sizeof( struct EQUIPITEM_INFO ) * MAX_ITEMLIST ) ) ) / sizeof( struct EQUIPITEM_INFO ) );

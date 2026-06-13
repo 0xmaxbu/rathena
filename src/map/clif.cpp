@@ -44,6 +44,7 @@
 #include "log.hpp"
 #include "mail.hpp"
 #include "map.hpp"
+#include "mapreg.hpp"
 #include "mercenary.hpp"
 #include "mob.hpp"
 #include "npc.hpp"
@@ -25887,4 +25888,191 @@ void do_init_clif(void) {
 
 void do_final_clif(void) {
 	ers_destroy(delay_clearunit_ers);
+}
+
+// =============================================================================
+// Phase 11 — 内挂/离线挂机自定义封包处理 (PACKETVER 20191223)
+// 见 packets.hpp / clif.hpp / clif_packetdb.hpp 中的 0x0b6f / 0x0b70 注册。
+//
+// 设计要点（详见 .planning/phases/11-bot-auto-hunt-offline/11-01-PLAN.md Task 2）:
+//   - cmd 0/1/3/4: C++ 直接处理（写 autohunt_log / 读 player_points），立即回 status=0
+//   - cmd 2 (offline_start): C++ 先做基础校验 → 失败立即回 status=err →
+//     成功回 status=4 (pending, N5 fix) → 通过 mapreg 队列桥接 NPC (I-02 fix)
+//   - 队列变量类型 (R2-01 fix): 整数变量名无 '$' 后缀，字符串变量名有 '$' 后缀
+//   - 所有 mapreg_* 调用必须用 reference_uid(add_str(name), 0) 包装，
+//     避免 add_str() 返回 int32 符号扩展为 int64 时与 NPC 零扩展不一致 (V1 fix)
+// =============================================================================
+
+// cmd 2 校验失败的错误码与 status 直接对齐 (D-51):
+//   1 = 已有进行中的离线挂机 / 2 = 积分不足 / 3 = 地图不支持
+static int32 bot_offline_validate(map_session_data* sd, const char* mapname) {
+	int32 err = 0;  // 0 = pass
+
+	// 检查1: 是否已有进行中的离线记录 (settle_step=0 表示挂机中)
+	Sql_QueryStr(mmysql_handle,
+		("SELECT char_id FROM offline_farming WHERE char_id="
+		 + std::to_string(sd->status.char_id) + " AND settle_step=0").c_str());
+	if (Sql_NextRow(mmysql_handle) == SQL_SUCCESS) err = 1;  // 已有进行中
+	Sql_FreeResult(mmysql_handle);
+
+	// 检查2: 积分是否足够 (从 server_config 读最低启动积分，V17 fix)
+	if (err == 0) {
+		int32 min_pts = 10;  // 默认值
+		Sql_QueryStr(mmysql_handle,
+			"SELECT config_value FROM server_config WHERE config_key='bot_offline_min_points'");
+		char* val = nullptr;
+		if (Sql_NextRow(mmysql_handle) == SQL_SUCCESS) {
+			Sql_GetData(mmysql_handle, 0, &val, nullptr);
+			if (val != nullptr) min_pts = atoi(val);
+		}
+		Sql_FreeResult(mmysql_handle);
+
+		int32 pts = 0;
+		Sql_QueryStr(mmysql_handle,
+			("SELECT points FROM player_points WHERE char_id="
+			 + std::to_string(sd->status.char_id)).c_str());
+		char* pval = nullptr;
+		if (Sql_NextRow(mmysql_handle) == SQL_SUCCESS) {
+			Sql_GetData(mmysql_handle, 0, &pval, nullptr);
+			pts = (pval != nullptr) ? atoi(pval) : 0;
+		}
+		Sql_FreeResult(mmysql_handle);
+		if (pts < min_pts) err = 2;  // 积分不足
+	}
+
+	// 检查3: 地图是否支持 (D-63: 从 $offline_map_enabled_<map>$ 全局变量读取，零 SQL)
+	// CRITICAL: reference_uid 包装防符号扩展错位 (V1 fix)
+	if (err == 0) {
+		const char* enabled_str = mapreg_readregstr(
+			reference_uid(add_str(("$offline_map_enabled_" + std::string(mapname) + "$").c_str()), 0));
+		if (enabled_str == nullptr || strcmp(enabled_str, "1") != 0) err = 3;  // 地图不支持
+	}
+
+	return err;
+}
+
+// cmd 2 校验通过后入队，等待 bot_controller OnTimer 出队处理 (I-02 fix)
+// R2-01 fix: 整数变量名无 '$' 后缀 (tail/head/cid/aid)，字符串变量名有 '$' 后缀 (cmd$/map$)
+static void bot_offline_enqueue(map_session_data* sd, const char* mapname) {
+	char var_key[64];
+	int32 tail = mapreg_readreg(reference_uid(add_str("$bot_queue_tail"), 0));
+
+	// 字符串字段
+	snprintf(var_key, sizeof(var_key), "$bot_queue_%d_cmd$", tail);
+	mapreg_setregstr(reference_uid(add_str(var_key), 0), "offline_start");
+	snprintf(var_key, sizeof(var_key), "$bot_queue_%d_map$", tail);
+	mapreg_setregstr(reference_uid(add_str(var_key), 0), mapname);
+
+	// 整数字段 (变量名无 '$' 后缀)
+	snprintf(var_key, sizeof(var_key), "$bot_queue_%d_cid", tail);
+	mapreg_setreg(reference_uid(add_str(var_key), 0), sd->status.char_id);
+	snprintf(var_key, sizeof(var_key), "$bot_queue_%d_aid", tail);
+	mapreg_setreg(reference_uid(add_str(var_key), 0), sd->status.account_id);
+
+	mapreg_setreg(reference_uid(add_str("$bot_queue_tail"), 0), tail + 1);
+	// bot_controller OnTimer ~1s 后出队 head++ → attachrid + callfunc BotOffline_Start + kick
+}
+
+void clif_parse_BotCommand(int32 fd, map_session_data* sd) {
+	int16 cmd = RFIFOW(fd, 4);  // command 在偏移 4 (6 字节 CZ 固定格式，无 param)
+	// T-11-01-01: 越界命令静默忽略 (防篡改)
+	if (cmd < 0 || cmd > 4) return;
+
+	switch (cmd) {
+	case 0: {  // autohunt_start — C++ 直接写 autohunt_log
+		// 服务端兜底限流: 5 秒内同一角色不允许重复 start (I-08 fix)
+		// 防护恶意脚本/客户端冷却期被绕过 → 避免 autohunt_log 碎片记录
+		bool recently_started = false;
+		Sql_QueryStr(mmysql_handle,
+			("SELECT id FROM autohunt_log WHERE char_id="
+			 + std::to_string(sd->status.char_id)
+			 + " AND start_time > DATE_SUB(NOW(), INTERVAL 5 SECOND)").c_str());
+		if (Sql_NextRow(mmysql_handle) == SQL_SUCCESS) recently_started = true;
+		Sql_FreeResult(mmysql_handle);
+
+		if (recently_started) {
+			clif_send_bot_status(sd, 0, 1, 0);  // status=1 拒绝 (5 秒内重复)
+			break;
+		}
+
+		// 先关闭该角色之前未关闭的记录 (防止 cmd 0→0→0 孤儿记录)
+		Sql_QueryStr(mmysql_handle,
+			("UPDATE autohunt_log SET stop_time=NOW(), stop_reason='replaced' "
+			 "WHERE char_id=" + std::to_string(sd->status.char_id) +
+			 " AND stop_time IS NULL").c_str());
+		Sql_FreeResult(mmysql_handle);
+
+		// 插入新的 start 记录
+		Sql_QueryStr(mmysql_handle,
+			("INSERT INTO autohunt_log (char_id, account_id, map_name, start_time) "
+			 "VALUES (" + std::to_string(sd->status.char_id) + ", "
+			 + std::to_string(sd->status.account_id) + ", '"
+			 + std::string(map_mapid2mapname(sd->bl.m)) + "', NOW())").c_str());
+		Sql_FreeResult(mmysql_handle);
+		clif_send_bot_status(sd, 0, 0, 0);  // status=0 成功
+		break;
+	}
+	case 1: {  // autohunt_stop — C++ 直接更新 autohunt_log
+		Sql_QueryStr(mmysql_handle,
+			("UPDATE autohunt_log SET stop_time=NOW(), stop_reason='manual', "
+			 "duration_sec=TIMESTAMPDIFF(SECOND, start_time, NOW()) "
+			 "WHERE char_id=" + std::to_string(sd->status.char_id) +
+			 " AND stop_time IS NULL ORDER BY start_time DESC LIMIT 1").c_str());
+		Sql_FreeResult(mmysql_handle);
+		clif_send_bot_status(sd, 1, 0, 0);  // status=0 成功
+		break;
+	}
+	case 2: {  // offline_start — C++ 预校验 + NPC 桥接
+		std::string mapname = map_mapid2mapname(sd->bl.m);
+		int32 err = bot_offline_validate(sd, mapname.c_str());
+
+		if (err != 0) {
+			// D-51: status 直接编码错误类型 (1=已有挂机/2=积分不足/3=地图不支持)
+			clif_send_bot_status(sd, 2, (uint8)err, 0);
+		} else {
+			// N5 fix: 不立即回 status=0，改为 status=4 (pending)
+			// 实际启动在 NPC OnTimer 处理 (1 秒后)，可能因并发/断线等原因失败。
+			// 客户端收到 pending 后显示"启动中..."等待后续通知；
+			// 成功/失败由 NPC dispbottom 通知 (玩家 1 秒内通常仍在线)。
+			clif_send_bot_status(sd, 2, 4, 0);
+			bot_offline_enqueue(sd, mapname.c_str());
+		}
+		break;
+	}
+	case 3: {  // get_status — 纯状态响应 (客户端本地跟踪挂机状态/秒数)
+		// 客户端内挂完全模拟用户行为，服务端只负责统计；
+		// 挂机状态/秒数由客户端本地维护，不通过本封包回传。
+		clif_send_bot_status(sd, 3, 0, 0);
+		break;
+	}
+	case 4: {  // get_points — C++ 直接查询 player_points
+		int32 pts = 0;
+		Sql_QueryStr(mmysql_handle,
+			("SELECT points FROM player_points WHERE char_id="
+			 + std::to_string(sd->status.char_id)).c_str());
+		char* val = nullptr;
+		if (Sql_NextRow(mmysql_handle) == SQL_SUCCESS) {
+			Sql_GetData(mmysql_handle, 0, &val, nullptr);
+			pts = (val != nullptr) ? atoi(val) : 0;
+		}
+		Sql_FreeResult(mmysql_handle);
+		clif_send_bot_status(sd, 4, 0, pts);  // data1=当前积分
+		break;
+	}
+	default:
+		break;  // cmd 越界已被入口拦截，保险起见
+	}
+}
+
+// 固定 9 字节响应: [packetType(2)][command(2)][status(1)][data1(4)]
+// R2-02 fix: 无 packetLength 字段 (rAthena 固定封包惯例)。
+// data1 仅 cmd=4 积分查询有意义，其他 cmd 传 0。
+void clif_send_bot_status(map_session_data* sd, int16 cmd, uint8 status, int32 data1) {
+	const int16 len = 9;
+	WFIFOHEAD(sd->fd, len);
+	WFIFOW(sd->fd, 0) = HEADER_ZC_BOT_STATUS;  // 0x0b70
+	WFIFOW(sd->fd, 2) = cmd;                     // command echo (客户端区分响应类型)
+	WFIFOB(sd->fd, 4) = status;
+	WFIFOL(sd->fd, 5) = data1;
+	WFIFOSET(sd->fd, len);
 }

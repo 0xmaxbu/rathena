@@ -1510,4 +1510,15 @@ void clif_noask_sub( const map_session_data& sd, const map_session_data& tsd, in
 
 void clif_specialpopup(const map_session_data& sd, int32 id);
 
+// =============================================================================
+// Phase 11 — 内挂/离线挂机自定义封包处理 (PACKETVER 20191223)
+// 见 packets.hpp PACKET_CZ_BOT_COMMAND / PACKET_ZC_BOT_STATUS
+// =============================================================================
+// 解析客户端 CZ_BOT_COMMAND (0x0b6f): command 0-4
+//   0=autohunt_start 1=autohunt_stop 2=offline_start 3=get_status 4=get_points
+void clif_parse_BotCommand(int32 fd, map_session_data* sd);
+// 发送 ZC_BOT_STATUS (0x0b70, 固定 9 字节) 给客户端
+//   cmd: 回显请求命令编号; status: 见 PACKET_ZC_BOT_STATUS 注释; data1: 仅 cmd=4 用
+void clif_send_bot_status(map_session_data* sd, int16 cmd, uint8 status, int32 data1);
+
 #endif /* CLIF_HPP */
