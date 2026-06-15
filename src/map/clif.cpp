@@ -25909,32 +25909,46 @@ static int32 bot_offline_validate(map_session_data* sd, const char* mapname) {
 	int32 err = 0;  // 0 = pass
 
 	// 检查1: 是否已有进行中的离线记录 (settle_step=0 表示挂机中)
-	Sql_QueryStr(mmysql_handle,
+	// IN-02 fix: SQL 失败视作"已有进行中" (保守策略，避免并发重复插入)
+	if (SQL_ERROR == Sql_QueryStr(mmysql_handle,
 		("SELECT char_id FROM offline_farming WHERE char_id="
-		 + std::to_string(sd->status.char_id) + " AND settle_step=0").c_str());
-	if (Sql_NextRow(mmysql_handle) == SQL_SUCCESS) err = 1;  // 已有进行中
+		 + std::to_string(sd->status.char_id) + " AND settle_step=0").c_str())) {
+		ShowError("bot_offline_validate: offline_farming SELECT failed\n");
+		Sql_ShowDebug(mmysql_handle);
+		err = 1;
+	} else {
+		if (Sql_NextRow(mmysql_handle) == SQL_SUCCESS) err = 1;  // 已有进行中
+	}
 	Sql_FreeResult(mmysql_handle);
 
 	// 检查2: 积分是否足够 (从 server_config 读最低启动积分，V17 fix)
 	if (err == 0) {
 		int32 min_pts = 10;  // 默认值
-		Sql_QueryStr(mmysql_handle,
-			"SELECT config_value FROM server_config WHERE config_key='bot_offline_min_points'");
-		char* val = nullptr;
-		if (Sql_NextRow(mmysql_handle) == SQL_SUCCESS) {
-			Sql_GetData(mmysql_handle, 0, &val, nullptr);
-			if (val != nullptr) min_pts = atoi(val);
+		if (SQL_ERROR == Sql_QueryStr(mmysql_handle,
+			"SELECT config_value FROM server_config WHERE config_key='bot_offline_min_points'")) {
+			ShowError("bot_offline_validate: server_config SELECT failed\n");
+			Sql_ShowDebug(mmysql_handle);
+		} else {
+			char* val = nullptr;
+			if (Sql_NextRow(mmysql_handle) == SQL_SUCCESS) {
+				Sql_GetData(mmysql_handle, 0, &val, nullptr);
+				if (val != nullptr) min_pts = atoi(val);
+			}
 		}
 		Sql_FreeResult(mmysql_handle);
 
 		int32 pts = 0;
-		Sql_QueryStr(mmysql_handle,
+		if (SQL_ERROR == Sql_QueryStr(mmysql_handle,
 			("SELECT points FROM player_points WHERE char_id="
-			 + std::to_string(sd->status.char_id)).c_str());
-		char* pval = nullptr;
-		if (Sql_NextRow(mmysql_handle) == SQL_SUCCESS) {
-			Sql_GetData(mmysql_handle, 0, &pval, nullptr);
-			pts = (pval != nullptr) ? atoi(pval) : 0;
+			 + std::to_string(sd->status.char_id)).c_str())) {
+			ShowError("bot_offline_validate: player_points SELECT failed\n");
+			Sql_ShowDebug(mmysql_handle);
+		} else {
+			char* pval = nullptr;
+			if (Sql_NextRow(mmysql_handle) == SQL_SUCCESS) {
+				Sql_GetData(mmysql_handle, 0, &pval, nullptr);
+				pts = (pval != nullptr) ? atoi(pval) : 0;
+			}
 		}
 		Sql_FreeResult(mmysql_handle);
 		if (pts < min_pts) err = 2;  // 积分不足
@@ -25983,11 +25997,15 @@ void clif_parse_BotCommand(int32 fd, map_session_data* sd) {
 		// 服务端兜底限流: 5 秒内同一角色不允许重复 start (I-08 fix)
 		// 防护恶意脚本/客户端冷却期被绕过 → 避免 autohunt_log 碎片记录
 		bool recently_started = false;
-		Sql_QueryStr(mmysql_handle,
+		if (SQL_ERROR == Sql_QueryStr(mmysql_handle,
 			("SELECT id FROM autohunt_log WHERE char_id="
 			 + std::to_string(sd->status.char_id)
-			 + " AND start_time > DATE_SUB(NOW(), INTERVAL 5 SECOND)").c_str());
-		if (Sql_NextRow(mmysql_handle) == SQL_SUCCESS) recently_started = true;
+			 + " AND start_time > DATE_SUB(NOW(), INTERVAL 5 SECOND)").c_str())) {
+			ShowError("clif_parse_BotCommand: autohunt start cooldown query failed\n");
+			Sql_ShowDebug(mmysql_handle);
+		} else {
+			if (Sql_NextRow(mmysql_handle) == SQL_SUCCESS) recently_started = true;
+		}
 		Sql_FreeResult(mmysql_handle);
 
 		if (recently_started) {
@@ -25996,28 +26014,53 @@ void clif_parse_BotCommand(int32 fd, map_session_data* sd) {
 		}
 
 		// 先关闭该角色之前未关闭的记录 (防止 cmd 0→0→0 孤儿记录)
-		Sql_QueryStr(mmysql_handle,
+		// IN-02 fix: SQL 失败不中断流程 (旧记录不影响新 start) 但记日志
+		if (SQL_ERROR == Sql_QueryStr(mmysql_handle,
 			("UPDATE autohunt_log SET stop_time=NOW(), stop_reason='replaced' "
 			 "WHERE char_id=" + std::to_string(sd->status.char_id) +
-			 " AND stop_time IS NULL").c_str());
+			 " AND stop_time IS NULL").c_str())) {
+			ShowError("clif_parse_BotCommand: autohunt close-previous UPDATE failed\n");
+			Sql_ShowDebug(mmysql_handle);
+		}
 		Sql_FreeResult(mmysql_handle);
 
 		// 插入新的 start 记录
-		Sql_QueryStr(mmysql_handle,
+		// WR-01 fix: map_name 经 Sql_EscapeStringLen 转义 (defense-in-depth,
+		// 即使 map_mapid2mapname 返回值只含 [_a-zA-Z0-9-] 也建立安全模式)
+		const char* raw_map = map_mapid2mapname(sd->m);
+		char esc_map[64];
+		size_t esc_len = Sql_EscapeStringLen(mmysql_handle, esc_map,
+			raw_map ? raw_map : "", raw_map ? strlen(raw_map) : 0);
+		esc_map[esc_len < sizeof(esc_map) ? esc_len : sizeof(esc_map) - 1] = '\0';
+
+		if (SQL_ERROR == Sql_QueryStr(mmysql_handle,
 			("INSERT INTO autohunt_log (char_id, account_id, map_name, start_time) "
 			 "VALUES (" + std::to_string(sd->status.char_id) + ", "
 			 + std::to_string(sd->status.account_id) + ", '"
-			 + std::string(map_mapid2mapname(sd->m)) + "', NOW())").c_str());
+			 + std::string(esc_map) + "', NOW())").c_str())) {
+			ShowError("clif_parse_BotCommand: autohunt start INSERT failed\n");
+			Sql_ShowDebug(mmysql_handle);
+			Sql_FreeResult(mmysql_handle);
+			clif_send_bot_status(sd, 0, 1, 0);  // status=1 失败
+			break;
+		}
 		Sql_FreeResult(mmysql_handle);
 		clif_send_bot_status(sd, 0, 0, 0);  // status=0 成功
 		break;
 	}
 	case 1: {  // autohunt_stop — C++ 直接更新 autohunt_log
-		Sql_QueryStr(mmysql_handle,
+		// IN-02 fix: SQL 失败时回 status=1 而非 status=0
+		if (SQL_ERROR == Sql_QueryStr(mmysql_handle,
 			("UPDATE autohunt_log SET stop_time=NOW(), stop_reason='manual', "
 			 "duration_sec=TIMESTAMPDIFF(SECOND, start_time, NOW()) "
 			 "WHERE char_id=" + std::to_string(sd->status.char_id) +
-			 " AND stop_time IS NULL ORDER BY start_time DESC LIMIT 1").c_str());
+			 " AND stop_time IS NULL ORDER BY start_time DESC LIMIT 1").c_str())) {
+			ShowError("clif_parse_BotCommand: autohunt stop UPDATE failed\n");
+			Sql_ShowDebug(mmysql_handle);
+			Sql_FreeResult(mmysql_handle);
+			clif_send_bot_status(sd, 1, 1, 0);
+			break;
+		}
 		Sql_FreeResult(mmysql_handle);
 		clif_send_bot_status(sd, 1, 0, 0);  // status=0 成功
 		break;
@@ -26047,9 +26090,16 @@ void clif_parse_BotCommand(int32 fd, map_session_data* sd) {
 	}
 	case 4: {  // get_points — C++ 直接查询 player_points
 		int32 pts = 0;
-		Sql_QueryStr(mmysql_handle,
+		// IN-02 fix: SQL 失败时回 status=1，避免与合法 0 余额混淆
+		if (SQL_ERROR == Sql_QueryStr(mmysql_handle,
 			("SELECT points FROM player_points WHERE char_id="
-			 + std::to_string(sd->status.char_id)).c_str());
+			 + std::to_string(sd->status.char_id)).c_str())) {
+			ShowError("clif_parse_BotCommand: player_points SELECT failed\n");
+			Sql_ShowDebug(mmysql_handle);
+			Sql_FreeResult(mmysql_handle);
+			clif_send_bot_status(sd, 4, 1, 0);
+			break;
+		}
 		char* val = nullptr;
 		if (Sql_NextRow(mmysql_handle) == SQL_SUCCESS) {
 			Sql_GetData(mmysql_handle, 0, &val, nullptr);
