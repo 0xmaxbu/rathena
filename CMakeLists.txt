@@ -122,6 +122,15 @@ endif()
 
 
 #
+# LANG_ENABLE
+#
+set( LANG_ENABLE CACHE STRING "Sets the LANG_ENABLE define for multilanguage support. (see src/common/msg_conf.hpp)" )
+if( LANG_ENABLE )
+	set_property( CACHE GLOBAL_DEFINITIONS PROPERTY VALUE "${GLOBAL_DEFINITIONS} -DLANG_ENABLE=${LANG_ENABLE}" )
+endif()
+
+
+#
 # Find git
 #
 message( STATUS "Detecting git" )
