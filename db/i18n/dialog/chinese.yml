@@ -1,0 +1,22 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  resetnpc.title: "[重置小姐]"
+  resetnpc.limit_prefix: "抱歉，你一生只能重置 "
+  resetnpc.time_unit: "次"
+  resetnpc.limit_suffix: "。"
+  resetnpc.greeting: "我是重置小姐。"
+  resetnpc.skills_label: "重置技能： "
+  resetnpc.z: "z"
+  resetnpc.stats_label: "重置属性： "
+  resetnpc.all_label: "全部重置： "
+  resetnpc.lifetime_prefix: "你一生只能重置 "
+  resetnpc.lifetime_caution: "，请谨慎使用。"
+  resetnpc.choose_service: "请选择所需服务："
+  resetnpc.menu_options: "^FF3355重置技能:重置属性:全部重置^000000:取消"
+  resetnpc.no_zeny: "抱歉，你的 Zeny 不够。"
+  resetnpc.lifetime_sure: "，确定吗？"
+  resetnpc.confirm_options: "让我想想:没问题"
+  resetnpc.done: "搞定了！"

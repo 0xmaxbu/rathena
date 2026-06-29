@@ -1,0 +1,22 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  resetnpc.title: "[Reset Girl]"
+  resetnpc.limit_prefix: "Sorry, you can only reset "
+  resetnpc.time_unit: "time"
+  resetnpc.limit_suffix: " in your life."
+  resetnpc.greeting: "I am the Reset Girl."
+  resetnpc.skills_label: "Reset Skills: "
+  resetnpc.z: "z"
+  resetnpc.stats_label: "Reset Stats: "
+  resetnpc.all_label: "Reset All: "
+  resetnpc.lifetime_prefix: "You can only reset "
+  resetnpc.lifetime_caution: " in your lifetime, please use with caution."
+  resetnpc.choose_service: "Please choose a service:"
+  resetnpc.menu_options: "^FF3355Reset Skills:Reset Stats:Reset All^000000:Cancel"
+  resetnpc.no_zeny: "Sorry, you don't have enough Zeny."
+  resetnpc.lifetime_sure: " in your lifetime, are you sure?"
+  resetnpc.confirm_options: "Let me think:No problem"
+  resetnpc.done: "All done!"

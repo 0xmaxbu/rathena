@@ -45,6 +45,7 @@
 #include "elemental.hpp"
 #include "guild.hpp"
 #include "homunculus.hpp"
+#include "i18n.hpp"
 #include "instance.hpp"
 #include "intif.hpp"
 #include "itemdb.hpp"
@@ -4868,6 +4869,8 @@ void do_init_script(void) {
 	constant_db.load();
 	script_hardcoded_constants();
 
+	i18n_init();
+
 	CREATE( dummy_sd, map_session_data, 1 );
 	new( dummy_sd ) map_session_data();
 	dummy_sd->group_id = 99;
@@ -4900,6 +4903,8 @@ void script_reload(void) {
 	db_clear(st_db);
 
 	mapreg_reload();
+
+	i18n_reload();
 }
 
 //-----------------------------------------------------------------------------
@@ -4942,6 +4947,19 @@ BUILDIN_FUNC(mes)
 	}
 
 	st->mes_active = 1; // Invoking character has a NPC dialog box open.
+	return SCRIPT_CMD_SUCCESS;
+}
+
+BUILDIN_FUNC(T)
+{
+	map_session_data* sd;
+	if( !script_rid2sd(sd) )
+		return SCRIPT_CMD_SUCCESS;
+
+	const char* key = script_getstr( st, 2 );
+	const char* translated = i18n_translate( sd->langtype, key, key );
+
+	script_pushstrcopy( st, translated );
 	return SCRIPT_CMD_SUCCESS;
 }
 
@@ -27928,6 +27946,7 @@ BUILDIN_FUNC(preg_match) {
 struct script_function buildin_func[] = {
 	// NPC interaction
 	BUILDIN_DEF(mes,"s*"),
+	BUILDIN_DEF(T,"s"),
 	BUILDIN_DEF(next,""),
 	BUILDIN_DEF(clear,""),
 	BUILDIN_DEF(close,""),
