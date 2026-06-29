@@ -127,6 +127,16 @@ const char* i18n_translate(int32 langtype, const char* key, const char* fallback
 			return it->second.c_str();
 	}
 
+	// 当前语言缺失时回退到英文（langtype 0）
+	if(langtype != 0){
+		auto it_en = i18n_storage.find(0);
+		if(it_en != i18n_storage.end()){
+			auto it = it_en->second.find(key);
+			if(it != it_en->second.end())
+				return it->second.c_str();
+		}
+	}
+
 	if(battle_config.i18n_debug){
 		static char missing_buf[256];
 		int n = snprintf(missing_buf, sizeof(missing_buf), "[MISSING:%s]", key);
