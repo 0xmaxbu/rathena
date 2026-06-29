@@ -11,3 +11,5 @@
  *	 { "name", &battle_config.<variable name>, <default value>, <minimum value>, <maximum value> },
  **/
 
+{ "i18n_debug", &battle_config.i18n_debug, 0, 0, 1 },
+

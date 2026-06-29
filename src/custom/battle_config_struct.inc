@@ -12,3 +12,5 @@
  *	 <datatype> name;
  **/
 
+int32 i18n_debug;
+
