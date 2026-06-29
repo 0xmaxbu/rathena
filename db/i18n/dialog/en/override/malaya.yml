@@ -1,0 +1,13 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_malaya_kafras_dewata_island_f18d49: "on Dewata Island"
+  npc_override_malaya_kafras_glast_heim_1b32f5: "in Glast Heim"
+  npc_override_malaya_kafras_i_only_offer_storage_ed3dd0: "I only offer Storage!"
+  npc_override_malaya_kafras_kafra_corporation_20c94e: "Kafra Corporation."
+  npc_override_malaya_kafras_kafra_employee_df8212: "[Kafra Employee]"
+  npc_override_malaya_kafras_lutie_ab6d6c: "in Lutie"
+  npc_override_malaya_kafras_port_malaya_d411a3: "in Port Malaya"
+  npc_override_malaya_kafras_welcome_c8f06d: "Welcome to the"

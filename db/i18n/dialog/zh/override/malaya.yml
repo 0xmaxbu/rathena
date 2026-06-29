@@ -1,0 +1,13 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_malaya_kafras_dewata_island_f18d49: "在 Dewata 岛"
+  npc_override_malaya_kafras_glast_heim_1b32f5: "在 Glast Heim"
+  npc_override_malaya_kafras_i_only_offer_storage_ed3dd0: "我只提供仓库服务！"
+  npc_override_malaya_kafras_kafra_corporation_20c94e: "卡普拉公司。"
+  npc_override_malaya_kafras_kafra_employee_df8212: "[卡普拉员工]"
+  npc_override_malaya_kafras_lutie_ab6d6c: "在 Lutie"
+  npc_override_malaya_kafras_port_malaya_d411a3: "在 Port Malaya"
+  npc_override_malaya_kafras_welcome_c8f06d: "欢迎来到"
