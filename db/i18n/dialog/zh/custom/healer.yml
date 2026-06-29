@@ -1,0 +1,8 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_custom_healer_healer_heal_cost_773409: "治疗费用 "
+  npc_custom_healer_healer_menu_heal_07d3a2: "^0055FF治疗^000000:^777777取消^000000"
+  npc_custom_healer_healer_zeny_510c61: " Zeny。"
