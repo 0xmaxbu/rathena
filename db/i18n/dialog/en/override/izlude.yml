@@ -1,0 +1,32 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_izlude_guides_izlude_beware_izlude_dungeon_7c5e3e: "Beware of ^8B4513Izlude Dungeon^000000"
+  npc_override_izlude_guides_izlude_byalan_island_since_fbeb0f: "on Byalan Island since it is"
+  npc_override_izlude_guides_izlude_bye_bbfa46: "Bye~!"
+  npc_override_izlude_guides_izlude_currently_staying_inside_164f35: "is currently staying inside"
+  npc_override_izlude_guides_izlude_enjoy_your_stay_db872a: "Enjoy your stay."
+  npc_override_izlude_guides_izlude_filled_dreadful_monsters_1181bf: "filled with dreadful monsters."
+  npc_override_izlude_guides_izlude_go_alberta_byalan_island_1ac25f: "to go to ^8B4513Alberta^000000 or ^8B4513Byalan Island^000000."
+  npc_override_izlude_guides_izlude_goes_juno_rachel_3d4f44: "goes to ^8B4513Juno^000000 and ^8B4513Rachel^000000."
+  npc_override_izlude_guides_izlude_if_you_d_like_go_e7973b: "If you'd like to go on a honeymoon to"
+  npc_override_izlude_guides_izlude_jawaii_paradise_newlywed_24eb25: "^8B4513Jawaii^000000, the paradise of newlyweds,"
+  npc_override_izlude_guides_izlude_let_me_mark_his_location_55d7a2: "Let me mark his location on your mini-map."
+  npc_override_izlude_guides_izlude_let_me_mark_its_location_065bb4: "Let me mark its location"
+  npc_override_izlude_guides_izlude_let_me_mark_location_b64eae: "Let me mark the location of the"
+  npc_override_izlude_guides_izlude_menu_cryptura_7658da: "[ Cryptura Academy ]:[ Marina ]:[ International Airship ]:[ Arena ]:[ Kit Shop ]:[ Swordsman Guild ]:[ Enchant Association ]:[ Forge ]:Previous Menu"
+  npc_override_izlude_guides_izlude_menu_eden_c5bacd: "[ Eden Teleport Officer ]:[ Kafra Employee ]:[ Hypnotist ]:[ Newlywed Helper ]:[ Mercenary Guildsman ]:[ Pet Groomer ]:Previous Menu"
+  npc_override_izlude_guides_izlude_menu_main_c682f5: "[ Main Facilities ]:[ Merchants & Helpers ]:Remove Marks from Mini-Map:Cancel"
+  npc_override_izlude_guides_izlude_perfect_place_78b25a: "is a perfect place to"
+  npc_override_izlude_guides_izlude_please_speak_852a10: "please speak to the "
+  npc_override_izlude_guides_izlude_prontera_s_satellite_tow_a2834d: "Prontera's satellite town."
+  npc_override_izlude_guides_izlude_sure_i_ll_remove_all_b37a09: "Sure, I'll remove all marks from your mini-map."
+  npc_override_izlude_guides_izlude_swordsman_guild_building_c85de6: "the Swordsman Guild building."
+  npc_override_izlude_guides_izlude_test_your_combat_capabil_8f7d24: "test your combat capabilities."
+  npc_override_izlude_guides_izlude_there_anything_else_i_yo_8fdf01: "Is there anything else I can do for you?"
+  npc_override_izlude_guides_izlude_welcome_izlude_eab818: "Welcome to ^8B4513Izlude^000000,"
+  npc_override_izlude_guides_izlude_you_like_check_any_other_342821: "Would you like to check any other locations?"
+  npc_override_izlude_guides_izlude_you_need_help_navigating_6767b1: "Do you need help navigating the town?"
+  npc_override_izlude_guides_izlude_your_mini_map_c80911: "on your mini-map."
