@@ -1,0 +1,14 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_Zonda_Teleportation_Services_Zonda_Teleportation_Services_north_bifrost_3366e2: "North Bifrost"
+  npc_override_Zonda_Teleportation_Services_Zonda_Teleportation_Services_our_team_always_working_1cbcd5: "Our team is always working to exceed your expectations regarding quality of service."
+  npc_override_Zonda_Teleportation_Services_Zonda_Teleportation_Services_please_check_back_again_954d3d: "Please check back again."
+  npc_override_Zonda_Teleportation_Services_Zonda_Teleportation_Services_please_choose_your_desti_eb3391: "Please choose your destination."
+  npc_override_Zonda_Teleportation_Services_Zonda_Teleportation_Services_sir_you_enough_value_we_8b3d29: "Sir! You do not have enough value that we are asking for."
+  npc_override_Zonda_Teleportation_Services_Zonda_Teleportation_Services_thank_you_using_our_serv_8074d7: "Thank you for using our services."
+  npc_override_Zonda_Teleportation_Services_Zonda_Teleportation_Services_we_always_striving_ensur_69939f: "We are always striving to ensure the best services for our customers."
+  npc_override_Zonda_Teleportation_Services_Zonda_Teleportation_Services_welcome_724486: "Welcome."
+  npc_override_Zonda_Teleportation_Services_Zonda_Teleportation_Services_you_tell_me_about_other_db72af: "Can you tell me about other areas of service?"

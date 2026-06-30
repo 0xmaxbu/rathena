@@ -1,0 +1,12 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_iz_int_izlude_go_izlude_yet_fb59f5: "Do not go to Izlude yet"
+  npc_override_iz_int_izlude_good_then_i_ll_wait_226acf: "Good, then I'll wait until you're ready~"
+  npc_override_iz_int_izlude_if_you_quest_deleted_you_b90870: "^4d4dffIf you do, the quest will be deleted from your Quest Log.^000000"
+  npc_override_iz_int_izlude_let_s_head_towards_izlud_1590a5: "Let's head towards Izlude!"
+  npc_override_iz_int_izlude_once_you_leave_island_th_132593: "^4d4dffOnce you leave this island there is no way back."
+  npc_override_iz_int_izlude_you_sure_you_want_go_e9a02d: "Are you sure you want to go directly to Izlude?^000000"
+  npc_override_iz_int_izlude_you_want_stay_here_longe_f55ed7: "You want to stay here longer?"

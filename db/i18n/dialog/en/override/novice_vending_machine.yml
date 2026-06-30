@@ -1,0 +1,14 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_novice_vending_machine_novice_vending_machine_continue_2e0262: "Continue"
+  npc_override_novice_vending_machine_novice_vending_machine_exchange_all_novice_equi_a696e1: "Exchange all Novice equipments into coupons."
+  npc_override_novice_vending_machine_novice_vending_machine_exchanging_all_equipment_ee9d61: "Exchanging all equipment into coupons."
+  npc_override_novice_vending_machine_novice_vending_machine_manual_4e836f: "Manual"
+  npc_override_novice_vending_machine_novice_vending_machine_novice_eggshell_exchange_1a2338: "Novice Eggshell can be exchanged into Criatura Hair Coupon for changing your hairstyle."
+  npc_override_novice_vending_machine_novice_vending_machine_select_continue_proceed_611028: "Select continue to proceed."
+  npc_override_novice_vending_machine_novice_vending_machine_there_many_buttons_ea20db: "There are many buttons."
+  npc_override_novice_vending_machine_novice_vending_machine_trade_interrupted_c933e9: "The trade was interrupted."
+  npc_override_novice_vending_machine_novice_vending_machine_vending_machine_novices_c35c6f: "Vending Machine for Novices."

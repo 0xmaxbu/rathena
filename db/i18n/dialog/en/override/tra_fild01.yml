@@ -1,0 +1,12 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_tra_fild01_TrainingZone123_enter_basic_training_gro_0ae5fb: "��Enter Basic Training Ground"
+  npc_override_tra_fild01_TrainingZone123_i_ll_send_you_basic_314ec2: "I'll send you to the Basic Training Ground."
+  npc_override_tra_fild01_TrainingZone123_i_ll_send_you_training_4c77da: "I'll send you to the 1/10 Training Ground."
+  npc_override_tra_fild01_TrainingZone123_i_ll_send_you_training_8d9ca4: "I'll send you to the 1/100 Training Ground."
+  npc_override_tra_fild01_TrainingZone123_need_move_different_area_5a8073: "Need to move to a different area within the training ground? Please select the location you'd like to move to."
+  npc_override_tra_fild01_TrainingZone123_prontera_4f98c0: "��To Prontera"
+  npc_override_tra_fild01_TrainingZone123_royal_court_set_up_train_d228c4: "The royal court has set up a training ground for adventurers who wish to test their skills. If you wish to test your skills under various conditions, we will send you to the training ground."

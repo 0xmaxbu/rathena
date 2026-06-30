@@ -1,0 +1,20 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_guild_warehouse_guild_warehouse_fee_zeny_9bca12: "The fee is 1000 Zeny."
+  npc_override_guild_warehouse_guild_warehouse_guild_storage_only_avail_edb3e5: "The guild storage is only available for guild members."
+  npc_override_guild_warehouse_guild_warehouse_how_i_help_you_13e773: "How can I help you?"
+  npc_override_guild_warehouse_guild_warehouse_i_am_afraid_someone_else_90b72d: "I am afraid someone else is using the warehouse right now."
+  npc_override_guild_warehouse_guild_warehouse_i_am_afraid_you_enough_d2bacb: "I am afraid you do not have enough money to settle the fee."
+  npc_override_guild_warehouse_guild_warehouse_i_open_guild_storage_you_32b256: "I will open the guild storage for you then. Have a memorable time!"
+  npc_override_guild_warehouse_guild_warehouse_i_show_you_usage_history_bd27fd: "I will show you the usage history of the warehouse. Usage history will be retained for up to 3 months."
+  npc_override_guild_warehouse_guild_warehouse_memorable_time_c29e58: "Have a memorable time!"
+  npc_override_guild_warehouse_guild_warehouse_menu_how_b2febf: "How are you? We are specialized in guild warehouses. This is our ^0000cdstory^000000:"
+  npc_override_guild_warehouse_guild_warehouse_menu_open_3534ca: "Open guild warehouse:View warehouse usage history"
+  npc_override_guild_warehouse_guild_warehouse_please_come_back_after_c_c20cd8: "Please come back after checking the guild skill and the permission to access the warehouse."
+  npc_override_guild_warehouse_guild_warehouse_please_try_again_after_w_8e8536: "Please try again after a while."
+  npc_override_guild_warehouse_guild_warehouse_seems_yet_possible_your_db9d21: "It seems that it is not yet possible for your guild to use the guild warehouse or you do not have access permissions for the warehouse."
+  npc_override_guild_warehouse_guild_warehouse_why_t_guild_members_shar_ff9d91: "Why can't guild members share a storage? We started off with that simple question."
+  npc_override_guild_warehouse_guild_warehouse_you_open_warehouse_zeny_0624dc: "You can open the warehouse for 1000 Zeny or look up the usage history of the guild."

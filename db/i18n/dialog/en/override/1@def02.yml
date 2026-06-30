@@ -1,0 +1,27 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_1@def02_WaveMode_about_wave_mode_forest_556a62: "About ^6B9900<Wave Mode - Forest>^000000"
+  npc_override_1@def02_WaveMode_any_other_questions_249b42: "Any other questions?"
+  npc_override_1@def02_WaveMode_available_once_day_like_72af84: "Available once a day. Like the other Wave Mode, keep the monsters away from reaching the other side of the map."
+  npc_override_1@def02_WaveMode_case_you_haven_t_many_f5bbcd: "In case you haven't, many organizations and scientists study the rifts formed between dimensions."
+  npc_override_1@def02_WaveMode_currently_wave_mode_sky_ade353: "Currently the ^6B9900<Wave Mode - Sky>^000000 is being stabilized for your convenience. Please wait."
+  npc_override_1@def02_WaveMode_enter_wave_mode_forest_39d93d: "Enter ^6B9900<Wave Mode - Forest>^000000."
+  npc_override_1@def02_WaveMode_feel_free_come_back_your_67b556: "Feel free to come back with your party."
+  npc_override_1@def02_WaveMode_introducing_first_wave_m_7f56fc: "Introducing the first Wave Mode service, Zonda's objective is to work with your party members to keep monster waves from reaching the other side of the bridge."
+  npc_override_1@def02_WaveMode_menu_which_c0f768: "Which Wave Mode would you like to enter: Forest or Sky?"
+  npc_override_1@def02_WaveMode_monsters_advance_without_909828: "Monsters will advance without fighting, but the party will fail if 20 monsters are let go.."
+  npc_override_1@def02_WaveMode_one_them_my_company_zond_a03d98: "One of them is my company, Zonda, and after long, painstaking research..."
+  npc_override_1@def02_WaveMode_please_wait_wave_mode_fo_0baefc: "Please wait for ^6B9900<Wave Mode - Forest>^000000 stabilization."
+  npc_override_1@def02_WaveMode_sign_ec822f: "Sign."
+  npc_override_1@def02_WaveMode_thank_you_visiting_zonda_af3230: "Thank you for visiting Zonda, where innovation begins."
+  npc_override_1@def02_WaveMode_unknown_error_occurred_58bda4: "An unknown error has occurred."
+  npc_override_1@def02_WaveMode_wave_mode_forest_4df177: "The ^6B9900<Wave Mode - Forest>^000000"
+  npc_override_1@def02_WaveMode_wave_mode_sky_202767: "The ^6B9900<Wave Mode - Sky>^000000"
+  npc_override_1@def02_WaveMode_we_now_offer_new_service_d733a1: "We now offer a new service. Have you heard about the dimensional rifts?"
+  npc_override_1@def02_WaveMode_we_ve_developed_two_diff_ad8fef: "We've developed two different dimensional rifts that we call Wave Modes - Forest and Sky!"
+  npc_override_1@def02_WaveMode_welcome_zonda_where_inno_e41213: "Welcome to Zonda, where innovation begins. What can I do for you?"
+  npc_override_1@def02_WaveMode_why_you_here_f3f3c0: "Why are you here?"
+  npc_override_1@def02_WaveMode_you_any_questions_about_83bd8d: "Do you have any questions about Zonda's ambitious new project, Wave Mode?"

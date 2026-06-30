@@ -1,0 +1,24 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_que_ng_ammo_boxes_all_done_e6aa44: "All done."
+  npc_override_que_ng_ammo_boxes_bag_useless_when_weight_9eaff3: "The bag is useless when the weight of inventory gets over 70%. Please be careful."
+  npc_override_que_ng_ammo_boxes_bullet_bags_help_you_car_19dc64: "Bullet bags will help you carry bullets much more easily."
+  npc_override_que_ng_ammo_boxes_come_take_look_63cfb9: "Come take a look~"
+  npc_override_que_ng_ammo_boxes_hey_you_need_exact_amoun_4c8354: "Hey~ You need the exact amount of Zeny to exchange. Go get some more."
+  npc_override_que_ng_ammo_boxes_hey_you_need_exact_amoun_fa57fe: "Hey~ You need the exact amount of items to exchange. Go get some more."
+  npc_override_que_ng_ammo_boxes_how_many_you_want_exchan_082205: "How many do you want to exchange?"
+  npc_override_que_ng_ammo_boxes_if_you_need_anything_d5e2a5: "If you need anything"
+  npc_override_que_ng_ammo_boxes_menu_bullet_c154bf: "Bullet Case:Bloody Bullet Case:Silver Bullet Case:Ammo AP Bullet Case:Ammo Blazing Bullet Case:Ammo Freezing Bullet Case:Ammo Lightning Bullet Case:Ammo Magic Stone Bullet Case:Ammo Purifying Bullet Case:Flare Bullet Case:Lightning Bullet Case:Ice Bullet Case:Poison Bullet Case:Blind Bullet Case:Cancel"
+  npc_override_que_ng_ammo_boxes_menu_exchange_940852: "Exchange all:Make only 1:Cancel"
+  npc_override_que_ng_ammo_boxes_menu_exchange_f2a61a: "Exchange:Cancel"
+  npc_override_que_ng_ammo_boxes_menu_fire_cb08ae: "Fire Sphere:Wind Sphere:Freezing Sphere:Poison Sphere:Blind Sphere:Cancel"
+  npc_override_que_ng_ammo_boxes_menu_fire_f644da: "Fire Bullet:Wind Bullet:Freezing Bullet:Poison Bullet:Blind Bullet:Cancel"
+  npc_override_que_ng_ammo_boxes_menu_slug_f1eeef: "Slug Ammunition L:Slug Ammunition M:Slug Ammunition H:Slug Ammunition SH:Slug Ammunition XH:Cancel"
+  npc_override_que_ng_ammo_boxes_menu_various_fbed77: "Various Bullet Cases:Sphere Exchange:Old Sphere Exchange:Slug Exchange:Cancel"
+  npc_override_que_ng_ammo_boxes_okay_4371ac: "Okay."
+  npc_override_que_ng_ammo_boxes_please_come_back_b202f8: "please come back."
+  npc_override_que_ng_ammo_boxes_you_must_ok_b50308: "You must have ^FF0000500^000000, ok?"
+  npc_override_que_ng_ammo_boxes_you_want_exchange_92e22f: "Do you want to exchange?"
