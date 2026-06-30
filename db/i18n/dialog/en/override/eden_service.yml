@@ -1,0 +1,28 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_eden_service_eden_service_cabinet_exclusively_49590e: "+ Cabinet is exclusively +"
+  npc_override_eden_service_eden_service_cabinet_fee_0fc782: "3.Cabinet fee is"
+  npc_override_eden_service_eden_service_cabinet_please_check_04a481: "cabinet please check"
+  npc_override_eden_service_eden_service_cabinet_working_me_c9a8cd: "The cabinet is not working for me."
+  npc_override_eden_service_eden_service_eden_group_a2be3a: "+ for the Eden group +"
+  npc_override_eden_service_eden_service_eden_group_f933d2: "   of Eden group?"
+  npc_override_eden_service_eden_service_enough_basic_skills_11e37a: "   enough basic skills?"
+  npc_override_eden_service_eden_service_goods_storage_cabinet_fa40e3: "It is a Goods Storage Cabinet."
+  npc_override_eden_service_eden_service_i_don_t_enough_zeny_95fffa: "I don't have enough zeny."
+  npc_override_eden_service_eden_service_i_need_eden_group_mark_26a7b6: "I need an Eden Group Mark to use this Cabinet."
+  npc_override_eden_service_eden_service_i_need_least_zeny_use_584add: "I need at least 500 zeny to use the Cabinet."
+  npc_override_eden_service_eden_service_i_use_next_time_a0e941: "I will use it next time."
+  npc_override_eden_service_eden_service_if_you_want_use_93569b: "If you want to use this"
+  npc_override_eden_service_eden_service_maybe_i_am_yet_qualified_86b067: "Maybe I am not yet qualified to use Cabinet."
+  npc_override_eden_service_eden_service_menu_cost_b26697: "Cost : 500 Zeny "
+  npc_override_eden_service_eden_service_menu_the_1babdb: "the following:"
+  npc_override_eden_service_eden_service_menu_use_e0b4ee: "Use the Cabinet.:Cancel."
+  npc_override_eden_service_eden_service_message_written_piece_pa_556e6a: "A message is written on a piece of paper."
+  npc_override_eden_service_eden_service_you_learned_c62db8: "2.Have you learned"
+  npc_override_eden_service_eden_service_you_like_use_f87ab8: "Would you like to use it?"
+  npc_override_eden_service_eden_service_you_member_d62840: "1.Are you a member"
+  npc_override_eden_service_eden_service_you_need_insert_zeny_use_d09050: "You need to insert zeny to use the cabinet."
+  npc_override_eden_service_eden_service_zeny_d54bfd: "  ^4d4dff500 zeny^000000!"

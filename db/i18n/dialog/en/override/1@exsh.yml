@@ -1,0 +1,11 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_1@exsh_DeepForest_ask_them_let_you_468306: "Ask them to let you in."
+  npc_override_1@exsh_DeepForest_go_back_288584: "Go back."
+  npc_override_1@exsh_DeepForest_hyunrok_told_me_bring_su_735d15: "Hyunrok told me not to bring in suspicious people!!"
+  npc_override_1@exsh_DeepForest_leave_deep_forest_f909d9: "Leave Deep Forest."
+  npc_override_1@exsh_DeepForest_something_mysterious_see_eac113: "- Something mysterious seems to be blocking the way. Let's talk to Chulho first. -"
+  npc_override_1@exsh_DeepForest_you_t_pass_through_here_829d24: "You can't pass through here."

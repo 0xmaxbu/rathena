@@ -3,6 +3,20 @@ Header:
   Version: 1
 
 Body:
+  npc_override_sec_in02_kachua_key_enough_36999f: "Not enough {0}."
+  npc_override_sec_in02_kachua_key_exchange_one_random_item_d6d041: "^FF0000Exchange one random item with one {0}.^000000"
+  npc_override_sec_in02_kachua_key_exchange_random_items_s_43120f: "^FF0000Exchange 10 random items with 10 {0}s.^000000"
+  npc_override_sec_in02_kachua_key_item_exchanged_above_can_e5c00a: "^FF0000The item exchanged above cannot be withdrawn, nor can it be exchanged to {0}.^000000"
+  npc_override_sec_in02_kachua_key_items_exchanged_above_ca_f6d9e1: "^FF0000The items exchanged above cannot be withdrawn, nor can it be exchanged to {0}.^000000"
+  npc_override_sec_in02_kachua_key_keep_going_91458f: "Keep going."
+  npc_override_sec_in02_kachua_key_notice_fdab1f: "^FF0000[Notice]^000000"
+  npc_override_sec_in02_kachua_key_open_box_time_6a5fd7: "^4d4dffOpen the box 1 time (1 {0})^000000"
+  npc_override_sec_in02_kachua_key_please_make_sure_you_eno_e1360c: "^4d4dffPlease make sure you have enough space in your inventory.^000000"
+  npc_override_sec_in02_kachua_key_secret_box_where_no_one_37b117: "A Secret Box where no one knows what's inside."
+  npc_override_sec_in02_kachua_key_you_decided_open_box_9745cd: "You have decided not to open the Box."
+  npc_override_sec_in02_kachua_key_you_enough_075dc2: "You do not have enough {0}."
+  npc_override_sec_in02_kachua_key_you_lucky_e8b0ce: "Were you lucky?"
+  npc_override_sec_in02_kachua_key_you_open_box_consuming_0926b3: "^4d4dffYou can open this box by consuming {0}.^000000"
   npc_override_sec_in02_repair_all_items_related_existi_ae74e5: "All items related to the existing conditions will disappear. Are you okay with this?"
   npc_override_sec_in02_repair_extreme_cases_some_becom_997cce: "In extreme cases, some become crippled and can get ulcers. Do you still want to intilize former processes?"
   npc_override_sec_in02_repair_i_am_valerie_i_help_620558: "I am Valerie; I help those with abnormalities. I am friends with Valkyrie."

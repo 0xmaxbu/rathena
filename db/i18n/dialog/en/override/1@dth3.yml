@@ -1,0 +1,30 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_1@dth3_IsleOfBios_characters_below_level_c_b8f731: "^ff0000Characters below Level 160 cannot enter this dungeon.^000000"
+  npc_override_1@dth3_IsleOfBios_created_memorial_dungeon_f07943: "^ff0000Created the Memorial dungeon.^000000"
+  npc_override_1@dth3_IsleOfBios_hero_token_accident_ad1146: "this Hero Token by accident."
+  npc_override_1@dth3_IsleOfBios_i_came_a59a6e: "I came by"
+  npc_override_1@dth3_IsleOfBios_i_couldn_t_shake_off_c84480: "I couldn't shake off the vivid images I saw in that nightmare. I've wandered off and around like a madman and finally arrived here."
+  npc_override_1@dth3_IsleOfBios_i_don_t_know_when_f59cab: "I don't know when it began..."
+  npc_override_1@dth3_IsleOfBios_i_m_afraid_you_re_246b72: "I'm afraid you're not up for this yet."
+  npc_override_1@dth3_IsleOfBios_i_saw_place_my_dream_303d15: "I saw this place in my dream. It's where Demon God Morocc awakens from his slumber. My dream was showing me a possible future."
+  npc_override_1@dth3_IsleOfBios_i_want_give_you_you_6b8f87: "I want to give it to you. You deserve it."
+  npc_override_1@dth3_IsleOfBios_if_my_dream_really_premo_f36d7b: "If my dream really is a premonition, the forces of Demon God Morocc's are within that yellow seed."
+  npc_override_1@dth3_IsleOfBios_let_s_get_out_creepy_341a87: "Let's get out of this creepy place!"
+  npc_override_1@dth3_IsleOfBios_memorial_dungeon_cannot_018e49: "^ff0000This Memorial Dungeon cannot be accessed for 23 hours after your last visit.^000000"
+  npc_override_1@dth3_IsleOfBios_menu_i_f9ad0d: "I tried to enter the seed, but to no avail: I'm just too old and weak. But perhaps you can."
+  npc_override_1@dth3_IsleOfBios_msg_6eae3a: "..."
+  npc_override_1@dth3_IsleOfBios_my_nightmare_demon_king_a54d00: "In my nightmare, Demon King Morocc awakens from his century-long slumber and fills the world with darkness and horror."
+  npc_override_1@dth3_IsleOfBios_please_click_press_enter_784c9b: "^ff0000Please click and press Enter again.^000000"
+  npc_override_1@dth3_IsleOfBios_please_investigate_yello_be76f3: "Please investigate that yellow seed."
+  npc_override_1@dth3_IsleOfBios_please_note_memorial_dun_06da1c: "^ff0000Please note that This Memorial Dungeon cannot be accessed for 23 hours after your last visit.^000000"
+  npc_override_1@dth3_IsleOfBios_s_too_dangerous_you_go_57c747: "It's too dangerous for you to go alone. You should take at least one comrade with you."
+  npc_override_1@dth3_IsleOfBios_same_nightmare_been_plag_c4ac01: "The same nightmare has been plaguing me for a long time."
+  npc_override_1@dth3_IsleOfBios_where_am_i_3b8935: "...Where am I?"
+  npc_override_1@dth3_IsleOfBios_you_first_must_form_join_86e369: "^ff0000You first must form/join a party of at least 1 person to enter this dungeon.^000000"
+  npc_override_1@dth3_IsleOfBios_you_first_must_meet_wand_966c20: "^ff0000You first must meet Wandering Old Man to gain access to this dungeon.^000000"
+  npc_override_1@dth3_IsleOfBios_you_least_level_39a950: "You have to be at least Level 160."
+  npc_override_1@dth3_IsleOfBios_your_party_leader_yet_cr_111a32: "^ff0000Your party leader has not yet created a Crack of Time.^000000"

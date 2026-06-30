@@ -1,0 +1,30 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_shadow_refiner_shadow_refiner_all_types_oridecon_eluni_b40a12: "All types of Oridecon and Elunium can be used to refine shadow items. Each attempt will also cost 20,000 zeny."
+  npc_override_shadow_refiner_shadow_refiner_choose_your_ore_start_re_ae3943: "Choose your Ore and start refining."
+  npc_override_shadow_refiner_shadow_refiner_hd_ore_only_used_higher_8ed5ff: "HD Ore can only used for +7 or higher refine level items."
+  npc_override_shadow_refiner_shadow_refiner_hd_ores_used_gear_least_d18855: "HD ores can be used for gear that is at least refine level +7 and will prevent breaking as long as you stay talking to me."
+  npc_override_shadow_refiner_shadow_refiner_heh_i_knew_d0c163: "Heh, I knew it!"
+  npc_override_shadow_refiner_shadow_refiner_i_require_zeny_as_fee_7befc0: "I require {0} zeny as a fee for EACH refine attempt."
+  npc_override_shadow_refiner_shadow_refiner_if_you_d_like_refine_068daa: "If you'd like to refine a shadow item, please visit him."
+  npc_override_shadow_refiner_shadow_refiner_item_cannot_refined_8204e8: "This item cannot be refined."
+  npc_override_shadow_refiner_shadow_refiner_menu_etc_0950ff: "Etc: HP + 10 increase for each +1 refine success."
+  npc_override_shadow_refiner_shadow_refiner_menu_weapon_7ee65e: "Weapon: ATK, MATK + 1 increase for each +1 refine success."
+  npc_override_shadow_refiner_shadow_refiner_next_refinement_if_fails_d47efd: "The next refinement, if it fails, will degrade the refinement. Do you want to refine?"
+  npc_override_shadow_refiner_shadow_refiner_now_basta_charge_refinem_59a8b4: "Now Basta is in charge of refinement for shadow items."
+  npc_override_shadow_refiner_shadow_refiner_oh_odin_no_8cf7a5: "Oh Odin No!"
+  npc_override_shadow_refiner_shadow_refiner_proceed_02ed4a: "Proceed"
+  npc_override_shadow_refiner_shadow_refiner_safety_refine_level_shad_61d75d: "The safety refine level for Shadow Equipment is +4."
+  npc_override_shadow_refiner_shadow_refiner_shadow_equipment_may_des_60b1ce: "Shadow equipment may be destroyed in subsequent refinements. Want to get started?"
+  npc_override_shadow_refiner_shadow_refiner_shadow_equipment_refined_d16375: "Shadow Equipment can be refined to the maximum of 10..."
+  npc_override_shadow_refiner_shadow_refiner_there_s_nothing_here_473bb7: "There's nothing here!"
+  npc_override_shadow_refiner_shadow_refiner_well_then_here_goes_noth_704a83: "Well then.. here goes nothing!"
+  npc_override_shadow_refiner_shadow_refiner_when_shadow_item_refined_b563b9: "When a shadow item is refined, it gains extra bonuses very much like normal items."
+  npc_override_shadow_refiner_shadow_refiner_worked_worked_af4d9a: "It worked! It worked!"
+  npc_override_shadow_refiner_shadow_refiner_you_enough_075dc2: "You do not have enough {0}."
+  npc_override_shadow_refiner_shadow_refiner_you_enough_zeny_b27ef2: "You do not have enough zeny."
+  npc_override_shadow_refiner_shadow_refiner_you_ve_cancelled_refinin_9e69d2: "You've cancelled refining."
+  npc_override_shadow_refiner_shadow_refiner_you_want_refine_shadow_i_d05026: "Do you want to refine a shadow item? Pick yer poison!"

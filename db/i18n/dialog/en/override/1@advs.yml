@@ -1,0 +1,31 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_1@advs_VillaofDeception_after_you_loose_some_wei_468fb8: "- after you loose some weight. -"
+  npc_override_1@advs_VillaofDeception_all_aftereffects_access_52216c: "^0000ff All the aftereffects of access are gone.^000000"
+  npc_override_1@advs_VillaofDeception_cancel_77dfd2: "Cancel"
+  npc_override_1@advs_VillaofDeception_currently_you_re_carryin_73594b: "- Currently you're carrying -"
+  npc_override_1@advs_VillaofDeception_ddispel_circle_requires_c65c2d: "Ddispel the circle ^ff0000requires your health and mana.^000000 During the process, you ^ff0000becomes immobile and defenseless.^000000 Are you sure you want to start dispelling?"
+  npc_override_1@advs_VillaofDeception_dungeon_been_created_you_121c44: "^0000ff The dungeon has not been created or you are trying to enter a dungeon different from the party leader.^000000"
+  npc_override_1@advs_VillaofDeception_entry_19172e: "Entry"
+  npc_override_1@advs_VillaofDeception_found_something_bright_g_2fdc1d: "^0000ffFound something in a bright glowing halo.^000000"
+  npc_override_1@advs_VillaofDeception_i_think_you_get_out_350592: "^0000ffI think you can get out now.^000000"
+  npc_override_1@advs_VillaofDeception_magic_stone_absorbed_you_d781f5: "^0000ffThe magic stone that absorbed your stamina and magic resonates. The magic circle that has been wandering disappears.^000000"
+  npc_override_1@advs_VillaofDeception_menu_leader_4d6811: "Leader: {0}"
+  npc_override_1@advs_VillaofDeception_menu_party_328f2e: "Party: {0}"
+  npc_override_1@advs_VillaofDeception_only_member_party_enter_9eb530: "^ff0000Only a member of the party can enter the Memorial Dungeon.^000000"
+  npc_override_1@advs_VillaofDeception_please_try_again_cefdd7: "- Please try again -"
+  npc_override_1@advs_VillaofDeception_please_wait_end_quest_de_5bb479: "Please wait the end of the quest delay."
+  npc_override_1@advs_VillaofDeception_seems_something_been_rev_895745: "But it seems that something has been revived in the villa. I think I need to get help one more time."
+  npc_override_1@advs_VillaofDeception_stop_9e2534: "Stop"
+  npc_override_1@advs_VillaofDeception_too_many_items_you_fc968e: "- too many items with you. -"
+  npc_override_1@advs_VillaofDeception_unknown_error_occurred_285cc7: "^ff0000An unknown error occurred.^000000"
+  npc_override_1@advs_VillaofDeception_wait_minute_17efa5: "- Wait a minute !! -"
+  npc_override_1@advs_VillaofDeception_where_dd1f21: "Where is the {0}?"
+  npc_override_1@advs_VillaofDeception_you_here_set_me_free_09ace6: "Are you here to set me free?"
+  npc_override_1@advs_VillaofDeception_you_must_least_baselevel_660e42: "You must be at least BaseLevel 170 to create the instance."
+  npc_override_1@advs_VillaofDeception_you_must_least_baselevel_69927b: "You must be at least BaseLevel 200 to enter."
+  npc_override_1@advs_VillaofDeception_you_must_least_baselevel_e43a8c: "You must be at least BaseLevel 170 to enter."
+  npc_override_1@advs_VillaofDeception_you_must_least_baselevel_e8add1: "You must be at least BaseLevel 200 to create the instance."

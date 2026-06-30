@@ -3,6 +3,20 @@ Header:
   Version: 1
 
 Body:
+  npc_override_harboro1_guides_rockridge_also_you_use_navigation_e50524: "Also, you can use ^B9062FNavigation^000000 mode by ^B9062Fclicking the name of the place^000000 I showed to you."
+  npc_override_harboro1_guides_rockridge_click_name_activate_navi_000b7e: "Click the name to activate Navigation mode."
+  npc_override_harboro1_guides_rockridge_did_you_need_anything_el_63f632: "Did you need anything else?"
+  npc_override_harboro1_guides_rockridge_enjoy_your_stay_rock_rid_e1971e: "Enjoy your stay in Rock Ridge!"
+  npc_override_harboro1_guides_rockridge_i_m_sheriff_s_assistant_1d4390: "I'm the sheriff's assistant, and I'm here to guide visitors. Is there a place you want to go?"
+  npc_override_harboro1_guides_rockridge_i_ve_marked_location_nav_5c27a4: "I've marked the location of the <NAVI>Tool Shop<INFO>harboro1,312,193,0,000,0</INFO></NAVI> on your mini-map."
+  npc_override_harboro1_guides_rockridge_i_ve_marked_location_nav_a9f21b: "I've marked the location of the <NAVI>Inn<INFO>harboro1,156,215,0,000,0</INFO></NAVI> on your mini-map."
+  npc_override_harboro1_guides_rockridge_i_ve_marked_location_nav_ae1395: "I've marked the location of the <NAVI>Sheriff's Office<INFO>harboro1,241,218,0,000,0</INFO></NAVI> on your mini-map."
+  npc_override_harboro1_guides_rockridge_i_ve_marked_location_nav_c55b61: "I've marked the location of the <NAVI>Weapon/Armor Shop<INFO>harboro1,312,193,0,000,0</INFO></NAVI> on your mini-map."
+  npc_override_harboro1_guides_rockridge_kafra_employee_got_pleas_a77b74: "The ^006400Kafra Employee^000000, got it. Please click the ^0000FFBox icon^000000 on your mini-map."
+  npc_override_harboro1_guides_rockridge_let_me_remove_all_marks_862cc3: "Let me remove all the marks on your mini-map."
+  npc_override_harboro1_guides_rockridge_tell_me_where_you_want_764bb6: "Tell me where you want to go, and I'll show you where it is."
+  npc_override_harboro1_guides_rockridge_there_anywhere_else_you_edac6a: "Is there anywhere else you want to check?"
+  npc_override_harboro1_guides_rockridge_welcome_rock_ridge_hot_d_454ee4: "Welcome to Rock Ridge, the hot, dry desert in the West where adventure is waiting!"
   npc_override_harboro1_quests_rockridge_about_what_you_get_i_5897e0: "about what you get, I see."
   npc_override_harboro1_quests_rockridge_according_letter_bandit_fcb008: "but according to that letter, the bandit leader ^4d4dffJohnny James^000000 wants to talk to someone from our side, one on one."
   npc_override_harboro1_quests_rockridge_ack_even_agave_8a1bfd: "Ack, does it even have agave in it?"

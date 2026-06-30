@@ -1,0 +1,7 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_bif_fild01_dimensional_gap_menu_yes_141459: "Yes:No"
+  npc_override_bif_fild01_dimensional_gap_you_wish_enter_dimension_ddcccd: "Do you wish to enter the Dimensional Gap?"

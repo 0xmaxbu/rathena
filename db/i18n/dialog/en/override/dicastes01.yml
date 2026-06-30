@@ -1,0 +1,30 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_dicastes01_guides_dicastes_ah_s_beautiful_building_df9193: "Ah~ That's a beautiful building."
+  npc_override_dicastes01_guides_dicastes_although_i_arrived_here_d10e36: "Although I arrived here as the first adventurer, the owner of the pub was the first person here."
+  npc_override_dicastes01_guides_dicastes_around_o_clock_588a16: "The {0} is around 7 o'clock, and the "
+  npc_override_dicastes01_guides_dicastes_because_dangers_here_we_7c8b4a: "Because of the dangers here, we need better security..."
+  npc_override_dicastes01_guides_dicastes_don_t_seem_good_relation_d047f8: "The {0} don't seem to have a good relationship with the Sapha like we do."
+  npc_override_dicastes01_guides_dicastes_go_directly_north_here_y_91a1bd: "Go directly north from here and you can't miss it."
+  npc_override_dicastes01_guides_dicastes_he_might_some_valuable_i_29708a: "He might have some valuable information for you."
+  npc_override_dicastes01_guides_dicastes_i_m_ichack_first_adventu_099b0d: "I'm Ichack, the first adventurer that arrived here in El Dicastes!"
+  npc_override_dicastes01_guides_dicastes_if_you_go_you_see_5218a8: "If you go to the {0}, you can see the recently refined Bradium."
+  npc_override_dicastes01_guides_dicastes_menu_dicastes_2e887c: "Dicastes Diel:Residential Area:Training Room:Factory:Pub:Cat Paw Caravan"
+  npc_override_dicastes01_guides_dicastes_oh_you_stranger_3b4e8f: "Oh!! You are a stranger!"
+  npc_override_dicastes01_guides_dicastes_one_most_important_reaso_12ad52: "This is one of the most important reasons why they live here."
+  npc_override_dicastes01_guides_dicastes_perhaps_s_because_tradin_4b6db8: "Perhaps it's because trading is involved."
+  npc_override_dicastes01_guides_dicastes_please_make_sure_you_sig_7622c8: "Please make sure you signed in at the {0}, otherwise you'll get in trouble."
+  npc_override_dicastes01_guides_dicastes_poor_cats_they_must_shiv_03ecd7: "Poor cats. They must be shivering from the cold out there."
+  npc_override_dicastes01_guides_dicastes_residential_area_divided_148e34: "The residential area is divided into 2 areas."
+  npc_override_dicastes01_guides_dicastes_s_said_they_discuss_impo_80f1fb: "It's said they discuss important things..."
+  npc_override_dicastes01_guides_dicastes_s_why_i_provide_service_00bc65: "That's why I will provide a service to guide adventurers from Midgard."
+  npc_override_dicastes01_guides_dicastes_sapha_tribe_so_weird_how_f3f9e6: "The Sapha tribe is so weird. How can they sleep in there?"
+  npc_override_dicastes01_guides_dicastes_there_someone_expedition_1b0ae9: "There was someone in the expedition team claiming that he was the first, but it WAS me. That's right."
+  npc_override_dicastes01_guides_dicastes_what_you_like_know_156d4f: "What would you like to know?"
+  npc_override_dicastes01_guides_dicastes_you_don_t_understand_832af3: "You don't understand?"
+  npc_override_dicastes01_guides_dicastes_you_ever_been_9f494f: "Have you ever been to the "
+  npc_override_dicastes01_guides_dicastes_you_find_their_caravan_j_714d75: "You can find their caravan just outside the gates."
+  npc_override_dicastes01_guides_dicastes_you_won_t_believe_me_27c13a: "You won't believe me until you see it! Go see it for yourself!"

@@ -1,0 +1,11 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_CashShop_Functions_CashShop_Functions_access_premium_content_o_6548ba: "Access to Premium content is only available to those who possess a certain amount of Reset Stones."
+  npc_override_CashShop_Functions_CashShop_Functions_good_luck_adventurer_b8f389: "Good luck, adventurer."
+  npc_override_CashShop_Functions_CashShop_Functions_menu_yes_141459: "Yes:No"
+  npc_override_CashShop_Functions_CashShop_Functions_order_change_third_class_525053: "In order to change to third class, you must bring 1 ^0000CCReset Stone^000000 or have a Premium account."
+  npc_override_CashShop_Functions_CashShop_Functions_very_well_c23aaf: "Very well."
+  npc_override_CashShop_Functions_CashShop_Functions_you_like_participate_que_7363cb: "Would you like to participate in this quest for 1 ^0000CCReset Stone^000000?"

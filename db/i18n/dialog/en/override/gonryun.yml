@@ -1,0 +1,20 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_gonryun_guides_gonryun_ancient_history_traditio_7a2a6b: "the ancient history and tradition"
+  npc_override_gonryun_guides_gonryun_any_questions_you_may_35bc18: "with any questions you may have."
+  npc_override_gonryun_guides_gonryun_bon_voyage_a2f8fc: "Bon voyage!"
+  npc_override_gonryun_guides_gonryun_check_your_mini_map_91e6e6: "Check your mini-map."
+  npc_override_gonryun_guides_gonryun_i_am_responsible_helping_60e873: "I am responsible for helping you"
+  npc_override_gonryun_guides_gonryun_i_ll_remove_all_marks_02e4d3: "I'll remove all marks from your mini-map."
+  npc_override_gonryun_guides_gonryun_marked_your_mini_map_eabbe5: "marked on your mini-map."
+  npc_override_gonryun_guides_gonryun_menu_kafra_c025f6: "[ Kafra Employee ]:[ Chief's Residence ]:[ Tool Dealer ]:[ Weapon Dealer ]:[ Armor Dealer ]:[ Wine Maker ]:[ Kunlun Envoy ]:Remove Marks from Mini-Map:Cancel"
+  npc_override_gonryun_guides_gonryun_ni_hao_daec6d: "Ni Hao!"
+  npc_override_gonryun_guides_gonryun_our_breath_taking_city_1280c9: "of our breath taking city."
+  npc_override_gonryun_guides_gonryun_please_feel_free_ask_me_b02d5f: "Please feel free to ask me anything."
+  npc_override_gonryun_guides_gonryun_take_walk_around_experie_7e92ac: "Take a walk around and experience"
+  npc_override_gonryun_guides_gonryun_the_is_c9d21b: "The {0} is"
+  npc_override_gonryun_guides_gonryun_there_anything_else_i_yo_8fdf01: "Is there anything else I can do for you?"
+  npc_override_gonryun_guides_gonryun_welcome_kunlun_9e960b: "Welcome to ^8B4513Kunlun^000000~"
