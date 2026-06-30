@@ -3,6 +3,7 @@ Header:
   Version: 1
 
 Body:
+  npc_override_sec_in02_agit_main_te_msg_0b0c6f: "^ff0000{0}^000000"
   npc_override_sec_in02_kachua_key_enough_36999f: "Not enough {0}."
   npc_override_sec_in02_kachua_key_exchange_one_random_item_d6d041: "^FF0000Exchange one random item with one {0}.^000000"
   npc_override_sec_in02_kachua_key_exchange_random_items_s_43120f: "^FF0000Exchange 10 random items with 10 {0}s.^000000"

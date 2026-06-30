@@ -3,6 +3,12 @@ Header:
   Version: 1
 
 Body:
+  npc_override_gef_tower_FridayDungeon_good_luck_ddf2f3: "Good Luck~"
+  npc_override_gef_tower_FridayDungeon_hello_f7ff9e: "Hello"
+  npc_override_gef_tower_FridayDungeon_menu_lord_7ae870: "Lord of the Dead: Who Awakened Me? I will meet you in person and ask you why."
+  npc_override_gef_tower_FridayDungeon_now_place_about_become_h_b0950e: "Now, this place is about to become a hunting ground. I'll get out and close the front door."
+  npc_override_gef_tower_FridayDungeon_party_entering_d3d912: "{0} of the party, {1}, is entering the {2}."
+  npc_override_gef_tower_FridayDungeon_treasure_chest_appeared_fd3543: "A treasure chest appeared somewhere in the dungeon. It'll disappear after a while, so let's find it."
   npc_override_gef_tower_sorcerer_aaaak_d5987a: "Aaaak!! "
   npc_override_gef_tower_sorcerer_ability_you_ve_shown_unt_892983: "But with the ability you've shown until now, you will be capable to do anything from now on. Dear [{0}]"
   npc_override_gef_tower_sorcerer_ah_excuse_me_93bb02: "Ah... excuse me~"

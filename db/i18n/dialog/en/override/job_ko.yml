@@ -92,6 +92,7 @@ Body:
   npc_override_job_ko_kagerou_oboro_he_keeps_talking_doesn_t_3731b7: "^1A95E6He keeps talking and doesn't stop to answer your question.^1A95E6"
   npc_override_job_ko_kagerou_oboro_he_like_jokes_conversati_f30554: "He like the jokes and conversations better than quarrels and he liked women over men."
   npc_override_job_ko_kagerou_oboro_he_s_short_silent_man_fe5919: "^000099(He's a short, silent man.)^000000"
+  npc_override_job_ko_kagerou_oboro_here_f43a11: "^0000FF{0} was here.^000000"
   npc_override_job_ko_kagerou_oboro_hmm_a18d23: "Hmm. {0}?"
   npc_override_job_ko_kagerou_oboro_hmm_embarrassing_speak_s_6e36e8: "Hmm... Embarrassing... to speak so suddenly..."
   npc_override_job_ko_kagerou_oboro_hmm_guess_i_expected_too_c848e1: "Hmm... Guess I expected too much? Let me explain."

@@ -69,6 +69,7 @@ Body:
   npc_override_que_ng_enchan_ko_menu_weapon_5f34fd: "Weapon...:Armor..."
   npc_override_que_ng_enchan_ko_menu_which_df56ea: "Which blacksmith?:I want to add option.:I want to remove option."
   npc_override_que_ng_enchan_ko_mikatsuki_1dba5a: "^ff0000Mikatsuki[1]^000000"
+  npc_override_que_ng_enchan_ko_msg_0b0c6f: "^44B7BC{0}^000000"
   npc_override_que_ng_enchan_ko_ninja_scale_armor_40c70b: "^ff0000Ninja Scale Armor [1]^000000"
   npc_override_que_ng_enchan_ko_oh_sorry_i_didn_t_953c4b: "Oh! Sorry, I didn't introduce myself."
   npc_override_que_ng_enchan_ko_oh_you_need_add_option_badd92: "Oh! You need to add an option."

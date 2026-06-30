@@ -3,6 +3,7 @@ Header:
   Version: 1
 
 Body:
+  npc_override_alde_gld_agit_main_te_emperium_been_destroyed_3cc6a1: "Emperium has been destroyed."
   npc_override_alde_gld_guides_woe_te_ah_if_you_think_i_2d5aaf: "Ah if you think I'm mad because my name is missing from Kafragarten and if my way of speaking is a little stiff because of that"
   npc_override_alde_gld_guides_woe_te_also_their_buff_effects_cfa092: "Also, their buff effects get eliminated here."
   npc_override_alde_gld_guides_woe_te_also_we_lend_variety_bat_25ce08: "Also, we lend a variety of battlegears that you use only in corresponding regions for free."

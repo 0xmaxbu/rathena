@@ -12,6 +12,7 @@ Body:
   npc_override_spl_in02_warlock_bye_755e0d: "Bye..."
   npc_override_spl_in02_warlock_careful_9a2d79: "Be careful!"
   npc_override_spl_in02_warlock_careful_monsters_test_ro_f5c351: "Be careful of the monsters in the test room."
+  npc_override_spl_in02_warlock_chamber_magic_a60f2d: "The chamber of magic"
   npc_override_spl_in02_warlock_closing_arena_b4352d: "Closing the Arena."
   npc_override_spl_in02_warlock_closing_chamber_magic_b225a3: "Closing the Chamber of Magic."
   npc_override_spl_in02_warlock_combined_stone_formed_di_d82fde: "This combined stone is formed differently according to the raw materials and the way of treating it."

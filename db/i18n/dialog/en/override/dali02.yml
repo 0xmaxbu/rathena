@@ -14,6 +14,7 @@ Body:
   npc_override_dali02_ghost_palace_exchange_let_s_exchange_671506: "Let's exchange."
   npc_override_dali02_ghost_palace_exchange_oh_you_interested_weapon_dbd81e: "Oh! Are you interested in weapons? We have all the weapons we can get from the Ghost Palace. Why don't you choose one?"
   npc_override_dali02_ghost_palace_exchange_please_keep_mind_994444: "Please keep that in mind."
+  npc_override_dali02_ghost_palace_exchange_required_exchange_01ee52: "{0} ^006400{1}^000000 are required in exchange."
   npc_override_dali02_ghost_palace_exchange_show_me_your_weapon_2b98ef: "Show me your weapon."
   npc_override_dali02_ghost_palace_exchange_take_care_friend_see_you_535a87: "Take care friend~ See you next time!"
   npc_override_dali02_ghost_palace_exchange_thank_you_come_back_if_045c63: "Thank you. Come back if you need anything else."

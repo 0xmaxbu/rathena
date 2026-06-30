@@ -553,6 +553,7 @@ Body:
   npc_override_comodo_card_exchange_all_cards_finished_022013: "All cards have finished."
   npc_override_comodo_card_exchange_card_searching_finished_a61b2e: "Card searching has finished!"
   npc_override_comodo_card_exchange_card_searching_interrupt_13358d: "^980078Card searching is interrupted^000000"
+  npc_override_comodo_card_exchange_exchanged_into_coin_ce283e: "^980078{0} has exchanged into Coin.^000000"
   npc_override_comodo_card_exchange_found_c1529f: "Found ^980078{0}^000000,"
   npc_override_comodo_card_exchange_found_unauthorized_signa_6c90ed: "Found unauthorized signal, starting security system..."
   npc_override_comodo_card_exchange_menu_cancel_d3af00: "1.Cancel:2.Explanation:3.Change Card into Coin:4.Change Coin into Card:^ffffff5.Start Security System^000000"

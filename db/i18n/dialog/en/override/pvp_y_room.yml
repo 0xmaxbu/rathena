@@ -3,6 +3,12 @@ Header:
   Version: 1
 
 Body:
+  npc_override_pvp_y_room_pvp_free_all_5de226: "Free for all"
+  npc_override_pvp_y_room_pvp_lv_lv_2ffe54: "LV 50 ~ LV 69"
+  npc_override_pvp_y_room_pvp_lv_lv_583fea: "LV 70 ~ LV 89"
+  npc_override_pvp_y_room_pvp_lv_lv_82b7e7: "LV 90 ~ LV 99"
+  npc_override_pvp_y_room_pvp_normal_jobs_only_87facd: "Normal Jobs Only"
+  npc_override_pvp_y_room_pvp_trans_jobs_only_3897b3: "Trans Jobs Only"
   npc_override_pvp_y_room_pvp_you_allowed_enter_5fb958: "You are not allowed to enter."
   npc_override_pvp_y_room_pvp_you_been_transcended_dbca60: "You have been transcended."
   npc_override_pvp_y_room_pvp_you_transcended_f76980: "You have not transcended."

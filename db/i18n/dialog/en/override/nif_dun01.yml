@@ -1,0 +1,30 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_nif_dun01_quests_dungeons_200_clink_clink_crackle_a61e14: "Clink clink... Crackle!"
+  npc_override_nif_dun01_quests_dungeons_200_dorolong_dorolong_2fb34b: "Dorolong Dorolong..."
+  npc_override_nif_dun01_quests_dungeons_200_how_could_ce349f: "How could that be..."
+  npc_override_nif_dun01_quests_dungeons_200_i_want_eat_too_looks_2eebf0: "I want to eat it too... it looks delicious..."
+  npc_override_nif_dun01_quests_dungeons_200_living_man_plays_piano_1fa852: "The living man plays the piano!"
+  npc_override_nif_dun01_quests_dungeons_200_menu_angry_0b70bd: "Angry Gatekeeper: Kye-Look! Living! Play! No need to go!"
+  npc_override_nif_dun01_quests_dungeons_200_menu_another_990d60: "Another Dead: He really can't sleep!"
+  npc_override_nif_dun01_quests_dungeons_200_menu_another_e15eb7: "Another Dead: Noisy! Get some sleep!"
+  npc_override_nif_dun01_quests_dungeons_200_menu_funny_628342: "Funny Gatekeeper's Friend: No need to leave! Play with us!"
+  npc_override_nif_dun01_quests_dungeons_200_menu_funny_f23720: "Funny Gatekeeper's Friend: Sing~ All night~ or forever~"
+  npc_override_nif_dun01_quests_dungeons_200_menu_helpful_1797b1: "Helpful Gatekeeper: Uh-huh-huh. You don't have enough grooming to get through here."
+  npc_override_nif_dun01_quests_dungeons_200_menu_helpful_ab5ded: "Helpful Gatekeeper: Uh-huh-huh. Mountain, go up. Can't come down."
+  npc_override_nif_dun01_quests_dungeons_200_menu_silent_3659e5: "Silent Gatekeeper: ...means you are under-leveled."
+  npc_override_nif_dun01_quests_dungeons_200_menu_silent_a3911b: "Silent Gatekeeper: ..."
+  npc_override_nif_dun01_quests_dungeons_200_menu_silent_e3f32f: "Silent Gatekeeper: ...means welcome."
+  npc_override_nif_dun01_quests_dungeons_200_msg_0b0c6f: "^0000FF{0}^000000"
+  npc_override_nif_dun01_quests_dungeons_200_msg_0bec2e: "????????!"
+  npc_override_nif_dun01_quests_dungeons_200_msg_1aff49: "^0000FF{0}^000000,"
+  npc_override_nif_dun01_quests_dungeons_200_nang_5f8f88: "Nang!"
+  npc_override_nif_dun01_quests_dungeons_200_oh_my_god_he_t_f6a75e: "Oh my God, he can't really play..."
+  npc_override_nif_dun01_quests_dungeons_200_piano_ooo_9fec90: "Piano Ooo!!!"
+  npc_override_nif_dun01_quests_dungeons_200_piano_stunned_fe429e: "The piano is stunned..."
+  npc_override_nif_dun01_quests_dungeons_200_sleep_alive_kyaaak_fda7de: "Sleep alive! Kyaaak!"
+  npc_override_nif_dun01_quests_dungeons_200_t_loud_when_you_get_5bbce2: "^0000FF{0}^000000, it can't be that loud when you get together with guys with broom hair."
+  npc_override_nif_dun01_quests_dungeons_200_you_ruined_atmosphere_300177: "You ruined the atmosphere!"

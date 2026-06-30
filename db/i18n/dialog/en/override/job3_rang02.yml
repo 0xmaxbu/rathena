@@ -248,6 +248,7 @@ Body:
   npc_override_job3_rang02_ranger_please_unequip_your_ridi_e3bc7f: "Please unequip your riding pet and try again!"
   npc_override_job3_rang02_ranger_please_wait_practical_te_0454af: "Please wait at the practical test waiting room to start the test process."
   npc_override_job3_rang02_ranger_practical_test_consists_9539c9: "The practical test consists of 3 parts in total."
+  npc_override_job3_rang02_ranger_practical_test_waiting_r_91c239: "Practical Test Waiting Room"
   npc_override_job3_rang02_ranger_prepare_yourself_very_we_3407a3: "Prepare yourself very well before taking this test."
   npc_override_job3_rang02_ranger_rd_test_been_disabled_6c1d3d: "3rd Test has been Disabled"
   npc_override_job3_rang02_ranger_rd_test_been_enabled_60be37: "3rd Test has been Enabled"

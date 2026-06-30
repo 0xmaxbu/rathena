@@ -2950,6 +2950,7 @@ Body:
   npc_override_ecl_fild01_quests_eclage_mean_something_db3b77: "Does this mean something?"
   npc_override_ecl_fild01_quests_eclage_mean_t_any_other_locatio_8b559d: "Does that mean it can't be at any other location?"
   npc_override_ecl_fild01_quests_eclage_mean_you_meet_up_my_3dae44: "Does that mean you would meet up with my brother?"
+  npc_override_ecl_fild01_quests_eclage_means_39a11c: "^000099{0}^000000? ... That means..."
   npc_override_ecl_fild01_quests_eclage_meat_ready_yet_i_t_943293: "Is the meat ready yet? I can't wait any longer... (Static static)"
   npc_override_ecl_fild01_quests_eclage_meet_luen_again_e3a604: "to meet Luen again."
   npc_override_ecl_fild01_quests_eclage_meet_me_forked_road_befo_130eda: "Meet me at the forked road before entering the plaza of Eclage."
