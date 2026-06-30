@@ -3,8 +3,11 @@ Header:
   Version: 1
 
 Body:
+  npc_override_blessed_refiner_blessed_refiner_been_refined_many_times_33de2c: "This {0} has been refined many times. Although it will not disappear upon failure, the {1} will disappear!"
+  npc_override_blessed_refiner_blessed_refiner_been_refined_refine_i_ne_042061: "This {0} has been refined to {1}. To refine it, I need {2} and a {3} zeny refining fee."
   npc_override_blessed_refiner_blessed_refiner_bring_out_item_so_i_b9e2f6: "Bring out the item so I can refine it!"
   npc_override_blessed_refiner_blessed_refiner_course_refining_fee_retu_86fcb1: "Of course, the refining fee will not be returned! Do you want to continue?"
+  npc_override_blessed_refiner_blessed_refiner_equipment_refined_i_only_9b333f: "This equipment has refined to {0}. I only handle items with refine levels from +6 to +12!"
   npc_override_blessed_refiner_blessed_refiner_failed_refines_break_red_cfb6e6: "Failed refines ^FF0000will not break or reduce the refine level^000000."
   npc_override_blessed_refiner_blessed_refiner_good_i_d_sad_if_585394: "Good. I'd be sad if it failed, too."
   npc_override_blessed_refiner_blessed_refiner_hahahahahaha_479376: "Hahahahahaha!!!"
@@ -21,8 +24,10 @@ Body:
   npc_override_blessed_refiner_blessed_refiner_menu_yes_141459: "Yes:No"
   npc_override_blessed_refiner_blessed_refiner_my_hammer_i_make_you_8efa3d: "With my hammer, I will make you a star of the sky."
   npc_override_blessed_refiner_blessed_refiner_my_mood_worse_when_i_dfacbc: "My mood is worse when I fail!!"
+  npc_override_blessed_refiner_blessed_refiner_oh_although_blessed_reta_2f5fca: "Oh! Although it was blessed by {0} to retain the equipment..."
   npc_override_blessed_refiner_blessed_refiner_oh_my_goodness_8c1629: "Oh my goodness!!!!"
   npc_override_blessed_refiner_blessed_refiner_refine_huge_success_haha_2b9749: "Refine was a huge success~ Hahaha!"
+  npc_override_blessed_refiner_blessed_refiner_refine_level_i_need_zeny_9fb7dd: "To refine a level {0} {1}, I need {2} and a {3} zeny refining fee."
   npc_override_blessed_refiner_blessed_refiner_tac_tac_tac_7d9030: "Tac! Tac! Tac!"
   npc_override_blessed_refiner_blessed_refiner_what_you_want_me_refine_280df6: "What do you want me to refine?"
   npc_override_blessed_refiner_blessed_refiner_where_accessory_a72c54: "Where is the accessory?"

@@ -107,6 +107,7 @@ Body:
   npc_override_itemmall_cashmall_you_decided_618012: "Have you decided"
   npc_override_itemmall_cashmall_you_had_good_time_e0f607: "Have you had a good time?"
   npc_override_itemmall_cashmall_you_like_return_where_yo_859a45: "Would you like to return from where you came from?"
+  npc_override_itemmall_cashmall_you_only_exchange_b58653: "You can only exchange with {0}!"
   npc_override_itemmall_cashmall_you_think_isn_t_nice_d3d8c4: "you think? Isn't it nice?"
   npc_override_itemmall_cashmall_you_want_see_how_761549: "Do you want to see how"
   npc_override_itemmall_cashmall_you_wouldn_t_6ba5c3: "on you, wouldn't it?"

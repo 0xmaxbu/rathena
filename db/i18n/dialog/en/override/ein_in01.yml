@@ -1,0 +1,6 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_ein_in01_refine_msg_61ce5a: "[{0}]"

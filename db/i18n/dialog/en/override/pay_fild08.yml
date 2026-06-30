@@ -27,6 +27,7 @@ Body:
   npc_override_pay_fild08_spirit_handler_closer_look_broken_tools_92761f: "- A closer look at the broken tools shows a blurry stain. -"
   npc_override_pay_fild08_spirit_handler_contains_broken_tools_bd3a5c: "- It contains broken tools. -"
   npc_override_pay_fild08_spirit_handler_could_you_wait_moment_pl_43419f: "Could you wait a moment, please~?"
+  npc_override_pay_fild08_spirit_handler_dear_c6bbcc: "Dear {0}."
   npc_override_pay_fild08_spirit_handler_did_lee_daegam_send_you_019682: "Did Lee Daegam send you?"
   npc_override_pay_fild08_spirit_handler_doesn_t_look_much_differ_6d5df1: "It doesn't look much different from yesterday."
   npc_override_pay_fild08_spirit_handler_eddga_told_me_he_coming_4baddd: "Eddga told me he was coming..."

@@ -43,6 +43,7 @@ Body:
   npc_override_payon_in02_archer_you_already_your_own_dec_9744dc: "You already have your own decent job, don't you?"
   npc_override_payon_in02_archer_you_d_better_learn_all_6e6cc8: "You'd better learn all the Basic Skills first before you can become an Archer."
   npc_override_payon_in02_archer_you_doing_here_03ba8a: "you doing here...?"
+  npc_override_payon_in02_archer_you_right_e12152: "You are... {0}, right?"
   npc_override_payon_in02_archer_you_took_test_af2996: "You took this test"
   npc_override_payon_in02_archer_your_basic_skill_now_eno_ca7f9e: "Your Basic Skill is now enough.."
   npc_override_payon_in02_archer_your_job_level_must_leas_ddbcdb: "Your job level must be at least ^4A4AFF10^000000 and your Basic Skill level should reach ^4A4AFFlevel 9"

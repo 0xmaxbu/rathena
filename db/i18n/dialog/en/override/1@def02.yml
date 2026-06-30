@@ -11,6 +11,8 @@ Body:
   npc_override_1@def02_WaveMode_enter_wave_mode_forest_39d93d: "Enter ^6B9900<Wave Mode - Forest>^000000."
   npc_override_1@def02_WaveMode_feel_free_come_back_your_67b556: "Feel free to come back with your party."
   npc_override_1@def02_WaveMode_introducing_first_wave_m_7f56fc: "Introducing the first Wave Mode service, Zonda's objective is to work with your party members to keep monster waves from reaching the other side of the bridge."
+  npc_override_1@def02_WaveMode_menu_party_2e5e7f: "Party Name: {0}"
+  npc_override_1@def02_WaveMode_menu_party_8c7899: "Party Leader: {0}"
   npc_override_1@def02_WaveMode_menu_which_c0f768: "Which Wave Mode would you like to enter: Forest or Sky?"
   npc_override_1@def02_WaveMode_monsters_advance_without_909828: "Monsters will advance without fighting, but the party will fail if 20 monsters are let go.."
   npc_override_1@def02_WaveMode_one_them_my_company_zond_a03d98: "One of them is my company, Zonda, and after long, painstaking research..."

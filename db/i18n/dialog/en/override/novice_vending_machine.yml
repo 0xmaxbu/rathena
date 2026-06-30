@@ -3,11 +3,16 @@ Header:
   Version: 1
 
 Body:
+  npc_override_novice_vending_machine_novice_vending_machine_armor_hood_sandals_main_9e21be: "Armor, Hood, Sandals, Main Gauche and Guard for Novice from Criatura Academy can be exchanged into 4 {0}."
   npc_override_novice_vending_machine_novice_vending_machine_continue_2e0262: "Continue"
+  npc_override_novice_vending_machine_novice_vending_machine_exchange_82f04e: "[Exchange {0}]"
   npc_override_novice_vending_machine_novice_vending_machine_exchange_all_novice_equi_a696e1: "Exchange all Novice equipments into coupons."
+  npc_override_novice_vending_machine_novice_vending_machine_exchanged_91c9f3: "Exchanged 4 {0} to {1}{2}"
+  npc_override_novice_vending_machine_novice_vending_machine_exchanged_into_free_tick_f38b8f: "4 {0} can be exchanged into 1 Free Ticket for Warp, Airship or the Cart Service, or 1 Free Ticket for Peco Ride, 15 Novice Fly Wing, 5 Novice Butterfly Wing, 30 Novice Potion."
   npc_override_novice_vending_machine_novice_vending_machine_exchanging_all_equipment_ee9d61: "Exchanging all equipment into coupons."
   npc_override_novice_vending_machine_novice_vending_machine_manual_4e836f: "Manual"
   npc_override_novice_vending_machine_novice_vending_machine_novice_eggshell_exchange_1a2338: "Novice Eggshell can be exchanged into Criatura Hair Coupon for changing your hairstyle."
+  npc_override_novice_vending_machine_novice_vending_machine_number_insufficient_proc_b802a0: "The number of {0} is insufficient to proceed with the exchange."
   npc_override_novice_vending_machine_novice_vending_machine_select_continue_proceed_611028: "Select continue to proceed."
   npc_override_novice_vending_machine_novice_vending_machine_there_many_buttons_ea20db: "There are many buttons."
   npc_override_novice_vending_machine_novice_vending_machine_trade_interrupted_c933e9: "The trade was interrupted."
