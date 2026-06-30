@@ -4959,7 +4959,60 @@ BUILDIN_FUNC(T)
 	const char* key = script_getstr( st, 2 );
 	const char* translated = i18n_translate( sd->langtype, key, key );
 
-	script_pushstrcopy( st, translated );
+	int argc = script_lastdata(st) - 2;
+	if(argc == 0){
+		script_pushstrcopy( st, translated );
+		return SCRIPT_CMD_SUCCESS;
+	}
+
+	std::string fmt(translated);
+	std::string result;
+	result.reserve(fmt.size() + 64);
+
+	for(size_t i = 0; i < fmt.size(); ){
+		if(fmt[i] == '{'){
+			if(i + 1 < fmt.size() && fmt[i+1] == '{'){
+				result += '{';
+				i += 2;
+				continue;
+			}
+			size_t j = i + 1;
+			while(j < fmt.size() && fmt[j] >= '0' && fmt[j] <= '9')
+				j++;
+			if(j > i + 1 && j < fmt.size() && fmt[j] == '}'){
+				int idx = atoi(fmt.c_str() + i + 1);
+				if(idx >= 0 && idx < argc){
+					struct script_data* data = script_getdata(st, 3 + idx);
+					if(data_isstring(data))
+						result += script_getstr(st, 3 + idx);
+					else if(data_isint(data))
+						result += std::to_string(script_getnum(st, 3 + idx));
+					else if(data_isreference(data)){
+						const char* name = reference_getname(data);
+						if(name[strlen(name)-1] == '$')
+							result += script_getstr(st, 3 + idx);
+						else
+							result += std::to_string(script_getnum(st, 3 + idx));
+					}
+					else
+						result += '?';
+				} else {
+					result += fmt.substr(i, j - i + 1);
+				}
+				i = j + 1;
+				continue;
+			}
+		} else if(fmt[i] == '}'){
+			if(i + 1 < fmt.size() && fmt[i+1] == '}'){
+				result += '}';
+				i += 2;
+				continue;
+			}
+		}
+		result += fmt[i++];
+	}
+
+	script_pushstrcopy( st, result.c_str() );
 	return SCRIPT_CMD_SUCCESS;
 }
 
@@ -27946,7 +27999,7 @@ BUILDIN_FUNC(preg_match) {
 struct script_function buildin_func[] = {
 	// NPC interaction
 	BUILDIN_DEF(mes,"s*"),
-	BUILDIN_DEF(T,"s"),
+	BUILDIN_DEF(T,"s*"),
 	BUILDIN_DEF(next,""),
 	BUILDIN_DEF(clear,""),
 	BUILDIN_DEF(close,""),
