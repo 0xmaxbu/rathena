@@ -26,6 +26,7 @@ Body:
   npc_override_1@infi_InfiniteSpace_passage_yet_activated_95e226: "The passage is not yet activated."
   npc_override_1@infi_InfiniteSpace_phew_s_relief_9a9ddf: "Phew~ That's a relief."
   npc_override_1@infi_InfiniteSpace_please_note_any_abnormal_3139a0: "^FF0000Please note that, any abnormal monster handling inside the instance such as taming is not considered normal and may hinder the instance progress.^000000"
+  npc_override_1@infi_InfiniteSpace_reservation_instance_fai_f7a70c: "The reservation of the instance '{0}' has failed due to an active instance."
   npc_override_1@infi_InfiniteSpace_s_impossible_alone_you_l_6286fc: "It's impossible alone. Would you like to organize a party at least one person or join another party and come back?"
   npc_override_1@infi_InfiniteSpace_s_unfortunate_come_back_0a9c8c: "That's unfortunate. Come back whenever you change your mind. I'll welcome you anytime."
   npc_override_1@infi_InfiniteSpace_she_moved_close_me_2e9aed: "^777700(She moved close to me)^000000"

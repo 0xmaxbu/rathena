@@ -29,6 +29,7 @@ Body:
   npc_override_1@begi_PoringVillage_no_way_i_m_course_e434da: "No way. 70-30. And I'm 70 of course."
   npc_override_1@begi_PoringVillage_now_i_m_looking_entrance_fa634c: "Now I'm looking for the entrance, please talk to me again after it's totally open."
   npc_override_1@begi_PoringVillage_oh_now_you_stronger_than_df1b95: "Oh, now you are stronger than me. How did you grow so fast?"
+  npc_override_1@begi_PoringVillage_party_member_party_enter_7d0aa4: "Party member {0} of the party {1} enters {2}."
   npc_override_1@begi_PoringVillage_please_put_equipment_you_d17e01: "Please put on the equipment you'd like to enchant first."
   npc_override_1@begi_PoringVillage_proper_reward_42c2e3: "Proper Reward?"
   npc_override_1@begi_PoringVillage_s_gotta_s_no_good_fa8d5a: "It's gotta be 50-50 or it's no good"

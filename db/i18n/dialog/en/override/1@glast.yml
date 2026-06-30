@@ -72,6 +72,7 @@ Body:
   npc_override_1@glast_SarahAndFenrir_operating_time_isn_t_lon_7acf71: "The operating time isn't long so hurry up and come back."
   npc_override_1@glast_SarahAndFenrir_order_accomplish_we_need_364f4d: "In order to accomplish that, we need shards of Gigantes that once appeared in the past battle of Fenrir and Sarah."
   npc_override_1@glast_SarahAndFenrir_party_leader_created_mem_0b5158: "The party leader has not created the Memorial Dungeon."
+  npc_override_1@glast_SarahAndFenrir_party_member_party_s_ent_d985dc: "Party member {0} of party's {1} enters Room {2}"
   npc_override_1@glast_SarahAndFenrir_perhaps_just_my_imaginat_6092f5: "but perhaps it is just my imagination?"
   npc_override_1@glast_SarahAndFenrir_please_find_me_if_you_7f11ab: "Please find me if you need me."
   npc_override_1@glast_SarahAndFenrir_please_speak_me_again_af_c52720: "Please speak to me again after making a clear decision!"

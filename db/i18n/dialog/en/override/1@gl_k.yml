@@ -49,6 +49,7 @@ Body:
   npc_override_1@gl_k_OldGlastHeim_long_time_ago_castle_did_6b54b1: "A long time ago, this castle did not look like this."
   npc_override_1@gl_k_OldGlastHeim_maybe_level_9a0338: "Maybe, level 130."
   npc_override_1@gl_k_OldGlastHeim_maybe_poor_time_traveler_a3afb0: "Maybe this poor time traveler will try to stop Glast Heim's tragedy from happening."
+  npc_override_1@gl_k_OldGlastHeim_memorial_dungeon_old_gla_365245: "Memorial Dungeon, 'Old Glast Heim' is already in progress."
   npc_override_1@gl_k_OldGlastHeim_menu_let_97710d: "Let me look around more:Please let me out"
   npc_override_1@gl_k_OldGlastHeim_menu_party_2e5e7f: "Party Name: {0}"
   npc_override_1@gl_k_OldGlastHeim_menu_party_8c7899: "Party Leader: {0}"

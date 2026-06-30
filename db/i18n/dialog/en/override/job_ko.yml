@@ -74,6 +74,8 @@ Body:
   npc_override_job_ko_kagerou_oboro_gai_s_voice_fades_out_f7d6a8: "^777777(Gai's voice fades out.)^000000."
   npc_override_job_ko_kagerou_oboro_game_instructions_end_he_4975ea: "Game instructions end here. Good luck to you."
   npc_override_job_ko_kagerou_oboro_game_results_10d7ce: "=Game Results="
+  npc_override_job_ko_kagerou_oboro_gion_interrupting_test_b_fcd286: "[Gion] Interrupting the Test of Battle."
+  npc_override_job_ko_kagerou_oboro_gion_my_friend_made_path_713ba4: "[Gion] My Friend {0} made it to {1} Path. Congratulations!!"
   npc_override_job_ko_kagerou_oboro_go_forth_716242: "Go forth."
   npc_override_job_ko_kagerou_oboro_go_reduce_your_weight_te_c907aa: "Go reduce your weight! This test will be too difficult otherwise..."
   npc_override_job_ko_kagerou_oboro_go_report_test_results_g_6d7199: "Go report the test results to Gion!"

@@ -115,6 +115,7 @@ Body:
   npc_override_1@sthb_SkyFortress_operate_warp_b95c48: "To operate the warp,"
   npc_override_1@sthb_SkyFortress_our_village_turned_into_2164a5: "our village has turned into a trash heap"
   npc_override_1@sthb_SkyFortress_party_leader_hasn_t_crea_2ff528: "Party leader hasn't created the Memorial Dungeon."
+  npc_override_1@sthb_SkyFortress_party_member_party_s_ent_bdb1bd: "Party member {0} of party's {1} enters {2}"
   npc_override_1@sthb_SkyFortress_people_keep_dying_out_5a9103: "people keep dying out..."
   npc_override_1@sthb_SkyFortress_proceed_af3d54: "to proceed. -"
   npc_override_1@sthb_SkyFortress_prontera_227ad0: "Prontera."

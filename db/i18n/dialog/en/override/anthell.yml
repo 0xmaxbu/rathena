@@ -1,0 +1,6 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_anthell_anthell_inaudible_noise_approach_775b52: "An inaudible noise approaches..."

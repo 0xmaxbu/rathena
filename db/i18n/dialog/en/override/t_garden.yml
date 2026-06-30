@@ -3,6 +3,14 @@ Header:
   Version: 1
 
 Body:
+  npc_override_t_garden_for_dun_all_dimensional_contamin_513e7e: "All dimensional contamination that occurred in this dungeon has been calmed down."
+  npc_override_t_garden_for_dun_approximately_minute_dim_99b532: "In approximately 1 minute, the dimensional contamination in Area 1 will subside and a large-scale dimensional contamination will occur in Area 2."
+  npc_override_t_garden_for_dun_approximately_minute_dim_9a0eec: "In approximately 1 minute, the dimensional contamination in Area 2 will subside and a large-scale dimensional contamination will occur in Area 1."
+  npc_override_t_garden_for_dun_dimensional_contaminatio_3f827b: "The dimensional contamination phenomenon in this dungeon is expected to subside in about 1 minute."
+  npc_override_t_garden_for_dun_large_scale_dimensional_ce52b6: "Large-scale dimensional contamination is occurring in this dungeon..."
+  npc_override_t_garden_for_dun_large_scale_dimensional_de6a63: "Large-scale dimensional contamination event will occur in this dungeon in approximately 1 minute."
+  npc_override_t_garden_for_dun_menu_forgotten_3bc65d: "Forgotten Memories : The dimensional contamination phenomenon in Area 2 has calmed down, and a large-scale dimensional contamination phenomenon has occurred in Area 1."
+  npc_override_t_garden_for_dun_menu_forgotten_41f76d: "Forgotten Memories : The dimensional contamination phenomenon in Area 1 has calmed down, and a large-scale dimensional contamination phenomenon has occurred in Area 2."
   npc_override_t_garden_garden_of_time_above_complaints_been_pr_c695ba: "The above {0} complaints have been processed."
   npc_override_t_garden_garden_of_time_according_their_words_se_d82852: "According to their words, it seems that the cause is foreign spirits from the dimension connected to this place, so it would be better to reduce the number of those foreign things."
   npc_override_t_garden_garden_of_time_accordingly_constellatio_53f8fc: "Accordingly, the Constellation of Life imprisoned the 4 divine prisoners, who were guards, in a dimension completely separate from the dimensional criminals."

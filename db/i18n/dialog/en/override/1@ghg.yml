@@ -31,6 +31,7 @@ Body:
   npc_override_1@ghg_WaterGarden_please_note_any_abnormal_2a12ea: "^FF0000Please note that, any abnormal monster handling inside the instance such as taming, is not considered normal.^000000"
   npc_override_1@ghg_WaterGarden_please_take_enough_rest_f730a5: "Please take enough rest and come back again after dawn!"
   npc_override_1@ghg_WaterGarden_pruning_all_overgrown_pl_1f92a5: "Pruning all overgrown plants and animals opens the door to the next area at 3 o'clock."
+  npc_override_1@ghg_WaterGarden_reservation_instance_fai_f7a70c: "The reservation of the instance '{0}' has failed due to an active instance."
   npc_override_1@ghg_WaterGarden_rose_garden_very_beautif_f6dcaa: "The rose garden is a very beautiful place, but recently, we are having trouble maintaining it because of the swarms of animals and plants that appeared in groups."
   npc_override_1@ghg_WaterGarden_s_dangerous_inside_you_t_e068fb: "But it's dangerous inside. You can't enter right now."
   npc_override_1@ghg_WaterGarden_s_little_slow_so_you_c721ed: "It's a little slow, so you might have to wait, but... the next area will definitely open."

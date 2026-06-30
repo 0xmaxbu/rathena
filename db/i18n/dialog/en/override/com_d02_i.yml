@@ -1,0 +1,15 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_com_d02_i_quests_illusion_dungeons_all_energy_sealed_inside_9b610d: "All the energy that was sealed inside the cave has been released, awakening Ktullanux."
+  npc_override_com_d02_i_quests_illusion_dungeons_bomi_falling_into_long_d_f92034: "Bomi is falling into a long, deep sleep."
+  npc_override_com_d02_i_quests_illusion_dungeons_bomi_stirring_her_long_d_346dca: "Bomi is stirring from her long, deep sleep."
+  npc_override_com_d02_i_quests_illusion_dungeons_menu_angry_11fbdf: "Angry Dracula: Bomi needs rest. I'll deal with you!"
+  npc_override_com_d02_i_quests_illusion_dungeons_menu_angry_12e00e: "Angry Dracula: Leave Bomi alone! Fight me instead!"
+  npc_override_com_d02_i_quests_illusion_dungeons_menu_angry_aa2f6c: "Angry Dracula: It's about time for Bomi to wake up. Humans, don't forget your promise!"
+  npc_override_com_d02_i_quests_illusion_dungeons_menu_angry_b75efd: "Angry Dracula: Who dares hurt my Bomi?!"
+  npc_override_com_d02_i_quests_illusion_dungeons_menu_ktullanux_7cd0ef: "Ktullanux: I'll... be... back..."
+  npc_override_com_d02_i_quests_illusion_dungeons_menu_ktullanux_e5fc70: "Ktullanux: Who dares call me a lizard? I'll freeze you all!"
+  npc_override_com_d02_i_quests_illusion_dungeons_oh_no_i_feel_toxins_cda39c: "Oh, no...\tI can feel the toxins spreading through my body...!"

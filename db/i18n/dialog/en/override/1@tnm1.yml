@@ -144,6 +144,7 @@ Body:
   npc_override_1@tnm1_DevilTower_ones_who_infernally_bles_b3a005: "^4d4dffThe ones who are infernally blessed by demons are invincible. We can sever the blessing with Mind Blaster.^000000"
   npc_override_1@tnm1_DevilTower_only_thanatos_lucile_eve_e4aa9e: "Only Thanatos and Lucile have ever entered to upper floor..."
   npc_override_1@tnm1_DevilTower_papa_papa_please_safe_so_8c9a15: "Papa.. Papa please be safe. *sob*"
+  npc_override_1@tnm1_DevilTower_party_member_party_s_ent_d985dc: "Party member {0} of party's {1} enters Room {2}"
   npc_override_1@tnm1_DevilTower_perhaps_our_missions_all_57ce94: "Perhaps, our missions will ally us again in the future.."
   npc_override_1@tnm1_DevilTower_please_come_back_tomorro_f0174b: "Please come back tomorrow!"
   npc_override_1@tnm1_DevilTower_please_come_me_make_sure_e3c710: "Please come with me to make sure my Papa is safe."

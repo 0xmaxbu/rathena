@@ -2388,6 +2388,8 @@ Body:
   npc_override_mora_quests_mora_you_need_strong_spirit_t_2c1984: "You need to have a strong spirit to do this task. I think you need a lot more discipline."
   npc_override_mora_quests_mora_you_never_skipped_work_287543: "you never skipped work."
   npc_override_mora_quests_mora_you_no_empty_sample_tube_a025db: "You have no empty sample tubes."
+  npc_override_mora_quests_mora_you_no_longer_use_myster_c29140: "You can no longer use the mysterious power of the bath water."
+  npc_override_mora_quests_mora_you_now_use_mysterious_p_7ecee6: "You can now use the mysterious power of bath water."
   npc_override_mora_quests_mora_you_picked_up_mora_coins_7e40a2: "You picked up {0} Mora Coins next to the remains."
   npc_override_mora_quests_mora_you_please_calm_down_lis_f590a4: "Will you please calm down and listen to..."
   npc_override_mora_quests_mora_you_please_check_commodi_aac4b2: "Will you please check with the ^990099Commodities Dealer^000000, standing across from me,"

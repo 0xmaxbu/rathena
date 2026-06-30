@@ -44,6 +44,7 @@ Body:
   npc_override_1@herbs_HiddenGarden_quit_stand_back_f2bae1: "Quit and Stand Back."
   npc_override_1@herbs_HiddenGarden_report_your_work_details_5e6a26: "Report your work details."
   npc_override_1@herbs_HiddenGarden_requested_evaluation_26039a: "Have requested an evaluation."
+  npc_override_1@herbs_HiddenGarden_reservation_instance_fai_f7a70c: "The reservation of the instance '{0}' has failed due to an active instance."
   npc_override_1@herbs_HiddenGarden_running_sleep_mode_relea_b35580: "Running the sleep mode release protocol. Pattern input by ^0000CD{0}^000000 has been recognized."
   npc_override_1@herbs_HiddenGarden_s_big_problem_she_s_d91523: "It's a big problem, she's about to make a leap here."
   npc_override_1@herbs_HiddenGarden_s_one_three_most_privile_641119: "It's one of the three most privileged control systems in this mansion."

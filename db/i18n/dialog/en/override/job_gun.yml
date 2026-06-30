@@ -64,6 +64,8 @@ Body:
   npc_override_job_gun_rebellion_magical_spitfires_92772e: "Magical spitfires!"
   npc_override_job_gun_rebellion_maybe_i_m_wrong_place_aa111c: "Maybe I'm in the wrong place. This place doesn't look like a pub."
   npc_override_job_gun_rebellion_menu_cancel_feba92: "Cancel:Test monster spawn:Start from beginning:Furnace Zone:Shooting Zone:Complete the test"
+  npc_override_job_gun_rebellion_menu_furnace_93687b: "Furnace Controller: Finishing the operation... Entering Standby mode in 15 seconds."
+  npc_override_job_gun_rebellion_menu_furnace_dc5e7d: "Furnace Controller: Dredging a mold up from the furnace... Workers, stand by at the production line."
   npc_override_job_gun_rebellion_menu_i_0dc96b: "I give up.:...I'll sign."
   npc_override_job_gun_rebellion_menu_i_19f03c: "I give up.:Do it."
   npc_override_job_gun_rebellion_menu_i_38c5f7: "I want in.:I was passing by."

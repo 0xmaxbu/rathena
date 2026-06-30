@@ -53,6 +53,7 @@ Body:
   npc_override_1@face_FacewormsNest_lady_keeps_crying_over_o_dafd47: "The lady keeps crying over and over holding a ring. It seems to be no use talking to her right now."
   npc_override_1@face_FacewormsNest_lady_read_inscription_in_1248a6: "^0000ffThe lady read an inscription inside the ring and started weeping."
   npc_override_1@face_FacewormsNest_looks_like_dead_soul_you_2033e9: "^0000ffIt looks like a dead soul but you don't feel maliciousness from it. His thoughts have been delivered piece by piece so it isn't easy to understand.^000000"
+  npc_override_1@face_FacewormsNest_memorial_dungeon_already_1f7d7d: "Memorial Dungeon, '{0}' is already in progress."
   npc_override_1@face_FacewormsNest_menu_cancel_b77347: "Cancel:1st Stage Start:2nd Stage Start:3rd Stage Start:4th Stage Start:Boss Start:Treasures"
   npc_override_1@face_FacewormsNest_menu_cancel_f66b59: "Cancel:1st Boss:2nd Boss:3rd Boss:4th Boss:Final Boss"
   npc_override_1@face_FacewormsNest_menu_reserve_edb23e: "Reserve Faceworm's Nest:What are you doing here?:Stop Talking."

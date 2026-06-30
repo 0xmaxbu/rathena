@@ -4,6 +4,7 @@ Header:
 
 Body:
   npc_override_2@nyr_Wolves_acknowledge_us_e5ebde: "Acknowledge us!"
+  npc_override_2@nyr_Wolves_adventurer_party_enter_f_a46be7: "Adventurer {0} of the {1} party will enter {2} first. All wolves, gather sequentially."
   npc_override_2@nyr_Wolves_adventurer_thank_you_you_7cfa03: "Adventurer, thank you for your assistance."
   npc_override_2@nyr_Wolves_adventurer_why_you_here_5f2f07: "Adventurer...? Why are you here, Adventurer?"
   npc_override_2@nyr_Wolves_after_you_loose_some_wei_468fb8: "- after you loose some weight. -"

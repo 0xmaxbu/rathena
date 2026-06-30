@@ -136,6 +136,7 @@ Body:
   npc_override_1@lost_LostFarm_probably_511eda: "Probably."
   npc_override_1@lost_LostFarm_purr_46a7d8: "Purr."
   npc_override_1@lost_LostFarm_quest_level_higher_18c94d: "- This quest is for level 150 or higher -"
+  npc_override_1@lost_LostFarm_reservation_instance_fai_f7a70c: "The reservation of the instance '{0}' has failed due to an active instance."
   npc_override_1@lost_LostFarm_s_easy_get_good_harvest_ef389c: "It's easy to get a good harvest when everyone listens."
   npc_override_1@lost_LostFarm_s_fear_s_more_like_8a3f8a: "This is... it's not fear, it's more like resentment..."
   npc_override_1@lost_LostFarm_s_listening_me_a2f122: "It's listening to me?"

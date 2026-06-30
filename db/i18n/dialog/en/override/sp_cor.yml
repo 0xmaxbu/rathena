@@ -1225,6 +1225,7 @@ Body:
   npc_override_sp_cor_quests_17_1_requires_large_workforce_ac6a94: "It requires a large workforce and a lot of materials to build a research facility. Even after its construction, materials should still be constantly coming in."
   npc_override_sp_cor_quests_17_1_research_experimentation_ca3f85: "Research and experimentation are not always safe. I thought I would be okay, but I couldn't avoid it in the end."
   npc_override_sp_cor_quests_17_1_researcher_named_elyumin_c8904f: "That researcher named ^0000CDElyumina^000000 must have done it. We'll go after him right away!"
+  npc_override_sp_cor_quests_17_1_reservation_instance_fai_f7a70c: "The reservation of the instance '{0}' has failed due to an active instance."
   npc_override_sp_cor_quests_17_1_rest_waiting_they_ll_com_885dd7: "The rest will be waiting, and they'll come in and when we give the signal."
   npc_override_sp_cor_quests_17_1_results_same_no_matter_h_b74162: "The results will be the same no matter how many times we check them. We have a lot of other work to do."
   npc_override_sp_cor_quests_17_1_right_fbc63d: "Right."

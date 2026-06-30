@@ -23,6 +23,7 @@ Body:
   npc_override_1@ma_b_BakonawaLake_oh_alright_tell_me_when_dc7172: "Oh... alright... tell me when you are ready."
   npc_override_1@ma_b_BakonawaLake_oh_rope_got_dropped_i_e233e8: "Oh, the rope got dropped. I have to make a new one."
   npc_override_1@ma_b_BakonawaLake_once_bakonawa_tastes_he_f63ca8: "Once Bakonawa tastes this, he will surface..."
+  npc_override_1@ma_b_BakonawaLake_party_member_party_enter_638013: "A party member, {0} of the party {1} is entering the dungeon, {2}."
   npc_override_1@ma_b_BakonawaLake_rope_hasn_t_been_weaved_0348e5: "The rope hasn't been weaved yet. Wait a little."
   npc_override_1@ma_b_BakonawaLake_rope_used_getting_lake_a_72ee3b: "The rope used for getting to the Lake is already broken. We are now cleaning up the surroundings so come back after some time."
   npc_override_1@ma_b_BakonawaLake_s_all_cleaned_up_around_88b634: "It's all cleaned up around here. Now you can go down again after getting a rope."
