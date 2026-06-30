@@ -1,0 +1,10 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_bif_fild_bif_fild_door_clicks_open_you_fee_937e5d: "the door clicks open and you feel some mysterious force pulling you inside."
+  npc_override_bif_fild_bif_fild_end_small_path_through_b_147492: "At the end of the small path through the bright flower garden"
+  npc_override_bif_fild_bif_fild_entrance_something_looks_352267: "is an entrance to something that looks like a small hill."
+  npc_override_bif_fild_bif_fild_menu_knock_a50008: "Knock-knock:Is this a wormhole?"
+  npc_override_bif_fild_bif_fild_when_you_knock_door_like_619f53: "When you knock on the door-like thing just for fun,"

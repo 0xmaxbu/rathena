@@ -1,0 +1,23 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_te_merchant_te_merchant_come_back_anytime_then_20be7a: "Come back anytime then."
+  npc_override_te_merchant_te_merchant_here_2ad91d: "Here is {0}."
+  npc_override_te_merchant_te_merchant_here_list_rental_items_d_ceabd7: "Here is a list of rental items and descriptions."
+  npc_override_te_merchant_te_merchant_however_provided_rental_9f1a0b: "However, the provided rental items ^4d4dffwill not be effective outside the Siege Battle TE area.^000000"
+  npc_override_te_merchant_te_merchant_i_m_afraid_i_t_374da3: "I'm afraid I can't offer any items to you."
+  npc_override_te_merchant_te_merchant_i_m_sorry_your_job_3d940e: "I'm sorry but your job class is not allowed to participate in Siege Battles TE."
+  npc_override_te_merchant_te_merchant_item_effective_next_hour_c98cf3: "^4d4dffThis item is effective for the next 24 hours^000000 and after that it expires."
+  npc_override_te_merchant_te_merchant_please_organize_your_ite_01b3c7: "Please organize your items and try again."
+  npc_override_te_merchant_te_merchant_select_desired_equipment_7e45df: "Select the desired equipment."
+  npc_override_te_merchant_te_merchant_select_desired_item_4bb754: "Select the desired item."
+  npc_override_te_merchant_te_merchant_view_rental_equipments_40d589: "View rental equipments"
+  npc_override_te_merchant_te_merchant_we_offer_various_battleg_1657ac: "^4d4dffWe offer various battlegears that you can use in the regions of Gloria and Kafragarten based on the rules of Siege Battle TE.^000000"
+  npc_override_te_merchant_te_merchant_we_provide_day_rental_pe_bc61b0: "^4d4dffWe provide 1-day rental periods for free.^000000"
+  npc_override_te_merchant_te_merchant_we_ready_you_1b2924: "We have {0} ready for you."
+  npc_override_te_merchant_te_merchant_you_already_8680b8: "You already have {0}."
+  npc_override_te_merchant_te_merchant_you_already_too_many_ite_42e2a0: "You already have too many items to receive a new rental equipment."
+  npc_override_te_merchant_te_merchant_you_lv_higher_order_rent_c4efc3: "^4d4dffYou have to be Lv 40 or higher in order to rent an item.^000000"
+  npc_override_te_merchant_te_merchant_you_need_anything_else_2a5cf2: "Do you need anything else?"

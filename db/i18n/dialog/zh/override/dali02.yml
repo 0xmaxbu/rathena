@@ -1,0 +1,24 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_dali02_ghost_palace_exchange_adventurer_friend_what_i_a250bb: "Adventurer friend, {0} is what I need. How about exchanging it with something I have?"
+  npc_override_dali02_ghost_palace_exchange_ah_number_written_beside_514e65: "Ah! The number that is written beside {0} will be needed."
+  npc_override_dali02_ghost_palace_exchange_armor_we_all_armors_we_96cb6f: "Armor? We have all the armors we can get from the Ghost Palace. Why don't you choose one?"
+  npc_override_dali02_ghost_palace_exchange_goodbye_friend_come_agai_380d3f: "Goodbye friend~ Come again!"
+  npc_override_dali02_ghost_palace_exchange_huhh_seems_like_many_the_f160bc: "Huhh! It seems like many of them already heard that I have the best stuff. Feel free to check out my collections."
+  npc_override_dali02_ghost_palace_exchange_i_am_need_i_exchange_0b18c9: "I am in need of {0}. I will exchange it for ^006400{1} {2}^000000."
+  npc_override_dali02_ghost_palace_exchange_i_more_than_enough_weapo_17f568: "I have more than enough weapons."
+  npc_override_dali02_ghost_palace_exchange_if_you_bring_me_i_ea11e4: "If you bring me {0}, I will trade it with anything you want."
+  npc_override_dali02_ghost_palace_exchange_let_s_exchange_671506: "Let's exchange."
+  npc_override_dali02_ghost_palace_exchange_oh_you_interested_weapon_dbd81e: "Oh! Are you interested in weapons? We have all the weapons we can get from the Ghost Palace. Why don't you choose one?"
+  npc_override_dali02_ghost_palace_exchange_please_keep_mind_994444: "Please keep that in mind."
+  npc_override_dali02_ghost_palace_exchange_required_exchange_01ee52: "{0} ^006400{1}^000000 are required in exchange."
+  npc_override_dali02_ghost_palace_exchange_show_me_your_weapon_2b98ef: "Show me your weapon."
+  npc_override_dali02_ghost_palace_exchange_take_care_friend_see_you_535a87: "Take care friend~ See you next time!"
+  npc_override_dali02_ghost_palace_exchange_thank_you_come_back_if_045c63: "Thank you. Come back if you need anything else."
+  npc_override_dali02_ghost_palace_exchange_we_many_armors_you_why_07017f: "We have many armors for you. Why don't you pick one?"
+  npc_override_dali02_ghost_palace_exchange_you_cannot_proceed_becau_7b849a: "- You cannot proceed because you have too many items with you. -"
+  npc_override_dali02_ghost_palace_exchange_you_mean_e0e64b: "Do you mean {0}?"
+  npc_override_dali02_ghost_palace_exchange_you_put_me_difficult_sit_99850f: "You put me in a difficult situation, friend."

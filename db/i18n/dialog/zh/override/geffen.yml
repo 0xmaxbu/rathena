@@ -1,0 +1,26 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_geffen_guides_geffen_city_magic_19fe3e: "the City of Magic."
+  npc_override_geffen_guides_geffen_enjoy_your_stay_db872a: "Enjoy your stay."
+  npc_override_geffen_guides_geffen_handles_all_magic_relate_043a5c: "handles all magic-related affairs,"
+  npc_override_geffen_guides_geffen_if_you_d_like_57a685: "If you'd like to "
+  npc_override_geffen_guides_geffen_including_job_changes_e07dad: "including job changes."
+  npc_override_geffen_guides_geffen_let_me_mark_its_location_065bb4: "Let me mark its location"
+  npc_override_geffen_guides_geffen_let_me_mark_location_b64eae: "Let me mark the location of the"
+  npc_override_geffen_guides_geffen_menu_eden_2d43dc: "[ Eden Teleport Officer ]:[ Kafra Employee ]:[ Pet Groomer ]:[ Chef Assistant ]:[ Dimensional Arcanist Guide ]:Previous Menu"
+  npc_override_geffen_guides_geffen_menu_magic_b64e18: "[ Magic Academy ]:[ Geffen Tower ]:[ Fountain ]:[ Tool Shop ]:[ Buy & Repair Equipment ]:[ Inn ]:[ Tavern ]:[ Christopher's Forge ]:Previous Menu"
+  npc_override_geffen_guides_geffen_menu_main_c682f5: "[ Main Facilities ]:[ Merchants & Helpers ]:Remove Marks from Mini-Map:Cancel"
+  npc_override_geffen_guides_geffen_refining_materials_fc911f: "Refining materials."
+  npc_override_geffen_guides_geffen_sure_i_ll_remove_all_b37a09: "Sure, I'll remove all marks from your mini-map."
+  npc_override_geffen_guides_geffen_the_0a9eb8: "The {0}"
+  npc_override_geffen_guides_geffen_then_place_you_ll_want_866345: "then this is the place you'll want to visit."
+  npc_override_geffen_guides_geffen_there_anything_else_i_yo_8fdf01: "Is there anything else I can do for you?"
+  npc_override_geffen_guides_geffen_used_old_blacksmith_guil_cac981: "It used to be the old Blacksmith Guild."
+  npc_override_geffen_guides_geffen_welcome_geffen_9aa573: "Welcome to ^8B4513Geffen^000000,"
+  npc_override_geffen_guides_geffen_where_you_purchase_817eab: "where you can purchase"
+  npc_override_geffen_guides_geffen_you_like_check_any_other_342821: "Would you like to check any other locations?"
+  npc_override_geffen_guides_geffen_you_need_help_navigating_2950bc: "Do you need help navigating the city?"
+  npc_override_geffen_guides_geffen_your_mini_map_c80911: "on your mini-map."

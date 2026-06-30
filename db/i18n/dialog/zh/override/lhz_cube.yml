@@ -1,0 +1,6 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_lhz_cube_bio4_reward_warrior_thirst_blood_chi_c0dcf7: "{0} Will of Warrior, {1} Thirst for Blood, {2} Chill of the Dead are needed for the exchange."

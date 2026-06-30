@@ -1,0 +1,30 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_ayothaya_guides_ayothaya_ask_him_send_you_back_887f32: "and ask him to send you back."
+  npc_override_ayothaya_guides_ayothaya_ayothaya_close_beach_so_b8e0f7: "Ayothaya is close to the beach, so most people enjoy fishing."
+  npc_override_ayothaya_guides_ayothaya_ayothaya_special_weapons_0b0f33: "in Ayothaya has special weapons."
+  npc_override_ayothaya_guides_ayothaya_calm_your_heart_go_say_35884f: "To calm your heart, go to the {0} and say a prayer."
+  npc_override_ayothaya_guides_ayothaya_crowded_lots_travelers_w_b881c5: "The {0} is crowded with lots of travelers where you can get useful information."
+  npc_override_ayothaya_guides_ayothaya_enjoy_your_trip_3265e0: "Enjoy your trip~!"
+  npc_override_ayothaya_guides_ayothaya_find_dfa7d9: "find {0}"
+  npc_override_ayothaya_guides_ayothaya_go_try_grab_big_fish_0bfd78: "Go {0} and try to grab a big fish."
+  npc_override_ayothaya_guides_ayothaya_hello_70b6fe: "Hello~"
+  npc_override_ayothaya_guides_ayothaya_i_ll_remove_all_marks_02e4d3: "I'll remove all marks from your mini-map."
+  npc_override_ayothaya_guides_ayothaya_if_you_want_return_home_a2e611: "If you want to return home"
+  npc_override_ayothaya_guides_ayothaya_make_sure_you_get_all_ebe22a: "Make sure you get all you need there."
+  npc_override_ayothaya_guides_ayothaya_menu_weapon_fe420a: "[ Weapon Shop ]:[ Tool Shop ]:[ Tavern ]:[ Shrine ]:[ Fishing Spot ]:[ Aibakthing ]:Remove Marks from Mini-Map:Cancel"
+  npc_override_ayothaya_guides_ayothaya_our_citizens_purchase_ma_67cdc2: "Our citizens purchase many products in the {0}."
+  npc_override_ayothaya_guides_ayothaya_part_adventuring_collect_51b83a: "Part of adventuring is collecting information."
+  npc_override_ayothaya_guides_ayothaya_s_really_calm_country_eb638a: "It's a really calm country."
+  npc_override_ayothaya_guides_ayothaya_take_your_time_look_arou_d0b013: "Take your time to look around."
+  npc_override_ayothaya_guides_ayothaya_the_0a9eb8: "The {0}"
+  npc_override_ayothaya_guides_ayothaya_there_anything_else_i_yo_8fdf01: "Is there anything else I can do for you?"
+  npc_override_ayothaya_guides_ayothaya_they_really_love_fish_7a626f: "They really love to fish."
+  npc_override_ayothaya_guides_ayothaya_town_linked_river_throug_1826cc: "This town is linked to a river through the wild forest."
+  npc_override_ayothaya_guides_ayothaya_welcome_ayothaya_10afdd: "Welcome to ^8B4513Ayothaya^000000."
+  npc_override_ayothaya_guides_ayothaya_you_find_great_weapons_t_72186d: "You can find great weapons there."
+  npc_override_ayothaya_guides_ayothaya_you_need_anything_else_2a5cf2: "Do you need anything else?"
+  npc_override_ayothaya_guides_ayothaya_you_need_anything_else_d675b3: "Do you need anything else??"

@@ -1,0 +1,20 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_amatsu_guides_amatsu_as_miss_amatsu_6bcb04: "as Miss Amatsu."
+  npc_override_amatsu_guides_amatsu_beautiful_cherry_blossom_134583: "and beautiful cherry blossoms."
+  npc_override_amatsu_guides_amatsu_enjoy_your_trip_5075c6: "Enjoy your trip~!!"
+  npc_override_amatsu_guides_amatsu_i_guide_you_about_town_6de9db: "I will guide you about town"
+  npc_override_amatsu_guides_amatsu_i_ll_remove_all_marks_02e4d3: "I'll remove all marks from your mini-map."
+  npc_override_amatsu_guides_amatsu_i_m_amachang_f2869a: "I'm Amachang,"
+  npc_override_amatsu_guides_amatsu_if_you_want_know_somethi_379baa: "if you want to know something."
+  npc_override_amatsu_guides_amatsu_marked_your_mini_map_eabbe5: "marked on your mini-map."
+  npc_override_amatsu_guides_amatsu_menu_kafra_2c167a: "[ Kafra Employee ]:[ Bar ]:[ Weapon Dealer ]:[ Tool Dealer ]:[ Amatsu Palace ]:[ Chef Assistant ]:[ Ninja Guild Building ]:[ Sea Captain ]:Remove Marks from Mini-Map:Cancel"
+  npc_override_amatsu_guides_amatsu_please_tell_me_39e336: "Please tell me"
+  npc_override_amatsu_guides_amatsu_th_miss_amatsu_2b4eba: "the 13th Miss Amatsu."
+  npc_override_amatsu_guides_amatsu_the_is_c9d21b: "The {0} is"
+  npc_override_amatsu_guides_amatsu_there_anything_else_i_yo_8fdf01: "Is there anything else I can do for you?"
+  npc_override_amatsu_guides_amatsu_town_kind_towners_7a4c30: "the town of kind towners"
+  npc_override_amatsu_guides_amatsu_welcome_amatsu_f66217: "Welcome to ^8B4513Amatsu^000000,"

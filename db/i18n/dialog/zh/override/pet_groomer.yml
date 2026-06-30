@@ -1,0 +1,12 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_pet_groomer_pet_groomer_buy_pet_food_7c3078: "Buy Pet Food."
+  npc_override_pet_groomer_pet_groomer_hello_you_need_some_q_0a5036: "Hello! Do you need some Q-Pet food?"
+  npc_override_pet_groomer_pet_groomer_maybe_some_accessories_d_b2a236: "Or maybe some accessories to decorate your Q-Pet?"
+  npc_override_pet_groomer_pet_groomer_okay_come_back_whenever_9ff809: "Okay, come back whenever you want."
+  npc_override_pet_groomer_pet_groomer_okay_let_s_barter_a3f265: "Okay, let's barter."
+  npc_override_pet_groomer_pet_groomer_okay_please_buy_yourself_f29001: "Okay, please buy it yourself."
+  npc_override_pet_groomer_pet_groomer_there_also_q_pet_taming_f41d87: "There is also a Q-Pet taming item!"

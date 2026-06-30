@@ -1,0 +1,6 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_amicitia1_amicitia_no_entry_below_level_a8493c: " - No entry below level 230! - "

@@ -1,0 +1,10 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_Gemstone_Bagger_Gemstone_Bagger_come_back_if_you_need_f4d396: "Come back if you need help."
+  npc_override_Gemstone_Bagger_Gemstone_Bagger_i_prepare_bag_gemstones_db6433: "I will prepare a bag for gemstones."
+  npc_override_Gemstone_Bagger_Gemstone_Bagger_menu_exchange_d69a3d: "Exchange Gemstones:Cancel"
+  npc_override_Gemstone_Bagger_Gemstone_Bagger_we_pack_gemstones_bags_e_dad13d: "We pack gemstones in bags in an easy to find way."
+  npc_override_Gemstone_Bagger_Gemstone_Bagger_what_you_like_7b5260: "What would you like to do?"

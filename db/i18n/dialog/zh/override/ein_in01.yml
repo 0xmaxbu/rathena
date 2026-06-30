@@ -1,0 +1,7 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_ein_in01_einbroch_welcome_please_come_9cac90: "Welcome. Please come in."
+  npc_override_ein_in01_refine_msg_61ce5a: "[{0}]"

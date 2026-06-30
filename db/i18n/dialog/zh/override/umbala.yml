@@ -1,0 +1,33 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_umbala_guides_umbala_defending_against_their_040c0a: "for defending against their enemies."
+  npc_override_umbala_guides_umbala_i_am_familiar_area_s_4d4114: "I am familiar with this area's geography and the points of interest in this village."
+  npc_override_umbala_guides_umbala_if_you_re_interested_tes_122a19: "If you're interested in testing"
+  npc_override_umbala_guides_umbala_inside_umbala_512564: "The {0} inside Umbala"
+  npc_override_umbala_guides_umbala_kafra_employee_1e826a: "^0000FFKafra Employee^000000"
+  npc_override_umbala_guides_umbala_let_me_mark_location_b64eae: "Let me mark the location of the"
+  npc_override_umbala_guides_umbala_menu_kafra_25ea0b: "[ Kafra Employee ]:[ Chief's House ]:[ Shaman's House ]:[ Weapon Shop ]:[ Tool Shop ]:[ Bungee Jump Area ]:[ Tree of Yggdrasil ]:Remove Marks from Mini-Map:Cancel"
+  npc_override_umbala_guides_umbala_only_knows_language_outs_2ce407: "Only the {0} knows the language of the outside world."
+  npc_override_umbala_guides_umbala_people_say_she_create_ro_1ff643: "People say she can create rough enchanted stones, and divide a pure enchanted stone into rough ones."
+  npc_override_umbala_guides_umbala_safe_your_travels_eeb9a2: "Be safe on your travels."
+  npc_override_umbala_guides_umbala_since_i_been_exploring_h_7ebce9: "Since I have been exploring here for several months."
+  npc_override_umbala_guides_umbala_so_you_d_better_visit_af8ffa: "So you'd better visit him before anything else."
+  npc_override_umbala_guides_umbala_some_sort_mystic_power_61b234: "The {0} has some sort of mystic power."
+  npc_override_umbala_guides_umbala_supplies_weapons_1d7d16: "supplies the weapons"
+  npc_override_umbala_guides_umbala_sure_i_ll_remove_all_b37a09: "Sure, I'll remove all marks from your mini-map."
+  npc_override_umbala_guides_umbala_the_92b161: "the {0}."
+  npc_override_umbala_guides_umbala_there_anything_else_i_yo_8fdf01: "Is there anything else I can do for you?"
+  npc_override_umbala_guides_umbala_there_many_useful_things_b2c732: "There are many useful things for"
+  npc_override_umbala_guides_umbala_there_s_northern_part_to_2f8f81: "There's the {0} in the northern part of town."
+  npc_override_umbala_guides_umbala_traveling_umbala_04c72b: "traveling in the {0} in Umbala."
+  npc_override_umbala_guides_umbala_umbala_unique_locale_cal_b6949b: "Umbala has a unique locale called"
+  npc_override_umbala_guides_umbala_village_utan_tribe_9cd480: "the Village of the Utan Tribe."
+  npc_override_umbala_guides_umbala_welcome_umbala_1e0780: "Welcome to ^8B4513Umbala^000000,"
+  npc_override_umbala_guides_umbala_you_like_check_any_other_342821: "Would you like to check any other locations?"
+  npc_override_umbala_guides_umbala_you_need_help_navigating_10d126: "Do you need help navigating the village?"
+  npc_override_umbala_guides_umbala_you_should_pay_visit_sin_6e0860: "You should pay it a visit since that's a place I recommend when you visit Umbala."
+  npc_override_umbala_guides_umbala_your_courage_why_don_t_aada84: "your courage, why don't you try it."
+  npc_override_umbala_guides_umbala_your_mini_map_c80911: "on your mini-map."

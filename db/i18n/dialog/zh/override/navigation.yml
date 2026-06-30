@@ -1,0 +1,6 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_navigation_navigation_when_you_click_location_2f4658: "When you click on the ^B9062F[location name]^000000, you'll receive the most advanced ^B9062FNavigation^000000 services!"

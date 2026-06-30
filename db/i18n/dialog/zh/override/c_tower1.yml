@@ -1,0 +1,27 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_c_tower1_quests_aldebaran_careful_your_choice_1d9810: "Be careful with your choice."
+  npc_override_c_tower1_quests_aldebaran_come_back_when_you_ve_83b2b7: "Come back when you've reached ^0000FFLevel 150^000000."
+  npc_override_c_tower1_quests_aldebaran_i_am_here_all_day_645241: "I am here all day for the safety of adventurers. I always alert them about the danger. That's why I need some form of payment."
+  npc_override_c_tower1_quests_aldebaran_i_m_begging_you_ask_6d204b: "I'm begging you not to ask more about it. It might put your life in danger."
+  npc_override_c_tower1_quests_aldebaran_i_m_sure_how_you_a5acdc: "I'm not sure how you'll keep track of time in there but be as careful as you can."
+  npc_override_c_tower1_quests_aldebaran_i_need_z_let_you_a1b924: "I need ^0000FF10,000z^000000 to let you in. It's a pretty dangerous place to be."
+  npc_override_c_tower1_quests_aldebaran_me_too_you_might_also_fb28d2: "Me too. You might also be a missing one. Unaware, with no purpose nor idea."
+  npc_override_c_tower1_quests_aldebaran_menu_don_2e2d62: "Don't ask:Go to 2nd floor of warped tower:Go to 3rd floor of warped tower"
+  npc_override_c_tower1_quests_aldebaran_menu_quit_f545f1: "Quit:Pay 10,000z:Why do you need money?"
+  npc_override_c_tower1_quests_aldebaran_menu_stay_63d029: "Stay a little bit more:Please take me back"
+  npc_override_c_tower1_quests_aldebaran_menu_who_0bd3a8: "Who are you?:Get me out of here!"
+  npc_override_c_tower1_quests_aldebaran_monsters_here_able_contr_8524ac: "The monsters here are able to control time."
+  npc_override_c_tower1_quests_aldebaran_perhaps_you_ve_seen_me_0daabb: "Perhaps you've seen me before?"
+  npc_override_c_tower1_quests_aldebaran_phew_you_ve_made_good_c20433: "Phew...You've made a good choice. This place is brutal so you should probably get back to a safe area."
+  npc_override_c_tower1_quests_aldebaran_really_you_don_t_money_02c3cf: "Really? You don't have the money and asked me to take you there?"
+  npc_override_c_tower1_quests_aldebaran_s_time_go_back_please_cff6f7: "It's time to go back. Please cherish your time some more."
+  npc_override_c_tower1_quests_aldebaran_s_time_move_you_favorite_14db40: "It's time to move on. Do you have a favorite drink?"
+  npc_override_c_tower1_quests_aldebaran_think_about_drink_cup_sl_366f51: "Think about the drink in a cup. Slowly stir the cup with a spoon and peer through as the drink changes color."
+  npc_override_c_tower1_quests_aldebaran_time_memories_environmen_2b54e5: "Time, memories, environments... all can become warped here."
+  npc_override_c_tower1_quests_aldebaran_you_explain_me_what_you_41adb7: "Can you explain to me what you've seen, what you've done?"
+  npc_override_c_tower1_quests_aldebaran_you_must_really_like_pla_f8ca73: "You must really like this place. Well, do whatever you want."
+  npc_override_c_tower1_quests_aldebaran_you_saw_me_different_pla_be9954: "You saw me in a different place, with a different look."
