@@ -4,6 +4,16 @@ Header:
 
 Body:
   npc_override_sec_in02_agit_main_te_msg_0b0c6f: "^ff0000{0}^000000"
+  npc_override_sec_in02_arena_closing_arena_5235e5: "closing arena."
+  npc_override_sec_in02_arena_closing_control_panel_3a8579: "Closing control panel."
+  npc_override_sec_in02_arena_currently_e302e4: "Currently"
+  npc_override_sec_in02_arena_error_bc7595: "Error!"
+  npc_override_sec_in02_arena_menu_open_220efd: "Open.:Closed."
+  npc_override_sec_in02_arena_opening_arena_6f05c9: "opening arena."
+  npc_override_sec_in02_arena_opening_control_panel_7722d5: "Opening Control Panel"
+  npc_override_sec_in02_arena_please_select_8ce120: "Please select a"
+  npc_override_sec_in02_arena_r_e_n_092a08: "' A - R - E - N - A '"
+  npc_override_sec_in02_arena_state_arena_0fd2c1: "state for the arena."
   npc_override_sec_in02_god_global_command_been_canceled_ef497a: "The command has been canceled."
   npc_override_sec_in02_god_global_command_been_confirmed_f10f8a: "The command {0} has been confirmed."
   npc_override_sec_in02_god_global_done_e2bcda: "Done."
