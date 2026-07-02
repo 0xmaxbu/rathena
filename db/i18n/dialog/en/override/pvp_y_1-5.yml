@@ -1,0 +1,20 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_pvp_y_1-5_morroc_raceway_alright_talk_me_again_wh_d2d16d: "Alright, talk to me again when you want to go."
+  npc_override_pvp_y_1-5_morroc_raceway_come_again_soon_cd2177: "Come again soon!"
+  npc_override_pvp_y_1-5_morroc_raceway_counting_down_d789d6: "Counting down..."
+  npc_override_pvp_y_1-5_morroc_raceway_get_ready_race_4b2d30: "Get ready to race!"
+  npc_override_pvp_y_1-5_morroc_raceway_once_race_started_run_ar_e8f3c7: "Once the race is started, run around Morocc anti-clockwise."
+  npc_override_pvp_y_1-5_morroc_raceway_please_stay_eastern_side_8fd5d7: "Please stay on the Eastern side of me."
+  npc_override_pvp_y_1-5_morroc_raceway_race_progress_6d2bb6: "Race in progress"
+  npc_override_pvp_y_1-5_morroc_raceway_race_started_please_move_3fa679: "The race has not started, please move back."
+  npc_override_pvp_y_1-5_morroc_raceway_someone_must_click_start_3f07f3: "Someone must click on the Starter NPC to start the race."
+  npc_override_pvp_y_1-5_morroc_raceway_welcome_morocc_raceway_085825: "Welcome to Morocc Raceway!"
+  npc_override_pvp_y_1-5_morroc_raceway_you_already_completed_ra_0fb79c: "You have already completed the race."
+  npc_override_pvp_y_1-5_morroc_raceway_you_like_visit_morocc_ra_3cebb3: "Would you like to visit ^0000FFMorocc Raceway^000000?"
+  npc_override_pvp_y_1-5_morroc_raceway_you_missed_checkpoint_pl_92c09e: "You have missed a Checkpoint. Please go back."
+  npc_override_pvp_y_1-5_morroc_raceway_you_must_reach_all_check_8665dd: "You must reach all the checkpoints - No cheating!"
+  npc_override_pvp_y_1-5_morroc_raceway_you_race_f41469: "You are not in this race."

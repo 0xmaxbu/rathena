@@ -1,0 +1,24 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_payg_cas03_payg_cas03_brave_ones_d97978: "Brave ones..."
+  npc_override_payg_cas03_payg_cas03_destroy_emperium_d24853: "and destroy the Emperium,"
+  npc_override_payg_cas03_payg_cas03_follow_ordinance_divine_56155d: "1. Follow the ordinance of The Divine Rune-Midgarts Kingdom, "
+  npc_override_payg_cas03_payg_cas03_guild_master_guild_cdf4db: "2. The guild Master of ^ff0000{0}^000000 Guild is"
+  npc_override_payg_cas03_payg_cas03_if_there_anyone_who_obje_6c0e64: "If there is anyone who objects to this,"
+  npc_override_payg_cas03_payg_cas03_king_endow_one_72d908: "the king will endow the one with"
+  npc_override_payg_cas03_payg_cas03_menu_pull_7414f9: "Pull.:Do not."
+  npc_override_payg_cas03_payg_cas03_menu_return_90c3dd: "Return to the guild castle.:Quit."
+  npc_override_payg_cas03_payg_cas03_msg_0b0c6f: "^ff0000{0}^000000"
+  npc_override_payg_cas03_payg_cas03_one_who_d9495b: "2. To the one who can "
+  npc_override_payg_cas03_payg_cas03_overcome_all_trials_4ed368: "overcome all trials"
+  npc_override_payg_cas03_payg_cas03_ownership_castle_cedceb: "ownership of this castle."
+  npc_override_payg_cas03_payg_cas03_private_prossession_guil_1ddbc1: "the private prossession of ^ff0000{0}^000000 Guild."
+  npc_override_payg_cas03_payg_cas03_prove_your_strength_hono_bbe930: "prove your strength and honor with a steel blade in your hand."
+  npc_override_payg_cas03_payg_cas03_there_no_formal_master_c_33a752: "there is no formal master of this castle."
+  npc_override_payg_cas03_payg_cas03_there_s_small_lever_you_e840a3: "There's a small lever. Will you pull it?"
+  npc_override_payg_cas03_payg_cas03_we_approve_place_c3e40c: "we approve that this place is in"
+  npc_override_payg_cas03_payg_cas03_we_declare_cb5505: "We declare that"
+  npc_override_payg_cas03_payg_cas03_you_wish_return_your_hon_af5b12: "Do you wish to return to your honorable place?"

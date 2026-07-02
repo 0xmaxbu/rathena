@@ -1,0 +1,21 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_coin_exchange_coin_exchange_burwehala_2080fb: "BurWehAla"
+  npc_override_coin_exchange_coin_exchange_come_again_if_you_change_4ed51c: "Come again if you change your mind."
+  npc_override_coin_exchange_coin_exchange_hello_9b56d5: "Hello."
+  npc_override_coin_exchange_coin_exchange_here_item_descriptions_a3fbc4: "Here are the item descriptions."
+  npc_override_coin_exchange_coin_exchange_i_sell_you_coin_ca2407: "I can sell you 3 {0} for ^3131FF1 coin^000000."
+  npc_override_coin_exchange_coin_exchange_looks_like_you_re_carryi_819ed5: "It looks like you're carrying too many things."
+  npc_override_coin_exchange_coin_exchange_menu_purchase_595ff9: "Purchase:Do not purchase"
+  npc_override_coin_exchange_coin_exchange_menu_view_850507: "View item description:Manuk's Opportunity:Manuk's Courage:Manuk's Faith:Cancel"
+  npc_override_coin_exchange_coin_exchange_menu_view_feb3d5: "View item description:Buy Pinguicula's Fruit Jam:Buy Luciola's Honey Jam:Buy Cornus' Tears:Do nothing"
+  npc_override_coin_exchange_coin_exchange_qwo_hd_d_irr_35c7af: "Qwo hd is d irr"
+  npc_override_coin_exchange_coin_exchange_rtt_od_d_808509: "Rtt od d"
+  npc_override_coin_exchange_coin_exchange_tasnarandu_ie_ru_219042: "tasnarAndu Ie Ru"
+  npc_override_coin_exchange_coin_exchange_thank_you_coming_7856fc: "Thank you for coming."
+  npc_override_coin_exchange_coin_exchange_what_you_looking_ffca59: "What are you looking for?"
+  npc_override_coin_exchange_coin_exchange_why_put_some_your_items_223533: "Why not put some of your items in storage and come back?"
+  npc_override_coin_exchange_coin_exchange_you_don_t_enough_coins_c68021: "You don't have enough coins."

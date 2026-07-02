@@ -1,0 +1,11 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_ra_fild12_rachel_i_am_sorry_you_enough_36432e: "I am sorry, but you do not have enough money."
+  npc_override_ra_fild12_rachel_menu_yes_141459: "Yes:No"
+  npc_override_ra_fild12_rachel_please_remember_you_requ_9648fe: "Please remember, you are required to pay 1,200 zeny to use the service."
+  npc_override_ra_fild12_rachel_thank_you_please_come_ag_69dc36: "Thank you, please come again."
+  npc_override_ra_fild12_rachel_use_airship_you_required_9358d6: "To use the airship, you are required to pay 1,200 zeny or a Free Airship Ticket."
+  npc_override_ra_fild12_rachel_you_like_use_service_3ed74a: "Would you like to use the service?"

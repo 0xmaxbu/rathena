@@ -1,0 +1,16 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_quiz_00_mvp_arena_information_0eb5ed: "Information"
+  npc_override_quiz_00_mvp_arena_like_enter_9b1816: "like to enter?"
+  npc_override_quiz_00_mvp_arena_menu_options_144a6c: "{0}:Heal:Exit"
+  npc_override_quiz_00_mvp_arena_mvp_arena_57dbb7: "the MVP Arena?"
+  npc_override_quiz_00_mvp_arena_sorry_arena_full_e856cb: "Sorry, this arena is full!"
+  npc_override_quiz_00_mvp_arena_there_eight_rooms_per_ke_1f7dd4: "There are eight rooms per Keeper, and sixteen MVPs in total."
+  npc_override_quiz_00_mvp_arena_there_four_keepers_each_050c0d: "There are four Keepers, and each can spawn four different MVPs."
+  npc_override_quiz_00_mvp_arena_welcome_behold_sacred_pl_0efeac: "Welcome and behold this sacred place. Here you will find out if you truly have what it takes to call yourself a warrior."
+  npc_override_quiz_00_mvp_arena_which_arena_you_c69c70: "Which arena would you"
+  npc_override_quiz_00_mvp_arena_yes_ee33f3: "Yes!"
+  npc_override_quiz_00_mvp_arena_you_like_enter_3dc2af: "Would you like to enter"

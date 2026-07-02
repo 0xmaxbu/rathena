@@ -1,0 +1,25 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_n_castle_nguild_flags_brave_ones_d97978: "Brave ones..."
+  npc_override_n_castle_nguild_flags_destroy_emperium_d24853: "and destroy the Emperium,"
+  npc_override_n_castle_nguild_flags_divine_rune_midgarts_kin_faf07e: "Divine Rune-Midgarts Kingdom,"
+  npc_override_n_castle_nguild_flags_edict_divine_rune_midgar_c1c8cb: " [ Edict of the Divine Rune-Midgarts Kingdom ]"
+  npc_override_n_castle_nguild_flags_follow_ordinance_divine_56155d: "1. Follow the ordinance of The Divine Rune-Midgarts Kingdom, "
+  npc_override_n_castle_nguild_flags_following_ordinance_e62bc8: "1. Following the ordinance of the"
+  npc_override_n_castle_nguild_flags_guild_master_guild_cdf4db: "2. The guild Master of ^ff0000{0}^000000 Guild is"
+  npc_override_n_castle_nguild_flags_if_there_anyone_who_obje_6c0e64: "If there is anyone who objects to this,"
+  npc_override_n_castle_nguild_flags_king_endow_one_72d908: "the king will endow the one with"
+  npc_override_n_castle_nguild_flags_menu_return_90c3dd: "Return to the guild castle.:Quit."
+  npc_override_n_castle_nguild_flags_msg_0b0c6f: "^FF0000{0}^000000"
+  npc_override_n_castle_nguild_flags_one_who_d9495b: "2. To the one who can "
+  npc_override_n_castle_nguild_flags_overcome_all_trials_4ed368: "overcome all trials"
+  npc_override_n_castle_nguild_flags_ownership_castle_cedceb: "ownership of this castle."
+  npc_override_n_castle_nguild_flags_private_possession_guild_ce41a4: "the private possession of ^ff0000{0}^000000 Guild."
+  npc_override_n_castle_nguild_flags_prove_your_strength_hono_bbe930: " prove your strength and honor with a steel blade in your hand."
+  npc_override_n_castle_nguild_flags_there_no_formal_master_c_33a752: "there is no formal master of this castle."
+  npc_override_n_castle_nguild_flags_we_approve_place_c3e40c: "we approve that this place is in"
+  npc_override_n_castle_nguild_flags_we_declare_cb5505: "We declare that"
+  npc_override_n_castle_nguild_flags_you_wish_return_your_hon_af5b12: "Do you wish to return to your honorable place?"

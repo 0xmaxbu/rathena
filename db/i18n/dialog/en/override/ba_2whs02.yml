@@ -1,0 +1,6 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_ba_2whs02_ba_2whs_menu_options_696b81: "{0} : There is a sound in this area. The locked door was opened with an emergency key."

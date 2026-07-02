@@ -1,0 +1,33 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_icecream_icecream_bathroom_tonight_c4ddb9: "to the bathroom tonight."
+  npc_override_icecream_icecream_before_making_purchase_09c77b: "before making a purchase."
+  npc_override_icecream_icecream_could_you_please_let_nex_6a8148: "could you please let the next customer"
+  npc_override_icecream_icecream_dear_customer_98edce: "Dear customer,"
+  npc_override_icecream_icecream_dear_customer_you_look_l_70683d: "Dear customer,you look like you're carrying a lot."
+  npc_override_icecream_icecream_dear_customer_your_walle_10820a: "Dear customer, your wallet seems to be light."
+  npc_override_icecream_icecream_enjoy_now_won_t_sale_c18aab: "Enjoy it now, it won't be on sale for long!"
+  npc_override_icecream_icecream_everyone_wants_our_delic_83f10d: "Everyone wants our delicious ice cream, "
+  npc_override_icecream_icecream_fresh_ice_cream_made_sno_4c40e2: "Fresh Ice Cream made with snow from Lutie!"
+  npc_override_icecream_icecream_i_won_t_selling_long_f1d912: "I won't be selling it for long,"
+  npc_override_icecream_icecream_ice_cream_f015d6: "Ice Cream!"
+  npc_override_icecream_icecream_ice_cream_fine_83ce35: "Ice Cream is fine,"
+  npc_override_icecream_icecream_if_you_don_t_want_9e4513: "If you don't want to buy any,"
+  npc_override_icecream_icecream_if_you_eat_more_than_210c2c: "If you eat more than 5 Ice creams,"
+  npc_override_icecream_icecream_if_you_might_haveto_make_e0984f: "If you might haveto make a lot of trips"
+  npc_override_icecream_icecream_make_purchase_eb841f: "make a purchase?"
+  npc_override_icecream_icecream_menu_gimme_61f2a9: "Gimme Ice Cream!:Cancel Trade"
+  npc_override_icecream_icecream_once_i_run_out_37b8be: "and once I run out,"
+  npc_override_icecream_icecream_ouch_a31f5a: "Ouch"
+  npc_override_icecream_icecream_price_zeny_per_ice_cream_591c0e: "Price is ^3355FF100 Zeny^000000 per ice cream."
+  npc_override_icecream_icecream_so_you_only_purchase_tim_d77466: "so you can only purchase 5 at a time!!"
+  npc_override_icecream_icecream_thank_you_174534: "Thank you."
+  npc_override_icecream_icecream_there_won_t_any_more_ba1657: "there won't be any more!!!"
+  npc_override_icecream_icecream_we_limited_amount_6e248f: "but we have a limited amount,"
+  npc_override_icecream_icecream_you_expect_too_much_a1a73d: "You expect too much."
+  npc_override_icecream_icecream_you_must_consider_your_w_58d5d7: "but you must consider your weight"
+  npc_override_icecream_icecream_you_sure_you_don_t_5cab1f: "Are you sure you don't want any?"
+  npc_override_icecream_icecream_zeny_ice_cream_e5019e: "^3355FF100 Zeny^000000 Ice Cream,"

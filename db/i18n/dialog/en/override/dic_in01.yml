@@ -3,6 +3,7 @@ Header:
   Version: 1
 
 Body:
+  npc_override_dic_in01_dicastes_administrative_office_122551: "Administrative Office"
   npc_override_dic_in01_dicastes_administrative_office_lo_957c66: "The Administrative Office is located on the top floor and handles very important matters."
   npc_override_dic_in01_dicastes_ahat_one_917b08: "Ahat is the one"
   npc_override_dic_in01_dicastes_ahat_s_image_out_my_4f5f77: "Ahat's image out of my head."

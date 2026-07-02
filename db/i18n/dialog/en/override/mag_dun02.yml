@@ -1,0 +1,7 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_mag_dun02_mag_dun_menu_republic_8de1ce: "Republic Guard: A dangerous place for adventurers. You must be at least level 175 to enter."
+  npc_override_mag_dun02_mag_dun_menu_republic_e4047e: "Republic Guard: Be careful. You cannot enter unless you are an experienced adventurer."

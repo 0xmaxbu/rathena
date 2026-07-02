@@ -4,3 +4,9 @@ Header:
 
 Body:
   npc_override_lhz_cube_bio4_reward_warrior_thirst_blood_chi_c0dcf7: "{0} Will of Warrior, {1} Thirst for Blood, {2} Chill of the Dead are needed for the exchange."
+  npc_override_lhz_cube_lhz_dun_emanating_inside_fc6277: "emanating from inside"
+  npc_override_lhz_cube_lhz_dun_large_sewage_pipe_fb675c: "of large sewage pipe."
+  npc_override_lhz_cube_lhz_dun_menu_enter_68d202: "Enter:Cancel"
+  npc_override_lhz_cube_lhz_dun_naturally_stench_8b54c3: "Naturally, the stench"
+  npc_override_lhz_cube_lhz_dun_pipe_barely_endurable_1d8818: "the pipe is barely endurable.^000000"
+  npc_override_lhz_cube_lhz_dun_you_found_some_sort_ac820f: "^3355FFYou found some sort"

@@ -1,0 +1,30 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_lou_fild01_quest_mantis_amazing_you_did_speed_6cc3cd: "Amazing, you did that with speed."
+  npc_override_lou_fild01_quest_mantis_any_progress_you_ve_made_b3e247: "Any progress that you've made will be erased"
+  npc_override_lou_fild01_quest_mantis_currently_situation_stab_f6b69f: "Currently the Situation is stable and i'm not in need of your help anymore to kill them."
+  npc_override_lou_fild01_quest_mantis_great_i_knew_moment_i_68640f: "Great! I knew the moment i saw you that i can count on you!"
+  npc_override_lou_fild01_quest_mantis_hmm_i_don_t_think_a129f3: "Hmm, I don't think you've hunted 50 yet."
+  npc_override_lou_fild01_quest_mantis_i_need_you_reduce_amount_0099ee: "I need you to reduce the Amount of Monsters which are currently rampaging on this Map!"
+  npc_override_lou_fild01_quest_mantis_if_i_don_t_know_b9bf89: "If not, i don't know what to do with the Monsters in this Place!"
+  npc_override_lou_fild01_quest_mantis_if_you_change_your_mind_3f2210: "If you change your mind, please come back."
+  npc_override_lou_fild01_quest_mantis_kill_those_mantis_let_me_ff79db: "Kill 50 of those Mantis and let me know when you're done. I will reward you for your efforts."
+  npc_override_lou_fild01_quest_mantis_menu_sure_859d29: "Sure:No"
+  npc_override_lou_fild01_quest_mantis_menu_sure_c775af: "Sure:Cancel"
+  npc_override_lou_fild01_quest_mantis_menu_yes_141459: "Yes:No"
+  npc_override_lou_fild01_quest_mantis_menu_yes_755efb: "Yes:No:I want to quit"
+  npc_override_lou_fild01_quest_mantis_oh_boy_oh_boy_5c1386: "Oh boy, Oh boy!"
+  npc_override_lou_fild01_quest_mantis_oh_great_d1d990: "Oh great!"
+  npc_override_lou_fild01_quest_mantis_ok_then_well_come_back_0e1574: "Ok then, well come back here if you change your mind."
+  npc_override_lou_fild01_quest_mantis_please_kill_mantis_order_8712dd: "Please kill 50 Mantis in order to make this a Place were people can go to and gather Experience."
+  npc_override_lou_fild01_quest_mantis_remember_i_need_help_hun_424269: "Remember, I need help hunting Mantis so go and hunt 50 of them."
+  npc_override_lou_fild01_quest_mantis_so_you_still_like_help_0f1613: "So, would you still like to help me?"
+  npc_override_lou_fild01_quest_mantis_sorry_i_t_talk_right_f1bdf2: "Sorry I can't talk right now I am in a world of pain here, these darn Mantis are going to kill me."
+  npc_override_lou_fild01_quest_mantis_thank_you_your_great_hel_2346bb: "Thank you for your great help with the Mantis!"
+  npc_override_lou_fild01_quest_mantis_there_many_mantis_around_87704a: "There are to many Mantis around, which makes it impossible for the lower level players to gain good experience here."
+  npc_override_lou_fild01_quest_mantis_you_finished_hunting_man_a1c57f: "Have you finished hunting the 50 Mantis?"
+  npc_override_lou_fild01_quest_mantis_you_here_help_me_right_7f9109: "You are here to help me right?"
+  npc_override_lou_fild01_quest_mantis_you_sure_you_want_stop_507e20: "Are you sure that you want to stop hunting?"

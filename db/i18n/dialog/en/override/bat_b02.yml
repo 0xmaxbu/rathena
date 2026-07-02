@@ -1,0 +1,26 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_bat_b02_flavius02_battle_station_23a95b: "Battle Station"
+  npc_override_bat_b02_flavius02_bye_e17e76: "Bye."
+  npc_override_bat_b02_flavius02_cancelled_d3e414: "Cancelled."
+  npc_override_bat_b02_flavius02_croix_s_crystal_been_des_3b6b33: "Croix's Crystal has been destroyed."
+  npc_override_bat_b02_flavius02_guardian_protecting_croi_04889d: "The Guardian protecting Croix's Crystal has been slain."
+  npc_override_bat_b02_flavius02_guardian_protecting_guil_318399: "The Guardian protecting Guillaume's Crystal has been slain."
+  npc_override_bat_b02_flavius02_guillaume_s_crystal_been_4f6757: "Guillaume's Crystal has been destroyed."
+  npc_override_bat_b02_flavius02_just_close_your_eyes_81005b: "Just close your eyes,"
+  npc_override_bat_b02_flavius02_may_i_help_you_5a540b: "May I help you?"
+  npc_override_bat_b02_flavius02_menu_axl_d99480: "Axl Rose, Swandery : Yes, sir."
+  npc_override_bat_b02_flavius02_menu_croix_0a0a2a: "Croix Vintenar Swandery : Even though Guillaume is struggling to win against us, the victory is ours. Let's show them our power."
+  npc_override_bat_b02_flavius02_menu_guillaume_995996: "Guillaume Vintenar Axl Rose : Let's attack to destroy that Crystal!"
+  npc_override_bat_b02_flavius02_menu_marollo_14a89c: "Marollo VII : Both camps are competitive, so it's hard to judge which team is superior."
+  npc_override_bat_b02_flavius02_menu_marollo_5ee05e: "Marollo VII : If you can't accept the results, try again in another valley battle!"
+  npc_override_bat_b02_flavius02_menu_marollo_877a84: "Marollo VII : This battle of Flavian is such a waste of time. I will decide victory and defeat by your progress."
+  npc_override_bat_b02_flavius02_menu_marollo_bcc770: "Marollo VII : Guillaume Marollo, Croix Marollo! And their followers!"
+  npc_override_bat_b02_flavius02_menu_release_d63594: "Release all.:Cancel."
+  npc_override_bat_b02_flavius02_take_deep_breath_48d63b: "and take a deep breath."
+  npc_override_bat_b02_flavius02_why_you_come_here_as_6484f8: "Why do you come here as a Guillaume? You will be sent to where you should be!"
+  npc_override_bat_b02_flavius02_why_you_here_croix_merce_7b57d2: "Why are you here, Croix mercenary? I am definitely sure of victory against foolish Croix such as you. Ha!"
+  npc_override_bat_b02_flavius02_you_free_pain_954ca5: "You can be free from pain."
