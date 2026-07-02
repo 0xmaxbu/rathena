@@ -3,6 +3,7 @@ Header:
   Version: 1
 
 Body:
+
   npc_custom_warper_warper_abyss_lakes_2d5be0: "深渊之湖"
   npc_custom_warper_warper_alberta_1dc61b: "艾尔贝塔"
   npc_custom_warper_warper_aldebaran_0fe90a: "艾尔帕兰"
@@ -106,6 +107,7 @@ Body:
   npc_custom_warper_warper_lasagna_dungeon_dea80b: "拉萨尼亚地下城"
   npc_custom_warper_warper_lasagna_field_c4e294: "拉萨尼亚原野"
   npc_custom_warper_warper_lasagna_fields_385396: "拉萨尼亚原野"
+  npc_custom_warper_warper_last_warp_d80482: "最近传送 "
   npc_custom_warper_warper_lighthalzen_c047cb: "里希塔乐镇"
   npc_custom_warper_warper_lighthalzen_field_cecc0c: "里希塔乐原野"
   npc_custom_warper_warper_lighthalzen_fields_2ddc19: "里希塔乐原野"
@@ -126,6 +128,7 @@ Body:
   npc_custom_warper_warper_manuk_field_e9cc38: "马努克原野"
   npc_custom_warper_warper_manuk_fields_625e53: "马努克原野"
   npc_custom_warper_warper_map_enabled_pre_renewal_c869bc: "此地图在非 Renewal 模式下不可用。"
+  npc_custom_warper_warper_map_enabled_renewal_424bc3: "此地图在{0}Renewal中未启用。"
   npc_custom_warper_warper_map_enabled_renewal_c69bae: "此地图在 Renewal 模式下不可用。"
   npc_custom_warper_warper_menu_ancient_9b2de5: "古代神殿迷宫:古代神殿内部"
   npc_custom_warper_warper_menu_baldur_063877: "巴尔德 F1:巴尔德 F2:深渊之厅"
@@ -216,4 +219,3 @@ Body:
   npc_custom_warper_warper_veins_fields_fd0887: "维纳斯原野"
   npc_custom_warper_warper_wolfchev_s_laboratory_5747a9: "沃尔夫切夫的实验室"
   npc_custom_warper_warper_you_haven_t_warped_anywh_d90c49: "你还没有传送过任何地方。"
-  npc_custom_warper_warper_last_warp_d80482: "最近传送 "
