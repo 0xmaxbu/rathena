@@ -1,0 +1,7 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_custom_bot_vip_bot_vip_menu_vip_7959d8: "[VIP] 等级: 非 VIP, 离线奖励倍率: {0}%"
+  npc_custom_bot_vip_bot_vip_menu_vip_f4fc0b: "[VIP] 等级: VIP{0}, 离线奖励倍率: {1}%"

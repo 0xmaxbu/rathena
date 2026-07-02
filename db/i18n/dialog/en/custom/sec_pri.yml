@@ -1,0 +1,32 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_custom_sec_pri_penal_servitude_alas_there_s_your_bank_62e417: "Alas, there's your bank account info... ^FF0000{0}z^000000... in the case. It's not enough."
+  npc_custom_sec_pri_penal_servitude_drop_these_mushrooms_the_ffc886: "Drop these mushrooms!! They are poisonous!"
+  npc_custom_sec_pri_penal_servitude_hmm_you_ve_been_here_ff4898: "Hmm... You've been here already... Well-well..."
+  npc_custom_sec_pri_penal_servitude_i_m_sorry_you_should_ad1538: "I'm sorry, you should release your Cart, PecoPeco or Falcon!"
+  npc_custom_sec_pri_penal_servitude_i_t_remember_you_your_2bbae1: "I can't remember you. Is it your 1st time?"
+  npc_custom_sec_pri_penal_servitude_i_want_you_gather_orange_7d8e33: "I want you to gather ^FF0000{0} Orange Net Mushroom^000000."
+  npc_custom_sec_pri_penal_servitude_let_me_see_almost_edible_969704: "Let me see... {0} of almost edible ones..."
+  npc_custom_sec_pri_penal_servitude_now_shut_up_back_off_648dc3: "Now shut up and back off!"
+  npc_custom_sec_pri_penal_servitude_ok_hand_me_all_shrooms_5628e1: "OK... hand me all the shrooms..."
+  npc_custom_sec_pri_penal_servitude_ok_sign_your_cheque_put_08cd4d: "OK, sign your cheque. And put down your name in my book."
+  npc_custom_sec_pri_penal_servitude_ok_sing_here_there_6d342e: "OK, sing here and there."
+  npc_custom_sec_pri_penal_servitude_ok_we_could_release_you_1f8e03: "OK, we could release you for ^FF0000{0}z^000000."
+  npc_custom_sec_pri_penal_servitude_ok_you_must_bring_me_f35315: "OK, you must bring me ^FF0000{0}^000000 edible ^FF0000Orange Net Mushroom^000000 toadstoo.. shrooms."
+  npc_custom_sec_pri_penal_servitude_our_stocks_short_toadsto_f7c8ae: "Our stocks are short of toadstools.  Remember your morning's skilly?  What about some work at our sponsored mushroom farm?"
+  npc_custom_sec_pri_penal_servitude_stop_your_silly_games_no_cd9d16: "Stop your silly games now!"
+  npc_custom_sec_pri_penal_servitude_talk_our_overseer_oliver_986f6b: "Talk to our overseer, Oliver."
+  npc_custom_sec_pri_penal_servitude_thank_you_you_free_194a2d: "Thank you. You are free!"
+  npc_custom_sec_pri_penal_servitude_today_x_mas_time_huh_7ab13f: "Is today X-Mas time, huh?"
+  npc_custom_sec_pri_penal_servitude_useless_deadly_ones_629c28: "And {0} useless deadly ones."
+  npc_custom_sec_pri_penal_servitude_what_s_noise_over_there_10f0ff: "what's the noise over there?"
+  npc_custom_sec_pri_penal_servitude_what_s_s_enough_419f5d: "What's this? It's not enough!"
+  npc_custom_sec_pri_penal_servitude_you_again_somebody_hasn_e4fc93: "You again? Somebody hasn't grown wiser from the very first visit..."
+  npc_custom_sec_pri_penal_servitude_you_free_now_72e208: "You are free now!"
+  npc_custom_sec_pri_penal_servitude_you_may_eat_deadly_ones_e2007b: "And you may eat the deadly ones for breakfast."
+  npc_custom_sec_pri_penal_servitude_you_re_fast_fella_you_fd7f6b: "You're a fast fella! You'll have to get more shrooms, then."
+  npc_custom_sec_pri_penal_servitude_you_ve_got_some_time_597b66: "You've got some time to think about..."
+  npc_custom_sec_pri_penal_servitude_your_case_says_nothing_a_74b8c2: "Your case says nothing about your bank accounts."

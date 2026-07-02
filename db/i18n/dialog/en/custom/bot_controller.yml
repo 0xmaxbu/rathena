@@ -1,0 +1,6 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_custom_bot_controller_bot_controller_menu_bot_89af59: "[Bot] 当前积分: {0} (角色: {1})"
