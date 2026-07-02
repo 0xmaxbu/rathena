@@ -1,0 +1,19 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_custom_airport_airplane_airplane_attendant_603e96: "^FF0000[Airplane Attendant]^000000"
+  npc_custom_airport_airplane_good_day_thank_you_trave_a5659d: "Have a good day.  Thank you for traveling with us."
+  npc_custom_airport_airplane_good_day_thank_you_trave_ab7a41: "Have a good day.  Thank you for traveling with Airship."
+  npc_custom_airport_airplane_itinerary_57b432: "^FF0000[Itinerary]^000000"
+  npc_custom_airport_airplane_menu_pilot_9c3bae: "Pilot: The plane has arrived at {0}.  Departure to {1} is in 3 minutes."
+  npc_custom_airport_airplane_plane_currently_ported_y_2bea59: "The plane is currently ported.  Would you like to board?"
+  npc_custom_airport_airplane_porter_6d173b: "^FF0000[Porter]^000000"
+  npc_custom_airport_airplane_sorry_ma_am_plane_curren_3f83ba: "Sorry, ma'am, but the plane currently isn't ported.  However, you can view the airplane's hourly itinerary."
+  npc_custom_airport_airplane_sorry_ma_am_plane_curren_df24d7: "Sorry, ma'am, but the plane currently isn't docked.  Please wait."
+  npc_custom_airport_airplane_sorry_sir_plane_currentl_5d32a5: "Sorry, sir, but the plane currently isn't ported.  However, you can view the airplane's hourly itinerary."
+  npc_custom_airport_airplane_sorry_sir_plane_currentl_849e4d: "Sorry, sir, but the plane currently isn't docked.  Please wait."
+  npc_custom_airport_airplane_try_again_later_recent_s_8eaac6: "Try again later.  A recent server reboot or rehash has messed the itinerary up for a bit."
+  npc_custom_airport_airplane_we_currently_docked_you_0be7af: "We are currently docked at {0}.  Would you like to exit?"
+  npc_custom_airport_airplane_we_re_currently_air_plea_9a3d0d: "We're currently in air. Please wait until the pilot has announced that we have safely landed."

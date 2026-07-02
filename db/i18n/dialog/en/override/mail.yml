@@ -1,0 +1,11 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_mail_mail_i_am_sorry_you_enough_36432e: "I am sorry, but you do not have enough money."
+  npc_override_mail_mail_menu_yes_de2097: "Yes.:No."
+  npc_override_mail_mail_thank_you_please_come_ag_69dc36: "Thank you, please come again."
+  npc_override_mail_mail_use_mailbox_service_10e4e0: "To use the mailbox service,"
+  npc_override_mail_mail_you_like_use_service_3ed74a: "Would you like to use the service?"
+  npc_override_mail_mail_you_required_pay_zeny_1e324a: "you are required to pay 130 zeny."
