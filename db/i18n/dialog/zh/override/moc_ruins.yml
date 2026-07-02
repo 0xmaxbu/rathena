@@ -95,7 +95,7 @@ Body:
   npc_override_moc_ruins_morocc_hey_you_stop_there_5fb013: "喂，你！站住。"
   npc_override_moc_ruins_morocc_heyyy_you_re_being_too_cb8361: "哎哟，你也太狠了吧，小姐。你的拳头跟你一样娇弱，可打人还真疼。"
   npc_override_moc_ruins_morocc_hic_516766: "嗝！"
-  npc_override_moc_ruins_morocc_hmm_9c4d28: "Hmm..."
+  npc_override_moc_ruins_morocc_hmm_9c4d28: "Hmm……"
   npc_override_moc_ruins_morocc_hmmm_82c2a4: "嗯……"
   npc_override_moc_ruins_morocc_hmmm_you_shouldn_t_here_fe6879: "嗯……你不该来这儿……"
   npc_override_moc_ruins_morocc_hopefully_0318c5: "希望"
@@ -304,3 +304,4 @@ Body:
   npc_override_moc_ruins_morocc_you_t_equip_shield_extra_b6d486: "你就不能同时装备盾牌或额外武器了。"
   npc_override_moc_ruins_morocc_you_won_t_able_use_773136: "你就无法使用"
   npc_override_moc_ruins_morocc_your_right_hand_bb5cce: "没有装备匕首，"
+

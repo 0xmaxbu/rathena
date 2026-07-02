@@ -3,8 +3,8 @@ Header:
   Version: 1
 
 Body:
-  npc_override_bulletin_boards_bulletin_boards_docks_you_may_take_ship_759134: "At the docks, you may take a ship and travel to ^003399Alberta^000000 or ^660000Byalan Island^000000."
-  npc_override_bulletin_boards_bulletin_boards_izlude_prontera_located_64f103: "From Izlude, ^3355FFProntera^000000 is located to the Northwest, and ^006600Payon^000000 is located to the South. Enjoy your travels in the Rune-Midgarts Kingdom."
-  npc_override_bulletin_boards_bulletin_boards_main_buildings_here_acco_afaece: "The main buildings here are to accomodate the growth of the Cryptura Academy."
-  npc_override_bulletin_boards_bulletin_boards_points_interest_include_021908: "Points of interest include the Swordman Association building which allows adventurers to change their job to Swordman, and the Battle Area that is East of Izlude."
-  npc_override_bulletin_boards_bulletin_boards_welcome_izlude_satellite_deeb31: "Welcome to Izlude, the satellite of Prontera. Izlude was built to support Prontera's defense and to accomodate its burgeoning population."
+  npc_override_bulletin_boards_bulletin_boards_docks_you_may_take_ship_759134: "在码头，你可以乘船前往^003399艾尔贝塔^000000或^660000拜伦岛^000000。"
+  npc_override_bulletin_boards_bulletin_boards_izlude_prontera_located_64f103: "从依斯鲁得出发，^3355FF普隆德拉^000000位于西北方，^006600斐扬^000000位于南方。祝你在卢恩-米德加兹王国旅途愉快。"
+  npc_override_bulletin_boards_bulletin_boards_main_buildings_here_acco_afaece: "这里的主要建筑是为了满足克riptura学院的发展需求。"
+  npc_override_bulletin_boards_bulletin_boards_points_interest_include_021908: "景点包括剑士协会大楼（冒险者可以转职为剑士）以及依斯鲁得东边的战斗区域。"
+  npc_override_bulletin_boards_bulletin_boards_welcome_izlude_satellite_deeb31: "欢迎来到依斯鲁得，普隆德拉的卫星城。依斯鲁得的建立是为了支持普隆德拉的防御并容纳其激增的人口。"

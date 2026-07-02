@@ -3,8 +3,8 @@ Header:
   Version: 1
 
 Body:
-  npc_override_bif_fild_bif_fild_door_clicks_open_you_fee_937e5d: "the door clicks open and you feel some mysterious force pulling you inside."
-  npc_override_bif_fild_bif_fild_end_small_path_through_b_147492: "At the end of the small path through the bright flower garden"
-  npc_override_bif_fild_bif_fild_entrance_something_looks_352267: "is an entrance to something that looks like a small hill."
-  npc_override_bif_fild_bif_fild_menu_knock_a50008: "Knock-knock:Is this a wormhole?"
-  npc_override_bif_fild_bif_fild_when_you_knock_door_like_619f53: "When you knock on the door-like thing just for fun,"
+  npc_override_bif_fild_bif_fild_door_clicks_open_you_fee_937e5d: "门咔嗒一声开了，你感到某种神秘力量将你拉入其中。"
+  npc_override_bif_fild_bif_fild_end_small_path_through_b_147492: "穿过明亮花园的小径尽头"
+  npc_override_bif_fild_bif_fild_entrance_something_looks_352267: "是一个看起来像小山的入口。"
+  npc_override_bif_fild_bif_fild_menu_knock_a50008: "咚咚：这是虫洞吗？"
+  npc_override_bif_fild_bif_fild_when_you_knock_door_like_619f53: "当你只是好玩地敲打那个像门的东西时，"

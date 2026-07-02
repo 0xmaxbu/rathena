@@ -3,5 +3,5 @@ Header:
   Version: 1
 
 Body:
-  npc_override_bif_fild01_dimensional_gap_menu_yes_141459: "Yes:No"
-  npc_override_bif_fild01_dimensional_gap_you_wish_enter_dimension_ddcccd: "Do you wish to enter the Dimensional Gap?"
+  npc_override_bif_fild01_dimensional_gap_menu_yes_141459: "是:否"
+  npc_override_bif_fild01_dimensional_gap_you_wish_enter_dimension_ddcccd: "你希望进入次元裂缝吗？"

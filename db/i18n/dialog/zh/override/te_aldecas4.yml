@@ -3,6 +3,6 @@ Header:
   Version: 1
 
 Body:
-  npc_override_te_aldecas4_guildcastles_rd_expansion_job_level_t_206934: "3rd and expansion job level can't enter in WoE TE."
-  npc_override_te_aldecas4_guildcastles_s_time_preparing_woe_onl_3f7228: "It's time for preparing to WoE. Only Alliance guild is able to enter."
-  npc_override_te_aldecas4_guildcastles_welcome_alliance_guild_e5d514: "Welcome alliance guild."
+  npc_override_te_aldecas4_guildcastles_rd_expansion_job_level_t_206934: "三转及扩展职业无法进入TE攻城战。"
+  npc_override_te_aldecas4_guildcastles_s_time_preparing_woe_onl_3f7228: "现在是攻城战准备时间。仅允许同盟公会进入。"
+  npc_override_te_aldecas4_guildcastles_welcome_alliance_guild_e5d514: "欢迎同盟公会。"

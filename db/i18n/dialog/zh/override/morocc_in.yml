@@ -1,7 +1,6 @@
 Header:
   Type: I18N_DIALOG
   Version: 1
-
 Body:
   npc_override_morocc_in_inn_accommodation_fee_5afb4a: "住宿费是"
   npc_override_morocc_in_inn_ah_here_we_376eaf: "啊，找到了。"

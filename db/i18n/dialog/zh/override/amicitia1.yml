@@ -3,4 +3,4 @@ Header:
   Version: 1
 
 Body:
-  npc_override_amicitia1_amicitia_no_entry_below_level_a8493c: " - No entry below level 230! - "
+  npc_override_amicitia1_amicitia_no_entry_below_level_a8493c: " - 等级低于230者禁止进入！ - "

@@ -3,4 +3,4 @@ Header:
   Version: 1
 
 Body:
-  npc_override_lhz_cube_bio4_reward_warrior_thirst_blood_chi_c0dcf7: "{0} Will of Warrior, {1} Thirst for Blood, {2} Chill of the Dead are needed for the exchange."
+  npc_override_lhz_cube_bio4_reward_warrior_thirst_blood_chi_c0dcf7: "兑换需要{0}个战士意志、{1}个嗜血渴望、{2}个死者寒霜。"

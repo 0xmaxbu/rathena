@@ -3,4 +3,4 @@ Header:
   Version: 1
 
 Body:
-  npc_override_navigation_navigation_when_you_click_location_2f4658: "When you click on the ^B9062F[location name]^000000, you'll receive the most advanced ^B9062FNavigation^000000 services!"
+  npc_override_navigation_navigation_when_you_click_location_2f4658: "当你点击^B9062F[地点名称]^000000时，你将获得最先进的^B9062F导航^000000服务！"
