@@ -1,0 +1,31 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+
+  npc_override_lou_fild01_quest_mantis_amazing_you_did_speed_6cc3cd: "太厉害了，你这么快就完成了。"
+  npc_override_lou_fild01_quest_mantis_any_progress_you_ve_made_b3e247: "你取得的任何进展都将被清除"
+  npc_override_lou_fild01_quest_mantis_currently_situation_stab_f6b69f: "目前情况已经稳定，我不再需要你的帮助来消灭它们了。"
+  npc_override_lou_fild01_quest_mantis_great_i_knew_moment_i_68640f: "太好了！我一见到你就知道可以指望你！"
+  npc_override_lou_fild01_quest_mantis_hmm_i_don_t_think_a129f3: "嗯，我觉得你还没猎杀到 50 个。"
+  npc_override_lou_fild01_quest_mantis_i_need_you_reduce_amount_0099ee: "我需要你减少这张地图上正在肆虐的怪物数量！"
+  npc_override_lou_fild01_quest_mantis_if_i_don_t_know_b9bf89: "否则，我不知道该怎么处理这个地方的怪物！"
+  npc_override_lou_fild01_quest_mantis_if_you_change_your_mind_3f2210: "如果你改变主意，请回来。"
+  npc_override_lou_fild01_quest_mantis_kill_those_mantis_let_me_ff79db: "猎杀 50 只螳螂，完成后告诉我。我会奖励你的努力。"
+  npc_override_lou_fild01_quest_mantis_menu_sure_859d29: "确定:否"
+  npc_override_lou_fild01_quest_mantis_menu_sure_c775af: "确定:取消"
+  npc_override_lou_fild01_quest_mantis_menu_yes_141459: "是:否"
+  npc_override_lou_fild01_quest_mantis_menu_yes_755efb: "是:否:我想退出"
+  npc_override_lou_fild01_quest_mantis_oh_boy_oh_boy_5c1386: "天哪，天哪！"
+  npc_override_lou_fild01_quest_mantis_oh_great_d1d990: "哦，太好了！"
+  npc_override_lou_fild01_quest_mantis_ok_then_well_come_back_0e1574: "好吧，如果你改变主意就回来这里。"
+  npc_override_lou_fild01_quest_mantis_please_kill_mantis_order_8712dd: "请猎杀 50 只螳螂，让这里成为人们可以来练级的地方。"
+  npc_override_lou_fild01_quest_mantis_remember_i_need_help_hun_424269: "记住，我需要帮助猎杀螳螂，去猎杀 50 只。"
+  npc_override_lou_fild01_quest_mantis_so_you_still_like_help_0f1613: "那么，你还愿意帮我吗？"
+  npc_override_lou_fild01_quest_mantis_sorry_i_t_talk_right_f1bdf2: "抱歉我现在没法说话，我正痛苦万分，这些该死的螳螂要杀了我。"
+  npc_override_lou_fild01_quest_mantis_thank_you_your_great_hel_2346bb: "非常感谢你对螳螂的大力帮助！"
+  npc_override_lou_fild01_quest_mantis_there_many_mantis_around_87704a: "螳螂太多了，这让低等级玩家无法在这里获得良好的经验。"
+  npc_override_lou_fild01_quest_mantis_you_finished_hunting_man_a1c57f: "你猎杀完 50 只螳螂了吗？"
+  npc_override_lou_fild01_quest_mantis_you_here_help_me_right_7f9109: "你是来帮我的，对吧？"
+  npc_override_lou_fild01_quest_mantis_you_sure_you_want_stop_507e20: "你确定要停止狩猎吗？"

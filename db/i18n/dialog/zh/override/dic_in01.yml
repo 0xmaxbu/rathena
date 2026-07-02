@@ -3,6 +3,8 @@ Header:
   Version: 1
 
 Body:
+
+  npc_override_dic_in01_dicastes_administrative_office_122551: "行政办公室"
   npc_override_dic_in01_dicastes_administrative_office_lo_957c66: "行政办公室位于顶层，处理非常重要的事务。"
   npc_override_dic_in01_dicastes_ahat_one_917b08: "阿哈特就是那个人"
   npc_override_dic_in01_dicastes_ahat_s_image_out_my_4f5f77: "阿哈特的形象从我脑海中挥之不去。"
@@ -959,7 +961,7 @@ Body:
   npc_override_dic_in01_quests_dicastes_he_said_he_went_back_83547d: "他说他回到那个地方，看看是否是他失散的朋友。"
   npc_override_dic_in01_quests_dicastes_he_sapha_dicastes_381013: "他不是来自狄卡斯特斯的萨法。"
   npc_override_dic_in01_quests_dicastes_he_sapha_very_beautiful_e9a338: "他是萨法。而且是一个非常美丽高贵的萨法。"
-  npc_override_dic_in01_quests_dicastes_he_says_its_kindly_his_1d2ba3: "他说话很和善，但他的眼神有一种\\\"出去干活\\\"的感觉。"
+  npc_override_dic_in01_quests_dicastes_he_says_its_kindly_his_1d2ba3: "他说话很和善，但他的眼神有一种\\\\\\\"出去干活\\\\\\\"的感觉。"
   npc_override_dic_in01_quests_dicastes_he_seems_believe_his_spe_a27a9a: "他似乎相信他的咒语已经完成了。-"
   npc_override_dic_in01_quests_dicastes_he_should_take_care_hims_2ec9d8: "他应该照顾好自己。"
   npc_override_dic_in01_quests_dicastes_he_sometimes_come_back_s_bfe97b: "他有时会回来分享他的故事。"
@@ -1086,7 +1088,7 @@ Body:
   npc_override_dic_in01_quests_dicastes_i_always_cast_spell_you_252bb6: "我随时都可以对你施咒语。"
   npc_override_dic_in01_quests_dicastes_i_always_end_up_short_2446f2: "即使我带了很多，最后总是不够。"
   npc_override_dic_in01_quests_dicastes_i_am_able_work_now_47f07a: "我在村子里恢复后，现在能够工作了。"
-  npc_override_dic_in01_quests_dicastes_i_am_actually_bit_worrie_8bdf93: "我其实有点担心，但我们\\\\\\\"聪明\\\\\\\"的高级部长一定有他的理由。"
+  npc_override_dic_in01_quests_dicastes_i_am_actually_bit_worrie_8bdf93: "我其实有点担心，但我们\\\\\\\\\\\\\\\"聪明\\\\\\\\\\\\\\\"的高级部长一定有他的理由。"
   npc_override_dic_in01_quests_dicastes_i_am_forever_grateful_da5758: "我永远感激不尽。"
   npc_override_dic_in01_quests_dicastes_i_am_only_interested_mos_7b853c: "我只对最有技巧的"
   npc_override_dic_in01_quests_dicastes_i_any_additional_request_347272: "我没有任何额外的委托了。请向运营部的 ^990099 狩猎部 2 经理^000000 报告委托完成情况。"
@@ -1303,7 +1305,7 @@ Body:
   npc_override_dic_in01_quests_dicastes_i_m_sorry_take_your_b30541: "很抱歉占用你的时间。我现在送你出去。"
   npc_override_dic_in01_quests_dicastes_i_m_still_jarute_dicaste_6a38d1: "我仍然是狄卡斯特斯的贾鲁特，有成堆的工作要做。"
   npc_override_dic_in01_quests_dicastes_i_m_still_working_so_d52326: "我还在工作中，所以请再休息一会儿。"
-  npc_override_dic_in01_quests_dicastes_i_m_sure_how_respect_f750c9: "但我不确定\\\\\\\"尊重\\\\\\\"在你们语言中是怎么用的。"
+  npc_override_dic_in01_quests_dicastes_i_m_sure_how_respect_f750c9: "但我不确定\\\\\\\\\\\\\\\"尊重\\\\\\\\\\\\\\\"在你们语言中是怎么用的。"
   npc_override_dic_in01_quests_dicastes_i_m_sure_you_reach_326482: "但我相信你会到达终点的，因为你很强大。"
   npc_override_dic_in01_quests_dicastes_i_m_talking_myself_don_2a2402: "我在自言自语。别烦我。"
   npc_override_dic_in01_quests_dicastes_i_m_telling_you_367caa: "我不会告诉你的~！"
@@ -1601,7 +1603,7 @@ Body:
   npc_override_dic_in01_quests_dicastes_maybe_after_time_ahat_wi_31e10c: "也许随着时间推移，阿哈特会获得一些怀疑。"
   npc_override_dic_in01_quests_dicastes_maybe_because_many_sapha_a6bbf8: "也许是因为许多萨法尊敬他，所以被社会压力催眠了？"
   npc_override_dic_in01_quests_dicastes_maybe_because_she_advent_c0a97c: "也许因为她也是一个冒险者？"
-  npc_override_dic_in01_quests_dicastes_maybe_better_save_mommy_2779b9: "也许\\\\\\\\\\\\\\\"Save Mommy\\\\\\\\\\\\\\\"更好？"
+  npc_override_dic_in01_quests_dicastes_maybe_better_save_mommy_2779b9: "也许\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"Save Mommy\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"更好？"
   npc_override_dic_in01_quests_dicastes_maybe_carefully_planned_9af6a8: "也许这完全是精心策划的。"
   npc_override_dic_in01_quests_dicastes_maybe_cheshire_saw_throu_6d5da7: "也许切希尔看穿了我，因为我们是一个物种。"
   npc_override_dic_in01_quests_dicastes_maybe_don_t_mention_anyt_9e9bf5: "也许我什么都不提就走是正确的，因为我才刚开始和萨法建立信任关系。"
@@ -2172,7 +2174,7 @@ Body:
   npc_override_dic_in01_quests_dicastes_sapha_s_don_t_fear_0dd7f6: "萨法不畏惧死亡。"
   npc_override_dic_in01_quests_dicastes_sapha_s_minister_looks_h_7bdd49: "萨法的部长看起来毫无希望。"
   npc_override_dic_in01_quests_dicastes_saphas_cannot_live_unles_89854d: "萨法除非持续消耗布拉迪姆，否则无法生存。"
-  npc_override_dic_in01_quests_dicastes_saphas_never_had_any_sic_99e965: "萨法从未有过任何\\\\\\\"疾病\\\\\\\"，除非发生可怕的事故，否则我们不会死。"
+  npc_override_dic_in01_quests_dicastes_saphas_never_had_any_sic_99e965: "萨法从未有过任何\\\\\\\\\\\\\\\"疾病\\\\\\\\\\\\\\\"，除非发生可怕的事故，否则我们不会死。"
   npc_override_dic_in01_quests_dicastes_saphas_want_hide_somethi_f72a3f: "萨法想隐藏什么，这就是他们雇用我的原因"
   npc_override_dic_in01_quests_dicastes_satisfied_372326: "满意吗？"
   npc_override_dic_in01_quests_dicastes_says_dc5126: "上面写着 ^0000FF{0}^000000。"

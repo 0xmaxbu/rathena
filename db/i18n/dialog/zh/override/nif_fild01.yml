@@ -1,0 +1,36 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+
+  npc_override_nif_fild01_quest_disguiseloliruri_amazing_you_did_speed_6cc3cd: "太棒了，你这么快就完成了。"
+  npc_override_nif_fild01_quest_disguiseloliruri_any_progress_you_ve_made_b3e247: "你取得的所有进度都将被清除。"
+  npc_override_nif_fild01_quest_disguiseloliruri_currently_situation_stab_f6b69f: "目前局势已经稳定，我不再需要你帮忙猎杀它们了。"
+  npc_override_nif_fild01_quest_disguiseloliruri_great_i_knew_moment_i_68640f: "太好了！我第一眼看到你就知道可以信赖你！"
+  npc_override_nif_fild01_quest_disguiseloliruri_hmm_i_don_t_think_a129f3: "嗯，我想你还没猎够50只。"
+  npc_override_nif_fild01_quest_disguiseloliruri_i_need_you_reduce_amount_0099ee: "我需要你减少在这张地图上肆虐的魔物数量！"
+  npc_override_nif_fild01_quest_disguiseloliruri_if_i_don_t_know_b9bf89: "否则，我真不知道该怎么处理这里的魔物！"
+  npc_override_nif_fild01_quest_disguiseloliruri_if_you_change_your_mind_3f2210: "如果你改变主意，请回来。"
+  npc_override_nif_fild01_quest_disguiseloliruri_kill_those_disguise_let_0c9a81: "猎杀50只假面鬼，完成后告诉我。我会奖励你的努力。"
+  npc_override_nif_fild01_quest_disguiseloliruri_kill_those_loli_ruri_let_848939: "猎杀50只萝莉·露莉，完成后告诉我。我会奖励你的努力。"
+  npc_override_nif_fild01_quest_disguiseloliruri_menu_disguise_1adca4: "假面鬼:萝莉·露莉:取消"
+  npc_override_nif_fild01_quest_disguiseloliruri_menu_sure_859d29: "当然:不"
+  npc_override_nif_fild01_quest_disguiseloliruri_menu_yes_141459: "是:否"
+  npc_override_nif_fild01_quest_disguiseloliruri_menu_yes_755efb: "是:否:我想放弃"
+  npc_override_nif_fild01_quest_disguiseloliruri_oh_boy_oh_boy_5c1386: "哦天哪，哦天哪！"
+  npc_override_nif_fild01_quest_disguiseloliruri_oh_great_d1d990: "哦太好了！"
+  npc_override_nif_fild01_quest_disguiseloliruri_ok_then_well_come_back_0e1574: "好吧，如果你改变主意就回来这里。"
+  npc_override_nif_fild01_quest_disguiseloliruri_please_kill_disguise_ord_8a4f34: "请猎杀50只假面鬼，让这里成为一个人们可以来获取经验的地方。"
+  npc_override_nif_fild01_quest_disguiseloliruri_please_kill_loli_ruri_or_6f8169: "请猎杀50只萝莉·露莉，让这里成为一个人们可以来获取经验的地方。"
+  npc_override_nif_fild01_quest_disguiseloliruri_remember_i_need_help_hun_02c329: "记住，我需要帮忙猎杀假面鬼，去猎杀50只吧。"
+  npc_override_nif_fild01_quest_disguiseloliruri_remember_i_need_help_hun_cdf05b: "记住，我需要帮忙猎杀萝莉·露莉，去猎杀50只吧。"
+  npc_override_nif_fild01_quest_disguiseloliruri_so_which_those_monsters_06a1c0: "那么，你想为我猎杀哪种魔物？"
+  npc_override_nif_fild01_quest_disguiseloliruri_sorry_i_t_talk_right_0c7fbb: "抱歉我现在没法说话，我正痛苦不堪，这些该死的假面鬼和萝莉·露莉要杀了我。"
+  npc_override_nif_fild01_quest_disguiseloliruri_thank_you_your_great_hel_7b860b: "感谢你对萝莉·露莉的巨大帮助！"
+  npc_override_nif_fild01_quest_disguiseloliruri_thank_you_your_great_hel_d113ce: "感谢你对假面鬼的巨大帮助！"
+  npc_override_nif_fild01_quest_disguiseloliruri_there_many_disguise_loli_91a5ac: "这里的假面鬼和萝莉·露莉太多了，低等级玩家根本无法在这里获得好的经验。"
+  npc_override_nif_fild01_quest_disguiseloliruri_you_finished_hunting_dis_94d435: "你完成猎杀50只假面鬼了吗？"
+  npc_override_nif_fild01_quest_disguiseloliruri_you_finished_hunting_lol_4eeed9: "你完成猎杀50只萝莉·露莉了吗？"
+  npc_override_nif_fild01_quest_disguiseloliruri_you_here_help_me_right_7f9109: "你是来帮我的，对吧？"
+  npc_override_nif_fild01_quest_disguiseloliruri_you_sure_you_want_stop_507e20: "你确定要停止猎杀吗？"

@@ -3,6 +3,27 @@ Header:
   Version: 1
 
 Body:
+
+  npc_override_pvp_y_room_guildpvp_alright_i_hope_ccfc71: "好的，希望"
+  npc_override_pvp_y_room_guildpvp_alright_i_ll_move_you_1877f3: "好的，我会把你传送"
+  npc_override_pvp_y_room_guildpvp_either_team_team_ae606c: "第一队或第二队。"
+  npc_override_pvp_y_room_guildpvp_great_good_time_eca684: "太好了！玩得开心~"
+  npc_override_pvp_y_room_guildpvp_how_you_doing_8efe1e: "你近况如何？"
+  npc_override_pvp_y_room_guildpvp_i_m_guild_battle_guide_f1c4e8: "我是公会战向导"
+  npc_override_pvp_y_room_guildpvp_let_me_know_which_map_0facdc: "告诉我你想去哪个地图"
+  npc_override_pvp_y_room_guildpvp_map_as_member_0e6c74: "作为队员前往地图 {0}"
+  npc_override_pvp_y_room_guildpvp_menu_map_396a58: "地图1:地图2:地图3:地图4:地图5"
+  npc_override_pvp_y_room_guildpvp_menu_team_a2c993: "第一队:第二队"
+  npc_override_pvp_y_room_guildpvp_menu_yes_141459: "是:否"
+  npc_override_pvp_y_room_guildpvp_new_pvp_maps_b05839: "关于新的 PvP 地图。"
+  npc_override_pvp_y_room_guildpvp_now_which_team_86f3da: "好了，你要加入"
+  npc_override_pvp_y_room_guildpvp_pvp_fields_0586c3: "PvP 竞技场！"
+  npc_override_pvp_y_room_guildpvp_see_you_again_b41bec: "在竞技场里再见！"
+  npc_override_pvp_y_room_guildpvp_team_you_ready_7f2841: "第 {0} 队的成员。你准备好"
+  npc_override_pvp_y_room_guildpvp_transported_there_now_80dfd7: "现在就被传送过去了吗？"
+  npc_override_pvp_y_room_guildpvp_you_ve_chosen_map_deba3a: "你选择了地图 {0}。"
+  npc_override_pvp_y_room_guildpvp_you_want_me_move_you_0381e1: "你希望我传送你。"
+  npc_override_pvp_y_room_guildpvp_you_you_choose_caa0ce: "你呢？你可以选择"
   npc_override_pvp_y_room_pvp_free_all_5de226: "自由混战"
   npc_override_pvp_y_room_pvp_lv_lv_2ffe54: "LV 50 ~ LV 69"
   npc_override_pvp_y_room_pvp_lv_lv_583fea: "LV 70 ~ LV 89"

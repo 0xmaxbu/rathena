@@ -1,0 +1,12 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+
+  npc_override_ra_fild12_rachel_i_am_sorry_you_enough_36432e: "抱歉，你的钱不够。"
+  npc_override_ra_fild12_rachel_menu_yes_141459: "是:否"
+  npc_override_ra_fild12_rachel_please_remember_you_requ_9648fe: "请记住，使用这项服务需要支付1,200 Zeny。"
+  npc_override_ra_fild12_rachel_thank_you_please_come_ag_69dc36: "谢谢，欢迎再来。"
+  npc_override_ra_fild12_rachel_use_airship_you_required_9358d6: "要使用飞艇，你需要支付1,200 Zeny或一张免费飞艇票。"
+  npc_override_ra_fild12_rachel_you_like_use_service_3ed74a: "你想使用这项服务吗？"

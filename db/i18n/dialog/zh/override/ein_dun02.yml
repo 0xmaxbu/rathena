@@ -1,0 +1,7 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+
+  npc_override_ein_dun02_ein_dun_menu_options_d3e3c8: "{0} : 我觉得下一个区域需要多训练一下……"

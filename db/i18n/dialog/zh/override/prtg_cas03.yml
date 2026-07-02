@@ -1,0 +1,25 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+
+  npc_override_prtg_cas03_prtg_cas03_brave_ones_d97978: "勇敢者们……"
+  npc_override_prtg_cas03_prtg_cas03_destroy_emperium_d24853: "并摧毁华丽金属，"
+  npc_override_prtg_cas03_prtg_cas03_follow_ordinance_divine_56155d: "1. 遵循神圣卢恩-米德加尔特王国的法令，"
+  npc_override_prtg_cas03_prtg_cas03_guild_master_guild_cdf4db: "2. ^ff0000{0}^000000 公会的会长是"
+  npc_override_prtg_cas03_prtg_cas03_if_there_anyone_who_obje_6c0e64: "若有人对此持有异议，"
+  npc_override_prtg_cas03_prtg_cas03_king_endow_one_72d908: "国王将授予此人"
+  npc_override_prtg_cas03_prtg_cas03_menu_pull_7414f9: "拉动拉杆。:不拉。"
+  npc_override_prtg_cas03_prtg_cas03_menu_return_90c3dd: "返回公会城堡。:退出。"
+  npc_override_prtg_cas03_prtg_cas03_msg_0b0c6f: "^ff0000{0}^000000"
+  npc_override_prtg_cas03_prtg_cas03_one_who_d9495b: "2. 赐予能够"
+  npc_override_prtg_cas03_prtg_cas03_overcome_all_trials_4ed368: "克服所有试炼之人"
+  npc_override_prtg_cas03_prtg_cas03_ownership_castle_cedceb: "这座城堡的所有权。"
+  npc_override_prtg_cas03_prtg_cas03_private_prossession_guil_1ddbc1: "为 ^ff0000{0}^000000 公会的私有财产。"
+  npc_override_prtg_cas03_prtg_cas03_prove_your_strength_hono_bbe930: "以手中利剑证明你的力量与荣耀。"
+  npc_override_prtg_cas03_prtg_cas03_there_no_formal_master_c_33a752: "此城暂无正式城主。"
+  npc_override_prtg_cas03_prtg_cas03_there_s_small_lever_you_e840a3: "这里有一个小型拉杆。要拉动它吗？"
+  npc_override_prtg_cas03_prtg_cas03_we_approve_place_c3e40c: "吾等认可此地为"
+  npc_override_prtg_cas03_prtg_cas03_we_declare_cb5505: "吾等在此宣告："
+  npc_override_prtg_cas03_prtg_cas03_you_wish_return_your_hon_af5b12: "你希望回到你的荣耀之所吗？"

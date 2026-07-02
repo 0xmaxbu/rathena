@@ -3,4 +3,11 @@ Header:
   Version: 1
 
 Body:
+
   npc_override_lhz_cube_bio4_reward_warrior_thirst_blood_chi_c0dcf7: "兑换需要{0}个战士意志、{1}个嗜血渴望、{2}个死者寒霜。"
+  npc_override_lhz_cube_lhz_dun_emanating_inside_fc6277: "从里面散发出来"
+  npc_override_lhz_cube_lhz_dun_large_sewage_pipe_fb675c: "大型污水管道。"
+  npc_override_lhz_cube_lhz_dun_menu_enter_68d202: "进入:取消"
+  npc_override_lhz_cube_lhz_dun_naturally_stench_8b54c3: "自然地，恶臭"
+  npc_override_lhz_cube_lhz_dun_pipe_barely_endurable_1d8818: "管道里几乎无法忍受。^000000"
+  npc_override_lhz_cube_lhz_dun_you_found_some_sort_ac820f: "^3355FF你发现了一些"

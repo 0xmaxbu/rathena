@@ -1,0 +1,35 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+
+  npc_override_lhz_airport_lighthalzen_alright_thank_you_282e4b: "好的，谢谢你"
+  npc_override_lhz_airport_lighthalzen_board_airship_you_should_31374f: "登上一艘飞艇。你应该"
+  npc_override_lhz_airport_lighthalzen_board_departing_airship_1da2ed: "登上即将出发的飞艇，前往你的目的地。"
+  npc_override_lhz_airport_lighthalzen_boarding_fee_245bdf: "登机费是"
+  npc_override_lhz_airport_lighthalzen_boarding_fee_ddcdc2: "作为登机费。"
+  npc_override_lhz_airport_lighthalzen_flights_einbroch_juno_hu_f7c8a1: "飞往艾音布罗克、朱诺和修葛拉的航班。"
+  npc_override_lhz_airport_lighthalzen_free_ticket_airship_9c6c37: "一张飞艇免费票。"
+  npc_override_lhz_airport_lighthalzen_good_day_2d76e8: "祝你愉快~"
+  npc_override_lhz_airport_lighthalzen_i_hope_you_b87600: "我希望你有"
+  npc_override_lhz_airport_lighthalzen_i_m_sorry_you_don_d3080e: "对不起，你没有"
+  npc_override_lhz_airport_lighthalzen_lighthalzen_airport_9f58b3: "里希塔乐镇机场，"
+  npc_override_lhz_airport_lighthalzen_main_terminal_if_you_arr_d4701c: "如果你是从航班到达的，请前往主航站楼。否则，请"
+  npc_override_lhz_airport_lighthalzen_menu_board_daa053: "登上飞艇。:取消。"
+  npc_override_lhz_airport_lighthalzen_menu_exit_9cbbcf: "前往主航站楼。:取消。"
+  npc_override_lhz_airport_lighthalzen_menu_yes_141459: "是:否"
+  npc_override_lhz_airport_lighthalzen_once_you_re_main_termina_b3c3fd: "一旦你到了主航站楼，你需要再次付费"
+  npc_override_lhz_airport_lighthalzen_only_exit_if_lighthalzen_cbcf40: "只有当里希塔乐镇是你的目的地时才出去。我们"
+  npc_override_lhz_airport_lighthalzen_pleasant_flight_22ed27: "旅途愉快~"
+  npc_override_lhz_airport_lighthalzen_please_come_again_9d720d: "请再来。"
+  npc_override_lhz_airport_lighthalzen_please_let_me_guide_you_44d57c: "请让我带你去"
+  npc_override_lhz_airport_lighthalzen_proceed_main_terminal_3cff4e: "前往主航站楼？"
+  npc_override_lhz_airport_lighthalzen_thank_you_35f451: "谢谢，"
+  npc_override_lhz_airport_lighthalzen_waive_fee_if_you_redeem_44ac08: "如果你兑换"
+  npc_override_lhz_airport_lighthalzen_welcome_c8f06d: "欢迎来到"
+  npc_override_lhz_airport_lighthalzen_welcome_lighthalzen_airp_ade5db: "欢迎来到里希塔乐镇机场。"
+  npc_override_lhz_airport_lighthalzen_where_we_offer_nonstop_bd7849: "我们提供直达"
+  npc_override_lhz_airport_lighthalzen_your_patronage_336f01: "感谢您的惠顾"
+  npc_override_lhz_airport_lighthalzen_zeny_pay_49f81c: "有 1,200 Zeny 支付"
+  npc_override_lhz_airport_lighthalzen_zeny_you_198b18: "1,200 Zeny，但你可以"

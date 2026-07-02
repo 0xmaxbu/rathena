@@ -1,0 +1,31 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+
+  npc_override_nif_dun01_quests_dungeons_200_clink_clink_crackle_a61e14: "叮当叮当……噼啪！"
+  npc_override_nif_dun01_quests_dungeons_200_dorolong_dorolong_2fb34b: "多罗隆多罗隆……"
+  npc_override_nif_dun01_quests_dungeons_200_how_could_ce349f: "怎么会这样……"
+  npc_override_nif_dun01_quests_dungeons_200_i_want_eat_too_looks_2eebf0: "我也想尝尝……看起来好好吃……"
+  npc_override_nif_dun01_quests_dungeons_200_living_man_plays_piano_1fa852: "那个活人在弹钢琴！"
+  npc_override_nif_dun01_quests_dungeons_200_menu_angry_0b70bd: "愤怒的守门人：凯-噜！活的！弹！不用走！"
+  npc_override_nif_dun01_quests_dungeons_200_menu_another_990d60: "另一个死者：他真的睡不着！"
+  npc_override_nif_dun01_quests_dungeons_200_menu_another_e15eb7: "另一个死者：吵死了！睡觉去！"
+  npc_override_nif_dun01_quests_dungeons_200_menu_funny_628342: "有趣的守门人朋友：不用走！跟我们玩！"
+  npc_override_nif_dun01_quests_dungeons_200_menu_funny_f23720: "有趣的守门人朋友：唱～通宵～或者永远～"
+  npc_override_nif_dun01_quests_dungeons_200_menu_helpful_1797b1: "好心的守门人：唔-嘿嘿。你的打扮还不够格通过这里。"
+  npc_override_nif_dun01_quests_dungeons_200_menu_helpful_ab5ded: "好心的守门人：唔-嘿嘿。上山，下不来。"
+  npc_override_nif_dun01_quests_dungeons_200_menu_silent_3659e5: "沉默的守门人：……意思是你的等级不足。"
+  npc_override_nif_dun01_quests_dungeons_200_menu_silent_a3911b: "沉默的守门人：……"
+  npc_override_nif_dun01_quests_dungeons_200_menu_silent_e3f32f: "沉默的守门人：……意思是欢迎。"
+  npc_override_nif_dun01_quests_dungeons_200_msg_0b0c6f: "^0000FF{0}^000000"
+  npc_override_nif_dun01_quests_dungeons_200_msg_0bec2e: "？？？？？？！"
+  npc_override_nif_dun01_quests_dungeons_200_msg_1aff49: "^0000FF{0}^000000，"
+  npc_override_nif_dun01_quests_dungeons_200_nang_5f8f88: "囔！"
+  npc_override_nif_dun01_quests_dungeons_200_oh_my_god_he_t_f6a75e: "天哪，他真的不会弹……"
+  npc_override_nif_dun01_quests_dungeons_200_piano_ooo_9fec90: "钢琴呜哦哦！！！"
+  npc_override_nif_dun01_quests_dungeons_200_piano_stunned_fe429e: "钢琴呆住了……"
+  npc_override_nif_dun01_quests_dungeons_200_sleep_alive_kyaaak_fda7de: "活人睡觉——咔啊啊！"
+  npc_override_nif_dun01_quests_dungeons_200_t_loud_when_you_get_5bbce2: "^0000FF{0}^000000，你和那些扫把头的家伙聚在一起时声音可不能这么大。"
+  npc_override_nif_dun01_quests_dungeons_200_you_ruined_atmosphere_300177: "你破坏了气氛！"

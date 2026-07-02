@@ -1,0 +1,22 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+
+  npc_override_coin_exchange_coin_exchange_burwehala_2080fb: "布尔韦哈拉"
+  npc_override_coin_exchange_coin_exchange_come_again_if_you_change_4ed51c: "如果你改变主意，请再来。"
+  npc_override_coin_exchange_coin_exchange_hello_9b56d5: "你好。"
+  npc_override_coin_exchange_coin_exchange_here_item_descriptions_a3fbc4: "这是道具说明。"
+  npc_override_coin_exchange_coin_exchange_i_sell_you_coin_ca2407: "我可以卖给你 3 个{0}，只需^3131FF1 枚硬币^000000。"
+  npc_override_coin_exchange_coin_exchange_looks_like_you_re_carryi_819ed5: "看起来你携带的东西太多了。"
+  npc_override_coin_exchange_coin_exchange_menu_purchase_595ff9: "购买:不购买"
+  npc_override_coin_exchange_coin_exchange_menu_view_850507: "查看道具说明:马努克的机会:马努克的勇气:马努克的信仰:取消"
+  npc_override_coin_exchange_coin_exchange_menu_view_feb3d5: "查看道具说明:购买捕虫堇果酱:购买萤火虫蜂蜜酱:购买科努斯之泪:什么都不做"
+  npc_override_coin_exchange_coin_exchange_qwo_hd_d_irr_35c7af: "Qwo hd is d irr"
+  npc_override_coin_exchange_coin_exchange_rtt_od_d_808509: "Rtt od d"
+  npc_override_coin_exchange_coin_exchange_tasnarandu_ie_ru_219042: "tasnarAndu Ie Ru"
+  npc_override_coin_exchange_coin_exchange_thank_you_coming_7856fc: "谢谢光临。"
+  npc_override_coin_exchange_coin_exchange_what_you_looking_ffca59: "你在找什么？"
+  npc_override_coin_exchange_coin_exchange_why_put_some_your_items_223533: "为什么不把一些道具放进仓库再回来呢？"
+  npc_override_coin_exchange_coin_exchange_you_don_t_enough_coins_c68021: "你的硬币不够。"

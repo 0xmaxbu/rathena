@@ -1,0 +1,34 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+
+  npc_override_icecream_icecream_bathroom_tonight_c4ddb9: "今晚要去洗手间。"
+  npc_override_icecream_icecream_before_making_purchase_09c77b: "在购买之前。"
+  npc_override_icecream_icecream_could_you_please_let_nex_6a8148: "能否请你让下一位顾客"
+  npc_override_icecream_icecream_dear_customer_98edce: "亲爱的顾客，"
+  npc_override_icecream_icecream_dear_customer_you_look_l_70683d: "亲爱的顾客，你看起来带了很多东西。"
+  npc_override_icecream_icecream_dear_customer_your_walle_10820a: "亲爱的顾客，你的钱包似乎很瘪。"
+  npc_override_icecream_icecream_enjoy_now_won_t_sale_c18aab: "现在就享用吧，促销不会持续太久！"
+  npc_override_icecream_icecream_everyone_wants_our_delic_83f10d: "每个人都想要我们美味的冰淇淋，"
+  npc_override_icecream_icecream_fresh_ice_cream_made_sno_4c40e2: "用卢蒂的雪制作的新鲜冰淇淋！"
+  npc_override_icecream_icecream_i_won_t_selling_long_f1d912: "我不会卖太久的，"
+  npc_override_icecream_icecream_ice_cream_f015d6: "冰淇淋！"
+  npc_override_icecream_icecream_ice_cream_fine_83ce35: "冰淇淋很好，"
+  npc_override_icecream_icecream_if_you_don_t_want_9e4513: "如果你不想买，"
+  npc_override_icecream_icecream_if_you_eat_more_than_210c2c: "如果你吃超过5个冰淇淋，"
+  npc_override_icecream_icecream_if_you_might_haveto_make_e0984f: "如果你可能需要跑很多趟"
+  npc_override_icecream_icecream_make_purchase_eb841f: "进行购买？"
+  npc_override_icecream_icecream_menu_gimme_61f2a9: "给我冰淇淋！:取消交易"
+  npc_override_icecream_icecream_once_i_run_out_37b8be: "一旦我卖完了，"
+  npc_override_icecream_icecream_ouch_a31f5a: "哎哟"
+  npc_override_icecream_icecream_price_zeny_per_ice_cream_591c0e: "价格是^3355FF100 Zeny^000000每个冰淇淋。"
+  npc_override_icecream_icecream_so_you_only_purchase_tim_d77466: "所以你一次只能买5个！！"
+  npc_override_icecream_icecream_thank_you_174534: "谢谢你。"
+  npc_override_icecream_icecream_there_won_t_any_more_ba1657: "不会再有了！！！"
+  npc_override_icecream_icecream_we_limited_amount_6e248f: "但我们数量有限，"
+  npc_override_icecream_icecream_you_expect_too_much_a1a73d: "你期望太多了。"
+  npc_override_icecream_icecream_you_must_consider_your_w_58d5d7: "但你必须考虑你的体重"
+  npc_override_icecream_icecream_you_sure_you_don_t_5cab1f: "你确定不要吗？"
+  npc_override_icecream_icecream_zeny_ice_cream_e5019e: "^3355FF100 Zeny^000000的冰淇淋，"
