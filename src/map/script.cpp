@@ -4952,12 +4952,10 @@ BUILDIN_FUNC(mes)
 
 BUILDIN_FUNC(T)
 {
-	map_session_data* sd;
-	if( !script_rid2sd(sd) )
-		return SCRIPT_CMD_SUCCESS;
-
 	const char* key = script_getstr( st, 2 );
-	const char* translated = i18n_translate( sd->langtype, key, key );
+	map_session_data* sd = map_id2sd( st->rid );
+	int32 langtype = ( sd != nullptr ) ? sd->langtype : 0;
+	const char* translated = i18n_translate( langtype, key, key );
 
 	int argc = script_lastdata(st) - 2;
 	if(argc == 0){

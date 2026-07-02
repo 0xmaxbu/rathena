@@ -1,0 +1,11 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_mail_mail_i_am_sorry_you_enough_36432e: "抱歉，你的钱不够。"
+  npc_override_mail_mail_menu_yes_de2097: "是:否"
+  npc_override_mail_mail_thank_you_please_come_ag_69dc36: "谢谢，请再来。"
+  npc_override_mail_mail_use_mailbox_service_10e4e0: "要使用邮箱服务，"
+  npc_override_mail_mail_you_like_use_service_3ed74a: "你想使用这项服务吗？"
+  npc_override_mail_mail_you_required_pay_zeny_1e324a: "你需要支付130 Zeny。"
