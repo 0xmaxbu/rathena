@@ -3,6 +3,7 @@ Header:
   Version: 1
 
 Body:
+  npc_override_1@oz_MazeofOz_enter_0abb0f: "进入。"
   npc_override_1@oz_MazeofOz_i_think_good_idea_form_a62655: "我觉得在进入之前先组成一个^ff0000队伍^000000是个好主意……"
   npc_override_1@oz_MazeofOz_i_think_i_climb_up_5e8f1b: "我觉得我可以利用绳子爬上去。"
   npc_override_1@oz_MazeofOz_i_think_we_use_rope_62f643: "我觉得我们可以利用绳子爬上去。"
@@ -83,12 +84,14 @@ Body:
   npc_override_1@oz_MazeofOz_open_door_6cc1f0: "打开门。"
   npc_override_1@oz_MazeofOz_party_entering_3748ac: "队伍{1}的{0}正在进入{2}。"
   npc_override_1@oz_MazeofOz_please_finish_your_prepa_b4b0d1: "^e5555e请完成你的准备^000000然后回来找我。"
+  npc_override_1@oz_MazeofOz_quit_fb25bb: "退出。"
   npc_override_1@oz_MazeofOz_s_better_wait_bit_before_6e31b6: "进入之前最好稍等一下。"
   npc_override_1@oz_MazeofOz_seems_like_someone_nearb_ca0b91: "似乎有人曾在附近但很快消失了。"
   npc_override_1@oz_MazeofOz_t_used_yet_let_s_92a56d: "还不能使用。我们先跟玛拉姆谈谈。"
   npc_override_1@oz_MazeofOz_then_let_s_head_6aee35: "那我们前往^e5555e{0}^000000"
   npc_override_1@oz_MazeofOz_unknown_error_0aeb9e: "^0000ff{0} ^000000- 未知错误"
   npc_override_1@oz_MazeofOz_unknown_error_occurred_285cc7: "^ff0000发生未知错误。^000000"
+  npc_override_1@oz_MazeofOz_use_cd32c0: "不要使用。"
   npc_override_1@oz_MazeofOz_use_rope_climb_up_e7c0cb: "利用绳子爬上去。"
   npc_override_1@oz_MazeofOz_we_now_entering_font_siz_38ff4c: "我们现在正在进入<FONT SIZE = 14><B>^e5555e奥兹迷宫^000000</FONT></B>。"
   npc_override_1@oz_MazeofOz_where_did_they_go_15c77e: "他们去哪里了？"

@@ -468,7 +468,7 @@ Body:
   npc_override_tha_t12_thana_quest_mrreeem_d06bd8: "^5C246E*姆里姆*^000000"
   npc_override_tha_t12_thana_quest_msg_44c582: "……？"
   npc_override_tha_t12_thana_quest_msg_450adf: "^0000ff{0}^000000, ^0000ff{1}^000000, ^0000ff{2}^000000"
-  npc_override_tha_t12_thana_quest_msg_ab3f82: "................................................."
+  npc_override_tha_t12_thana_quest_msg_ab3f82: "……"
   npc_override_tha_t12_thana_quest_must_get_know_about_s_cf72d2: "必须了解它。这就是我创建"
   npc_override_tha_t12_thana_quest_must_one_seals_1722c9: "这一定是其中一个封印。"
   npc_override_tha_t12_thana_quest_must_verified_acceptible_6abd6d: "必须用可接受的实物证明来验证"

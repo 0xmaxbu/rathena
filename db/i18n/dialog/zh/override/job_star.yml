@@ -3,7 +3,6 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_job_star_StarGladiator_about_beeryu_s_riddle_ye_04423b: "关于贝柳的谜题，对吗？"
   npc_override_job_star_StarGladiator_about_nature_c8fb45: "关于自然的"
   npc_override_job_star_StarGladiator_about_what_might_now_b5a2fa: "关于它可能是什么。现在，"
@@ -346,6 +345,7 @@ Body:
   npc_override_job_star_StarGladiator_let_me_know_when_you_72ab80: "当你准备好了告诉我"
   npc_override_job_star_StarGladiator_let_me_send_you_back_92e8c7: "让我送你回城……"
   npc_override_job_star_StarGladiator_let_me_send_you_there_85375d: "让我现在送你去那里~"
+  npc_override_job_star_StarGladiator_let_me_think_about_8e1253: "让我想想……"
   npc_override_job_star_StarGladiator_let_s_proceed_moon_room_808459: "让我们前往月之房。"
   npc_override_job_star_StarGladiator_let_s_see_4d37ed: "让我看看……"
   npc_override_job_star_StarGladiator_letter_recommendation_3de17a: "推荐信"
@@ -471,6 +471,7 @@ Body:
   npc_override_job_star_StarGladiator_nighttime_hikes_as_much_9baa73: "夜间徒步旅行"
   npc_override_job_star_StarGladiator_no_idea_7033c3: "不……知道？"
   npc_override_job_star_StarGladiator_no_shame_being_unable_1ac324: "无法做到并不可耻"
+  npc_override_job_star_StarGladiator_no_thanks_2a0fe7: "不了，谢谢！"
   npc_override_job_star_StarGladiator_now_76c5ab: "现在……"
   npc_override_job_star_StarGladiator_now_come_let_me_guide_662434: "现在。来吧，让我引导你"
   npc_override_job_star_StarGladiator_now_d31dab: "现在，{0}~"

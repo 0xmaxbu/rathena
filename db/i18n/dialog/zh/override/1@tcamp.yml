@@ -3,6 +3,7 @@ Header:
   Version: 1
 
 Body:
+  npc_override_1@tcamp_ThorGunsuBase_adoptive_father_who_hard_4f0e0a: "那个强硬派且支持战争的养父？"
   npc_override_1@tcamp_ThorGunsuBase_all_kinds_documents_all_077ba6: "各种文件都混在一起了。"
   npc_override_1@tcamp_ThorGunsuBase_all_weapons_firearms_the_bb6da5: "这些人丢弃的所有武器和火器，距离过期日期都还有不到一年的时间。"
   npc_override_1@tcamp_ThorGunsuBase_anyway_what_information_518b1d: "总之，你得到了什么信息？"
@@ -11,6 +12,7 @@ Body:
   npc_override_1@tcamp_ThorGunsuBase_better_proceed_caution_c904e3: "最好小心行事。"
   npc_override_1@tcamp_ThorGunsuBase_careful_explore_inside_173df6: "小心地探索里面。"
   npc_override_1@tcamp_ThorGunsuBase_document_weapon_sales_re_9da84b: "这份文件是武器销售记录。请给我看看。"
+  npc_override_1@tcamp_ThorGunsuBase_enter_5323b4: "进入 {0}"
   npc_override_1@tcamp_ThorGunsuBase_even_date_very_recent_th_ec516b: "连日期都很近。还有记录显示将大量武器移交给了丹德林先生。"
   npc_override_1@tcamp_ThorGunsuBase_get_out_bag_put_your_5b30f5: "从包里拿出来。放到你头上。"
   npc_override_1@tcamp_ThorGunsuBase_how_did_you_adventurer_d_00cf83: "你和冒险者是怎么挖到这么深的？"
@@ -52,7 +54,7 @@ Body:
   npc_override_1@tcamp_ThorGunsuBase_menu_maram_ed59b2: "玛拉姆: 请稍等。我知道怎么打开它。"
   npc_override_1@tcamp_ThorGunsuBase_menu_miriam_7061ef: "米里亚姆: 哦，冒险者？玛拉姆，你也在这里！？"
   npc_override_1@tcamp_ThorGunsuBase_menu_party_328f2e: "队伍: {0}"
-  npc_override_1@tcamp_ThorGunsuBase_msg_c77c95: "......."
+  npc_override_1@tcamp_ThorGunsuBase_msg_c77c95: "……"
   npc_override_1@tcamp_ThorGunsuBase_no_miriam_how_you_here_97f38c: "不，米里亚姆！你怎么在这里？"
   npc_override_1@tcamp_ThorGunsuBase_oh_please_give_me_docume_a454d5: "哦，请把文件给我。我会把它们作为证据。"
   npc_override_1@tcamp_ThorGunsuBase_one_military_bases_manag_a59684: "这是我养父管理的军事基地之一。"

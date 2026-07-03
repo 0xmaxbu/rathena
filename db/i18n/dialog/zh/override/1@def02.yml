@@ -1,14 +1,18 @@
 Header:
   Type: I18N_DIALOG
   Version: 1
+
 Body:
   npc_override_1@def02_WaveMode_about_wave_mode_forest_556a62: "关于^6B9900<波次模式 - 森林>^000000"
+  npc_override_1@def02_WaveMode_about_wave_mode_sky_221b66: "关于^6B9900<波次模式 - 天空>^000000"
   npc_override_1@def02_WaveMode_any_other_questions_249b42: "还有其他问题吗？"
   npc_override_1@def02_WaveMode_available_once_day_like_72af84: "每天可进入一次。和其他波次模式一样，阻止怪物到达地图的另一边。"
+  npc_override_1@def02_WaveMode_cancel_ebda43: "取消。"
   npc_override_1@def02_WaveMode_case_you_haven_t_many_f5bbcd: "如果你还不知道，许多组织和科学家都在研究维度之间形成的裂缝。"
   npc_override_1@def02_WaveMode_champions_summoned_52a3bc: "！！首领召唤！！"
   npc_override_1@def02_WaveMode_currently_wave_mode_sky_ade353: "目前^6B9900<波次模式 - 天空>^000000正在为您稳定中。请稍等。"
   npc_override_1@def02_WaveMode_enter_wave_mode_forest_39d93d: "进入^6B9900<波次模式 - 森林>^000000。"
+  npc_override_1@def02_WaveMode_enter_wave_mode_sky_b206ca: "进入^6B9900<波次模式 - 天空>^000000。"
   npc_override_1@def02_WaveMode_escaped_69562b: "'{0} {1} 逃脱了。'"
   npc_override_1@def02_WaveMode_feel_free_come_back_your_67b556: "随时可以和你的队伍一起回来。"
   npc_override_1@def02_WaveMode_if_monsters_reach_other_cac043: "如果20只怪物到达另一边，游戏就结束了。"
@@ -22,6 +26,7 @@ Body:
   npc_override_1@def02_WaveMode_msg_da4b92: "'2'"
   npc_override_1@def02_WaveMode_next_monster_wave_come_o_37205c: "下一波怪物即将出现。做好准备。"
   npc_override_1@def02_WaveMode_next_monsters_come_out_s_97df5e: "下一批怪物即将出现。做好准备。"
+  npc_override_1@def02_WaveMode_no_b8b9f1: "不。"
   npc_override_1@def02_WaveMode_ok_here_they_come_9c0bdb: "好的，它们来了。"
   npc_override_1@def02_WaveMode_one_them_my_company_zond_a03d98: "其中之一是我的公司 Zonda，经过长期艰苦的研究……"
   npc_override_1@def02_WaveMode_party_entering_wave_mode_154d77: "'{0}的队伍{1}正在进入<波次模式 - 森林>。'"

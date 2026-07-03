@@ -20,7 +20,9 @@ Body:
   npc_override_1@spa_GhostPalace_faithful_royal_guard_ac1dbe: "忠诚的皇家禁卫……"
   npc_override_1@spa_GhostPalace_farewell_then_d31962: "那么，再见了。"
   npc_override_1@spa_GhostPalace_get_out_curse_sure_81c805: "一定要摆脱这个诅咒。"
+  npc_override_1@spa_GhostPalace_good_time_9c4a5e: "现在不是时候。"
   npc_override_1@spa_GhostPalace_guilt_eating_my_soul_f3a49a: "内疚正在吞噬我的灵魂。"
+  npc_override_1@spa_GhostPalace_hand_over_e16ed1: "交出 {0} {1}。"
   npc_override_1@spa_GhostPalace_heh_heh_i_keep_watching_f6215a: "嘿嘿……我会一直看着你，直到你足够长大的那一天。"
   npc_override_1@spa_GhostPalace_hey_there_you_alive_3152e3: "嘿，你还活着吗？"
   npc_override_1@spa_GhostPalace_how_dare_you_017252: "你好大的胆子！"
@@ -149,6 +151,7 @@ Body:
   npc_override_1@spa_GhostPalace_shut_up_you_ve_betrayed_70de0c: "闭嘴！你背叛了我！我信任你……你必须为你的耻辱付出代价。"
   npc_override_1@spa_GhostPalace_someday_sakray_48c3dd: "总有一天，萨克雷会"
   npc_override_1@spa_GhostPalace_stay_behind_me_let_s_9f41bf: "跟在我后面。我们走！"
+  npc_override_1@spa_GhostPalace_stop_9e2534: "停下"
   npc_override_1@spa_GhostPalace_take_b3b0a1: "拿着这个^FF0000{0}^000000"
   npc_override_1@spa_GhostPalace_thank_you_7f82c6: "谢谢你……"
   npc_override_1@spa_GhostPalace_thank_you_now_i_rest_1c4992: "谢谢你……现在我可以安息在你身边了……"
@@ -183,4 +186,3 @@ Body:
   npc_override_1@spa_GhostPalace_you_trapped_cf4446: "你被困住了……"
   npc_override_1@spa_GhostPalace_you_who_brought_monsters_1b4648: "是你把怪物带到这里来的！你想除掉我，独占公主？"
   npc_override_1@spa_GhostPalace_your_highness_king_invit_4325db: "殿下，国王邀请了邻国的王子作为您的未婚夫。请准备好见他……"
-

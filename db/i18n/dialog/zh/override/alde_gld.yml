@@ -3,7 +3,22 @@ Header:
   Version: 1
 
 Body:
+  npc_override_alde_gld_agit_main_te_cancel_77dfd2: "取消"
+  npc_override_alde_gld_agit_main_te_cancel_9b686f: "取消"
+  npc_override_alde_gld_agit_main_te_close_beeba8: "关闭"
+  npc_override_alde_gld_agit_main_te_do_not_a94065: "不要。"
+  npc_override_alde_gld_agit_main_te_don_t_pull_c85b6e: "不要拉。"
   npc_override_alde_gld_agit_main_te_emperium_been_destroyed_3cc6a1: "华丽金属已被摧毁。"
+  npc_override_alde_gld_agit_main_te_go_into_master_s_room_9280de: "进入主人房间"
+  npc_override_alde_gld_agit_main_te_hire_fire_kafra_employee_332620: "雇用/解雇卡普拉员工"
+  npc_override_alde_gld_agit_main_te_invest_castle_defenses_0a57d7: "投资城堡防御"
+  npc_override_alde_gld_agit_main_te_invest_commercial_growth_dba9f7: "投资商业发展"
+  npc_override_alde_gld_agit_main_te_materials_jormungand_bb2df9: "耶梦加得材料"
+  npc_override_alde_gld_agit_main_te_quit_fb25bb: "退出。"
+  npc_override_alde_gld_agit_main_te_rent_pushcart_1aaad6: "租用手推车"
+  npc_override_alde_gld_agit_main_te_rental_item_provided_d57f99: "租赁物品提供"
+  npc_override_alde_gld_agit_main_te_summon_guardian_a87722: "召唤守卫"
+  npc_override_alde_gld_agit_main_te_use_teleport_service_a7ef96: "使用传送服务"
   npc_override_alde_gld_guides_woe_te_ah_if_you_think_i_2d5aaf: "啊，如果你觉得我疯了，是因为我的名字从卡普拉花园中消失了，如果我的说话方式因此有点生硬的话"
   npc_override_alde_gld_guides_woe_te_also_their_buff_effects_cfa092: "此外，他们的增益效果在这里也会被消除。"
   npc_override_alde_gld_guides_woe_te_also_we_lend_variety_bat_25ce08: "另外，我们还免费出借各种战斗装备，这些装备只能在对应区域使用。"

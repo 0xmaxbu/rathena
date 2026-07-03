@@ -1,6 +1,7 @@
 Header:
   Type: I18N_DIALOG
   Version: 1
+
 Body:
   npc_override_1@eom_TempleOfDemonGod_abandon_body_used_demon_755c4d: "放弃曾经是恶魔的躯体，重生后的外表只是在模仿神明……"
   npc_override_1@eom_TempleOfDemonGod_achieve_i_realized_i_mus_25aa08: "为了实现那个目标，我意识到必须放弃我的旧躯体。"
@@ -10,7 +11,7 @@ Body:
   npc_override_1@eom_TempleOfDemonGod_allow_me_aid_you_battle_c5316b: "请允许我在这场战斗中协助你。"
   npc_override_1@eom_TempleOfDemonGod_always_talk_about_creati_e1ec04: "总是说要创造一个新世界，成为神……"
   npc_override_1@eom_TempleOfDemonGod_apostles_souls_key_openi_6ba661: "使徒的灵魂是打开魔神殿的钥匙。"
-  npc_override_1@eom_TempleOfDemonGod_brinaranea_f37270: "Brinaranea"
+  npc_override_1@eom_TempleOfDemonGod_brinaranea_f37270: "布莉娜拉妮亚"
   npc_override_1@eom_TempleOfDemonGod_brinaranea_health_set_9d9657: "Brinaranea 的生命值被设置为 2.000.000。"
   npc_override_1@eom_TempleOfDemonGod_burn_665ca3: "……燃烧吧！"
   npc_override_1@eom_TempleOfDemonGod_burn_ashes_b66e21: "烧成灰烬！"
@@ -23,7 +24,9 @@ Body:
   npc_override_1@eom_TempleOfDemonGod_crash_burn_b261b9: "崩溃并燃烧吧！"
   npc_override_1@eom_TempleOfDemonGod_d_don_t_think_th_e19148: "别、别以为……这、这就……结束了……你……已经……时间……"
   npc_override_1@eom_TempleOfDemonGod_death_inevitable_step_ta_c5c67f: "死亡是重生之前不可避免的步骤。"
+  npc_override_1@eom_TempleOfDemonGod_demigod_a0112a: "半神"
   npc_override_1@eom_TempleOfDemonGod_demigod_health_set_a1e6b8: "半神的生命值被设置为 2.000.000。"
+  npc_override_1@eom_TempleOfDemonGod_despair_god_b74ef3: "绝望之神"
   npc_override_1@eom_TempleOfDemonGod_despair_god_health_set_f9bb40: "绝望之神的生命值被设置为 2.000.000。"
   npc_override_1@eom_TempleOfDemonGod_didn_t_you_expect_all_c43ab0: "你难道一点都没预料到吗？"
   npc_override_1@eom_TempleOfDemonGod_disgusting_9501b1: "而且令人厌恶。"
@@ -32,6 +35,7 @@ Body:
   npc_override_1@eom_TempleOfDemonGod_dreadful_place_compete_f_3bb7a1: "这个可怕的地方能与创世之霜抗衡吗？"
   npc_override_1@eom_TempleOfDemonGod_eliminate_demon_god_s_ap_62c532: "消灭魔神的使徒 Ahat 和 Shnaim，并收集他们的灵魂。"
   npc_override_1@eom_TempleOfDemonGod_enter_0abb0f: "进入。"
+  npc_override_1@eom_TempleOfDemonGod_enter_b9e5bc: "不要进入。"
   npc_override_1@eom_TempleOfDemonGod_enter_now_2c6c87: "现在进入。"
   npc_override_1@eom_TempleOfDemonGod_enter_through_tree_dee4ef: "通过树进入。"
   npc_override_1@eom_TempleOfDemonGod_even_though_we_know_we_17ad92: "即使我们知道这一点，我们还是会回来走同样的路。我希望每次都能在你身边战斗……"
@@ -157,6 +161,7 @@ Body:
   npc_override_1@eom_TempleOfDemonGod_menu_party_8c7899: "队伍领袖:{0}"
   npc_override_1@eom_TempleOfDemonGod_msg_1aff49: "'{0}，'"
   npc_override_1@eom_TempleOfDemonGod_msg_1f0904: "——！！！"
+  npc_override_1@eom_TempleOfDemonGod_muspellskoll_621178: "穆斯贝尔斯科尔"
   npc_override_1@eom_TempleOfDemonGod_muspellskoll_health_set_f6b600: "Muspellskoll 的生命值被设置为 2.000.000。"
   npc_override_1@eom_TempleOfDemonGod_mwah_hah_dodge_if_you_a0ac16: "哇哈哈，如果你能的话，躲开这个！"
   npc_override_1@eom_TempleOfDemonGod_my_duty_as_guardian_isn_ef0e8c: "我作为守护者的职责还没有结束。"
@@ -177,6 +182,7 @@ Body:
   npc_override_1@eom_TempleOfDemonGod_please_go_commander_hiva_3a0892: "请前往 Hiva Agip 指挥官处接受'魔神讨伐'任务。"
   npc_override_1@eom_TempleOfDemonGod_please_go_commander_hiva_6b646a: "请前往 Hiva Agip 指挥官处接受魔神讨伐任务。"
   npc_override_1@eom_TempleOfDemonGod_please_let_your_party_le_8a1e70: "请让你的队伍领袖提交进入请求，我会打开神殿的大门。"
+  npc_override_1@eom_TempleOfDemonGod_quit_fb25bb: "退出。"
   npc_override_1@eom_TempleOfDemonGod_reservation_failed_bb49ab: "^0000ff{0}^000000 - 预约失败。"
   npc_override_1@eom_TempleOfDemonGod_result_just_what_human_l_eb5fd9: "结果只是一个人类该有的样子，"
   npc_override_1@eom_TempleOfDemonGod_rhapsody_weak_souls_cc9828: "为弱小的灵魂奏响的狂想曲……"
@@ -205,6 +211,7 @@ Body:
   npc_override_1@eom_TempleOfDemonGod_tree_generating_mana_cer_7f06a5: "这棵树以一定的间隔产生魔力，就像在呼吸一样。"
   npc_override_1@eom_TempleOfDemonGod_tree_spitting_image_yggd_4ae482: "这棵树和 Yggdrasil 一模一样。"
   npc_override_1@eom_TempleOfDemonGod_um_how_could_happen_flow_79907d: "嗯……这怎么会发生……魔力流动变得不稳定，"
+  npc_override_1@eom_TempleOfDemonGod_use_frost_crystal_2e09ab: "不要使用冰霜水晶"
   npc_override_1@eom_TempleOfDemonGod_use_frost_crystal_b0b883: "使用霜冻水晶"
   npc_override_1@eom_TempleOfDemonGod_used_block_flow_lava_usi_001843: "可以使用霜冻水晶来阻挡岩浆的流动。"
   npc_override_1@eom_TempleOfDemonGod_very_close_morroc_s_spir_c52380: "这里非常接近 Morroc 的精神世界，"
@@ -241,4 +248,3 @@ Body:
   npc_override_1@eom_TempleOfDemonGod_you_take_wolf_swallowed_299a1d: "你能对付吞下太阳的那只狼吗？"
   npc_override_1@eom_TempleOfDemonGod_you_touched_tree_felt_st_6c8c4f: "你触摸了树，感觉到一种奇怪的魔力流动。"
   npc_override_1@eom_TempleOfDemonGod_you_ve_been_good_pawn_946785: "你一直是一枚好棋子。"
-

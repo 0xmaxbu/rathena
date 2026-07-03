@@ -4,6 +4,7 @@ Header:
 
 Body:
   npc_override_novice_vending_machine_novice_vending_machine_armor_hood_sandals_main_9e21be: "来自Criatura学院的新手装甲、兜帽、凉鞋、主手短剑和盾牌可以兑换成4个{0}。"
+  npc_override_novice_vending_machine_novice_vending_machine_cancel_ebda43: "取消。"
   npc_override_novice_vending_machine_novice_vending_machine_continue_2e0262: "继续"
   npc_override_novice_vending_machine_novice_vending_machine_exchange_82f04e: "[兑换 {0}]"
   npc_override_novice_vending_machine_novice_vending_machine_exchange_all_novice_equi_a696e1: "将所有新手装备兑换成兑换券。"
@@ -15,5 +16,7 @@ Body:
   npc_override_novice_vending_machine_novice_vending_machine_number_insufficient_proc_b802a0: "{0}的数量不足以进行兑换。"
   npc_override_novice_vending_machine_novice_vending_machine_select_continue_proceed_611028: "选择继续以进行。"
   npc_override_novice_vending_machine_novice_vending_machine_there_many_buttons_ea20db: "有很多按钮。"
+  npc_override_novice_vending_machine_novice_vending_machine_trade_4c9cec: "交易 {0}"
   npc_override_novice_vending_machine_novice_vending_machine_trade_interrupted_c933e9: "交易被中断了。"
+  npc_override_novice_vending_machine_novice_vending_machine_trade_novice_equipments_a0df84: "交易初学者装备"
   npc_override_novice_vending_machine_novice_vending_machine_vending_machine_novices_c35c6f: "新手用自动售货机。"

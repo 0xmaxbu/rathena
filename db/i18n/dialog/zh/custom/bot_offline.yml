@@ -9,6 +9,6 @@ Body:
   npc_custom_bot_offline_bot_offline_bot_98baae: "[Bot] 当前地图不支持离线挂机"
   npc_custom_bot_offline_bot_offline_bot_a02f59: "[Bot] 已有进行中的离线挂机"
   npc_custom_bot_offline_bot_offline_bot_cfd092: "[Bot] 离线挂机总开关已关闭"
-  npc_custom_bot_offline_bot_offline_menu_bot_035681: "[Bot] 离线挂机启动失败: {0}"
+  npc_custom_bot_offline_bot_offline_menu_bot_035681: "[Bot] 离线挂机启动失败：{0}"
   npc_custom_bot_offline_bot_offline_menu_options_6d985e: "[离线挂机] 结算：地图索引丢失，跳过经验/物品发放"
   npc_custom_bot_offline_bot_offline_menu_options_c147cf: "[离线挂机] 结算完成：{0}秒，经验+{1}，积分-{2}，物品已发送至邮箱"

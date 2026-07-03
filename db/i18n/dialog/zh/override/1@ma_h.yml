@@ -18,6 +18,8 @@ Body:
   npc_override_1@ma_h_BangungotHospital_critical_situation_happe_dc2eec: "发生了危急情况。"
   npc_override_1@ma_h_BangungotHospital_dead_die_601115: "死者不会死。"
   npc_override_1@ma_h_BangungotHospital_door_closed_st_floor_1ea057: "- 通往1楼的门已经关闭"
+  npc_override_1@ma_h_BangungotHospital_enter_b9e5bc: "不要进入。"
+  npc_override_1@ma_h_BangungotHospital_enter_second_floor_3db025: "进入二楼。"
   npc_override_1@ma_h_BangungotHospital_fatal_situation_3e411d: "这是致命的情况。"
   npc_override_1@ma_h_BangungotHospital_front_hospital_ed5859: "在医院前面！"
   npc_override_1@ma_h_BangungotHospital_go_up_3a9850: "要上去"

@@ -12,6 +12,7 @@ Body:
   npc_override_cmd_fild07_InfiniteSpace_merchants_hey_isn_t_hard_walk_42181f: "嘿，每次走来走去不觉得累吗？只要^0000ff20,000^000000 Zeny，我就可以给你一张直接传送到遗迹入口的卷轴，怎么样？"
   npc_override_cmd_fild07_InfiniteSpace_merchants_hm_way_i_don_t_c9ad33: "嗯。顺便说一句，我觉得你没在听，你的{0}不够。"
   npc_override_cmd_fild07_InfiniteSpace_merchants_hm_well_done_check_your_66a161: "嗯。做得很好。立刻检查你的装备。"
+  npc_override_cmd_fild07_InfiniteSpace_merchants_i_don_t_think_so_bbad85: "我不这么认为"
   npc_override_cmd_fild07_InfiniteSpace_merchants_i_ll_make_sure_gets_44fc5b: "我会确保附魔顺利完成。"
   npc_override_cmd_fild07_InfiniteSpace_merchants_i_lot_stuff_over_here_3ad425: "我这里有很多东西，当然不是免费的。"
   npc_override_cmd_fild07_InfiniteSpace_merchants_i_only_enchant_rd_th_e6ffe0: "我只能附魔第3和第4个插槽。"

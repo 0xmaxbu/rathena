@@ -3,7 +3,6 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_p_track02_monster_race_able_manufacture_set_4a07e5: "能够制造一套"
   npc_override_p_track02_monster_race_about_medals_ca2d7b: "关于那些"
   npc_override_p_track02_monster_race_accept_set_slotted_69121d: "接受这套有插槽的"
@@ -372,8 +371,14 @@ Body:
   npc_override_p_track02_monster_race_minute_window_after_end_44f20e: "比赛结束后的5分钟窗口"
   npc_override_p_track02_monster_race_money_give_rewards_afc1f1: "给奖励的钱"
   npc_override_p_track02_monster_race_money_pay_ec19be: "支付"
+  npc_override_p_track02_monster_race_monster_7c246d: "怪物 3"
   npc_override_p_track02_monster_race_monster_7d8c77: "这只魔物"
+  npc_override_p_track02_monster_race_monster_8d88d6: "怪物 1"
+  npc_override_p_track02_monster_race_monster_9387d0: "怪物 6"
+  npc_override_p_track02_monster_race_monster_ad7e01: "怪物 2"
   npc_override_p_track02_monster_race_monster_e5f802: "^0000FF魔物{0}^000000，{1}"
+  npc_override_p_track02_monster_race_monster_ebae4d: "怪物 4"
+  npc_override_p_track02_monster_race_monster_ee1e08: "怪物 5"
   npc_override_p_track02_monster_race_monster_f7d6ec: "^FF0000魔物{0}^000000"
   npc_override_p_track02_monster_race_monster_monster_caeb0b: "^0000FF魔物{0}^000000和^0000FF魔物{1}^000000"
   npc_override_p_track02_monster_race_monster_race_already_beg_43ca0a: "魔物赛跑已经开始。祝所有参赛者好运。"

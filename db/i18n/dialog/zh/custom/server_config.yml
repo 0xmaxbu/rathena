@@ -3,5 +3,5 @@ Header:
   Version: 1
 
 Body:
-  npc_custom_server_config_server_config_server_config_6cfb37: "[server_config] 分类 '{0}' 已刷新"
-  npc_custom_server_config_server_config_server_config_6d38ff: "[server_config] 全部已刷新 ({0} 项)"
+  npc_custom_server_config_server_config_server_config_6cfb37: "[server_config] 分类「{0}」已刷新"
+  npc_custom_server_config_server_config_server_config_6d38ff: "[server_config] 全部已刷新（{0} 项）"

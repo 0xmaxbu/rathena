@@ -1,0 +1,6 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_int_land_izlude_sail_izlude_f4446f: "航行到依斯鲁得岛！"

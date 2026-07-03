@@ -1,6 +1,7 @@
 Header:
   Type: I18N_DIALOG
   Version: 1
+
 Body:
   npc_override_1@exsh_DeepForest_ask_them_let_you_468306: "让他们让你进去。"
   npc_override_1@exsh_DeepForest_go_back_288584: "回去。"
@@ -110,4 +111,5 @@ Body:
   npc_override_1@exsh_DeepForest_menu_options_9e4251: "？？？？？:太过分了！！！"
   npc_override_1@exsh_DeepForest_menu_options_ea0788: "？？？？？:嗯！！！！"
   npc_override_1@exsh_DeepForest_something_mysterious_see_eac113: "'- 似乎有什么神秘的东西挡住了去路。我们先和 Chulho 谈谈。-'"
+  npc_override_1@exsh_DeepForest_stay_c9088a: "留下。"
   npc_override_1@exsh_DeepForest_you_t_pass_through_here_829d24: "你无法通过这里。"

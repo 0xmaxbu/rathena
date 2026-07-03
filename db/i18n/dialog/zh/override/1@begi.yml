@@ -1,13 +1,16 @@
 Header:
   Type: I18N_DIALOG
   Version: 1
+
 Body:
   npc_override_1@begi_PoringVillage_ah_i_found_some_items_50d5f9: "啊，我找到了一些道具。让我给你一个。庆祝你的第一次到访！"
   npc_override_1@begi_PoringVillage_all_traces_poring_villag_1807f4: "^0000ff波利村的所有任务痕迹已被清除。现在，再次与 Emily 对话以进入^000000"
   npc_override_1@begi_PoringVillage_any_processing_monsters_dd7ac1: "^ff0000在地下城内进行任何怪物处理，如驯服怪物等，将不被视为正常进度。请注意。^000000"
   npc_override_1@begi_PoringVillage_as_i_heard_you_get_e1bd02: "据我所知，如果你从这里再往西走一点，可以得到波利村大葱或胡萝卜。"
   npc_override_1@begi_PoringVillage_beginner_mode_player_tra_db8432: "^ff0000在初学者模式下，玩家会变身为怪物。请注意，进入和进行过程中现有的变身效果会消失。^000000"
+  npc_override_1@begi_PoringVillage_cancel_77dfd2: "取消"
   npc_override_1@begi_PoringVillage_drives_me_crazy_ok_let_172a43: "这让我抓狂。好吧，五五分。就这么定了。"
+  npc_override_1@begi_PoringVillage_enchant_poring_village_v_d3ec85: "附魔为波利村蔬菜"
   npc_override_1@begi_PoringVillage_enchant_requires_jellopy_f1af98: "这次附魔需要50个杰勒比结晶和20,000z……但是……你没有。"
   npc_override_1@begi_PoringVillage_enchant_reset_failure_in_cbace8: "附魔和重置有^ff000030%的失败率。^000000投资你的蔬菜和运气吧！"
   npc_override_1@begi_PoringVillage_enchant_reset_requires_z_73664e: "附魔或重置需要20,000z和50个杰勒比结晶！不算贵，对吧？"
@@ -18,6 +21,7 @@ Body:
   npc_override_1@begi_PoringVillage_i_don_t_need_novice_6dcae6: "我不需要这个初学者箱子。你可以拿走。现在，我们出去吧！"
   npc_override_1@begi_PoringVillage_i_enchant_fresh_vegetabl_9933f2: "我给新鲜蔬菜附魔。"
   npc_override_1@begi_PoringVillage_i_m_going_start_slowly_3df46e: "我现在要慢慢开始了……"
+  npc_override_1@begi_PoringVillage_i_m_interested_4f8b4b: "我没兴趣。"
   npc_override_1@begi_PoringVillage_i_should_find_another_ad_61b40b: "我应该找一个和我等级差不多的冒险者。很高兴认识你。"
   npc_override_1@begi_PoringVillage_item_complete_check_out_2dfb0a: "道具完成了！看看吧。"
   npc_override_1@begi_PoringVillage_jellopies_zeny_all_you_n_d3f8ce: "50个杰勒比结晶和20,000 Zeny，就是你需要给大葱或胡萝卜添加特殊效果的一切！"
@@ -57,6 +61,7 @@ Body:
   npc_override_1@begi_PoringVillage_party_member_party_enter_7d0aa4: "队伍成员{0}的队伍{1}进入了{2}。"
   npc_override_1@begi_PoringVillage_please_put_equipment_you_d17e01: "请先穿上你想要附魔的装备。"
   npc_override_1@begi_PoringVillage_proper_reward_42c2e3: "合适的报酬？"
+  npc_override_1@begi_PoringVillage_reset_poring_village_veg_863c5a: "重置波利村蔬菜"
   npc_override_1@begi_PoringVillage_s_gotta_s_no_good_fa8d5a: "必须是五五分，否则免谈"
   npc_override_1@begi_PoringVillage_seems_poring_village_def_464954: "看起来这个波利村可以被像我们这样的初学者打败。不过这只是个大胆的猜测……"
   npc_override_1@begi_PoringVillage_so_you_ready_be603b: "那么，你准备好了吗？"

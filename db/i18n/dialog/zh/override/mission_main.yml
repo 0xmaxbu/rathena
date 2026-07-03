@@ -1,7 +1,9 @@
 Header:
   Type: I18N_DIALOG
   Version: 1
+
 Body:
+  npc_override_mission_main_mission_main_about_quests_0357e1: "关于任务"
   npc_override_mission_main_mission_main_accept_dba7ab: "接受它。"
   npc_override_mission_main_mission_main_according_number_fortres_10f9b6: "根据^4d4dff你的公会目前攻占的城堡数量，^000000我会给你奖励。"
   npc_override_mission_main_mission_main_come_back_when_s_shining_95395c: "等它最闪耀的时候再回来。"
@@ -13,7 +15,9 @@ Body:
   npc_override_mission_main_mission_main_eliminate_monsters_appea_eddfe6: "任务是消灭出现在公会地下城中的怪物。"
   npc_override_mission_main_mission_main_entrance_guild_dungeon_r_637c02: "公会地下城的入口是受限的。但也不是说你就找不到方法去那里。"
   npc_override_mission_main_mission_main_feel_free_give_try_whene_468035: "随时都可以来尝试一下。"
+  npc_override_mission_main_mission_main_give_up_quest_bbef8c: "放弃任务。"
   npc_override_mission_main_mission_main_guild_dungeon_daily_ques_687086: "公会地下城每日任务由你可以在公会地下城中完成的战斗任务组成。"
+  npc_override_mission_main_mission_main_guild_dungeon_daily_ques_75c21d: "公会地下城每日任务"
   npc_override_mission_main_mission_main_hmm_seems_like_you_haven_be3e1d: "嗯？看来你还没有完成任务……"
   npc_override_mission_main_mission_main_hmm_unfortunately_missio_196fdf: "嗯，很遗憾，这个任务仅限^4d4dff等级 {0}^000000及以上的用户参与。"
   npc_override_mission_main_mission_main_hunt_aunoes_fanats_0e319b: "^4d4dff狩猎50只奥诺和20只法纳特。^000000"
@@ -33,6 +37,7 @@ Body:
   npc_override_mission_main_mission_main_hunt_more_zombie_masters_971129: "^4d4dff狩猎50只或更多僵尸统领和幽灵死者。^000000"
   npc_override_mission_main_mission_main_i_confirmed_waiting_time_3e9e2e: "我已确认攻占任务的等待时间已经结束。"
   npc_override_mission_main_mission_main_i_confirmed_waiting_time_6c599f: "我已确认这个任务的等待时间已经结束。"
+  npc_override_mission_main_mission_main_i_don_t_need_633b44: "我不需要。"
   npc_override_mission_main_mission_main_i_give_reward_depending_87ba01: "我会^4d4dff根据你攻占的城堡数量给予奖励。^000000"
   npc_override_mission_main_mission_main_i_like_you_come_back_71a9ba: "我希望你在等待时间结束后再回来。"
   npc_override_mission_main_mission_main_i_ll_cancel_mission_then_124bd8: "那我就取消任务。"
@@ -51,6 +56,7 @@ Body:
   npc_override_mission_main_mission_main_incredible_065183: "不可思议。"
   npc_override_mission_main_mission_main_is_7477b0: "是{0}！"
   npc_override_mission_main_mission_main_isn_t_much_hopefully_hel_ee1f9c: "虽然不多，但希望能对你有所帮助。"
+  npc_override_mission_main_mission_main_let_s_check_right_now_dee3bc: "现在就检查吧！"
   npc_override_mission_main_mission_main_members_should_try_guild_87c2be: "公会成员应该尝试公会地下城每日任务。"
   npc_override_mission_main_mission_main_mission_b0bc0d: "这是{1}的第{0}个任务。"
   npc_override_mission_main_mission_main_no_b8b9f1: "否。"
@@ -58,6 +64,7 @@ Body:
   npc_override_mission_main_mission_main_oh_you_ve_done_good_0eed81: "哦，你做得很好。"
   npc_override_mission_main_mission_main_please_lighten_your_load_73e172: "请减轻你的负重后再试。"
   npc_override_mission_main_mission_main_receiving_reward_followe_302e21: "^4d4dff领取奖励后会有一个小时的等待时间。所以你最好也把握好时机。^000000"
+  npc_override_mission_main_mission_main_reject_8407a6: "拒绝。"
   npc_override_mission_main_mission_main_right_life_all_about_tim_bd9a71: "没错。人生就是讲究时机。"
   npc_override_mission_main_mission_main_rule_set_here_so_you_2f0b0d: "这里的规则是，每天只允许完成一个任务。"
   npc_override_mission_main_mission_main_s_been_less_than_hour_67387f: "距离上次检查还不到一个小时！"

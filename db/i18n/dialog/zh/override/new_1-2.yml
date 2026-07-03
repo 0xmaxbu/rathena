@@ -3,7 +3,7 @@ Header:
   Version: 1
 
 Body:
-
+  npc_override_new_1-2_novice_about_kafra_services_dbfe42: "关于卡普拉服务"
   npc_override_new_1-2_novice_about_party_system_401cac: "关于队伍系统。"
   npc_override_new_1-2_novice_about_passive_skills_0d4b60: "关于被动技能。"
   npc_override_new_1-2_novice_above_use_emoticons_89fd69: "或以上才能使用表情符号。"
@@ -711,7 +711,7 @@ Body:
   npc_override_new_1-2_novice_pleased_meet_you_3b2645: "很高兴见到你。"
   npc_override_new_1-2_novice_press_f_key_616bd1: "按'^3355FFF12^000000'键？"
   npc_override_new_1-2_novice_press_trade_button_finis_987810: "按'交易'按钮来完成交易。如果任一交易者没有按'确定'按钮，交易无法完成。"
-  npc_override_new_1-2_novice_pressing_ctrl_keys_b320a3: "通过按'^4D4DFFCtrl^000000'和'^4D4DFF - ^000000'、'^4D4DFF = ^000000'或'^4D4DFF \\\\\\\\ ^000000'键。"
+  npc_override_new_1-2_novice_pressing_ctrl_keys_b320a3: "通过按'^4D4DFFCtrl^000000'和'^4D4DFF - ^000000'、'^4D4DFF = ^000000'或'^4D4DFF \\\\\\\\\\\\\\\\ ^000000'键。"
   npc_override_new_1-2_novice_pressing_f_button_6a6d86: "按 F12 按钮。"
   npc_override_new_1-2_novice_pressing_option_button_b_8bdccf: "通过按基本信息窗口中的^3355FF选项^000000按钮。你也可以按'^3355FFAlt^000000 + ^3355FFO^000000'键。"
   npc_override_new_1-2_novice_pretty_difficult_b8141c: "相当困难……"

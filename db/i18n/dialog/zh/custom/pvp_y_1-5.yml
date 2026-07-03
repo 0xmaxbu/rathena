@@ -1,0 +1,20 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_custom_pvp_y_1-5_morroc_raceway_alright_talk_me_again_wh_d2d16d: "好的，想走的时候再跟我说话。"
+  npc_custom_pvp_y_1-5_morroc_raceway_come_again_soon_cd2177: "欢迎再来！"
+  npc_custom_pvp_y_1-5_morroc_raceway_counting_down_d789d6: "倒计时中……"
+  npc_custom_pvp_y_1-5_morroc_raceway_get_ready_race_4b2d30: "准备好比赛吧！"
+  npc_custom_pvp_y_1-5_morroc_raceway_once_race_started_run_ar_e8f3c7: "比赛开始后，绕梦罗克逆时针跑。"
+  npc_custom_pvp_y_1-5_morroc_raceway_please_stay_eastern_side_8fd5d7: "请站在我的东侧。"
+  npc_custom_pvp_y_1-5_morroc_raceway_race_progress_6d2bb6: "比赛进行中"
+  npc_custom_pvp_y_1-5_morroc_raceway_race_started_please_move_3fa679: "比赛尚未开始，请退后。"
+  npc_custom_pvp_y_1-5_morroc_raceway_someone_must_click_start_3f07f3: "必须有人点击开始 NPC 才能开始比赛。"
+  npc_custom_pvp_y_1-5_morroc_raceway_welcome_morocc_raceway_085825: "欢迎来到梦罗克赛道！"
+  npc_custom_pvp_y_1-5_morroc_raceway_you_already_completed_ra_0fb79c: "你已经完成过这场比赛了。"
+  npc_custom_pvp_y_1-5_morroc_raceway_you_like_visit_morocc_ra_3cebb3: "你想访问 ^0000FF梦罗克赛道^000000 吗？"
+  npc_custom_pvp_y_1-5_morroc_raceway_you_missed_checkpoint_pl_92c09e: "你错过了一个检查点。请回去。"
+  npc_custom_pvp_y_1-5_morroc_raceway_you_must_reach_all_check_8665dd: "你必须到达所有检查点——不许作弊！"
+  npc_custom_pvp_y_1-5_morroc_raceway_you_race_f41469: "你不在这场比赛中。"

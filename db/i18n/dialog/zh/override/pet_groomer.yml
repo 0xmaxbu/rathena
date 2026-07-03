@@ -4,7 +4,9 @@ Header:
 
 Body:
   npc_override_pet_groomer_pet_groomer_buy_pet_food_7c3078: "购买宠物食品。"
+  npc_override_pet_groomer_pet_groomer_exchange_q_pet_related_s_38494e: "兑换 Q-宠物相关用品。"
   npc_override_pet_groomer_pet_groomer_hello_you_need_some_q_0a5036: "你好！你需要一些Q宠食品吗？"
+  npc_override_pet_groomer_pet_groomer_i_ll_come_next_time_69d7ea: "我下次再来"
   npc_override_pet_groomer_pet_groomer_maybe_some_accessories_d_b2a236: "或者也许需要一些装饰Q宠的饰品？"
   npc_override_pet_groomer_pet_groomer_okay_come_back_whenever_9ff809: "好的，随时欢迎回来。"
   npc_override_pet_groomer_pet_groomer_okay_let_s_barter_a3f265: "好的，我们来交易吧。"

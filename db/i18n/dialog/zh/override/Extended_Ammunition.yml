@@ -3,11 +3,16 @@ Header:
   Version: 1
 
 Body:
+  npc_override_Extended_Ammunition_Extended_Ammunition_box_exchange_49982a: "箱子兑换"
+  npc_override_Extended_Ammunition_Extended_Ammunition_buy_ammunition_4dd97a: "购买弹药"
   npc_override_Extended_Ammunition_Extended_Ammunition_buy_arrows_505645: "购买箭矢"
   npc_override_Extended_Ammunition_Extended_Ammunition_buy_component_59d3bc: "购买部件"
   npc_override_Extended_Ammunition_Extended_Ammunition_buy_ninjutsu_tool_14942a: "购买忍术道具"
   npc_override_Extended_Ammunition_Extended_Ammunition_buy_talisman_2ab189: "购买符咒"
   npc_override_Extended_Ammunition_Extended_Ammunition_buy_weapons_481a74: "购买武器"
+  npc_override_Extended_Ammunition_Extended_Ammunition_cancel_77dfd2: "取消"
+  npc_override_Extended_Ammunition_Extended_Ammunition_cartridge_exchange_0a8f51: "弹匣兑换"
+  npc_override_Extended_Ammunition_Extended_Ammunition_consumables_cooling_devi_add371: "消耗品与冷却装置"
   npc_override_Extended_Ammunition_Extended_Ammunition_hello_did_you_come_see_3a089c: "你好。你是来看精灵的吗？"
   npc_override_Extended_Ammunition_Extended_Ammunition_here_you_find_equipment_fd88c8: "在这里你可以找到Madogear的装备，除了那些不能出售的！"
   npc_override_Extended_Ammunition_Extended_Ammunition_hi_c0a0ad: "嗨！"
@@ -19,6 +24,10 @@ Body:
   npc_override_Extended_Ammunition_Extended_Ammunition_i_start_preparing_ammuni_1c27df: "我要开始准备弹药。"
   npc_override_Extended_Ammunition_Extended_Ammunition_i_start_preparing_consum_2e4feb: "我要开始准备Madogear用的消耗品。"
   npc_override_Extended_Ammunition_Extended_Ammunition_i_start_preparing_madoge_ef01a4: "我要开始准备Madogear部件。"
+  npc_override_Extended_Ammunition_Extended_Ammunition_parchment_exchange_958886: "羊皮纸兑换"
+  npc_override_Extended_Ammunition_Extended_Ammunition_quiver_exchange_76d5a8: "箭袋兑换"
+  npc_override_Extended_Ammunition_Extended_Ammunition_sell_items_4ac2ce: "出售物品"
+  npc_override_Extended_Ammunition_Extended_Ammunition_talisman_bundle_exchange_4fe58e: "护身符捆兑换"
   npc_override_Extended_Ammunition_Extended_Ammunition_thank_you_come_again_2ca944: "谢谢。欢迎再来。"
   npc_override_Extended_Ammunition_Extended_Ammunition_we_also_exchange_bundles_61cc12: "我们也提供捆绑兑换。"
   npc_override_Extended_Ammunition_Extended_Ammunition_what_did_you_come_see_067df4: "你来看什么？"

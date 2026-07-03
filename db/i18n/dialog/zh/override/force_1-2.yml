@@ -3,7 +3,6 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_force_1-2_arena_party_although_you_failed_make_3b80e1: "虽然你未能创造新纪录，但我希望下次你能成功。"
   npc_override_force_1-2_arena_party_arena_reactivated_3f5449: "竞技场将重新激活。"
   npc_override_force_1-2_arena_party_arena_reactivated_due_er_64d5b2: "由于战斗期间发生错误，竞技场将重新激活。"
@@ -33,6 +32,7 @@ Body:
   npc_override_force_1-2_arena_party_let_me_guide_you_outside_3efe17: "让我带你出去。希望你玩得愉快。"
   npc_override_force_1-2_arena_party_let_me_reward_you_some_36dace: "让我奖励你们一些竞技场点数。"
   npc_override_force_1-2_arena_party_let_me_reward_you_some_3ef002: "让我奖励你们一些竞技场点数。"
+  npc_override_force_1-2_arena_party_let_me_think_1e8a49: "让我想想。"
   npc_override_force_1-2_arena_party_menu_remaining_1204c8: "剩余时间:7 分钟"
   npc_override_force_1-2_arena_party_menu_remaining_50a56a: "剩余时间:1 分钟"
   npc_override_force_1-2_arena_party_menu_remaining_627859: "剩余时间:4 分钟"

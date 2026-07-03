@@ -1,6 +1,7 @@
 Header:
   Type: I18N_DIALOG
   Version: 1
+
 Body:
   npc_override_1@bamn_TwilightGarden_activate_tracker_we_got_05a6b4: "激活我们从 Elyumina 那里得到的追踪器。"
   npc_override_1@bamn_TwilightGarden_adventurer_noisy_thing_f_e48460: "冒险者。那个吵闹的东西又在闪烁了吗？让我们检查一下。"
@@ -37,6 +38,7 @@ Body:
   npc_override_1@bamn_TwilightGarden_i_don_t_know_if_a01aeb: "我不知道该设个陷阱，还是给你一次机会。"
   npc_override_1@bamn_TwilightGarden_i_had_no_choice_blow_cfd4a7: "我别无选择，只能炸掉宅邸的自动人偶……"
   npc_override_1@bamn_TwilightGarden_i_ll_deal_rest_who_f26154: "我来处理躲在花园里的其余家伙。"
+  npc_override_1@bamn_TwilightGarden_i_ll_explore_garden_firs_d63cc8: "我先探索花园。"
   npc_override_1@bamn_TwilightGarden_i_ll_join_you_soon_8459ad: "我很快就来加入你们。"
   npc_override_1@bamn_TwilightGarden_i_ll_let_alpha_know_7f668d: "我稍后会让 Alpha 知道，这样她就可以回收人偶的躯体。"
   npc_override_1@bamn_TwilightGarden_i_ll_look_around_find_2a91fd: "我会四处看看，寻找其他路线。"
@@ -59,6 +61,7 @@ Body:
   npc_override_1@bamn_TwilightGarden_kid_while_ago_i_ve_20e639: "刚才那个孩子，我以前见过他。"
   npc_override_1@bamn_TwilightGarden_leave_rest_us_0575e8: "剩下的交给我们。"
   npc_override_1@bamn_TwilightGarden_let_s_get_out_here_c068ff: "我们离开这里吧。"
+  npc_override_1@bamn_TwilightGarden_let_s_go_208616: "走吧！"
   npc_override_1@bamn_TwilightGarden_let_s_go_check_repeater_02907b: "我们去检查中继器吧。"
   npc_override_1@bamn_TwilightGarden_let_s_go_next_repeater_da8fb5: "我们去下一个中继器吧~"
   npc_override_1@bamn_TwilightGarden_let_s_go_see_repeater_4d35cb: "我们去看看那个经常被骇入的中继器。"

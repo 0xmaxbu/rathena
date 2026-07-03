@@ -3,13 +3,13 @@ Header:
   Version: 1
 
 Body:
-  npc_override_moc_ruins_26-40_menu_client_46655d: "Client Location : {0}"
-  npc_override_moc_ruins_26-40_menu_client_feee0d: "Client : {0}"
-  npc_override_moc_ruins_26-40_menu_requested_78544f: "Requested Mission : {0}"
-  npc_override_moc_ruins_26-40_msg_14fa70: "[{0} !!]"
-  npc_override_moc_ruins_26-40_you_accepted_mission_5ac025: "You have accepted the {0} mission."
-  npc_override_moc_ruins_26-40_you_declined_mission_30fc43: "You have declined the {0} mission."
-  npc_override_moc_ruins_26-40_your_level_doesn_t_meet_4b7039: "Your level doesn't meet the requirements. You can't take the '{0}' mission."
+  npc_override_moc_ruins_26-40_menu_client_46655d: "委托人位置：{0}"
+  npc_override_moc_ruins_26-40_menu_client_feee0d: "委托人：{0}"
+  npc_override_moc_ruins_26-40_menu_requested_78544f: "请求任务：{0}"
+  npc_override_moc_ruins_26-40_msg_14fa70: "[{0} ！！]"
+  npc_override_moc_ruins_26-40_you_accepted_mission_5ac025: "你已接受 {0} 任务。"
+  npc_override_moc_ruins_26-40_you_declined_mission_30fc43: "你已拒绝 {0} 任务。"
+  npc_override_moc_ruins_26-40_your_level_doesn_t_meet_4b7039: "你的等级不符合要求。你无法接受「{0}」任务。"
   npc_override_moc_ruins_guides_morroc_and_fc118a: "和 {0}"
   npc_override_moc_ruins_guides_morroc_currently_7f1530: "当前 {0}"
   npc_override_moc_ruins_guides_morroc_let_me_mark_entrance_34c003: "让我在小地图上标记 {0} 的入口"

@@ -1,9 +1,12 @@
 Header:
   Type: I18N_DIALOG
   Version: 1
+
 Body:
+  npc_override_1@dth3_IsleOfBios_cancel_ebda43: "取消。"
   npc_override_1@dth3_IsleOfBios_characters_below_level_c_b8f731: "^ff0000等级低于160的角色无法进入此地下城。^000000"
   npc_override_1@dth3_IsleOfBios_created_memorial_dungeon_f07943: "^ff0000已创建纪念地下城。^000000"
+  npc_override_1@dth3_IsleOfBios_enter_isle_bios_d7cd53: "进入生物岛。"
   npc_override_1@dth3_IsleOfBios_hero_token_accident_ad1146: "这个英雄令牌是偶然得到的。"
   npc_override_1@dth3_IsleOfBios_i_came_a59a6e: "我通过"
   npc_override_1@dth3_IsleOfBios_i_couldn_t_shake_off_c84480: "我无法摆脱在那个噩梦中看到的生动画面。我像个疯子一样四处游荡，最终来到了这里。"
@@ -109,4 +112,3 @@ Body:
   npc_override_1@dth3_IsleOfBios_you_first_must_meet_wand_966c20: "^ff0000你必须先遇见流浪老人才能获得进入此地下城的权限。^000000"
   npc_override_1@dth3_IsleOfBios_you_least_level_39a950: "你必须至少达到160级。"
   npc_override_1@dth3_IsleOfBios_your_party_leader_yet_cr_111a32: "^ff0000你的队伍领袖尚未创建时间裂缝。^000000"
-

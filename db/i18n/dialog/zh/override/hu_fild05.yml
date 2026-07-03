@@ -3,7 +3,6 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_hu_fild05_abyss_warper_bam_834224: "*砰！*"
   npc_override_hu_fild05_abyss_warper_begin_slowly_sink_away_261d00: "开始慢慢下沉……^000000"
   npc_override_hu_fild05_abyss_warper_brighter_as_you_feel_ef1cd3: "越来越亮，你感觉到"
@@ -23,6 +22,7 @@ Body:
   npc_override_hu_fild05_abyss_warper_dragon_s_canine_dragon_d56c94: "龙之犬齿，一个龙"
   npc_override_hu_fild05_abyss_warper_dragon_scale_into_anothe_1fed4a: "龙之鳞片放入另一个"
   npc_override_hu_fild05_abyss_warper_dragon_tail_into_ddfb0a: "龙之尾巴放入"
+  npc_override_hu_fild05_abyss_warper_eat_dragon_body_parts_93fb81: "吃掉龙的身体部位"
   npc_override_hu_fild05_abyss_warper_final_groove_lights_shin_b96b4d: "最后一个凹槽。光芒闪耀"
   npc_override_hu_fild05_abyss_warper_fit_perfectly_into_a2e4cb: "完美地放入"
   npc_override_hu_fild05_abyss_warper_forth_cracks_157fef: "从裂缝中涌出"
@@ -42,6 +42,7 @@ Body:
   npc_override_hu_fild05_abyss_warper_make_difficult_stand_d309ea: "让你难以站立"
   npc_override_hu_fild05_abyss_warper_one_you_ve_seen_beba4a: "你在"
   npc_override_hu_fild05_abyss_warper_ppppsssh_3eca46: "^3355FF*噗噗噗！*^"
+  npc_override_hu_fild05_abyss_warper_remove_item_groove_681a66: "从插槽移除物品"
   npc_override_hu_fild05_abyss_warper_scale_dragon_tail_into_52b849: "鳞片和龙之尾巴放入"
   npc_override_hu_fild05_abyss_warper_shaped_grooves_c3d0fa: "形状的凹槽在"
   npc_override_hu_fild05_abyss_warper_steadily_suddently_you_7ff2cf: "稳定地，但突然你"

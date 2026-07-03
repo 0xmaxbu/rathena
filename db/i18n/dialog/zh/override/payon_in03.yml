@@ -3,7 +3,6 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_payon_in03_fortune_act_little_more_wisdom_y_44a027: " 为了你的未来，行事要多一些智慧。 "
   npc_override_payon_in03_fortune_act_wisely_you_ll_troubl_bb66ea: " 明智地行事吧！如果你轻易被骗，你会有麻烦的！ "
   npc_override_payon_in03_fortune_agh_don_t_die_studying_468c63: " 啊！别学到死！学的时候也要休息！你需要休息！ "
@@ -270,6 +269,7 @@ Body:
   npc_override_payon_in03_fortune_how_about_taking_break_l_ce4751: " 从爱情中休息一下，给自己放松的时间怎么样……我同意这张牌所说的。 "
   npc_override_payon_in03_fortune_how_about_try_being_litt_f2c666: " 怎么样？试着对金钱更随意一点。 "
   npc_override_payon_in03_fortune_how_about_trying_grab_th_507699: " 试着吸引他们的注意力怎么样？ "
+  npc_override_payon_in03_fortune_how_rich_i_25651b: " （我会多么富有？） "
   npc_override_payon_in03_fortune_how_you_think_money_look_efa705: " 看着这么平静的牌，你怎么能想到钱！真不好！吸……吸鼻子！总之，看起来你会收集到很多财富！ "
   npc_override_payon_in03_fortune_humans_may_face_disaster_e358a7: " 如果轻率地谈论未来，人类可能会面临灾难。这就是为什么我们问牌关于未来的事。 "
   npc_override_payon_in03_fortune_humans_problem_their_mou_37bc79: " 人类有嘴巴的问题。嗯~啊。我，也是？！ "
@@ -280,10 +280,12 @@ Body:
   npc_override_payon_in03_fortune_i_don_t_know_maybe_e5e9c2: " 我不知道。也许它是在说一个瘦弱的人将来会做出伟大的事情？ "
   npc_override_payon_in03_fortune_i_don_t_know_why_59bcd4: " 我不知道他为什么要警告你……你养牛了吗？ "
   npc_override_payon_in03_fortune_i_feel_some_sort_emptine_b2f65d: " 我感到某种空虚……也许你的爱情有缺口？ "
+  npc_override_payon_in03_fortune_i_get_warning_any_danger_174606: " （我能得到即将到来的危险的警告吗？） "
   npc_override_payon_in03_fortune_i_hope_you_able_avoid_72676d: " 我希望你能通过这个警告避免不幸。那么…… "
   npc_override_payon_in03_fortune_i_hope_you_disappointed_deb721: " 我希望你不会对这个运势的寓意失望。 "
   npc_override_payon_in03_fortune_i_like_know_my_love_d9903a: " （我想知道我的爱情运势。） "
   npc_override_payon_in03_fortune_i_m_quite_sure_may_ade908: " 我不太确定，但这可能会成为对你很重要的忠告……？ "
+  npc_override_payon_in03_fortune_i_need_advice_about_my_7b4749: " （我需要关于我未来的建议。） "
   npc_override_payon_in03_fortune_i_see_i_see_sign_6de197: " 我看到了……我看到了爱情的征兆…… "
   npc_override_payon_in03_fortune_i_see_you_working_hard_3d494f: " 我能看到你在未来努力工作！多么充满活力的未来！ "
   npc_override_payon_in03_fortune_i_tell_what_doing_way_3667ca: " 从它拿着带血的斧头哭泣的样子，我能看出它在做什么。它被爱情深深伤害了。 "

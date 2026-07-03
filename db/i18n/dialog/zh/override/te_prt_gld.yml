@@ -1,0 +1,10 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_te_prt_gld_guides_woe_te_about_requirements_parti_97978c: "关于参与要求"
+  npc_override_te_prt_gld_guides_woe_te_about_siege_battle_te_d462ab: "关于 TE 攻城战"
+  npc_override_te_prt_gld_guides_woe_te_forget_c4bbfb: "算了。"
+  npc_override_te_prt_gld_guides_woe_te_qualifications_participa_bb7668: "参与资格"
+  npc_override_te_prt_gld_guides_woe_te_what_siege_battle_te_585766: "什么是 TE 攻城战？"

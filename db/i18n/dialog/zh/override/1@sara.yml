@@ -60,7 +60,7 @@ Body:
   npc_override_1@sara_SaraMemory_mommy_5b9cf0: "Mommy！"
   npc_override_1@sara_SaraMemory_mommy_ac1692: "不是 Mommy！"
   npc_override_1@sara_SaraMemory_mommy_no_f5c93f: "Mommy 不要！！！！！！！！"
-  npc_override_1@sara_SaraMemory_msg_5a2bae: "........."
+  npc_override_1@sara_SaraMemory_msg_5a2bae: "……"
   npc_override_1@sara_SaraMemory_msg_61ce5a: "[{0}]"
   npc_override_1@sara_SaraMemory_msg_6eae3a: "……"
   npc_override_1@sara_SaraMemory_murderer_here_guards_we_d99629: "杀人犯在这里！卫兵！我们要一劳永逸地解决他！"
@@ -134,4 +134,3 @@ Body:
   npc_override_1@sara_SaraMemory_you_think_i_killed_sara_44efe8: "你……认为是我杀了萨拉的 mommy？"
   npc_override_1@sara_SaraMemory_you_too_strong_me_d1c074: "你……对我来说太强大了。"
   npc_override_1@sara_SaraMemory_you_wish_relive_past_aga_ad2f8e: "你想再次重温过去吗？"
-

@@ -123,6 +123,7 @@ Body:
   npc_override_mercenary_rent_mercenary_rent_these_potions_94fa1d: "10,000瓶这些药水"
   npc_override_mercenary_rent_mercenary_rent_time_please_enter_4cc08e: "一次。请输入"
   npc_override_mercenary_rent_mercenary_rent_transferred_other_people_93ee41: "转让给其他人，"
+  npc_override_mercenary_rent_mercenary_rent_turn_mercenary_npc_892e85: "开启雇佣兵 NPC"
   npc_override_mercenary_rent_mercenary_rent_turn_off_mercenary_npc_9ae73b: "关闭雇佣兵NPC"
   npc_override_mercenary_rent_mercenary_rent_use_there_anything_56011d: "使用。有什么"
   npc_override_mercenary_rent_mercenary_rent_we_only_allow_base_level_7d7a06: "我们只允许雇佣兵和客户的 Base 等级相差5级"
