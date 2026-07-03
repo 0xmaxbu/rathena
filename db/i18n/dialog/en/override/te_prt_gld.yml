@@ -1,0 +1,10 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_te_prt_gld_guides_woe_te_about_requirements_parti_97978c: "About requirements for participation"
+  npc_override_te_prt_gld_guides_woe_te_about_siege_battle_te_d462ab: "About Siege Battle TE"
+  npc_override_te_prt_gld_guides_woe_te_forget_c4bbfb: "Forget it."
+  npc_override_te_prt_gld_guides_woe_te_qualifications_participa_bb7668: "Qualifications for participation"
+  npc_override_te_prt_gld_guides_woe_te_what_siege_battle_te_585766: "What is Siege Battle TE?"

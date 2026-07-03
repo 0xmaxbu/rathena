@@ -494,3 +494,6 @@ Body:
   npc_override_paramk_eden_market_you_wish_purchase_specia_2d4a88: "Do you wish to purchase special Mora Drinks?"
   npc_override_paramk_eden_market_young_fool_a8d49c: "Young fool!"
   npc_override_paramk_eden_market_zeny_08227e: " zeny~"
+  npc_override_paramk_enchantgrade_exchange_etel_items_f61869: "Exchange Etel items"
+  npc_override_paramk_enchantgrade_i_ll_think_about_718e3d: "I'll think about it."
+  npc_override_paramk_enchantgrade_what_grade_enhancement_8148c9: "What is Grade Enhancement?"

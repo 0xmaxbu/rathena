@@ -1,0 +1,30 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_custom_niflheim_dead_branch_fact_i_know_secret_about_c7dbdb: "In fact I know a secret about these spirits that can in some way... perhaps aid you..."
+  npc_custom_niflheim_dead_branch_get_me_one_wooden_heart_d43af1: "Get me one wooden heart and I'll make you the spirit..."
+  npc_custom_niflheim_dead_branch_get_me_three_logs_i_b4b03a: "Get me three logs and I'll make you the spirit..."
+  npc_custom_niflheim_dead_branch_heh_careful_now_what_i_3865cb: "Heh... careful now? What do I care if you di..... Never mind."
+  npc_custom_niflheim_dead_branch_heh_hope_you_fun_tree_29fcbf: "Heh... Hope you have fun with the tree spirits... Careful now..."
+  npc_custom_niflheim_dead_branch_how_i_make_one_without_d66076: "How can I make one without a ^135445Wooden Gnarl^000000?"
+  npc_custom_niflheim_dead_branch_i_create_spirited_branch_fbdafc: "I can create a spirited branch... That is, if you can provide me with the correct materials..."
+  npc_custom_niflheim_dead_branch_i_said_gibbet_they_all_2e5a22: "I said Gibbet... they are all around this place..."
+  npc_custom_niflheim_dead_branch_kill_elder_willows_somet_c70bf2: "Kill Elder Willows or something... Geez... no trunks heh... pathetic."
+  npc_custom_niflheim_dead_branch_logs_body_i_need_more_65e896: "^135445Logs^000000 are the body... I need more of them."
+  npc_custom_niflheim_dead_branch_logs_e4cbd4: "^1354453 Logs^000000"
+  npc_custom_niflheim_dead_branch_logs_found_off_tree_gole_ccd5e4: "^135445Logs can be found off of Tree Golems.^000000"
+  npc_custom_niflheim_dead_branch_menu_mwehehe_6b8ba9: "Mwehehe... I see you want to control tree spirits am I right? Ok... I need:"
+  npc_custom_niflheim_dead_branch_no_spirit_you_then_go_f95555: "No spirit for you... then go!"
+  npc_custom_niflheim_dead_branch_trees_possess_spirits_yo_33f16d: "Trees possess spirits you know..."
+  npc_custom_niflheim_dead_branch_trunk_5e811a: "^1354455 Trunk^000000"
+  npc_custom_niflheim_dead_branch_trunks_seriously_think_w_474ebb: "^135445Trunks? Seriously, think wood...^000000"
+  npc_custom_niflheim_dead_branch_well_let_us_see_what_6f9e4b: "Well...let us see what you brought me..."
+  npc_custom_niflheim_dead_branch_what_you_couldn_t_even_d30546: "What? You couldn't even find ^1354455 Trunks^000000?"
+  npc_custom_niflheim_dead_branch_wooden_gnarl_683c70: "^1354451 Wooden Gnarl^000000"
+  npc_custom_niflheim_dead_branch_wooden_gnarl_gibbet_79d9a0: "^135445Wooden Gnarl... Gibbet...^000000"
+  npc_custom_niflheim_dead_branch_wooden_heart_a87a43: "^1354451 Wooden Heart^000000"
+  npc_custom_niflheim_dead_branch_wooden_heart_essence_spi_f5a35e: "The ^135445Wooden Heart^000000 is the essence of the spirit."
+  npc_custom_niflheim_dead_branch_wooden_hearts_essence_tr_a25467: "^135445Wooden Hearts the essence of Tree Golems.^000000"
+  npc_custom_niflheim_dead_branch_you_find_following_items_d929fd: "You can find the following items from certain monsters heheh..."

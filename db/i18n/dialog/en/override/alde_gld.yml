@@ -3,7 +3,22 @@ Header:
   Version: 1
 
 Body:
+  npc_override_alde_gld_agit_main_te_cancel_77dfd2: "Cancel"
+  npc_override_alde_gld_agit_main_te_cancel_9b686f: "Cancel it"
+  npc_override_alde_gld_agit_main_te_close_beeba8: "Close it"
+  npc_override_alde_gld_agit_main_te_do_not_a94065: "Do not."
+  npc_override_alde_gld_agit_main_te_don_t_pull_c85b6e: "Don't pull."
   npc_override_alde_gld_agit_main_te_emperium_been_destroyed_3cc6a1: "Emperium has been destroyed."
+  npc_override_alde_gld_agit_main_te_go_into_master_s_room_9280de: "Go into Master's room"
+  npc_override_alde_gld_agit_main_te_hire_fire_kafra_employee_332620: "Hire / Fire a Kafra Employee"
+  npc_override_alde_gld_agit_main_te_invest_castle_defenses_0a57d7: "Invest in Castle Defenses"
+  npc_override_alde_gld_agit_main_te_invest_commercial_growth_dba9f7: "Invest in commercial growth"
+  npc_override_alde_gld_agit_main_te_materials_jormungand_bb2df9: "Materials for Jormungand"
+  npc_override_alde_gld_agit_main_te_quit_fb25bb: "Quit."
+  npc_override_alde_gld_agit_main_te_rent_pushcart_1aaad6: "Rent a Pushcart"
+  npc_override_alde_gld_agit_main_te_rental_item_provided_d57f99: "Rental item provided"
+  npc_override_alde_gld_agit_main_te_summon_guardian_a87722: "Summon Guardian"
+  npc_override_alde_gld_agit_main_te_use_teleport_service_a7ef96: "Use Teleport Service"
   npc_override_alde_gld_guides_woe_te_ah_if_you_think_i_2d5aaf: "Ah if you think I'm mad because my name is missing from Kafragarten and if my way of speaking is a little stiff because of that"
   npc_override_alde_gld_guides_woe_te_also_their_buff_effects_cfa092: "Also, their buff effects get eliminated here."
   npc_override_alde_gld_guides_woe_te_also_we_lend_variety_bat_25ce08: "Also, we lend a variety of battlegears that you use only in corresponding regions for free."

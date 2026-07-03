@@ -4,12 +4,15 @@ Header:
 
 Body:
   npc_override_1@def02_WaveMode_about_wave_mode_forest_556a62: "About ^6B9900<Wave Mode - Forest>^000000"
+  npc_override_1@def02_WaveMode_about_wave_mode_sky_221b66: "About ^6B9900<Wave Mode - Sky>^000000"
   npc_override_1@def02_WaveMode_any_other_questions_249b42: "Any other questions?"
   npc_override_1@def02_WaveMode_available_once_day_like_72af84: "Available once a day. Like the other Wave Mode, keep the monsters away from reaching the other side of the map."
+  npc_override_1@def02_WaveMode_cancel_ebda43: "Cancel."
   npc_override_1@def02_WaveMode_case_you_haven_t_many_f5bbcd: "In case you haven't, many organizations and scientists study the rifts formed between dimensions."
   npc_override_1@def02_WaveMode_champions_summoned_52a3bc: "!! Champions summoned !!"
   npc_override_1@def02_WaveMode_currently_wave_mode_sky_ade353: "Currently the ^6B9900<Wave Mode - Sky>^000000 is being stabilized for your convenience. Please wait."
   npc_override_1@def02_WaveMode_enter_wave_mode_forest_39d93d: "Enter ^6B9900<Wave Mode - Forest>^000000."
+  npc_override_1@def02_WaveMode_enter_wave_mode_sky_b206ca: "Enter ^6B9900<Wave Mode - Sky>^000000."
   npc_override_1@def02_WaveMode_escaped_69562b: "{0} {1} escaped."
   npc_override_1@def02_WaveMode_feel_free_come_back_your_67b556: "Feel free to come back with your party."
   npc_override_1@def02_WaveMode_if_monsters_reach_other_cac043: "If 20 monsters reach the other side, the game is over."
@@ -23,6 +26,7 @@ Body:
   npc_override_1@def02_WaveMode_msg_da4b92: "2"
   npc_override_1@def02_WaveMode_next_monster_wave_come_o_37205c: "Next monster wave will come out soon. Get ready."
   npc_override_1@def02_WaveMode_next_monsters_come_out_s_97df5e: "Next monsters will come out soon. Get ready."
+  npc_override_1@def02_WaveMode_no_b8b9f1: "No."
   npc_override_1@def02_WaveMode_ok_here_they_come_9c0bdb: "Ok, here they come."
   npc_override_1@def02_WaveMode_one_them_my_company_zond_a03d98: "One of them is my company, Zonda, and after long, painstaking research..."
   npc_override_1@def02_WaveMode_party_entering_wave_mode_154d77: "{0} of the party {1} is entering <Wave Mode - Forest>."

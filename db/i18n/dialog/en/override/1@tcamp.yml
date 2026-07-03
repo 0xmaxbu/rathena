@@ -3,6 +3,7 @@ Header:
   Version: 1
 
 Body:
+  npc_override_1@tcamp_ThorGunsuBase_adoptive_father_who_hard_4f0e0a: "That adoptive father who is a hardliner and pro-war?"
   npc_override_1@tcamp_ThorGunsuBase_all_kinds_documents_all_077ba6: "All kinds of documents are all mixed up."
   npc_override_1@tcamp_ThorGunsuBase_all_weapons_firearms_the_bb6da5: "All of the weapons and firearms that these people disposed of have less than a year left before their expiration date."
   npc_override_1@tcamp_ThorGunsuBase_anyway_what_information_518b1d: "Anyway, what information did you get?"
@@ -11,6 +12,7 @@ Body:
   npc_override_1@tcamp_ThorGunsuBase_better_proceed_caution_c904e3: "It would be better to proceed with caution."
   npc_override_1@tcamp_ThorGunsuBase_careful_explore_inside_173df6: "Be careful and explore inside."
   npc_override_1@tcamp_ThorGunsuBase_document_weapon_sales_re_9da84b: "This document is a weapon sales record. Please show it to me."
+  npc_override_1@tcamp_ThorGunsuBase_enter_5323b4: "Enter {0}"
   npc_override_1@tcamp_ThorGunsuBase_even_date_very_recent_th_ec516b: "Even the date is very recent. There is also a record of handing over a large amount of weapons to Mr. Dandelion."
   npc_override_1@tcamp_ThorGunsuBase_get_out_bag_put_your_5b30f5: "Get it out of the bag. Put it on your head."
   npc_override_1@tcamp_ThorGunsuBase_how_did_you_adventurer_d_00cf83: "How did you and the adventurer dig this far?"

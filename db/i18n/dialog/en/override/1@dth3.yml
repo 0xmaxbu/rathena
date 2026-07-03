@@ -3,8 +3,10 @@ Header:
   Version: 1
 
 Body:
+  npc_override_1@dth3_IsleOfBios_cancel_ebda43: "Cancel."
   npc_override_1@dth3_IsleOfBios_characters_below_level_c_b8f731: "^ff0000Characters below Level 160 cannot enter this dungeon.^000000"
   npc_override_1@dth3_IsleOfBios_created_memorial_dungeon_f07943: "^ff0000Created the Memorial dungeon.^000000"
+  npc_override_1@dth3_IsleOfBios_enter_isle_bios_d7cd53: "Enter Isle of Bios."
   npc_override_1@dth3_IsleOfBios_hero_token_accident_ad1146: "this Hero Token by accident."
   npc_override_1@dth3_IsleOfBios_i_came_a59a6e: "I came by"
   npc_override_1@dth3_IsleOfBios_i_couldn_t_shake_off_c84480: "I couldn't shake off the vivid images I saw in that nightmare. I've wandered off and around like a madman and finally arrived here."

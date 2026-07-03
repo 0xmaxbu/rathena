@@ -3,18 +3,22 @@ Header:
   Version: 1
 
 Body:
+  npc_override_tra_fild_TrainingZone_enter_e088fc: "Do not enter"
   npc_override_tra_fild_TrainingZone_go_lower_section_cfc31b: "Go to lower section!!!"
   npc_override_tra_fild_TrainingZone_go_upper_section_b950ea: "Go to upper section!!!"
   npc_override_tra_fild_TrainingZone_i_ll_warp_you_7f6698: "I'll warp you."
   npc_override_tra_fild_TrainingZone_if_you_need_guidance_com_2d4ed0: "If you need guidance, come to me."
   npc_override_tra_fild_TrainingZone_if_you_want_train_wider_b61e73: "If you want to train in a wider area, I'll let you in."
+  npc_override_tra_fild_TrainingZone_lower_area_b73a2a: "Lower area"
   npc_override_tra_fild_TrainingZone_lower_area_where_you_che_813da6: "The lower area where you can check the force applied depending on the monster's attribute and form."
   npc_override_tra_fild_TrainingZone_move_76cdb9: "Move"
+  npc_override_tra_fild_TrainingZone_move_cf2dd6: "Do not move"
   npc_override_tra_fild_TrainingZone_talk_me_if_you_need_0ffbae: "Talk to me if you need to move."
   npc_override_tra_fild_TrainingZone_then_i_guide_you_942c43: "Then I will guide you."
   npc_override_tra_fild_TrainingZone_training_ground_divided_096e55: "The training ground is divided into two main areas."
   npc_override_tra_fild_TrainingZone_upper_area_37dcae: "Upper area"
   npc_override_tra_fild_TrainingZone_upper_area_where_you_che_8aa48f: "Upper area where you can check the applied force based on monster size."
+  npc_override_tra_fild_TrainingZone_warp_prontera_7d4a47: "Warp to Prontera."
   npc_override_tra_fild_TrainingZone_where_you_like_enter_5d8889: "Where would you like to enter?"
   npc_override_tra_fild_TrainingZone_you_sure_you_want_move_529a4a: "Are you sure you want to move to the lower section?"
   npc_override_tra_fild_TrainingZone_you_sure_you_want_move_5dc15d: "Are you sure you want to move to the upper section?"

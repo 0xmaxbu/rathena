@@ -1,0 +1,27 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_custom_prt_castle_kings_items_as_promised_here_my_0a180b: "As promised, here is my {0}"
+  npc_custom_prt_castle_kings_items_come_back_after_you_get_d080d4: "Come back after you get ALL the items."
+  npc_custom_prt_castle_kings_items_fine_then_hmph_ae77fd: "FINE THEN! Hmph!!"
+  npc_custom_prt_castle_kings_items_he_s_king_prontera_he_73547a: "He's the King of Prontera. He should be able to get me ANYTHING!!!"
+  npc_custom_prt_castle_kings_items_hello_you_help_me_e09654: "Hello, can you help me?"
+  npc_custom_prt_castle_kings_items_hmph_i_hate_my_dad_5360e2: "Hmph, I hate my dad right now!!"
+  npc_custom_prt_castle_kings_items_i_ll_give_my_5858cc: "I'll give my {0}"
+  npc_custom_prt_castle_kings_items_i_ll_give_you_my_1dfecf: "I'll give you my crown or my sword as a reward."
+  npc_custom_prt_castle_kings_items_if_you_get_her_these_0740bb: "If you get her these items I'm sure she'll calm down."
+  npc_custom_prt_castle_kings_items_menu_crown_ef6466: "Crown:Sword"
+  npc_custom_prt_castle_kings_items_menu_if_8ef6cd: "If you could get me:"
+  npc_custom_prt_castle_kings_items_menu_sure_c1cf97: "Sure, what can I do?:Sorry, I'm busy."
+  npc_custom_prt_castle_kings_items_menu_what_476462: "What do you need?:I have the items!:Forget it."
+  npc_custom_prt_castle_kings_items_menu_why_351ed0: "Why?:Whatever..."
+  npc_custom_prt_castle_kings_items_ok_s_fine_i_m_1d1677: "Ok, that's fine, I'm sure someone else will help."
+  npc_custom_prt_castle_kings_items_surely_calm_her_down_3df088: "This will surely calm her down."
+  npc_custom_prt_castle_kings_items_thank_you_soo_much_bf5d95: "THANK YOU SOO MUCH!!"
+  npc_custom_prt_castle_kings_items_thank_you_well_my_daught_9f92bd: "Thank you. Well, my daughter next to me is a little rowdy..."
+  npc_custom_prt_castle_kings_items_well_he_won_t_give_73ba7c: "Well, he won't give me what I want!!"
+  npc_custom_prt_castle_kings_items_what_item_you_want_74299a: "What item do you want?"
+  npc_custom_prt_castle_kings_items_x_f2bf86: " ~ ^0055FF{0}^000000x {1}"
+  npc_custom_prt_castle_kings_items_you_re_missing_something_ccbb1f: "You're missing something."

@@ -4,6 +4,7 @@ Header:
 
 Body:
   npc_override_shadow_refiner_shadow_refiner_all_types_oridecon_eluni_b40a12: "All types of Oridecon and Elunium can be used to refine shadow items. Each attempt will also cost 20,000 zeny."
+  npc_override_shadow_refiner_shadow_refiner_cancel_77dfd2: "Cancel"
   npc_override_shadow_refiner_shadow_refiner_choose_your_ore_start_re_ae3943: "Choose your Ore and start refining."
   npc_override_shadow_refiner_shadow_refiner_hd_ore_only_used_higher_8ed5ff: "HD Ore can only used for +7 or higher refine level items."
   npc_override_shadow_refiner_shadow_refiner_hd_ores_used_gear_least_d18855: "HD ores can be used for gear that is at least refine level +7 and will prevent breaking as long as you stay talking to me."

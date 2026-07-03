@@ -3,6 +3,7 @@ Header:
   Version: 1
 
 Body:
+  npc_override_new_1-2_novice_about_kafra_services_dbfe42: "About Kafra services"
   npc_override_new_1-2_novice_about_party_system_401cac: "about the Party System."
   npc_override_new_1-2_novice_about_passive_skills_0d4b60: "about the Passive Skills."
   npc_override_new_1-2_novice_above_use_emoticons_89fd69: "or above to use emoticons."

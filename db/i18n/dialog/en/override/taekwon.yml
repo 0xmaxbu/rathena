@@ -149,6 +149,8 @@ Body:
   npc_override_taekwon_taekwon_next_portion_training_72bbfd: "the next portion of training."
   npc_override_taekwon_taekwon_next_question_b0d727: "to the next question."
   npc_override_taekwon_taekwon_next_time_we_meet_3b7ae9: "the next time we meet."
+  npc_override_taekwon_taekwon_no_b8b9f1: "No."
+  npc_override_taekwon_taekwon_no_thank_you_08debd: "No, thank you."
   npc_override_taekwon_taekwon_now_taekwon_boy_e29fff: "are now a ^FF0000Taekwon Boy^000000."
   npc_override_taekwon_taekwon_now_taekwon_girl_2e1e0b: "are now a ^FF0000Taekwon Girl^000000."
   npc_override_taekwon_taekwon_now_time_you_5e8ab1: "It is now time for you to"

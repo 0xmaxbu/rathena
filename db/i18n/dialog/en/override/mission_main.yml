@@ -3,6 +3,7 @@ Header:
   Version: 1
 
 Body:
+  npc_override_mission_main_mission_main_about_quests_0357e1: "About quests"
   npc_override_mission_main_mission_main_accept_dba7ab: "Accept it."
   npc_override_mission_main_mission_main_according_number_fortres_10f9b6: "According to ^4d4dffthe number of fortresses that your guild has conquered at this very moment,^000000 I'll give you a reward."
   npc_override_mission_main_mission_main_come_back_when_s_shining_95395c: "Come back when it's shining the most."
@@ -14,7 +15,9 @@ Body:
   npc_override_mission_main_mission_main_eliminate_monsters_appea_eddfe6: "It is to eliminate the monsters that appear in the guild dungeon."
   npc_override_mission_main_mission_main_entrance_guild_dungeon_r_637c02: "Entrance to the guild dungeon is restricted. But it's not like you can't find a way to go there, either."
   npc_override_mission_main_mission_main_feel_free_give_try_whene_468035: "Feel free to give it a try whenever you want to."
+  npc_override_mission_main_mission_main_give_up_quest_bbef8c: "Give up the quest."
   npc_override_mission_main_mission_main_guild_dungeon_daily_ques_687086: "Guild dungeon daily quests consist of combat quests that you can complete in guild dungeons."
+  npc_override_mission_main_mission_main_guild_dungeon_daily_ques_75c21d: "Guild Dungeon Daily Quests"
   npc_override_mission_main_mission_main_hmm_seems_like_you_haven_be3e1d: "Hmm? It seems like you haven't completed the mission yet.."
   npc_override_mission_main_mission_main_hmm_unfortunately_missio_196fdf: "Hmm, unfortunately, this mission is limited to users with ^4d4dfflevel {0}^000000 or higher only."
   npc_override_mission_main_mission_main_hunt_aunoes_fanats_0e319b: "^4d4dffHunt 50 Aunoes, and 20 Fanats.^000000"
@@ -34,6 +37,7 @@ Body:
   npc_override_mission_main_mission_main_hunt_more_zombie_masters_971129: "^4d4dffHunt 50 or more Zombie Masters and Wraith Deads, respectively.^000000"
   npc_override_mission_main_mission_main_i_confirmed_waiting_time_3e9e2e: "I have confirmed that the waiting time for conquering missions has ended."
   npc_override_mission_main_mission_main_i_confirmed_waiting_time_6c599f: "I have confirmed that the waiting time for this mission is over."
+  npc_override_mission_main_mission_main_i_don_t_need_633b44: "I don't need it."
   npc_override_mission_main_mission_main_i_give_reward_depending_87ba01: "I give a reward ^4d4dffdepending on how many fortresses you have conquered.^000000"
   npc_override_mission_main_mission_main_i_like_you_come_back_71a9ba: "I would like you to come back when the waiting time is over."
   npc_override_mission_main_mission_main_i_ll_cancel_mission_then_124bd8: "I'll cancel the mission then."
@@ -52,6 +56,7 @@ Body:
   npc_override_mission_main_mission_main_incredible_065183: "Incredible."
   npc_override_mission_main_mission_main_is_7477b0: "is {0}!"
   npc_override_mission_main_mission_main_isn_t_much_hopefully_hel_ee1f9c: "It isn't much, but hopefully it will be helpful."
+  npc_override_mission_main_mission_main_let_s_check_right_now_dee3bc: "Let's check right now!"
   npc_override_mission_main_mission_main_members_should_try_guild_87c2be: "Members should try guild dungeon daily quests instead."
   npc_override_mission_main_mission_main_mission_b0bc0d: "This is the {0} mission in {1}."
   npc_override_mission_main_mission_main_no_b8b9f1: "No."
@@ -59,6 +64,7 @@ Body:
   npc_override_mission_main_mission_main_oh_you_ve_done_good_0eed81: "Oh, you've done a good job."
   npc_override_mission_main_mission_main_please_lighten_your_load_73e172: "Please lighten your load and try again."
   npc_override_mission_main_mission_main_receiving_reward_followe_302e21: "^4d4dffReceiving a reward is followed by an hour of waiting time. So you'd better figure out the right timing as well.^000000"
+  npc_override_mission_main_mission_main_reject_8407a6: "Reject it."
   npc_override_mission_main_mission_main_right_life_all_about_tim_bd9a71: "Right. Life is all about timing."
   npc_override_mission_main_mission_main_rule_set_here_so_you_2f0b0d: "The rule is set here so that you're only allowed to complete one mission each day."
   npc_override_mission_main_mission_main_s_been_less_than_hour_67387f: "It's been less than an hour since the last time we've checked!"

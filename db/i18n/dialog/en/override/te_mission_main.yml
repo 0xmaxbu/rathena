@@ -3,6 +3,7 @@ Header:
   Version: 1
 
 Body:
+  npc_override_te_mission_main_te_mission_main_accept_9039f9: "Do not accept it."
   npc_override_te_mission_main_te_mission_main_accept_conform_missions_0133ef: "Accept/Conform Missions"
   npc_override_te_mission_main_te_mission_main_accept_dba7ab: "Accept it."
   npc_override_te_mission_main_te_mission_main_accomplish_mission_time_b794ae: "Accomplish the mission with in that time and report to me."
@@ -27,6 +28,7 @@ Body:
   npc_override_te_mission_main_te_mission_main_hmm_you_wouldn_t_believe_9d027e: "Hmm you wouldn't believe it, but this mission is related to a theft."
   npc_override_te_mission_main_te_mission_main_honestly_s_hard_complete_11ff11: "Honestly, it's hard to complete a mission if your level is too low."
   npc_override_te_mission_main_te_mission_main_however_closely_related_009e3e: "However, this is closely related to Emperiums."
+  npc_override_te_mission_main_te_mission_main_i_don_t_any_1cf76e: "I don't have any."
   npc_override_te_mission_main_te_mission_main_i_don_t_think_s_36037f: "I don't think it's worth it. Well, good luck!"
   npc_override_te_mission_main_te_mission_main_i_don_t_think_you_4184e1: "I don't think you should go on."
   npc_override_te_mission_main_te_mission_main_i_don_t_understand_why_99df75: "I don't understand why {0} appear at that time of the day."
@@ -76,6 +78,9 @@ Body:
   npc_override_te_mission_main_te_mission_main_unfortunately_you_t_acce_9ed406: "Unfortunately, you can't accept missions right now."
   npc_override_te_mission_main_te_mission_main_well_doesn_t_matter_anym_2b5d30: "Well, it doesn't matter anymore."
   npc_override_te_mission_main_te_mission_main_what_most_important_thin_af2289: "What is the most important thing in siege battles?"
+  npc_override_te_mission_main_te_mission_main_what_you_mean_mission_72f5b4: "What do you mean a mission?"
+  npc_override_te_mission_main_te_mission_main_yes_c53c56: "Yes."
+  npc_override_te_mission_main_te_mission_main_yes_i_ll_cancel_d12171: "Yes, I'll cancel it."
   npc_override_te_mission_main_te_mission_main_you_accept_missions_star_9c8750: "You can accept missions ^4d4dffstarting from 1 hour before the beginning of the siege and until the end of the siege battle TE^000000,"
   npc_override_te_mission_main_te_mission_main_you_already_high_level_m_885d1d: "You are already on a high-level mission!"
   npc_override_te_mission_main_te_mission_main_you_already_know_you_acc_8053d8: "You already know that you have to accept a mission in a certain period of time, right?"

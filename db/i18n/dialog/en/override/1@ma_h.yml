@@ -18,6 +18,8 @@ Body:
   npc_override_1@ma_h_BangungotHospital_critical_situation_happe_dc2eec: "A critical situation has happened."
   npc_override_1@ma_h_BangungotHospital_dead_die_601115: "the dead do not die."
   npc_override_1@ma_h_BangungotHospital_door_closed_st_floor_1ea057: "- The door is closed to 1st floor"
+  npc_override_1@ma_h_BangungotHospital_enter_b9e5bc: "Do not enter."
+  npc_override_1@ma_h_BangungotHospital_enter_second_floor_3db025: "Enter the second floor."
   npc_override_1@ma_h_BangungotHospital_fatal_situation_3e411d: "This is fatal situation."
   npc_override_1@ma_h_BangungotHospital_front_hospital_ed5859: "in front of the hospital!"
   npc_override_1@ma_h_BangungotHospital_go_up_3a9850: "To go up"

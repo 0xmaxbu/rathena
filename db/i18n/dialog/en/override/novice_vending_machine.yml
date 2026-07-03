@@ -4,6 +4,7 @@ Header:
 
 Body:
   npc_override_novice_vending_machine_novice_vending_machine_armor_hood_sandals_main_9e21be: "Armor, Hood, Sandals, Main Gauche and Guard for Novice from Criatura Academy can be exchanged into 4 {0}."
+  npc_override_novice_vending_machine_novice_vending_machine_cancel_ebda43: "Cancel."
   npc_override_novice_vending_machine_novice_vending_machine_continue_2e0262: "Continue"
   npc_override_novice_vending_machine_novice_vending_machine_exchange_82f04e: "[Exchange {0}]"
   npc_override_novice_vending_machine_novice_vending_machine_exchange_all_novice_equi_a696e1: "Exchange all Novice equipments into coupons."
@@ -15,5 +16,7 @@ Body:
   npc_override_novice_vending_machine_novice_vending_machine_number_insufficient_proc_b802a0: "The number of {0} is insufficient to proceed with the exchange."
   npc_override_novice_vending_machine_novice_vending_machine_select_continue_proceed_611028: "Select continue to proceed."
   npc_override_novice_vending_machine_novice_vending_machine_there_many_buttons_ea20db: "There are many buttons."
+  npc_override_novice_vending_machine_novice_vending_machine_trade_4c9cec: "Trade {0}"
   npc_override_novice_vending_machine_novice_vending_machine_trade_interrupted_c933e9: "The trade was interrupted."
+  npc_override_novice_vending_machine_novice_vending_machine_trade_novice_equipments_a0df84: "Trade Novice equipments"
   npc_override_novice_vending_machine_novice_vending_machine_vending_machine_novices_c35c6f: "Vending Machine for Novices."

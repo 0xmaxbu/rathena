@@ -3,6 +3,7 @@ Header:
   Version: 1
 
 Body:
+  npc_override_1@oz_MazeofOz_enter_0abb0f: "Enter."
   npc_override_1@oz_MazeofOz_i_think_good_idea_form_a62655: "I think it would be a good idea to form a ^ff0000party before enter^000000.."
   npc_override_1@oz_MazeofOz_i_think_i_climb_up_5e8f1b: "I think I can climb up using the rope."
   npc_override_1@oz_MazeofOz_i_think_we_use_rope_62f643: "I think we can use the rope to climb up."
@@ -83,12 +84,14 @@ Body:
   npc_override_1@oz_MazeofOz_open_door_6cc1f0: "Open the door."
   npc_override_1@oz_MazeofOz_party_entering_3748ac: "{0} of the party, {1}, is entering {2}."
   npc_override_1@oz_MazeofOz_please_finish_your_prepa_b4b0d1: "^e5555ePlease finish your preparations^000000 and come back to me."
+  npc_override_1@oz_MazeofOz_quit_fb25bb: "Quit."
   npc_override_1@oz_MazeofOz_s_better_wait_bit_before_6e31b6: "It's better to wait a bit before entering."
   npc_override_1@oz_MazeofOz_seems_like_someone_nearb_ca0b91: "It seems like someone was nearby but disappeared quickly."
   npc_override_1@oz_MazeofOz_t_used_yet_let_s_92a56d: "It can't be used yet. Let's talk to Maram first."
   npc_override_1@oz_MazeofOz_then_let_s_head_6aee35: "Then let's head to ^e5555e{0}^000000"
   npc_override_1@oz_MazeofOz_unknown_error_0aeb9e: "^0000ff{0} ^000000- Unknown error"
   npc_override_1@oz_MazeofOz_unknown_error_occurred_285cc7: "^ff0000An unknown error occurred.^000000"
+  npc_override_1@oz_MazeofOz_use_cd32c0: "Do not use."
   npc_override_1@oz_MazeofOz_use_rope_climb_up_e7c0cb: "Use the rope to climb up."
   npc_override_1@oz_MazeofOz_we_now_entering_font_siz_38ff4c: "We are now entering the <FONT SIZE = 14><B>^e5555eMaze of Oz^000000</FONT></B>."
   npc_override_1@oz_MazeofOz_where_did_they_go_15c77e: "Where did they go?"

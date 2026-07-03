@@ -50,6 +50,7 @@ Body:
   npc_override_1@pop1_EddaHalfMoonInTheDaylight_but_bda5a6: "But?"
   npc_override_1@pop1_EddaHalfMoonInTheDaylight_bye_749de5: "Bye!"
   npc_override_1@pop1_EddaHalfMoonInTheDaylight_bye_c74845: "Bye ~"
+  npc_override_1@pop1_EddaHalfMoonInTheDaylight_cancel_77dfd2: "Cancel"
   npc_override_1@pop1_EddaHalfMoonInTheDaylight_cannot_confirmed_possibl_95ce9c: "It cannot be confirmed, but it is possible."
   npc_override_1@pop1_EddaHalfMoonInTheDaylight_certainly_pope_please_st_0f2924: "Certainly, Pope. Please stand behind me."
   npc_override_1@pop1_EddaHalfMoonInTheDaylight_certainly_shall_we_raise_6ec5f5: "Certainly! Shall we raise him together as our pet?"

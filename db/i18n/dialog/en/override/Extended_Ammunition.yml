@@ -3,11 +3,16 @@ Header:
   Version: 1
 
 Body:
+  npc_override_Extended_Ammunition_Extended_Ammunition_box_exchange_49982a: "Box Exchange"
+  npc_override_Extended_Ammunition_Extended_Ammunition_buy_ammunition_4dd97a: "Buy Ammunition"
   npc_override_Extended_Ammunition_Extended_Ammunition_buy_arrows_505645: "Buy Arrows"
   npc_override_Extended_Ammunition_Extended_Ammunition_buy_component_59d3bc: "Buy Component"
   npc_override_Extended_Ammunition_Extended_Ammunition_buy_ninjutsu_tool_14942a: "Buy Ninjutsu Tool"
   npc_override_Extended_Ammunition_Extended_Ammunition_buy_talisman_2ab189: "Buy Talisman"
   npc_override_Extended_Ammunition_Extended_Ammunition_buy_weapons_481a74: "Buy Weapons"
+  npc_override_Extended_Ammunition_Extended_Ammunition_cancel_77dfd2: "Cancel"
+  npc_override_Extended_Ammunition_Extended_Ammunition_cartridge_exchange_0a8f51: "Cartridge Exchange"
+  npc_override_Extended_Ammunition_Extended_Ammunition_consumables_cooling_devi_add371: "Consumables and Cooling Device"
   npc_override_Extended_Ammunition_Extended_Ammunition_hello_did_you_come_see_3a089c: "Hello. Did you come to see the spirits?"
   npc_override_Extended_Ammunition_Extended_Ammunition_here_you_find_equipment_fd88c8: "Here you will find equipment for Madogear, except those that cannot be sold!"
   npc_override_Extended_Ammunition_Extended_Ammunition_hi_c0a0ad: "Hi!"
@@ -19,6 +24,10 @@ Body:
   npc_override_Extended_Ammunition_Extended_Ammunition_i_start_preparing_ammuni_1c27df: "I will start preparing the ammunition."
   npc_override_Extended_Ammunition_Extended_Ammunition_i_start_preparing_consum_2e4feb: "I will start preparing the consumables used by Madogear."
   npc_override_Extended_Ammunition_Extended_Ammunition_i_start_preparing_madoge_ef01a4: "I will start preparing the Madogear pieces."
+  npc_override_Extended_Ammunition_Extended_Ammunition_parchment_exchange_958886: "Parchment Exchange"
+  npc_override_Extended_Ammunition_Extended_Ammunition_quiver_exchange_76d5a8: "Quiver Exchange"
+  npc_override_Extended_Ammunition_Extended_Ammunition_sell_items_4ac2ce: "Sell Items"
+  npc_override_Extended_Ammunition_Extended_Ammunition_talisman_bundle_exchange_4fe58e: "Talisman Bundle Exchange"
   npc_override_Extended_Ammunition_Extended_Ammunition_thank_you_come_again_2ca944: "Thank you. Come again."
   npc_override_Extended_Ammunition_Extended_Ammunition_we_also_exchange_bundles_61cc12: "We also exchange for bundles."
   npc_override_Extended_Ammunition_Extended_Ammunition_what_did_you_come_see_067df4: "What did you come to see?"

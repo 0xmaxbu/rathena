@@ -1,0 +1,6 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_custom_floating_rates_floating_rates_menu_current_7e08cb: "Current rates are: 1.{0}x 1.{1}x 1.{2}x"

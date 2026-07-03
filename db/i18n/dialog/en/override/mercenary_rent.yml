@@ -123,6 +123,7 @@ Body:
   npc_override_mercenary_rent_mercenary_rent_these_potions_94fa1d: "10,000 of these potions"
   npc_override_mercenary_rent_mercenary_rent_time_please_enter_4cc08e: "at a time. Please enter"
   npc_override_mercenary_rent_mercenary_rent_transferred_other_people_93ee41: "transferred to other people,"
+  npc_override_mercenary_rent_mercenary_rent_turn_mercenary_npc_892e85: "Turn on Mercenary NPC"
   npc_override_mercenary_rent_mercenary_rent_turn_off_mercenary_npc_9ae73b: "Turn off Mercenary NPC"
   npc_override_mercenary_rent_mercenary_rent_use_there_anything_56011d: "use. Is there anything"
   npc_override_mercenary_rent_mercenary_rent_we_only_allow_base_level_7d7a06: "and we only allow a 5 Base Level difference between the Mercenary"

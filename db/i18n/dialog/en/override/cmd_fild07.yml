@@ -12,6 +12,7 @@ Body:
   npc_override_cmd_fild07_InfiniteSpace_merchants_hey_isn_t_hard_walk_42181f: "Hey, isn't it hard to walk in and out of here every time? For just ^0000ff20,000^000000 Zeny, you can have a scroll that will take you directly to the entrance of the ruins, what do you think?"
   npc_override_cmd_fild07_InfiniteSpace_merchants_hm_way_i_don_t_c9ad33: "Hm. By the way, I don't think you were listening, you don't have enough {0}."
   npc_override_cmd_fild07_InfiniteSpace_merchants_hm_well_done_check_your_66a161: "Hm. It was well done. Check your equipment at once."
+  npc_override_cmd_fild07_InfiniteSpace_merchants_i_don_t_think_so_bbad85: "I don't think so"
   npc_override_cmd_fild07_InfiniteSpace_merchants_i_ll_make_sure_gets_44fc5b: "I'll make sure it gets enchanted without a problem."
   npc_override_cmd_fild07_InfiniteSpace_merchants_i_lot_stuff_over_here_3ad425: "I have a lot of stuff over here, of course, not for free."
   npc_override_cmd_fild07_InfiniteSpace_merchants_i_only_enchant_rd_th_e6ffe0: "I can only enchant the 3rd and the 4th slot."
