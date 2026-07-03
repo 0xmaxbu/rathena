@@ -8,7 +8,7 @@ Body:
   npc_custom_airport_airplane_good_day_thank_you_trave_a5659d: "祝你今天愉快。感谢您选择我们的航班。"
   npc_custom_airport_airplane_good_day_thank_you_trave_ab7a41: "祝你今天愉快。感谢您选择飞空艇航班。"
   npc_custom_airport_airplane_itinerary_57b432: "^FF0000[航班时刻表]^000000"
-  npc_custom_airport_airplane_menu_pilot_9c3bae: "飞行员：飞空艇已抵达{0}。前往{1}的航班将在3分钟后起飞。"
+  npc_custom_airport_airplane_menu_pilot_9c3bae: "飞行员:飞空艇已抵达{0}。前往{1}的航班将在3分钟后起飞。"
   npc_custom_airport_airplane_plane_currently_ported_y_2bea59: "飞空艇目前已停靠。您要登机吗？"
   npc_custom_airport_airplane_porter_6d173b: "^FF0000[搬运工]^000000"
   npc_custom_airport_airplane_sorry_ma_am_plane_curren_3f83ba: "抱歉，女士，但飞空艇目前尚未停靠。不过，您可以查看飞空艇的每小时时刻表。"

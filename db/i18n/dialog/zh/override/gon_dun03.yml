@@ -3,7 +3,6 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_gon_dun03_quests_gonryun_aaa_aaa_e5330a: "啊啊……啊啊……"
   npc_override_gon_dun03_quests_gonryun_able_repair_my_ffda05: "能够修复我的"
   npc_override_gon_dun03_quests_gonryun_about_favor_aumgarl_blac_048587: "以及关于铁匠奥姆加尔的请求。^000000"

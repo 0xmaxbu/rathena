@@ -4,4 +4,4 @@ Header:
 
 Body:
 
-  npc_override_floating_rates_floating_rates_menu_current_7e08cb: "当前倍率为：1.{0}x 1.{1}x 1.{2}x"
+  npc_override_floating_rates_floating_rates_menu_current_7e08cb: "当前倍率为:1.{0}x 1.{1}x 1.{2}x"

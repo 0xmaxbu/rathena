@@ -3,7 +3,6 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_autopot_autopot_auto_potion_already_5da9b1: "自动药水 {0} 已经开启。"
   npc_override_autopot_autopot_auto_potion_disabled_6cd724: "自动药水 {0} 已关闭。"
   npc_override_autopot_autopot_auto_potion_disabled_ser_23f2ec: "服务器已禁用自动药水 {0}。"
@@ -24,13 +23,13 @@ Body:
   npc_override_autopot_autopot_black_listed_items_406080: "--------------黑名单物品--------------"
   npc_override_autopot_autopot_invalid_syntax_28213b: "无效的语法。"
   npc_override_autopot_autopot_list_commands_displayed_fa4e6f: "命令列表显示如下。"
-  npc_override_autopot_autopot_menu_auto_b5dcdd: "自动药水：出错了！"
-  npc_override_autopot_autopot_menu_available_83e2fa: "可用命令："
-  npc_override_autopot_autopot_menu_delay_7ef4fb: "延迟：    {0} 毫秒"
-  npc_override_autopot_autopot_menu_hp_0855c6: "HP 药水：  {0}（{1}）"
-  npc_override_autopot_autopot_menu_min_5efa36: "最小 HP：   {0}%"
-  npc_override_autopot_autopot_menu_min_73618a: "最小 SP：   {0}%"
-  npc_override_autopot_autopot_menu_sp_0b882e: "SP 药水：  {0}（{1}）"
+  npc_override_autopot_autopot_menu_auto_b5dcdd: "自动药水:出错了！"
+  npc_override_autopot_autopot_menu_available_83e2fa: "可用命令:"
+  npc_override_autopot_autopot_menu_delay_7ef4fb: "延迟:    {0} 毫秒"
+  npc_override_autopot_autopot_menu_hp_0855c6: "HP 药水:  {0}（{1}）"
+  npc_override_autopot_autopot_menu_min_5efa36: "最小 HP:   {0}%"
+  npc_override_autopot_autopot_menu_min_73618a: "最小 SP:   {0}%"
+  npc_override_autopot_autopot_menu_sp_0b882e: "SP 药水:  {0}（{1}）"
   npc_override_autopot_autopot_msg_4aec5d: "    {0}（{1}）"
   npc_override_autopot_autopot_msg_a9635b: "---------------------------------------------"
   npc_override_autopot_autopot_select_item_80e9bf: "选择一个 {0} 物品。"

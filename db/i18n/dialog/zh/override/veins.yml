@@ -3,7 +3,6 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_veins_guides_veins_always_crowded_sincere_f_9e4cae: "并且总是挤满了芙蕾雅女神的虔诚信徒。"
   npc_override_veins_guides_veins_always_filled_praying_fa_efc65c: "{0}总是充满了向女神芙蕾雅化身祈祷的虔诚信徒。"
   npc_override_veins_guides_veins_desert_city_veins_welcom_8704bb: "沙漠之城菲音斯欢迎那些寻求躲避猛烈沙尘暴的冒险者。"
@@ -276,7 +275,7 @@ Body:
   npc_override_veins_veins_me_place_if_bo_ring_966c55: "对我来说，这个地方太无聊了。"
   npc_override_veins_veins_me_see_before_i_die_319050: "在我死之前让我看到它！"
   npc_override_veins_veins_means_lot_me_s_my_ceda8f: "对我意义重大。这是我的"
-  npc_override_veins_veins_menu_don_8e3872: "别误会："
+  npc_override_veins_veins_menu_don_8e3872: "别误会:"
   npc_override_veins_veins_middle_desert_4e0c45: "沙漠中央，"
   npc_override_veins_veins_middle_desert_c78d1b: "在沙漠中央，"
   npc_override_veins_veins_might_interest_you_42f905: "可能让你感兴趣~"

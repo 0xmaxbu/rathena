@@ -1,0 +1,19 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_custom_lighthalzen_jewel_case_here_your_prize_s_yours_5b81e0: "这是你的奖品。它永远属于你。"
+  npc_custom_lighthalzen_jewel_case_i_couldn_t_think_you_1c94bb: "我没想到你能满足我的条件……"
+  npc_custom_lighthalzen_jewel_case_i_ve_got_riddle_strong_e3c79b: "我有一个谜题给二转 99 Base 等级的强者。"
+  npc_custom_lighthalzen_jewel_case_if_you_get_younger_than_83d17e: "如果你变得比现在更年轻，我会给你我的宝藏。"
+  npc_custom_lighthalzen_jewel_case_if_you_solve_my_riddle_8d070c: "如果你解开我的谜题，我会给你一个装有稀有饰品的魔法珠宝盒。"
+  npc_custom_lighthalzen_jewel_case_kill_more_poporings_come_1cc85a: "再杀 {0} 个波波利然后回来。"
+  npc_custom_lighthalzen_jewel_case_kill_more_seals_return_07208c: "再杀 {0} 个海豹然后回来。"
+  npc_custom_lighthalzen_jewel_case_msg_6eae3a: "对于所有这些，我可以给你\\n "
+  npc_custom_lighthalzen_jewel_case_now_go_forth_get_younger_8fba04: "现在去变得更年轻吧！"
+  npc_custom_lighthalzen_jewel_case_now_you_re_really_strong_79ed75: "现在你真的很强了。"
+  npc_custom_lighthalzen_jewel_case_now_you_re_strong_18b3c4: "现在你很强大。"
+  npc_custom_lighthalzen_jewel_case_quite_strong_my_riddle_35373f: "但是……对我的谜题来说还不够强。"
+  npc_custom_lighthalzen_jewel_case_yawn_if_you_meet_some_c5c95d: "*打哈欠* 如果你遇到一些人，请告诉他们我的谜题。"
+  npc_custom_lighthalzen_jewel_case_you_you_got_younger_you_0242c3: "你……你变年轻了！！！但你确实是你！"

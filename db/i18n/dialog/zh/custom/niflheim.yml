@@ -1,0 +1,30 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_custom_niflheim_dead_branch_fact_i_know_secret_about_c7dbdb: "事实上，我知道一个关于这些精灵的秘密，或许能在某些方面……帮到你……"
+  npc_custom_niflheim_dead_branch_get_me_one_wooden_heart_d43af1: "给我一个木质之心，我就为你制作精灵……"
+  npc_custom_niflheim_dead_branch_get_me_three_logs_i_b4b03a: "给我三根原木，我就为你制作精灵……"
+  npc_custom_niflheim_dead_branch_heh_careful_now_what_i_3865cb: "嘿……小心点？你死不死的我怎么会关……算了。"
+  npc_custom_niflheim_dead_branch_heh_hope_you_fun_tree_29fcbf: "嘿……希望你和树精玩得开心……小心点……"
+  npc_custom_niflheim_dead_branch_how_i_make_one_without_d66076: "没有^135445木质瘤结^000000我怎么做得出来？"
+  npc_custom_niflheim_dead_branch_i_create_spirited_branch_fbdafc: "我可以制作一个有灵性的树枝……前提是你能给我提供正确的材料……"
+  npc_custom_niflheim_dead_branch_i_said_gibbet_they_all_2e5a22: "我说的是绞刑架……它们到处都是……"
+  npc_custom_niflheim_dead_branch_kill_elder_willows_somet_c70bf2: "去杀长老柳树什么的……天哪……连树干都没有哼……真可悲。"
+  npc_custom_niflheim_dead_branch_logs_body_i_need_more_65e896: "^135445原木^000000是身体……我需要更多。"
+  npc_custom_niflheim_dead_branch_logs_e4cbd4: "^1354453根原木^000000"
+  npc_custom_niflheim_dead_branch_logs_found_off_tree_gole_ccd5e4: "^135445原木可以从树精身上获得。^000000"
+  npc_custom_niflheim_dead_branch_menu_mwehehe_6b8ba9: "唔嘿嘿……我看你想控制树精对吧？好……我需要:"
+  npc_custom_niflheim_dead_branch_no_spirit_you_then_go_f95555: "没有精灵给你……那就滚！"
+  npc_custom_niflheim_dead_branch_trees_possess_spirits_yo_33f16d: "树木是有灵魂的你知道吗……"
+  npc_custom_niflheim_dead_branch_trunk_5e811a: "^1354455根树干^000000"
+  npc_custom_niflheim_dead_branch_trunks_seriously_think_w_474ebb: "^135445树干？拜托，想想木头……^000000"
+  npc_custom_niflheim_dead_branch_well_let_us_see_what_6f9e4b: "好吧……让我看看你带了什么来……"
+  npc_custom_niflheim_dead_branch_what_you_couldn_t_even_d30546: "什么？你连^1354455根树干^000000都找不到？"
+  npc_custom_niflheim_dead_branch_wooden_gnarl_683c70: "^1354451个木质瘤结^000000"
+  npc_custom_niflheim_dead_branch_wooden_gnarl_gibbet_79d9a0: "^135445木质瘤结……绞刑架……^000000"
+  npc_custom_niflheim_dead_branch_wooden_heart_a87a43: "^1354451个木质之心^000000"
+  npc_custom_niflheim_dead_branch_wooden_heart_essence_spi_f5a35e: "^135445木质之心^000000是精灵的精华。"
+  npc_custom_niflheim_dead_branch_wooden_hearts_essence_tr_a25467: "^135445木质之心是树精的精华。^000000"
+  npc_custom_niflheim_dead_branch_you_find_following_items_d929fd: "你可以从某些魔物身上找到以下物品嘿嘿……"

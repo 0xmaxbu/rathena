@@ -3,7 +3,6 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_coin_exchange_coin_exchange_burwehala_2080fb: "布尔韦哈拉"
   npc_override_coin_exchange_coin_exchange_come_again_if_you_change_4ed51c: "如果你改变主意，请再来。"
   npc_override_coin_exchange_coin_exchange_hello_9b56d5: "你好。"

@@ -64,8 +64,8 @@ Body:
   npc_override_job_gun_rebellion_magical_spitfires_92772e: "魔法喷火器！"
   npc_override_job_gun_rebellion_maybe_i_m_wrong_place_aa111c: "也许我来错地方了。这地方看起来不像酒馆。"
   npc_override_job_gun_rebellion_menu_cancel_feba92: "取消:测试怪物生成:从头开始:熔炉区域:射击区域:完成测试"
-  npc_override_job_gun_rebellion_menu_furnace_93687b: "熔炉控制器：完成操作…… 15秒后进入待机模式。"
-  npc_override_job_gun_rebellion_menu_furnace_dc5e7d: "熔炉控制器：从熔炉中打捞模具…… 工人们，在生产线上待命。"
+  npc_override_job_gun_rebellion_menu_furnace_93687b: "熔炉控制器:完成操作…… 15秒后进入待机模式。"
+  npc_override_job_gun_rebellion_menu_furnace_dc5e7d: "熔炉控制器:从熔炉中打捞模具…… 工人们，在生产线上待命。"
   npc_override_job_gun_rebellion_menu_i_0dc96b: "我放弃.:……我签。"
   npc_override_job_gun_rebellion_menu_i_19f03c: "我放弃.:做吧。"
   npc_override_job_gun_rebellion_menu_i_38c5f7: "我想加入.:我只是路过。"
@@ -155,4 +155,3 @@ Body:
   npc_override_job_gun_rebellion_your_choice_2ec2fd: "你的选择。"
   npc_override_job_gun_rebellion_your_problem_bit_out_my_c60ccc: "你的问题有点超出我的能力范围。进去吧。如果我发现你从头到尾都是真货，我会让你再也见不到外面的世界。"
   npc_override_job_gun_rebellion_your_safety_please_step_63ac5d: "为了你的安全，请远离自动铁砧。"
-

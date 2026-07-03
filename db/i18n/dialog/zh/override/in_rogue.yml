@@ -3,7 +3,6 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_in_rogue_rogue_about_becoming_rogue_8b19d8: "关于成为流氓，"
   npc_override_in_rogue_rogue_about_killing_you_bb8a9c: "关于杀了你。"
   npc_override_in_rogue_rogue_about_something_9c5544: "关于某事……"
@@ -293,7 +292,7 @@ Body:
   npc_override_in_rogue_rogue_menu_upgrade_d2bf72: "强化物品:锻造物品:精炼物品:强化物品"
   npc_override_in_rogue_rogue_menu_vadon_169fad: "瓦顿:小恶魔:长老柳树:巴风特"
   npc_override_in_rogue_rogue_menu_water_48e45e: "水:火:风:地"
-  npc_override_in_rogue_rogue_menu_we_2c6a08: "我们流氓共享这个座右铭：^0000FF避开强者！欺凌弱者！^000000这条规则适用于任何威胁，尤其是怪物。"
+  npc_override_in_rogue_rogue_menu_we_2c6a08: "我们流氓共享这个座右铭:^0000FF避开强者！欺凌弱者！^000000这条规则适用于任何威胁，尤其是怪物。"
   npc_override_in_rogue_rogue_menu_whisper_84f747: "低语卡片:长老柳树卡片:泽罗姆卡片:玛蒂尔卡片"
   npc_override_in_rogue_rogue_menu_wind_3f14b7: "风属性短剑:冰属性短剑:地属性短剑:火属性短剑"
   npc_override_in_rogue_rogue_menu_worm_9e4bc3: "虫尾:阿戈斯:木乃伊:骷髅士兵"
@@ -657,9 +656,9 @@ Body:
   npc_override_in_rogue_rogue_skills_menu_i_498872: "我是来帮你的:哦，实际上，我不是在找你。"
   npc_override_in_rogue_rogue_skills_menu_i_97a88e: "我对你没有恶意！:给我们想要的！"
   npc_override_in_rogue_rogue_skills_menu_listen_70bff3: "听解释:去训练场"
-  npc_override_in_rogue_rogue_skills_menu_me_984530: "我做这个：^FF0000背刺^000000！"
+  npc_override_in_rogue_rogue_skills_menu_me_984530: "我做这个:^FF0000背刺^000000！"
   npc_override_in_rogue_rogue_skills_menu_no_44aaea: "不:是"
-  npc_override_in_rogue_rogue_skills_menu_shameful_e6ec14: "可耻的过错：我花Zeny"
+  npc_override_in_rogue_rogue_skills_menu_shameful_e6ec14: "可耻的过错:我花Zeny"
   npc_override_in_rogue_rogue_skills_menu_sure_9be6cd: "当然！:抱歉，我很忙。"
   npc_override_in_rogue_rogue_skills_menu_yes_8227b0: "是的，请:不，谢谢。"
   npc_override_in_rogue_rogue_skills_menu_yes_981bec: "是！:不，谢谢。"

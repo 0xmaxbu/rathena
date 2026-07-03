@@ -1,0 +1,27 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_custom_prt_castle_kings_items_as_promised_here_my_0a180b: "如约而至，这是我的 {0}"
+  npc_custom_prt_castle_kings_items_come_back_after_you_get_d080d4: "集齐所有物品后再来。"
+  npc_custom_prt_castle_kings_items_fine_then_hmph_ae77fd: "那就这样吧！哼！！"
+  npc_custom_prt_castle_kings_items_he_s_king_prontera_he_73547a: "他是普隆德拉的国王，他应该能给我任何东西！！！"
+  npc_custom_prt_castle_kings_items_hello_you_help_me_e09654: "你好，你能帮我吗？"
+  npc_custom_prt_castle_kings_items_hmph_i_hate_my_dad_5360e2: "哼，我现在恨我爸爸！！"
+  npc_custom_prt_castle_kings_items_i_ll_give_my_5858cc: "我会把我的 {0}"
+  npc_custom_prt_castle_kings_items_i_ll_give_you_my_1dfecf: "我会把我的王冠或剑作为奖励给你。"
+  npc_custom_prt_castle_kings_items_if_you_get_her_these_0740bb: "如果你能给她这些物品，我相信她会平静下来的。"
+  npc_custom_prt_castle_kings_items_menu_crown_ef6466: "王冠：剑"
+  npc_custom_prt_castle_kings_items_menu_if_8ef6cd: "如果你能给我："
+  npc_custom_prt_castle_kings_items_menu_sure_c1cf97: "当然，我能做什么？：抱歉，我很忙。"
+  npc_custom_prt_castle_kings_items_menu_what_476462: "你需要什么？：我有物品！：算了。"
+  npc_custom_prt_castle_kings_items_menu_why_351ed0: "为什么？：无所谓……"
+  npc_custom_prt_castle_kings_items_ok_s_fine_i_m_1d1677: "好吧，没关系，我相信会有其他人帮忙的。"
+  npc_custom_prt_castle_kings_items_surely_calm_her_down_3df088: "这一定能让她平静下来。"
+  npc_custom_prt_castle_kings_items_thank_you_soo_much_bf5d95: "太感谢你了！！"
+  npc_custom_prt_castle_kings_items_thank_you_well_my_daught_9f92bd: "谢谢你。嗯，我旁边这个女儿有点闹腾……"
+  npc_custom_prt_castle_kings_items_well_he_won_t_give_73ba7c: "嗯，他就不给我想要的！！"
+  npc_custom_prt_castle_kings_items_what_item_you_want_74299a: "你想要什么物品？"
+  npc_custom_prt_castle_kings_items_x_f2bf86: " ~ ^0055FF{0}^000000x {1}"
+  npc_custom_prt_castle_kings_items_you_re_missing_something_ccbb1f: "你缺了东西。"

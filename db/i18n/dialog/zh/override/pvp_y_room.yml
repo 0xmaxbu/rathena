@@ -3,7 +3,6 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_pvp_y_room_guildpvp_alright_i_hope_ccfc71: "好的，希望"
   npc_override_pvp_y_room_guildpvp_alright_i_ll_move_you_1877f3: "好的，我会把你传送"
   npc_override_pvp_y_room_guildpvp_either_team_team_ae606c: "第一队或第二队。"

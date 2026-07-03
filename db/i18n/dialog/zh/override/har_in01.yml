@@ -51,7 +51,7 @@ Body:
   npc_override_har_in01_enchan_rockridge_lighten_your_bag_first_26c929: "先减轻你的背包？"
   npc_override_har_in01_enchan_rockridge_ll_rock_ridge_coins_c02ca1: "那是{0}个岩脊硬币。"
   npc_override_har_in01_enchan_rockridge_make_them_better_how_7a4c0e: "让它们更好？怎么做？"
-  npc_override_har_in01_enchan_rockridge_menu_chuckle_6118d0: "*轻笑* 你想要哪个：^0000CD肩部^000000、^0000CD颈部还是胸部^000000的？"
+  npc_override_har_in01_enchan_rockridge_menu_chuckle_6118d0: "*轻笑* 你想要哪个:^0000CD肩部^000000、^0000CD颈部还是胸部^000000的？"
   npc_override_har_in01_enchan_rockridge_msg_6dd69d: "[{0}]。"
   npc_override_har_in01_enchan_rockridge_oh_note_these_contraband_de1629: "哦，注意这些违禁品容易损坏，尤其是重置时。"
   npc_override_har_in01_enchan_rockridge_oh_you_really_want_reset_c255cc: "哦，你真的想重置吗？正如我之前告诉你的，违禁的治安官徽章容易损坏。"

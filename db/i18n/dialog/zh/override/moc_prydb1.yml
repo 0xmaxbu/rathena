@@ -102,7 +102,7 @@ Body:
   npc_override_moc_prydb1_thief_man_you_got_real_cool_afee07: "伙计，你突然变得好酷！你一定有一些我只能梦想的技能！"
   npc_override_moc_prydb1_thief_me_bf0d7e: "我……？"
   npc_override_moc_prydb1_thief_me_your_name_b70468: "我你的名字。"
-  npc_override_moc_prydb1_thief_menu_anyway_9c5057: "总之，你得收集两种蘑菇：^0000FF橙色网纹蘑菇^000000和^0000FF橙色黏糊蘑菇^000000。"
+  npc_override_moc_prydb1_thief_menu_anyway_9c5057: "总之，你得收集两种蘑菇:^0000FF橙色网纹蘑菇^000000和^0000FF橙色黏糊蘑菇^000000。"
   npc_override_moc_prydb1_thief_menu_hey_e8d6bb: "嘿，我是来当盗贼的！:不，我只是四处看看。"
   npc_override_moc_prydb1_thief_menu_i_37541c: "我想成为盗贼。:没什么。"
   npc_override_moc_prydb1_thief_menu_yeah_2d26f5: "是啊，挺酷的。:太可怕了。"

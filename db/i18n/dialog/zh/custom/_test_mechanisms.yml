@@ -1,0 +1,26 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_custom__test_mechanisms__test_mechanisms_d_d5eab9: "[D-49] 警告：部分机制未通过，需查找替代方案后再继续。"
+  npc_custom__test_mechanisms__test_mechanisms_d_phase_plan_12845c: "[D-49] 全部机制验证通过，Phase 11 可继续后续计划。"
+  npc_custom__test_mechanisms__test_mechanisms_menu_test_133a46: "[TEST] ITEMINFO_ATTACK: 通过 (atk={0})"
+  npc_custom__test_mechanisms__test_mechanisms_menu_test_13853c: "[TEST] 在线玩家查询: 失败 — 在线人数 < 1"
+  npc_custom__test_mechanisms__test_mechanisms_menu_test_2ee811: "[TEST] 在线玩家查询: 通过"
+  npc_custom__test_mechanisms__test_mechanisms_menu_test_4cbddb: "[TEST] getgroupid: 失败 — 返回负值"
+  npc_custom__test_mechanisms__test_mechanisms_menu_test_7d114e: "[TEST] pending_value/scheduled_at: 通过"
+  npc_custom__test_mechanisms__test_mechanisms_menu_test_7ec278: "[TEST] setd/getd: 通过"
+  npc_custom__test_mechanisms__test_mechanisms_menu_test_925abc: "[TEST] getgroupid: 通过 (gid={0})"
+  npc_custom__test_mechanisms__test_mechanisms_menu_test_b27235: "[TEST] \\\\\\\\\\\\\\\\$key\\\\\\\\\\\\\\\\$ 持久化: 通过"
+  npc_custom__test_mechanisms__test_mechanisms_menu_test_b55d85: "[TEST] setd/getd: 失败 — getd 未返回 'hello'"
+  npc_custom__test_mechanisms__test_mechanisms_menu_test_b81282: "[TEST] getmobdrops: 失败 — 波利无掉落物或 getmobdrops 失败"
+  npc_custom__test_mechanisms__test_mechanisms_menu_test_b8fac2: "[TEST] pending_value/scheduled_at: 失败 — UPDATE 或读回失败"
+  npc_custom__test_mechanisms__test_mechanisms_menu_test_c8277f: "[TEST] \\\\\\\\\\\\\\\\$key\\\\\\\\\\\\\\\\$ 持久化: 失败 — mapreg 表无对应记录"
+  npc_custom__test_mechanisms__test_mechanisms_menu_test_da5ad8: "[TEST] ITEMINFO_ATTACK: 失败 — getiteminfo 返回非正值或常量未定义"
+  npc_custom__test_mechanisms__test_mechanisms_menu_test_db10f7: "[TEST] getmobdrops: 通过"
+  npc_custom__test_mechanisms__test_mechanisms_menu_test_db99fa: "[TEST] player_points 读写: 失败 — 表不存在或无写权限"
+  npc_custom__test_mechanisms__test_mechanisms_menu_test_f4c34e: "[TEST] player_points 读写: 通过"
+  npc_custom__test_mechanisms__test_mechanisms_passed_6773cf: "=== {0}/8 通过 ==="
+  npc_custom__test_mechanisms__test_mechanisms_test_mail_jellopy_x_360f0c: "[Test9] 邮件已发送 — 请查收邮箱确认是否收到 杰勒比 x1"
+  npc_custom__test_mechanisms__test_mechanisms_test_pass_fail_mail_geti_0b24ae: "[Test9] 收到物品=通过；未收到=失败（邮件数组形式不支持，需改用 getitem）"

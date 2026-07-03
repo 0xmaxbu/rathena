@@ -3,7 +3,6 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_splendide_splendide_adorfulotas_ko_noralahas_c2081f: "AdorFulotas Ko NorAlahAsh Ie Ala"
   npc_override_splendide_splendide_adorserhir_er_osaalahano_9de9f8: "AdorserHir er OsaAlahAno Mu RivehDath"
   npc_override_splendide_splendide_agoldiebuor_no_tur_446a50: "AgolDiebUor No Tur"
@@ -17,7 +16,7 @@ Body:
   npc_override_splendide_splendide_alberich_swears_last_his_a0e534: "^4d4dff 阿尔贝里希用最后一口气发誓，他珍贵的戒指将诅咒佩戴者直到死亡。"
   npc_override_splendide_splendide_andunothuor_o_eomaurshar_929fb8: "AnduNothUor O eomaurShar Mu AnduVeld"
   npc_override_splendide_splendide_andusarhir_no_nudanumaur_e92956: "AnduSarHir No NudAnumaur Ha Veld"
-  npc_override_splendide_splendide_anduveldre_ko_veldrefulo_7e703b: "AnduVeldRe Ko VeldReFulo So LomaurDu So\\\\tSo "
+  npc_override_splendide_splendide_anduveldre_ko_veldrefulo_7e703b: "AnduVeldRe Ko VeldReFulo So LomaurDu So\\\\\\\\tSo "
   npc_override_splendide_splendide_annarnor_so_marfarano_di_6dc781: "AnnarNor So marFarAno Di NudThusNei Ir Ir "
   npc_override_splendide_splendide_anufulouor_ko_cyawosnes_c8557b: "AnuFuloUor Ko CyaWosnes Ha WosAnuAsh O WosDuAno O "
   npc_override_splendide_splendide_anuneseor_ie_remusedieb_3bcf2d: "Anuneseor Ie remuSeDieb er "

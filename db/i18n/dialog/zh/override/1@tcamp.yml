@@ -41,7 +41,7 @@ Body:
   npc_override_1@tcamp_ThorGunsuBase_looks_like_i_found_what_402d6d: "看来我找到了我要找的东西。我把文件收起来了。"
   npc_override_1@tcamp_ThorGunsuBase_looks_like_menu_been_set_663eca: "看起来菜单已经定好了，是浇了酱汁的炸鱼……"
   npc_override_1@tcamp_ThorGunsuBase_looks_like_you_found_adv_ab12a3: "看来你很快就找到了冒险者和玛拉姆。"
-  npc_override_1@tcamp_ThorGunsuBase_menu_caution_f3b056: "^FF0000注意：如果你在地下城内进行任意处理，例如驯服怪物，将不被视为正常进度。^000000"
+  npc_override_1@tcamp_ThorGunsuBase_menu_caution_f3b056: "^FF0000注意:如果你在地下城内进行任意处理，例如驯服怪物，将不被视为正常进度。^000000"
   npc_override_1@tcamp_ThorGunsuBase_menu_leader_4d6811: "队长: {0}"
   npc_override_1@tcamp_ThorGunsuBase_menu_maram_06bdf1: "玛拉姆: 这栋楼看起来很可疑，对吧？这里面应该也有监控系统。"
   npc_override_1@tcamp_ThorGunsuBase_menu_maram_7243a4: "玛拉姆: 看来我们深入得够深了。我们应该能安全地找到我们需要的东西。"

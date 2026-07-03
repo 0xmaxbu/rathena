@@ -3,7 +3,6 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_yuno_event_skill_reset_addition_we_wait_opportu_a21810: "此外我们等待机会。"
   npc_override_yuno_event_skill_reset_any_carts_falcons_pecos_1e77bb: "你装备的任何手推车、猎鹰或大嘴鸟"
   npc_override_yuno_event_skill_reset_any_items_cecb5c: "任何物品。"
@@ -40,7 +39,7 @@ Body:
   npc_override_yuno_event_skill_reset_your_name_3a75ca: "你的名字是 ^0080FF{0}^000000。"
   npc_override_yuno_guides_juno_airport_176f3a: "^FF3355+^000000 -> 机场"
   npc_override_yuno_guides_juno_armory_357bc7: "^FF3355+^000000 -> 军械库"
-  npc_override_yuno_guides_juno_city_juno_cf36f3: "^8B4513朱诺^000000之城！"
+  npc_override_yuno_guides_juno_city_juno_cf36f3: "朱诺之城！"
   npc_override_yuno_guides_juno_city_knowledge_950dc0: "知识之城！"
   npc_override_yuno_guides_juno_forge_f4d7aa: "^FF3355+^000000 -> 锻造坊"
   npc_override_yuno_guides_juno_forge_located_underneath_c2f522: "锻造坊位于军械库下方。"

@@ -356,7 +356,7 @@ Body:
   npc_override_p_track02_monster_race_menu_enter_68d202: "进入:取消"
   npc_override_p_track02_monster_race_menu_fire_f953f8: "火属性:地属性:风属性:水属性"
   npc_override_p_track02_monster_race_menu_glittering_07565f: "闪光夹克:火属性铠甲:地属性铠甲:风属性铠甲:水属性铠甲:取消"
-  npc_override_p_track02_monster_race_menu_monster_90aa54: "魔物赛跑：你必须押2只魔物，它们必须"
+  npc_override_p_track02_monster_race_menu_monster_90aa54: "魔物赛跑:你必须押2只魔物，它们必须"
   npc_override_p_track02_monster_race_menu_monster_b9cc74: "魔物赛跑信息:下注信息:票券兑换信息"
   npc_override_p_track02_monster_race_menu_monster_f22f7e: "魔物{0} [^CC6600运气^000000: {1}] [^EE0000HP^000000: {2}]"
   npc_override_p_track02_monster_race_menu_monster_f8177e: "魔物赛跑信息:进入魔物赛跑"

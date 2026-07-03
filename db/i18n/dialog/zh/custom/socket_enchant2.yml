@@ -1,0 +1,10 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_custom_socket_enchant2_socket_enchant2_msg_0b0c6f: "^FF0000{0}^000000"
+  npc_custom_socket_enchant2_socket_enchant2_msg_23f420: "^FF0000{0}{1}{2}{3}{4}{5}{6}{7}"
+  npc_custom_socket_enchant2_socket_enchant2_msg_42d521: "^FF0000{0}{1}{2}"
+  npc_custom_socket_enchant2_socket_enchant2_msg_61f91c: "^FF0000{0},000{1}"
+  npc_custom_socket_enchant2_socket_enchant2_msg_de7213: "^FF0000{0},000{1}{2}{3}{4}{5}{6}"

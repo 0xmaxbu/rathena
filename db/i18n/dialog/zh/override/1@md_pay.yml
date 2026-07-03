@@ -20,7 +20,7 @@ Body:
   npc_override_1@md_pay_WeekendDungeon_looking_around_s_obvious_fd5f32: "^0000FF环顾四周，很明显Marry Jae正在和你说话。^000000"
   npc_override_1@md_pay_WeekendDungeon_memorial_dungeon_been_cr_a43d8a: "纪念地下城已创建。"
   npc_override_1@md_pay_WeekendDungeon_menu_saturday_2f96b5: "^0000FF周六 00:00 ~ 周日 23:59^000000"
-  npc_override_1@md_pay_WeekendDungeon_menu_the_4da1d1: "地下城开放时间："
+  npc_override_1@md_pay_WeekendDungeon_menu_the_4da1d1: "地下城开放时间:"
   npc_override_1@md_pay_WeekendDungeon_now_you_like_enter_now_4e874f: "现在，你想现在进入吗？"
   npc_override_1@md_pay_WeekendDungeon_off_you_go_027c81: "去吧！"
   npc_override_1@md_pay_WeekendDungeon_oh_curious_onlooker_i_m_0ee283: "哦，好奇的旁观者？我是Marry Jae，负责一周中周末的人。"

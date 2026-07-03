@@ -3,7 +3,6 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_mjolnir_01_StPatrick_2008_after_cloud_dust_smoke_d_f68925: "一阵尘土和烟雾散去后，"
   npc_override_mjolnir_01_StPatrick_2008_ah_well_rested_i_hope_45da66: "啊，休息好了吧？"
   npc_override_mjolnir_01_StPatrick_2008_aye_i_understand_3fd88e: "是的，我理解。"
@@ -1011,10 +1010,10 @@ Body:
   npc_override_mjolnir_01_quests_prontera_menu_go_82191c: "去罗达弗里安:去班夫神父"
   npc_override_mjolnir_01_quests_prontera_menu_help_ebeb97: "帮助他:不帮助他"
   npc_override_mjolnir_01_quests_prontera_menu_i_f745b7: "我会:我能再听一遍那首歌吗？"
-  npc_override_mjolnir_01_quests_prontera_menu_just_3d0080: "正如我所想：卢恩-"
+  npc_override_mjolnir_01_quests_prontera_menu_just_3d0080: "正如我所想:卢恩-"
   npc_override_mjolnir_01_quests_prontera_menu_leave_9677d4: "离开:帮他堆书"
   npc_override_mjolnir_01_quests_prontera_menu_let_9e0b51: "让我考虑一下。:当然，我会帮忙。"
-  npc_override_mjolnir_01_quests_prontera_menu_not_8e6a95: "不用担心：只是一首古老的儿童歌谣。"
+  npc_override_mjolnir_01_quests_prontera_menu_not_8e6a95: "不用担心:只是一首古老的儿童歌谣。"
   npc_override_mjolnir_01_quests_prontera_menu_poison_e6bfb6: "毒药:没什么"
   npc_override_mjolnir_01_quests_prontera_menu_report_edf8b8: "报告书籍丢失:结束对话"
   npc_override_mjolnir_01_quests_prontera_menu_show_653649: "展示花朵:献上花朵:取消"
@@ -1022,7 +1021,7 @@ Body:
   npc_override_mjolnir_01_quests_prontera_menu_sure_db375c: "当然。:退出。"
   npc_override_mjolnir_01_quests_prontera_menu_talk_baad2c: "对话:退出"
   npc_override_mjolnir_01_quests_prontera_menu_tell_9974c6: "告诉她约尔曼冈德的诅咒:不告诉她"
-  npc_override_mjolnir_01_quests_prontera_menu_them_fd153a: "他们：他们是伟大的祭司，"
+  npc_override_mjolnir_01_quests_prontera_menu_them_fd153a: "他们:他们是伟大的祭司，"
   npc_override_mjolnir_01_quests_prontera_menu_volunteer_01e963: "志愿者。:情况……？:退出。"
   npc_override_mjolnir_01_quests_prontera_menu_volunteer_4efed5: "志愿者。:退出。"
   npc_override_mjolnir_01_quests_prontera_menu_warp_bf1977: "传送到地下水道入口。:退出。"
@@ -1030,8 +1029,8 @@ Body:
   npc_override_mjolnir_01_quests_prontera_menu_why_b2f8ab: "你为什么在这里？:我能再听一遍那首歌吗？"
   npc_override_mjolnir_01_quests_prontera_menu_yes_0013bf: "是的，我有。:是的，但不同。:不，抱歉。"
   npc_override_mjolnir_01_quests_prontera_menu_yes_141459: "是:否"
-  npc_override_mjolnir_01_quests_prontera_menu_yes_76f30b: "是的，我知道：那首歌"
-  npc_override_mjolnir_01_quests_prontera_menu_you_71fda5: "你无能为力："
+  npc_override_mjolnir_01_quests_prontera_menu_yes_76f30b: "是的，我知道:那首歌"
+  npc_override_mjolnir_01_quests_prontera_menu_you_71fda5: "你无能为力:"
   npc_override_mjolnir_01_quests_prontera_mercy_me_allowed_a05f4a: "怜悯我，允许"
   npc_override_mjolnir_01_quests_prontera_messes_you_get_80de40: "混乱，你要"
   npc_override_mjolnir_01_quests_prontera_midgard_continent_615ce1: "米德加尔特大陆。"

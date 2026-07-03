@@ -3,7 +3,6 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_que_ng_ammo_boxes_after_you_ve_saved_up_957801: "在你存够之后"
   npc_override_que_ng_ammo_boxes_all_done_e6aa44: "全部完成。"
   npc_override_que_ng_ammo_boxes_alright_here_2bed65: "好的，这是"

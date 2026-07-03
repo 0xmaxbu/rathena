@@ -3,7 +3,6 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_payon_in01_quests_payon_ah_no_i_t_1b406f: "啊，不，我不能……"
   npc_override_payon_in01_quests_payon_ah_wait_i_almost_forgot_0270aa: "啊，等等！我差点忘了。我年轻时是个相当受欢迎的女演员。我离开剧团时，我的演员朋友们给了我结婚礼物。我一直留着它来提醒我那珍贵的时光。"
   npc_override_payon_in01_quests_payon_all_started_when_my_pare_220a2c: "一切都始于我父母在我小时候去世。我很早就不得不为生计工作，过得很艰难。"
@@ -52,7 +51,7 @@ Body:
   npc_override_payon_in01_quests_payon_menu_helm_6d72a1: "天使头盔。:小恶魔帽。:我下次再来。"
   npc_override_payon_in01_quests_payon_menu_oh_2ed7c3: "哦是吗？听起来不错。:不了谢谢，夫人。"
   npc_override_payon_in01_quests_payon_menu_show_7170b1: "展示奥拉奥拉:给奥拉奥拉:取消"
-  npc_override_payon_in01_quests_payon_menu_thank_bce409: "谢谢购买我们的产品。你不会后悔购买我们的耳罩的：满意度保证～"
+  npc_override_payon_in01_quests_payon_menu_thank_bce409: "谢谢购买我们的产品。你不会后悔购买我们的耳罩的:满意度保证～"
   npc_override_payon_in01_quests_payon_msg_6eae3a: "..."
   npc_override_payon_in01_quests_payon_muhahahahah_10ca3c: "哈哈哈哈！！！"
   npc_override_payon_in01_quests_payon_my_family_produced_sold_869574: "我的家族多年来一直生产和销售特殊的冬季产品^3355FF耳罩^000000。我们刚搬到这里，但天气总是很暖和，所以我们几乎无法谋生。"

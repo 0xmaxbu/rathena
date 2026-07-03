@@ -3,7 +3,6 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_sec_in02_agit_main_te_msg_0b0c6f: "^ff0000{0}^000000"
   npc_override_sec_in02_arena_closing_arena_5235e5: "正在关闭竞技场。"
   npc_override_sec_in02_arena_closing_control_panel_3a8579: "正在关闭控制面板。"

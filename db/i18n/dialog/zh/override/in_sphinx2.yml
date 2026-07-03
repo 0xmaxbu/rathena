@@ -3,7 +3,6 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_in_sphinx2_assassin_skills_able_learn_anything_d52d82: "能够学会任何东西。"
   npc_override_in_sphinx2_assassin_skills_about_learning_skill_dc220d: "关于学习这个技能。"
   npc_override_in_sphinx2_assassin_skills_after_years_testing_e5c7cc: "有可能。经过多年的测试"
@@ -93,6 +92,7 @@ Body:
   npc_override_in_sphinx2_assassin_skills_fatal_damage_skill_73320b: "该技能造成的致命伤害。"
   npc_override_in_sphinx2_assassin_skills_feel_free_ask_me_about_931fa4: "尽管来问我关于"
   npc_override_in_sphinx2_assassin_skills_feet_ground_appears_7ebf46: "脚下。地面看起来"
+  npc_override_in_sphinx2_assassin_skills_few_long_distance_skills_dad68f: "一些远程技能，但是"
   npc_override_in_sphinx2_assassin_skills_find_solid_object_0677ac: "找到一件坚硬的物体"
   npc_override_in_sphinx2_assassin_skills_find_something_valuable_25daf3: "找到一些有价值的东西"
   npc_override_in_sphinx2_assassin_skills_first_go_learn_8399a8: "首先，去学习"
@@ -182,12 +182,12 @@ Body:
   npc_override_in_sphinx2_assassin_skills_me_searching_a7796e: "为我搜寻"
   npc_override_in_sphinx2_assassin_skills_me_teach_you_68d3b6: "让我教你"
   npc_override_in_sphinx2_assassin_skills_member_assassin_f82ef9: "刺客公会的成员，"
-  npc_override_in_sphinx2_assassin_skills_menu_dig_7fa539: "挖掘取出闪闪发光的东西：无视它"
-  npc_override_in_sphinx2_assassin_skills_menu_learn_6101ee: "学习剧毒匕首：我……我不想学！"
-  npc_override_in_sphinx2_assassin_skills_menu_pick_4a774a: "捡起来：无视它"
-  npc_override_in_sphinx2_assassin_skills_menu_please_a5cdf4: "请告诉我更多……：我想学习音速加速！"
-  npc_override_in_sphinx2_assassin_skills_menu_put_9cc936: "把手伸进去：检查棺材开口：掀起盖子：把棺材翻过来：无视它"
-  npc_override_in_sphinx2_assassin_skills_menu_sonic_84732a: "^0000FF音速冲击强化^000000：^990099剧毒匕首^000000：继续对话"
+  npc_override_in_sphinx2_assassin_skills_menu_dig_7fa539: "挖掘取出闪闪发光的东西:无视它"
+  npc_override_in_sphinx2_assassin_skills_menu_learn_6101ee: "学习剧毒匕首:我……我不想学！"
+  npc_override_in_sphinx2_assassin_skills_menu_pick_4a774a: "捡起来:无视它"
+  npc_override_in_sphinx2_assassin_skills_menu_please_a5cdf4: "请告诉我更多……:我想学习音速加速！"
+  npc_override_in_sphinx2_assassin_skills_menu_put_9cc936: "把手伸进去:检查棺材开口:掀起盖子:把棺材翻过来:无视它"
+  npc_override_in_sphinx2_assassin_skills_menu_sonic_84732a: "^0000FF音速冲击强化^000000:^990099剧毒匕首^000000:继续对话"
   npc_override_in_sphinx2_assassin_skills_mission_coming_along_313c15: "任务进展如何？"
   npc_override_in_sphinx2_assassin_skills_mm_ah_you_ve_transcended_2a1bd4: "嗯？啊，你已经转生了"
   npc_override_in_sphinx2_assassin_skills_momentarily_catch_glint_a224ca: "瞬间瞥见"
@@ -217,6 +217,7 @@ Body:
   npc_override_in_sphinx2_assassin_skills_own_personal_benefit_d3dece: "个人的利益。"
   npc_override_in_sphinx2_assassin_skills_part_see_where_my_hands_1f7016: "部分。看我的手在哪"
   npc_override_in_sphinx2_assassin_skills_part_you_use_venom_2dccee: "部分，你可以使用剧毒"
+  npc_override_in_sphinx2_assassin_skills_peers_out_beneath_one_4dc4c0: "从一个下面向外窥视"
   npc_override_in_sphinx2_assassin_skills_perceive_something_973644: "感知到某样东西"
   npc_override_in_sphinx2_assassin_skills_perfect_form_yes_d5cf5a: "完美的姿势。对……"
   npc_override_in_sphinx2_assassin_skills_perform_sonic_blow_i_sha_f6d0bb: "施展音速冲击。我会在这里等你到那时候。"

@@ -3,7 +3,6 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_mjolnir_11_mjolnir_seal_absent_mindedness_f4bcae: "心不在焉！"
   npc_override_mjolnir_11_mjolnir_seal_actually_giant_illusion_9c19f1: "实际上是一个巨人。幻术被用来伪装托尔的对手，但我忘了那是什么。你知道吗？"
   npc_override_mjolnir_11_mjolnir_seal_after_thor_lost_every_ma_f87a9f: "在托尔输掉每场比赛之后，"
@@ -250,7 +249,7 @@ Body:
   npc_override_mjolnir_11_mjolnir_seal_menu_circling_567645: "回旋之轮:月亮:虚假太阳:快速陌生人"
   npc_override_mjolnir_11_mjolnir_seal_menu_curse_28a2cd: "诅咒:大地:心脏:衰老"
   npc_override_mjolnir_11_mjolnir_seal_menu_greed_8fceaa: "贪婪:海洋:烈焰:野猪"
-  npc_override_mjolnir_11_mjolnir_seal_menu_here_1104e7: "这是条件：你必须给我带一件已经升级到可能损坏的4级武器。哦，还要带一个奥利哈钢！"
+  npc_override_mjolnir_11_mjolnir_seal_menu_here_1104e7: "这是条件:你必须给我带一件已经升级到可能损坏的4级武器。哦，还要带一个奥利哈钢！"
   npc_override_mjolnir_11_mjolnir_seal_menu_language_3fe928: "语言:思想:海龟:狼"
   npc_override_mjolnir_11_mjolnir_seal_menu_no_b3da58: "不:好的。"
   npc_override_mjolnir_11_mjolnir_seal_menu_nothing_6887a6: "没什么。:打扰了，先生。"

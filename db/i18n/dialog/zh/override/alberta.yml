@@ -3,7 +3,6 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_alberta_2010_headgears_after_emptying_some_0b9658: "—— 在清空一部分之后。 ——"
   npc_override_alberta_2010_headgears_after_emptying_your_bag_c36bb8: "清空你的背包。"
   npc_override_alberta_2010_headgears_after_putting_box_9ca97e: "戴上这个箱子之后，"
@@ -643,7 +642,7 @@ Body:
   npc_override_alberta_guides_alberta_upper_right_corner_440882: "在右上角"
   npc_override_alberta_guides_alberta_us_update_our_informatio_79f594: "我们更新我们的信息"
   npc_override_alberta_guides_alberta_weapon_shop_42fffc: "武器店"
-  npc_override_alberta_guides_alberta_welcome_alberta_a33ad4: "欢迎来到^8B4513艾尔贝塔^000000，"
+  npc_override_alberta_guides_alberta_welcome_alberta_a33ad4: "欢迎来到艾尔贝塔，"
   npc_override_alberta_guides_alberta_when_you_win_event_items_5cefb7: "当你赢得活动道具时，"
   npc_override_alberta_guides_alberta_where_163d3b: "{0}是"
   npc_override_alberta_guides_alberta_where_you_rest_ef286a: "你可以休息的地方。"
@@ -1225,7 +1224,7 @@ Body:
   npc_override_alberta_sunglasses_menu_here_ee49c0: "给你。:不，谢谢。"
   npc_override_alberta_sunglasses_menu_how_1b0cfc: "多少钱？:不可能，我自己去找她！"
   npc_override_alberta_sunglasses_menu_i_e4389a: "我听说你可以制作^0000FF带孔太阳镜^000000。:没什么，打扰了。"
-  npc_override_alberta_sunglasses_menu_in_1afdb7: "为了让我告诉你关于^0000FF带孔太阳镜^000000的信息，你需要给我带来："
+  npc_override_alberta_sunglasses_menu_in_1afdb7: "为了让我告诉你关于^0000FF带孔太阳镜^000000的信息，你需要给我带来:"
   npc_override_alberta_sunglasses_menu_yes_910210: "是:不，打扰了。"
   npc_override_alberta_sunglasses_off_you_go_then_1ad524: "那你去吧。"
   npc_override_alberta_sunglasses_only_i_tell_her_you_74dc97: "只有我能告诉她你要来。"

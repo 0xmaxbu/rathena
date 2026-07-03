@@ -1,0 +1,32 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_custom_sec_pri_penal_servitude_alas_there_s_your_bank_62e417: "唉，这是你的银行账户信息……^FF0000{0}z^000000……在案卷里。不够啊。"
+  npc_custom_sec_pri_penal_servitude_drop_these_mushrooms_the_ffc886: "扔掉这些蘑菇！！它们有毒！"
+  npc_custom_sec_pri_penal_servitude_hmm_you_ve_been_here_ff4898: "嗯……你之前来过这里……好吧好吧……"
+  npc_custom_sec_pri_penal_servitude_i_m_sorry_you_should_ad1538: "抱歉，你应该先解除你的手推车、大嘴鸟或者猎鹰！"
+  npc_custom_sec_pri_penal_servitude_i_t_remember_you_your_2bbae1: "我不记得你了。这是你第一次来吗？"
+  npc_custom_sec_pri_penal_servitude_i_want_you_gather_orange_7d8e33: "我要你去收集 ^FF0000{0} 个橙色网纹蘑菇^000000。"
+  npc_custom_sec_pri_penal_servitude_let_me_see_almost_edible_969704: "让我看看……{0} 个勉强能吃的……"
+  npc_custom_sec_pri_penal_servitude_now_shut_up_back_off_648dc3: "现在闭嘴，退后！"
+  npc_custom_sec_pri_penal_servitude_ok_hand_me_all_shrooms_5628e1: "好吧……把所有蘑菇都交给我……"
+  npc_custom_sec_pri_penal_servitude_ok_sign_your_cheque_put_08cd4d: "好的，签上你的支票。然后在我的登记簿上写下你的名字。"
+  npc_custom_sec_pri_penal_servitude_ok_sing_here_there_6d342e: "好的，在这里和那里签个字。"
+  npc_custom_sec_pri_penal_servitude_ok_we_could_release_you_1f8e03: "好的，我们可以用 ^FF0000{0}z^000000 释放你。"
+  npc_custom_sec_pri_penal_servitude_ok_you_must_bring_me_f35315: "好的，你必须给我带来 ^FF0000{0}^000000 个可食用的 ^FF0000橙色网纹蘑菇^000000……呃，蘑菇。"
+  npc_custom_sec_pri_penal_servitude_our_stocks_short_toadsto_f7c8ae: "我们的蘑菇库存不足了。还记得你早上的技能训练吗？在我们赞助的蘑菇农场干点活怎么样？"
+  npc_custom_sec_pri_penal_servitude_stop_your_silly_games_no_cd9d16: "别再玩你那些愚蠢的把戏了！"
+  npc_custom_sec_pri_penal_servitude_talk_our_overseer_oliver_986f6b: "去跟我们的监工奥利弗谈谈。"
+  npc_custom_sec_pri_penal_servitude_thank_you_you_free_194a2d: "谢谢。你自由了！"
+  npc_custom_sec_pri_penal_servitude_today_x_mas_time_huh_7ab13f: "今天是圣诞节吗？"
+  npc_custom_sec_pri_penal_servitude_useless_deadly_ones_629c28: "还有 {0} 个没用的毒蘑菇。"
+  npc_custom_sec_pri_penal_servitude_what_s_noise_over_there_10f0ff: "那边在吵什么？"
+  npc_custom_sec_pri_penal_servitude_what_s_s_enough_419f5d: "这是什么？不够！"
+  npc_custom_sec_pri_penal_servitude_you_again_somebody_hasn_e4fc93: "又是你？看来有人第一次来就没长记性……"
+  npc_custom_sec_pri_penal_servitude_you_free_now_72e208: "你现在自由了！"
+  npc_custom_sec_pri_penal_servitude_you_may_eat_deadly_ones_e2007b: "你可以把那些毒蘑菇当早餐吃。"
+  npc_custom_sec_pri_penal_servitude_you_re_fast_fella_you_fd7f6b: "你动作挺快的嘛！那你得去弄更多蘑菇来。"
+  npc_custom_sec_pri_penal_servitude_you_ve_got_some_time_597b66: "你还有些时间可以好好想想……"
+  npc_custom_sec_pri_penal_servitude_your_case_says_nothing_a_74b8c2: "你的案卷里可没提到你的银行账户。"

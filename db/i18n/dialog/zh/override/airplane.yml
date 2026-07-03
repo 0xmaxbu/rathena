@@ -3,9 +3,8 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_airplane_airships_about_eat_apple_0ce417: "刚要吃那个苹果……"
-  npc_override_airplane_airships_after_you_lose_some_wei_0f3785: "- 在你减重之后。-"
+  npc_override_airplane_airships_after_you_lose_some_weig_0f3785: "- 在你减重之后。-"
   npc_override_airplane_airships_again_sometime_df8845: "下次再来。"
   npc_override_airplane_airships_ahead_i_mean_they_had_542733: "前面。我是说，他们让我们"
   npc_override_airplane_airships_airship_57645d: "去飞艇。"
@@ -159,7 +158,7 @@ Body:
   npc_override_airplane_airships_i_could_enjoy_real_meal_d38053: "我可以享受一顿真正的饭。"
   npc_override_airplane_airships_i_could_just_strip_my_9e96f2: "我可以只穿内裤。"
   npc_override_airplane_airships_i_d_just_like_let_77f0d2: "我只想让你"
-  npc_override_airplane_airships_i_don_t_keep_missing_my_8325b7: "我不会一直错过我的"
+  npc_override_airplane_airships_i_don_t_keep_missing_8325b7: "我不会一直错过我的"
   npc_override_airplane_airships_i_dying_hunger_c83003: "我饿死了，"
   npc_override_airplane_airships_i_got_61e1ea: "我得到了^0000FF{0}^000000和^0000FF{1}^000000。"
   npc_override_airplane_airships_i_got_total_now_i_c09c69: "我得到了^0000FF{0}^000000，总数现在是^0000FF{1}^000000。我输了这局，因为我的总数超过了12。让我给你我的苹果。恭喜，那是一场精彩的比赛。"

@@ -1,0 +1,16 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_custom_quiz_00_mvp_arena_information_0eb5ed: "信息"
+  npc_custom_quiz_00_mvp_arena_like_enter_9b1816: "想要进入吗？"
+  npc_custom_quiz_00_mvp_arena_menu_options_144a6c: "{0}：治疗：退出"
+  npc_custom_quiz_00_mvp_arena_mvp_arena_57dbb7: "MVP 竞技场？"
+  npc_custom_quiz_00_mvp_arena_sorry_arena_full_e856cb: "抱歉，这个竞技场已满！"
+  npc_custom_quiz_00_mvp_arena_there_eight_rooms_per_ke_1f7dd4: "每个守护者有 8 个房间，总共 16 个 MVP。"
+  npc_custom_quiz_00_mvp_arena_there_four_keepers_each_050c0d: "有 4 个守护者，每个可以召唤 4 种不同的 MVP。"
+  npc_custom_quiz_00_mvp_arena_welcome_behold_sacred_pl_0efeac: "欢迎来到这个神圣之地。在这里，你将知道自己是否真正有资格被称为战士。"
+  npc_custom_quiz_00_mvp_arena_which_arena_you_c69c70: "你想进入哪个竞技场？"
+  npc_custom_quiz_00_mvp_arena_yes_ee33f3: "好的！"
+  npc_custom_quiz_00_mvp_arena_you_like_enter_3dc2af: "你想进入"

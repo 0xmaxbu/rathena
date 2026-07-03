@@ -11,7 +11,7 @@ Body:
   npc_override_guild_warehouse_guild_warehouse_i_open_guild_storage_you_32b256: "那我为你打开公会仓库。祝你度过愉快的时光！"
   npc_override_guild_warehouse_guild_warehouse_i_show_you_usage_history_bd27fd: "我为你展示仓库的使用记录。使用记录将保留最多3个月。"
   npc_override_guild_warehouse_guild_warehouse_memorable_time_c29e58: "祝你度过愉快的时光！"
-  npc_override_guild_warehouse_guild_warehouse_menu_how_b2febf: "你好吗？我们是专门经营公会仓库的。这是我们的^0000cd故事^000000："
+  npc_override_guild_warehouse_guild_warehouse_menu_how_b2febf: "你好吗？我们是专门经营公会仓库的。这是我们的^0000cd故事^000000:"
   npc_override_guild_warehouse_guild_warehouse_menu_open_3534ca: "打开公会仓库:查看仓库使用记录"
   npc_override_guild_warehouse_guild_warehouse_please_come_back_after_c_c20cd8: "请在检查公会技能和仓库访问权限后再来。"
   npc_override_guild_warehouse_guild_warehouse_please_try_again_after_w_8e8536: "请稍后再试。"

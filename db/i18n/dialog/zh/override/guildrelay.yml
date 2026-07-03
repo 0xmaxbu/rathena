@@ -3,7 +3,6 @@ Header:
   Version: 1
 
 Body:
-
   npc_override_guildrelay_guildrelay_able_protect_weak_47813b: "能够保护弱者。"
   npc_override_guildrelay_guildrelay_about_spirit_friendship_add308: "关于友谊之魂"
   npc_override_guildrelay_guildrelay_about_spirit_peace_5b1b8c: "关于和平之魂"
@@ -443,15 +442,15 @@ Body:
   npc_override_guildrelay_guildrelay_me_trust_you_259261: "让我信任你。"
   npc_override_guildrelay_guildrelay_me_your_people_9553e6: "向我证明你的人民"
   npc_override_guildrelay_guildrelay_members_your_guild_fa938a: "你公会的成员。"
-  npc_override_guildrelay_guildrelay_menu_don_28de41: "不要绝望：我知道"
-  npc_override_guildrelay_guildrelay_menu_donate_385f70: "捐赠猎鹰：不可能！"
-  npc_override_guildrelay_guildrelay_menu_i_c2c73d: "我想参加测试。：让我考虑一下。"
-  npc_override_guildrelay_guildrelay_menu_is_09fdeb: "是这样：请捐赠"
-  npc_override_guildrelay_guildrelay_menu_n_3f182d: "没、没什么。：我想参加课程。"
-  npc_override_guildrelay_guildrelay_menu_no_477df2: "不，不是真的……：我是被公会会长邀请的。"
-  npc_override_guildrelay_guildrelay_menu_once_84530b: "一次：你不能失去它们。"
-  npc_override_guildrelay_guildrelay_menu_right_ba3d36: "现在：储存一些"
-  npc_override_guildrelay_guildrelay_menu_your_9167d3: "你身边：他们的战斗技能"
+  npc_override_guildrelay_guildrelay_menu_don_28de41: "不要绝望:我知道"
+  npc_override_guildrelay_guildrelay_menu_donate_385f70: "捐赠猎鹰:不可能！"
+  npc_override_guildrelay_guildrelay_menu_i_c2c73d: "我想参加测试。:让我考虑一下。"
+  npc_override_guildrelay_guildrelay_menu_is_09fdeb: "是这样:请捐赠"
+  npc_override_guildrelay_guildrelay_menu_n_3f182d: "没、没什么。:我想参加课程。"
+  npc_override_guildrelay_guildrelay_menu_no_477df2: "不，不是真的……:我是被公会会长邀请的。"
+  npc_override_guildrelay_guildrelay_menu_once_84530b: "一次:你不能失去它们。"
+  npc_override_guildrelay_guildrelay_menu_right_ba3d36: "现在:储存一些"
+  npc_override_guildrelay_guildrelay_menu_your_9167d3: "你身边:他们的战斗技能"
   npc_override_guildrelay_guildrelay_mind_strength_62ddb2: "记住力量的"
   npc_override_guildrelay_guildrelay_miss_hahahaha_965f41: "错过吗？哈哈哈！"
   npc_override_guildrelay_guildrelay_mole_whiskers_a4a449: "^FF000030个鼹鼠胡须^000000。"
