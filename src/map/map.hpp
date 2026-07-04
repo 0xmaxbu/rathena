@@ -1112,6 +1112,7 @@ private:
 
 
 extern char motd_txt[];
+extern char motd_chn_txt[];
 extern char charhelp_txt[];
 extern char channel_conf[];
 

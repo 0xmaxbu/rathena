@@ -684,6 +684,7 @@ void map_session_data::update_look( _look look ){
 
 #define MOTD_LINE_SIZE 128
 static char motd_text[MOTD_LINE_SIZE][CHAT_SIZE_MAX]; // Message of the day buffer [Valaris]
+static char motd_text_chn[MOTD_LINE_SIZE][CHAT_SIZE_MAX]; // Chinese MOTD buffer
 
 bool reg_load;
 
@@ -2257,11 +2258,14 @@ bool pc_authok(map_session_data *sd, uint32 login_id2, time_t expiration_time, i
 			pc_show_version(sd);
 
 		// Message of the Day [Valaris]
-		for(int32 i=0; i < MOTD_LINE_SIZE && motd_text[i][0]; i++) {
-			if (battle_config.motd_type)
-				clif_messagecolor(sd, color_table[COLOR_LIGHT_GREEN], motd_text[i], false, SELF);
-			else
-				clif_displaymessage(sd->fd, motd_text[i]);
+		{
+			char (*motd_buf)[CHAT_SIZE_MAX] = (sd->langtype == 4 && motd_text_chn[0][0]) ? motd_text_chn : motd_text;
+			for(int32 i=0; i < MOTD_LINE_SIZE && motd_buf[i][0]; i++) {
+				if (battle_config.motd_type)
+					clif_messagecolor(sd, color_table[COLOR_LIGHT_GREEN], motd_buf[i], false, SELF);
+				else
+					clif_displaymessage(sd->fd, motd_buf[i]);
+			}
 		}
 
 		if (expiration_time != 0)
@@ -14630,46 +14634,52 @@ void pc_readdb(void) {
 }
 
 // Read MOTD on startup. [Valaris]
-int32 pc_read_motd(void)
-{
+// Read a MOTD file into the given buffer. Returns number of entries read.
+static uint32 pc_read_motd_file(const char* filename, char text[][CHAT_SIZE_MAX]) {
 	FILE* fp;
-	// clear old MOTD
-	memset(motd_text, 0, sizeof(motd_text));
-
-	// read current MOTD
-	if( ( fp = fopen(motd_txt, "r") ) != nullptr )
-	{
-		uint32 entries = 0;
+	uint32 entries = 0;
+	if( ( fp = fopen(filename, "r") ) != nullptr ) {
 		char buf[CHAT_SIZE_MAX];
-
-		while( entries < MOTD_LINE_SIZE && fgets(buf, CHAT_SIZE_MAX, fp) )
-		{
-			uint32 lines = 0;
+		uint32 lines = 0;
+		while( entries < MOTD_LINE_SIZE && fgets(buf, CHAT_SIZE_MAX, fp) ) {
 			size_t len;
 			lines++;
 			if( buf[0] == '/' && buf[1] == '/' )
 				continue;
 			len = strlen(buf);
-			while( len && ( buf[len-1] == '\r' || buf[len-1] == '\n' ) ) // strip trailing EOL characters
+			while( len && ( buf[len-1] == '\r' || buf[len-1] == '\n' ) )
 				len--;
 			if( len ) {
 				char * ptr;
 				buf[len] = 0;
-				if( ( ptr = strstr(buf, " :") ) != nullptr && ptr-buf >= NAME_LENGTH ) // crashes newer clients
-					ShowWarning("Found sequence '" CL_WHITE " :" CL_RESET "' on line '" CL_WHITE "%u" CL_RESET "' in '" CL_WHITE "%s" CL_RESET "'. This can cause newer clients to crash.\n", lines, motd_txt);
+				if( ( ptr = strstr(buf, " :") ) != nullptr && ptr-buf >= NAME_LENGTH )
+					ShowWarning("Found sequence '" CL_WHITE " :" CL_RESET "' on line '" CL_WHITE "%u" CL_RESET "' in '" CL_WHITE "%s" CL_RESET "'. This can cause newer clients to crash.\n", lines, filename);
 			}
-			else {// empty line
+			else {
 				buf[0] = ' ';
 				buf[1] = 0;
 			}
-			safestrncpy(motd_text[entries], buf, CHAT_SIZE_MAX);
+			safestrncpy(text[entries], buf, CHAT_SIZE_MAX);
 			entries++;
 		}
 		fclose(fp);
-		ShowStatus("Done reading '" CL_WHITE "%u" CL_RESET "' entries in '" CL_WHITE "%s" CL_RESET "'.\n", entries, motd_txt);
+		ShowStatus("Done reading '" CL_WHITE "%u" CL_RESET "' entries in '" CL_WHITE "%s" CL_RESET "'.\n", entries, filename);
 	}
 	else
-		ShowWarning("File '" CL_WHITE "%s" CL_RESET "' not found.\n", motd_txt);
+		ShowWarning("File '" CL_WHITE "%s" CL_RESET "' not found.\n", filename);
+	return entries;
+}
+
+int32 pc_read_motd(void)
+{
+	// clear old MOTD
+	memset(motd_text, 0, sizeof(motd_text));
+	memset(motd_text_chn, 0, sizeof(motd_text_chn));
+
+	// read English MOTD
+	pc_read_motd_file(motd_txt, motd_text);
+	// read Chinese MOTD (falls back to English if file not found)
+	pc_read_motd_file(motd_chn_txt, motd_text_chn);
 
 	return 0;
 }

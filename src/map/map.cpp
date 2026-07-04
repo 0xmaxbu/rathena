@@ -167,6 +167,7 @@ struct map_cache_map_info {
 };
 
 char motd_txt[256] = "conf/motd.txt";
+char motd_chn_txt[256] = "conf/motd_chn.txt";
 char charhelp_txt[256] = "conf/charhelp.txt";
 char channel_conf[256] = "conf/channels.conf";
 
@@ -4185,6 +4186,8 @@ int32 map_config_read(const char *cfgName)
 			save_settings = cap_value(atoi(w2),CHARSAVE_NONE,CHARSAVE_ALL);
 		else if (strcmpi(w1, "motd_txt") == 0)
 			safestrncpy(motd_txt, w2, sizeof(motd_txt));
+		else if (strcmpi(w1, "motd_chn_txt") == 0)
+			safestrncpy(motd_chn_txt, w2, sizeof(motd_chn_txt));
 		else if (strcmpi(w1, "charhelp_txt") == 0)
 			safestrncpy(charhelp_txt, w2, sizeof(charhelp_txt));
 		else if (strcmpi(w1, "channel_conf") == 0)
