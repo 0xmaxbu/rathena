@@ -1,0 +1,7 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_agit_controller_agit_controller_castle_been_conquered_gu_f83a68: "The [{0}] castle has been conquered by the [{1}] guild."
+  npc_override_agit_controller_agit_controller_castle_currently_unoccup_acb64f: "The [{0}] castle is currently unoccupied."

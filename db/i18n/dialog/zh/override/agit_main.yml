@@ -112,3 +112,4 @@ Body:
   npc_override_agit_main_agit_main_zeny_fac6b6: "到 {0} 是 200 Zeny。"
   npc_override_agit_main_agit_main_zeny_pay_pushcart_5b43a3: "Zeny 来支付手推车"
   npc_override_agit_main_agit_main_zeny_required_their_serv_2f2e68: "^ff0000 需要 10,000 Zeny 来支付他们的服务费用。"
+  npc_override_agit_main_agit_main_guild_base_been_abandone_78c031: "公会基地 [{0}] 已被放弃。"

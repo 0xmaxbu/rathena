@@ -1,0 +1,7 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_override_agit_controller_agit_controller_castle_been_conquered_gu_f83a68: "[{0}] 城堡已被 [{1}] 公会攻占。"
+  npc_override_agit_controller_agit_controller_castle_currently_unoccup_acb64f: "[{0}] 城堡目前无人占领。"
