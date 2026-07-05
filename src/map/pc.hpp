@@ -942,6 +942,8 @@ public:
 
 	std::vector<uint32> party_booking_requests;
 
+	uint32 cashshop_sent_version;
+
 	void update_look( _look look );
 };
 

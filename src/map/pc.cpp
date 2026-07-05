@@ -2285,6 +2285,7 @@ bool pc_authok(map_session_data *sd, uint32 login_id2, time_t expiration_time, i
 
 	// Player has not yet received the CashShop list
 	sd->status.cashshop_sent = false;
+	sd->cashshop_sent_version = 0;
 
 	sd->last_addeditem_index = -1;
 	

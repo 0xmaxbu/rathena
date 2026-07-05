@@ -21,6 +21,12 @@ struct sale_item_db sale_items;
 
 extern char sales_table[32];
 
+static uint32 cashshop_db_version = 1;
+
+uint32 cashshop_get_version( void ){
+	return cashshop_db_version;
+}
+
 const std::string CashShopDatabase::getDefaultLocation(){
 	return std::string( db_path ) + "/item_cash.yml";
 }
@@ -629,6 +635,7 @@ bool cashshop_buylist( map_session_data* sd, uint32 kafrapoints, int32 n, const 
 void cashshop_reloaddb( void ){
 	do_final_cashshop();
 	do_init_cashshop();
+	cashshop_db_version++;
 }
 
 /*

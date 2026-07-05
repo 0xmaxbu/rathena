@@ -17390,12 +17390,12 @@ void clif_cashshop_list( map_session_data& sd ){
 }
 
 void clif_parse_cashshop_list_request( int32 fd, map_session_data* sd ){
-	if( !sd->status.cashshop_sent ) {
+	if( sd->cashshop_sent_version != cashshop_get_version() ) {
 		clif_cashshop_list( *sd );
 #if PACKETVER_SUPPORTS_SALES
 		sale_notify_login(sd);
 #endif
-		sd->status.cashshop_sent = true;
+		sd->cashshop_sent_version = cashshop_get_version();
 	}
 }
 

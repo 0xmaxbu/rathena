@@ -21,6 +21,7 @@ class map_session_data;
 void do_init_cashshop( void );
 void do_final_cashshop( void );
 void cashshop_reloaddb( void );
+uint32 cashshop_get_version( void );
 bool cashshop_buylist( map_session_data* sd, uint32 kafrapoints, int32 n, const PACKET_CZ_SE_PC_BUY_CASHITEM_LIST_sub* item_list );
 
 // Taken from AEGIS (CASH_SHOP_TAB_CODE)
