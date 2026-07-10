@@ -4048,9 +4048,22 @@ int32 parse_console(const char* buf){
 	int16 x = 0;
 	int16 y = 0;
 	int32 n;
-	map_session_data sd;
 
-	strcpy(sd.status.name, "console");
+	// Console atcommands require a fully-initialized session, since some
+	// commands read sd->group / sd->status fields and would crash on the
+	// previous stack-allocated, uninitialized map_session_data (map.cpp
+	// bug — see PR #8892 for the analogous fix in script.cpp).
+	// Mirrors the dummy_sd pattern used by buildin_atcommand (script.cpp).
+	static map_session_data* console_sd = nullptr;
+	if( console_sd == nullptr ){
+		console_sd = new map_session_data();
+		console_sd->group_id = 99; // 99 = Admin group (see conf/groups.yml)
+		console_sd->fd = 0;
+		strcpy(console_sd->status.name, "console");
+	}
+	if( console_sd->group == nullptr )
+		pc_group_pc_load(console_sd);
+	map_session_data& sd = *console_sd;
 
 	if( ( n = sscanf(buf, "%63[^:]:%63[^:]:%11s %6hd %6hd[^\n]", type, command, mapname, &x, &y) ) < 5 ){
 		if( ( n = sscanf(buf, "%63[^:]:%63[^\n]", type, command) ) < 2 )		{
