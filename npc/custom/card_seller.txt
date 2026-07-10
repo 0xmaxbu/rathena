@@ -40,6 +40,16 @@ OnInit:
 		.@mob_db$  = "mob_db";
 		.@item_db$ = "item_db";
 	}
+	// Preflight: skip NPC setup if the SQL item/mob tables are unavailable.
+	// This NPC is designed for SQL mode (use_sql_db: yes). In YAML-only
+	// deployments (the rAthena default) the tables do not exist and the
+	// original query_sql calls below would log SQL errors on every
+	// @reloaditemdb. Gracefully degrade in that case instead.
+	.@probe = query_sql( "SELECT 1 FROM `" + .@item_db$ + "` LIMIT 1;", .@probe_result$ );
+	if ( .@probe < 0 ) {
+		debugmes "card_seller: SQL item table '" + .@item_db$ + "' not available - skipping NPC setup.";
+		end;
+	}
 	freeloop 1;
 	
 	.@string$ = "( `name_aegis` IN ( SELECT DISTINCT `drop1_item` FROM `" + .@mob_db$ + "` WHERE COALESCE(`mode_mvp`,0) = 0 ) " +
