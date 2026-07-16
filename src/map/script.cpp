@@ -21116,7 +21116,12 @@ BUILDIN_FUNC(questinfo_refresh)
 	if (!script_charid2sd(2, sd))
 		return SCRIPT_CMD_FAILURE;
 
-	pc_show_questinfo(sd); 
+	// Reinit qi_display so pc_show_questinfo re-sends packets even if
+	// icons were previously marked active. Fixes questinfo markers not
+	// re-appearing after NPC goes off-screen and back (client destroys
+	// the entity attachment, but server still thinks it's displaying).
+	pc_show_questinfo_reinit(sd);
+	pc_show_questinfo(sd);
 	return SCRIPT_CMD_SUCCESS;
 }
 

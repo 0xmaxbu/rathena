@@ -5104,6 +5104,21 @@ void clif_getareachar_unit( map_session_data* sd,block_list *bl ){
 				clif_specialeffect_single(bl,EF_BABYBODY2,sd->fd);
 			clif_efst_status_change_sub(sd, bl, SELF);
 			clif_progressbar_npc(nd, sd);
+
+			// Re-send questinfo markers when a quest NPC re-enters viewport.
+			// Some clients (e.g. roBrowserLegacy) destroy entity attachments
+			// when the entity goes off-screen, so the marker disappears.
+			// Re-sending 0x0446 restores it. [fork fix]
+			if( !nd->qi_data.empty() ){
+#if PACKETVER >= 20090218
+				for( auto &qi : nd->qi_data ){
+					if( !qi->condition || achievement_check_condition(qi->condition, sd) ){
+						clif_quest_show_event(sd, nd, qi->icon, qi->color);
+						break;
+					}
+				}
+#endif
+			}
 		}
 		break;
 	case BL_MOB:
