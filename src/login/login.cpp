@@ -443,6 +443,18 @@ int32 login_mmo_auth(struct login_session_data* sd, bool isServer) {
  */
 bool login_check_password( struct login_session_data& sd, struct mmo_account& acc ){
 	if( sd.passwdenc == 0 ){
+		if( acc.user_salt[0] != '\0' ){
+			// Salt-enhanced password: stored hash is MD5(salt + raw_password)
+			std::string pwd;
+			pwd.append( acc.user_salt );
+			pwd.append( sd.passwd );
+
+			char md5str[32 + 1];
+			MD5_String( pwd.c_str(), md5str );
+
+			return 0 == strcmp( md5str, acc.pass );
+		}
+		// Legacy plaintext fallback (user_salt empty)
 		return 0 == strcmp( sd.passwd, acc.pass );
 	}
 
