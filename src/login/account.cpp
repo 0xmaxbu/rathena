@@ -615,7 +615,6 @@ static bool mmo_auth_tosql(AccountDB_SQL* db, const struct mmo_account* acc, boo
 			break;
 		}
 	}
-	}
 	else
 	{// update account table
 		if( SQL_SUCCESS != stmt.Prepare( 
@@ -650,7 +649,6 @@ static bool mmo_auth_tosql(AccountDB_SQL* db, const struct mmo_account* acc, boo
 			SqlStmt_ShowDebug(stmt);
 			break;
 		}
-	}
 	}
 
 	if( acc->sex != 'S' && login_config.use_web_auth_token && refresh_token ){
