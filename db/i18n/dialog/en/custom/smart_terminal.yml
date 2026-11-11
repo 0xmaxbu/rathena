@@ -1,0 +1,9 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_custom_smart_terminal_header: "^0055FFSmart Terminal^000000"
+  npc_custom_smart_terminal_wip: "More convenience features are under development. Stay tuned."
+  npc_custom_smart_terminal_menu: "^00AA00Test option A^000000:^777777Cancel^000000"
+  npc_custom_smart_terminal_test_a_done: "Test option A triggered successfully."

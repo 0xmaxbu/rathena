@@ -1,0 +1,9 @@
+Header:
+  Type: I18N_DIALOG
+  Version: 1
+
+Body:
+  npc_custom_smart_terminal_header: "^0055FF智能终端^000000"
+  npc_custom_smart_terminal_wip: "更多便捷功能开发中，敬请期待。"
+  npc_custom_smart_terminal_menu: "^00AA00测试选项 A^000000:^777777取消^000000"
+  npc_custom_smart_terminal_test_a_done: "测试选项 A 触发成功。"
