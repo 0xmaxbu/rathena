@@ -31,6 +31,8 @@
 #include "merchantstore_controller.hpp"
 #include "partybooking_controller.hpp"
 #include "userconfig_controller.hpp"
+// Prontera 定制：游戏内客服工单（P1 玩家自助，ADR-0002）
+#include "ticket_controller.hpp"
 
 
 using namespace rathena;
@@ -496,6 +498,13 @@ bool WebServer::initialize( int32 argc, char* argv[] ){
 	http_server->Post("/party/search", partybooking_search);
 	http_server->Post("/userconfig/load", userconfig_load);
 	http_server->Post("/userconfig/save", userconfig_save);
+	// Prontera 定制：客服工单（同源反代见 client/nginx.conf location /ticket）
+	http_server->Post("/ticket/create", ticket_create);
+	http_server->Post("/ticket/list", ticket_list);
+	http_server->Post("/ticket/detail", ticket_detail);
+	http_server->Post("/ticket/reply", ticket_reply);
+	http_server->Post("/ticket/close", ticket_close);
+	http_server->Post("/ticket/orders", ticket_orders);
 
 	// set up logger
 	http_server->set_logger(logger);
