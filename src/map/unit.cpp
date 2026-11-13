@@ -375,7 +375,17 @@ TIMER_FUNC(unit_teleport_timer){
 
 		if( msd != nullptr && !check_distance_bl( msd, bl, static_cast<int32>( data ) ) ){
 			*mast_tid = INVALID_TIMER;
+
+			// 喵喵佣兵离屏兑底瞬移：播苍蝇翅膀式传送特效（EF_TELEPORTATION2）
+			// 旧位置（消失前）与新位置（主人身边）各播一次，客户端 roBrowser
+			// 经 ZC_NOTIFY_EFFECT2 → EffectTable 304 渲染蓝色传送光圈 + 音效
+			if( bl->type == BL_MER )
+				clif_specialeffect( bl, EF_TELEPORTATION2, AREA );
+
 			unit_warp(bl, msd->m, msd->x, msd->y, CLR_TELEPORT );
+
+			if( bl->type == BL_MER )
+				clif_specialeffect( bl, EF_TELEPORTATION2, AREA );
 		} else // No timer needed
 			*mast_tid = INVALID_TIMER;
 	}

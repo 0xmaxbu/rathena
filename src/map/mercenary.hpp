@@ -10,7 +10,9 @@
 #include "unit.hpp" // struct unit_data
 
 // number of cells that a mercenary can walk to from it's master before being warped
-#define MAX_MER_DISTANCE 15
+// 喵喵雇佣兵：默认 15 改为 10（甩出 10 格持续 3 秒即传送召回，
+// 瞬移时播 EF_TELEPORTATION2 传送光圈，见 unit.cpp unit_teleport_timer）
+#define MAX_MER_DISTANCE 10
 
 enum e_MercGuildType {
 	NONE_MERC_GUILD = -1,

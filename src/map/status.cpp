@@ -6096,6 +6096,13 @@ void status_calc_bl_main(block_list& bl, std::bitset<SCB_MAX> flag)
 				sd->hd->battle_status.speed = status_calc_speed(sd->hd, &sd->hd->sc, sd->hd->battle_status.speed);
 			}
 #endif
+			// Mercenary (Meow) mimics master's speed in real time (mount/agility changes
+			// apply immediately), own SC modifiers applied afterwards. Mirrors the
+			// homunculus RENEWAL behavior above.
+			if (sd->md != nullptr) {
+				sd->md->battle_status.speed = status_get_speed(sd);
+				sd->md->battle_status.speed = status_calc_speed(sd->md, &sd->md->sc, sd->md->battle_status.speed);
+			}
 			break;
 
 		case BL_PET:{

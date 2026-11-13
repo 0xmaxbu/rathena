@@ -896,6 +896,51 @@ uint64 MercenaryDatabase::parseBodyNode(const ryml::NodeRef& node) {
 
 	mercenary->status.aspd_rate = 1000;
 
+	// Visual fields: initialize view data for this mercenary class.
+	// Upstream regression: look[LOOK_BASE] initialization was lost during the
+	// mercenary_db YAML conversion (rAthena #6101), causing mercenaries to spawn
+	// with job 0 on the client. LOOK_BASE doubles as the sprite hook for custom
+	// mercenary appearances (the client resolves the sprite path from this id).
+	mercenary->vd.look[LOOK_BASE] = id;
+
+	// Optional appearance fields (sent through the standard spawn packet look
+	// slots): hair style, hair color and cloth/body palette.
+	if (this->nodeExists(node, "Hair")) {
+		uint16 hair;
+
+		if (!this->asUInt16(node, "Hair", hair))
+			return 0;
+
+		mercenary->vd.look[LOOK_HAIR] = hair;
+	} else {
+		if (!exists)
+			mercenary->vd.look[LOOK_HAIR] = 0;
+	}
+
+	if (this->nodeExists(node, "HairColor")) {
+		uint16 hair_color;
+
+		if (!this->asUInt16(node, "HairColor", hair_color))
+			return 0;
+
+		mercenary->vd.look[LOOK_HAIR_COLOR] = hair_color;
+	} else {
+		if (!exists)
+			mercenary->vd.look[LOOK_HAIR_COLOR] = 0;
+	}
+
+	if (this->nodeExists(node, "ClothColor")) {
+		uint16 cloth_color;
+
+		if (!this->asUInt16(node, "ClothColor", cloth_color))
+			return 0;
+
+		mercenary->vd.look[LOOK_CLOTHES_COLOR] = cloth_color;
+	} else {
+		if (!exists)
+			mercenary->vd.look[LOOK_CLOTHES_COLOR] = 0;
+	}
+
 	if (this->nodeExists(node, "Skills")) {
 		const ryml::NodeRef& skillsNode = node["Skills"];
 
