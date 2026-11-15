@@ -4054,6 +4054,9 @@ int32 parse_console(const char* buf){
 	// previous stack-allocated, uninitialized map_session_data (map.cpp
 	// bug — see PR #8892 for the analogous fix in script.cpp).
 	// Mirrors the dummy_sd pattern used by buildin_atcommand (script.cpp).
+	// Upstream fixed the same bug in PR #10133 (stack sd{} + pc_group_pc_load);
+	// we keep the lazily-initialized console_sd variant verified in production
+	// (see dev-logs/2026-07-10-parse-console-and-card-seller-fix.md).
 	static map_session_data* console_sd = nullptr;
 	if( console_sd == nullptr ){
 		console_sd = new map_session_data();
