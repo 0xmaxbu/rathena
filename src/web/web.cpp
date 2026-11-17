@@ -30,6 +30,8 @@
 #include "http.hpp"
 #include "merchantstore_controller.hpp"
 #include "partybooking_controller.hpp"
+// Prontera 定制：游戏内账号注册·提交（ADR-0004 玩家 HTTP 端点单一 seam）
+#include "register_controller.hpp"
 #include "userconfig_controller.hpp"
 // Prontera 定制：游戏内客服工单（P1 玩家自助，ADR-0002）
 #include "ticket_controller.hpp"
@@ -498,6 +500,10 @@ bool WebServer::initialize( int32 argc, char* argv[] ){
 	http_server->Post("/party/search", partybooking_search);
 	http_server->Post("/userconfig/load", userconfig_load);
 	http_server->Post("/userconfig/save", userconfig_save);
+	// Prontera 定制：游戏内账号注册·提交（发码阶段在 remote-client 邮件 adapter，
+	// 反代见 client/nginx.conf：/api/register/submit 走此处，/api/register/send 走 PHP）
+	http_server->Post("/register/submit", register_submit);
+
 	// Prontera 定制：客服工单（同源反代见 client/nginx.conf location /ticket）
 	http_server->Post("/ticket/create", ticket_create);
 	http_server->Post("/ticket/list", ticket_list);
