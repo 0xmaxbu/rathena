@@ -3265,11 +3265,8 @@ static int32 status_get_hpbonus(block_list *bl, enum e_status_bonus type) {
 * HP bonus rate from equipment
 */
 static int32 status_get_hpbonus_equip(TBL_PC *sd) {
-	int32 bonus = 0;
-
-	bonus += sd->hprate;
-
-	return bonus -= 100; //Default hprate is 100, so it should be add 0%
+	// Prontera: 返回值改用千分比单位（0.1%），含词条小数部分
+	return sd->hprate*10 + sd->hprate_pm - 1000; //Default hprate is 1000 (n/1000), so it should be add 0%
 }
 
 /**
@@ -3392,11 +3389,8 @@ static int32 status_get_spbonus(block_list *bl, enum e_status_bonus type) {
 * SP bonus rate from equipment
 */
 static int32 status_get_spbonus_equip(TBL_PC *sd) {
-	int32 bonus = 0;
-
-	bonus += sd->sprate;
-
-	return bonus -= 100; //Default sprate is 100, so it should be add 0%
+	// Prontera: 返回值改用千分比单位（0.1%），含词条小数部分
+	return sd->sprate*10 + sd->sprate_pm - 1000; //Default sprate is 1000 (n/1000), so it should be add 0%
 }
 
 /**
@@ -3535,7 +3529,7 @@ static uint32 status_calc_maxhp_pc( map_session_data& sd, uint32 vit ){
 
 	dmax += status_get_hpbonus( &sd, STATUS_BONUS_FIX );
 
-	double equip_bonus = ( dmax * status_get_hpbonus_equip( &sd ) / 100 );
+	double equip_bonus = ( dmax * status_get_hpbonus_equip( &sd ) / 1000 );
 	// TODO: using bMaxHP* for usable items may cause rounding issue
 	double item_bonus = ( dmax * status_get_hpbonus_item( &sd ) / 100 );
 
@@ -3586,7 +3580,7 @@ static uint32 status_calc_maxsp_pc( map_session_data& sd, uint32 int_ ){
 
 	dmax += status_get_spbonus( &sd, STATUS_BONUS_FIX );
 
-	double equip_bonus = ( dmax * status_get_spbonus_equip( &sd ) / 100 );
+	double equip_bonus = ( dmax * status_get_spbonus_equip( &sd ) / 1000 );
 	// TODO: using bMaxSP* for usable items may cause rounding issue
 	double item_bonus = ( dmax * status_get_spbonus_item( &sd ) / 100 );
 
@@ -3785,9 +3779,13 @@ int32 status_calc_pc_sub(map_session_data* sd, uint8 opt)
 	sd->aprate = 100;
 	sd->castrate = 100;
 	sd->dsprate = 100;
+	sd->dsprate_pm = 0;
 	sd->hprecov_rate = 100;
 	sd->sprecov_rate = 100;
 	sd->matk_rate = 100;
+	sd->matk_rate_pm = 0;
+	sd->hprate_pm = 0;
+	sd->sprate_pm = 0;
 	sd->critical_rate = sd->hit_rate = sd->flee_rate = sd->flee2_rate = 100;
 	sd->def_rate = sd->def2_rate = sd->mdef_rate = sd->mdef2_rate = 100;
 	sd->patk_rate = sd->smatk_rate = 100;
@@ -4408,9 +4406,9 @@ int32 status_calc_pc_sub(map_session_data* sd, uint8 opt)
 	if(sd->matk_rate < 0)
 		sd->matk_rate = 0;
 
-	if(sd->matk_rate != 100) {
-		base_status->matk_max = base_status->matk_max * sd->matk_rate/100;
-		base_status->matk_min = base_status->matk_min * sd->matk_rate/100;
+	if(sd->matk_rate != 100 || sd->matk_rate_pm != 0) {
+		base_status->matk_max = base_status->matk_max * (sd->matk_rate*10 + sd->matk_rate_pm)/1000;
+		base_status->matk_min = base_status->matk_min * (sd->matk_rate*10 + sd->matk_rate_pm)/1000;
 	}
 
 	if(sd->hit_rate < 0)
@@ -6255,9 +6253,9 @@ void status_calc_bl_main(block_list& bl, std::bitset<SCB_MAX> flag)
 			matk_min += sd->bonus.ematk_hidden;
 			matk_max += sd->bonus.ematk_hidden;
 
-			if (sd->matk_rate != 100) {
-				matk_min = matk_min * sd->matk_rate / 100;
-				matk_max = matk_max * sd->matk_rate / 100;
+			if (sd->matk_rate != 100 || sd->matk_rate_pm != 0) {
+				matk_min = matk_min * (sd->matk_rate*10 + sd->matk_rate_pm) / 1000;
+				matk_max = matk_max * (sd->matk_rate*10 + sd->matk_rate_pm) / 1000;
 			}
 		}
 
@@ -6364,9 +6362,9 @@ void status_calc_bl_main(block_list& bl, std::bitset<SCB_MAX> flag)
 		matk_max = status_calc_consumablematk( sc, matk_max );
 
 		// Apply MATK % (from equipments, usable items...)
-		if (sd != nullptr && sd->matk_rate != 100) {
-			matk_min = matk_min * sd->matk_rate / 100;
-			matk_max = matk_max * sd->matk_rate / 100;
+		if (sd != nullptr && (sd->matk_rate != 100 || sd->matk_rate_pm != 0)) {
+			matk_min = matk_min * (sd->matk_rate*10 + sd->matk_rate_pm) / 1000;
+			matk_max = matk_max * (sd->matk_rate*10 + sd->matk_rate_pm) / 1000;
 		}
 
 		status->matk_min = static_cast<uint16>( cap_value(matk_min,0,USHRT_MAX) );
@@ -6410,8 +6408,8 @@ void status_calc_bl_main(block_list& bl, std::bitset<SCB_MAX> flag)
 #endif
 
 #ifdef RENEWAL_ASPD
-			// RE ASPD % modifier
-			amotion += (max(195 - amotion, 2) * (status->aspd_rate2 + status_calc_aspd(&bl, sc, false))) / 100;
+			// RE ASPD % modifier (Prontera: 千分比精度，含词条小数部分)
+			amotion += (max(195 - amotion, 2) * (status->aspd_rate2*10 + status->aspd_rate2_pm + status_calc_aspd(&bl, sc, false)*10)) / 1000;
 
 			// Renewal base value is actually ASPD and not amotion, so we need to convert it
 			amotion = AMOTION_ZERO_ASPD - amotion * AMOTION_INTERVAL;

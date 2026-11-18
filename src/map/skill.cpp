@@ -519,6 +519,7 @@ int32 skill_calc_heal(block_list *src, block_list *target, uint16 skill_id, uint
 	int32 skill, hp = 0;
 #ifdef RENEWAL
 	int32 hp_bonus = 0;
+	int32 hp_bonus_pm = 0; // Prontera: n/1000（词条小数部分）
 	double global_bonus = 1;
 #endif
 	map_session_data *sd = BL_CAST(BL_PC, src);
@@ -639,17 +640,17 @@ int32 skill_calc_heal(block_list *src, block_list *target, uint16 skill_id, uint
 
 		if (skill = pc_skillheal_bonus(sd, skill_id))
 #ifdef RENEWAL
-			hp_bonus += skill;
+			hp_bonus_pm += skill; // Prontera: 函数返回值为千分比单位
 #else
-			hp += hp * skill / 100;
+			hp += hp * skill / 1000;
 #endif
 	}
 
 	if (tsd && (skill = pc_skillheal2_bonus(tsd, skill_id)))
 #ifdef RENEWAL
-		hp_bonus += skill;
+		hp_bonus_pm += skill; // Prontera: 千分比单位
 #else
-		hp += hp * skill / 100;
+		hp += hp * skill / 1000;
 #endif
 
 	if (sc != nullptr && !sc->empty()) {
@@ -690,8 +691,8 @@ int32 skill_calc_heal(block_list *src, block_list *target, uint16 skill_id, uint
 	}
 
 #ifdef RENEWAL
-	if (hp_bonus && skill_id != SOA_TALISMAN_OF_PROTECTION)
-		hp += hp * hp_bonus / 100;
+	if ((hp_bonus || hp_bonus_pm) && skill_id != SOA_TALISMAN_OF_PROTECTION)
+		hp += hp * (hp_bonus*10 + hp_bonus_pm) / 1000;
 
 	// MATK part of the RE heal formula [malufett]
 	// Note: in this part matk bonuses from items or skills are not applied
@@ -9784,8 +9785,8 @@ struct s_skill_condition skill_get_requirement(map_session_data* sd, uint16 skil
 		req.sp += (status->sp * sp_rate)/100;
 	else
 		req.sp += (status->max_sp * (-sp_rate))/100;
-	if( sd->dsprate != 100 )
-		req.sp = req.sp * sd->dsprate / 100;
+	if( sd->dsprate != 100 || sd->dsprate_pm != 0 )
+		req.sp = req.sp * (sd->dsprate*10 + sd->dsprate_pm) / 1000;
 
 	for (auto &it : sd->skillusesprate) {
 		if (it.id == skill_id) {
@@ -10266,6 +10267,7 @@ int32 skill_vfcastfix(block_list *bl, double time, uint16 skill_id, uint16 skill
 	status_change *sc = status_get_sc(bl);
 	map_session_data *sd = BL_CAST(BL_PC, bl);
 	int32 fixed = skill_get_fixed_cast(skill_id, skill_lv), fixcast_r = 0, varcast_r = 0, reduce_cast_rate = 0;
+	int32 reduce_cast_rate_pm = 0; // Prontera: n/1000（词条小数部分）
 	uint8 flag = skill_get_castnodex(skill_id);
 
 	if (fixed < 0) {
@@ -10280,6 +10282,8 @@ int32 skill_vfcastfix(block_list *bl, double time, uint16 skill_id, uint16 skill
 	if (sd && !(flag&4)) {
 		if (sd->bonus.varcastrate != 0)
 			reduce_cast_rate += sd->bonus.varcastrate; // bonus bVariableCastrate
+		if (sd->bonus.varcastrate_pm != 0)
+			reduce_cast_rate_pm += sd->bonus.varcastrate_pm; // Prontera: bVariableCastratePm
 		if (sd->bonus.fixcastrate != 0)
 			fixcast_r -= sd->bonus.fixcastrate; // bonus bFixedCastrate
 		if (sd->bonus.add_varcast != 0)
@@ -10375,7 +10379,8 @@ int32 skill_vfcastfix(block_list *bl, double time, uint16 skill_id, uint16 skill
 	if (!(flag&1))
 		time = time * (1 - sqrt(((float)(status_get_dex(bl) * 2 + status_get_int(bl)) / battle_config.vcast_stat_scale)));
 
-	time = time * (1 - (float)min(reduce_cast_rate, 100) / 100);
+	if (reduce_cast_rate != 0 || reduce_cast_rate_pm != 0)
+		time = time * (1 - (float)min(reduce_cast_rate*10 + reduce_cast_rate_pm, 1000) / 1000);
 	time = max((int32)time, 0) + (1 - (float)min(fixcast_r, 100) / 100) * max(fixed, 0); //Underflow checking/capping
 
 	return (int32)time;
@@ -10459,6 +10464,7 @@ int32 skill_delayfix(block_list *bl, uint16 skill_id, uint16 skill_lv)
 	}
 
 	int32 delay = 0;
+	int32 delay_pm = 0; // Prontera: n/1000（词条小数部分）
 
 	if (!(delaynodex&2)) {
 		if (sc != nullptr && !sc->empty()) {
@@ -10476,6 +10482,8 @@ int32 skill_delayfix(block_list *bl, uint16 skill_id, uint16 skill_lv)
 
 		if (sd->bonus.delayrate != 0) // bonus bDelayRate
 			delay += sd->bonus.delayrate;
+		if (sd->bonus.delayrate_pm != 0) // Prontera: bDelayratePm (n/1000)
+			delay_pm += sd->bonus.delayrate_pm;
 
 		for (auto &it : sd->skilldelay) { // bonus2 bSkillDelay
 			if (it.id == skill_id) {
@@ -10485,8 +10493,8 @@ int32 skill_delayfix(block_list *bl, uint16 skill_id, uint16 skill_lv)
 		}
 	}
 
-	if (delay != 0)
-		time = time * (1 - (float)min(delay, 100) / 100);
+	if (delay != 0 || delay_pm != 0)
+		time = time * (1 - (float)min(delay*10 + delay_pm, 1000) / 1000);
 
 	if (battle_config.delay_rate != 100)
 		time = time * battle_config.delay_rate / 100;

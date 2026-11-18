@@ -271,6 +271,7 @@ struct weapon_data {
 	int32 addclass[CLASS_MAX];
 	int32 addrace2[RC2_MAX];
 	int32 addsize[SZ_MAX];
+	int32 addsize_pm[SZ_MAX]; // Prontera: n/1000（词条小数百分比）
 	int16 hp_drain_race[RC_MAX];
 	int16 sp_drain_race[RC_MAX];
 	int16 hp_drain_class[CLASS_MAX];
@@ -579,6 +580,7 @@ public:
 		int32 arrow_addrace[RC_MAX];
 		int32 arrow_addclass[CLASS_MAX];
 		int32 arrow_addsize[SZ_MAX];
+		int32 arrow_addsize_pm[SZ_MAX]; // Prontera: n/1000
 		int32 magic_addele[ELE_MAX];
 		int32 magic_addele_script[ELE_MAX];
 		int32 magic_addrace[RC_MAX];
@@ -632,12 +634,15 @@ public:
 	struct s_bonus {
 		int32 hp, sp, ap;
 		int32 atk_rate;
+		int32 atk_rate_pm; // Prontera: n/1000
 		int32 arrow_atk,arrow_ele,arrow_cri,arrow_hit;
 		int32 nsshealhp,nsshealsp;
 		int32 critical_def,double_rate;
 		int32 short_attack_atk_rate; // Short range atk rate, not weapon based.
 		int32 long_attack_atk_rate; //Long range atk rate, not weapon based. [Skotlex]
+		int32 long_attack_atk_rate_pm; // Prontera: n/1000
 		int32 near_attack_def_rate,long_attack_def_rate,magic_def_rate,misc_def_rate;
+		int32 long_attack_def_rate_pm; // Prontera: n/1000
 		int32 ignore_mdef_ele;
 		int32 ignore_mdef_race;
 		int32 ignore_mdef_class;
@@ -650,8 +655,10 @@ public:
 		int32 magic_damage_return; // AppleGirl Was Here
 		int32 break_weapon_rate,break_armor_rate;
 		int32 crit_atk_rate;
+		int32 crit_atk_rate_pm; // Prontera: n/1000
 		int32 non_crit_atk_rate;
 		int32 crit_def_rate;
+		int32 crit_def_rate_pm; // Prontera: n/1000
 		int32 classchange; // [Valaris]
 		int32 speed_rate, speed_add_rate, aspd_add;
 		int32 itemhealrate2; // [Epoque] Increase heal rate of all healing items.
@@ -662,11 +669,13 @@ public:
 		int16 splash_range, splash_add_range;
 		int16 add_steal_rate;
 		int32 add_heal_rate, add_heal2_rate;
+		int32 add_heal_rate_pm, add_heal2_rate_pm; // Prontera: n/1000
 		int32 sp_gain_value, hp_gain_value, magic_sp_gain_value, magic_hp_gain_value, long_sp_gain_value, long_hp_gain_value;
 		uint16 unbreakable;	// chance to prevent ANY equipment breaking [celest]
 		uint16 unbreakable_equip; //100% break resistance on certain equipment
 		uint16 unstripable_equip;
 		int32 fixcastrate, varcastrate, delayrate; // n/100
+		int32 varcastrate_pm, delayrate_pm; // Prontera: n/1000
 		int32 add_fixcast, add_varcast; // in milliseconds
 		int32 ematk; // matk bonus from equipment
 		int32 ematk_hidden; // matk bonus not visible in status window
@@ -680,8 +689,10 @@ public:
 	// zeroed vars end here.
 
 	int32 castrate,hprate,sprate,aprate,dsprate;
+	int32 hprate_pm, sprate_pm, dsprate_pm; // Prontera: n/1000（重置点 status_calc_pc_player）
 	int32 hprecov_rate,sprecov_rate;
 	int32 matk_rate;
+	int32 matk_rate_pm; // Prontera: n/1000（重置点 status_calc_pc_player）
 	int32 critical_rate,hit_rate,flee_rate,flee2_rate,def_rate,def2_rate,mdef_rate,mdef2_rate;
 	int32 patk_rate,smatk_rate,res_rate,mres_rate,hplus_rate,crate_rate;
 

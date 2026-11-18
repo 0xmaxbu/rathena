@@ -958,8 +958,9 @@ int32 battle_calc_cardfix(int32 attack_type, block_list *src, block_list *target
 						}
 						cardfix = cardfix * (100 + ele_fix) / 100;
 					}
-					cardfix = cardfix * (100 + sd->right_weapon.addsize[tstatus->size] + sd->indexed_bonus.arrow_addsize[tstatus->size] +
-						sd->right_weapon.addsize[SZ_ALL] + sd->indexed_bonus.arrow_addsize[SZ_ALL]) / 100;
+					cardfix = cardfix * (1000 + (sd->right_weapon.addsize[tstatus->size] + sd->indexed_bonus.arrow_addsize[tstatus->size] +
+						sd->right_weapon.addsize[SZ_ALL] + sd->indexed_bonus.arrow_addsize[SZ_ALL])*10 + sd->right_weapon.addsize_pm[tstatus->size] + sd->indexed_bonus.arrow_addsize_pm[tstatus->size] +
+						sd->right_weapon.addsize_pm[SZ_ALL] + sd->indexed_bonus.arrow_addsize_pm[SZ_ALL]) / 1000;
 
 					int32 race_fix = 0;
 
@@ -989,7 +990,7 @@ int32 battle_calc_cardfix(int32 attack_type, block_list *src, block_list *target
 							}
 							cardfix = cardfix * (100 + ele_fix) / 100;
 						}
-						cardfix = cardfix * (100 + sd->right_weapon.addsize[tstatus->size] + sd->right_weapon.addsize[SZ_ALL]) / 100;
+						cardfix = cardfix * (1000 + (sd->right_weapon.addsize[tstatus->size] + sd->right_weapon.addsize[SZ_ALL])*10 + sd->right_weapon.addsize_pm[tstatus->size] + sd->right_weapon.addsize_pm[SZ_ALL]) / 1000;
 						for (const auto &raceit : t_race2)
 							cardfix = cardfix * (100 + sd->right_weapon.addrace2[raceit]) / 100;
 						cardfix = cardfix * (100 + sd->right_weapon.addclass[tstatus->class_] + sd->right_weapon.addclass[CLASS_ALL]) / 100;
@@ -1010,7 +1011,7 @@ int32 battle_calc_cardfix(int32 attack_type, block_list *src, block_list *target
 								}
 								cardfix_ = cardfix_ * (100 + ele_fix_lh) / 100;
 							}
-							cardfix_ = cardfix_ * (100 + sd->left_weapon.addsize[tstatus->size] + sd->left_weapon.addsize[SZ_ALL]) / 100;
+							cardfix_ = cardfix_ * (1000 + (sd->left_weapon.addsize[tstatus->size] + sd->left_weapon.addsize[SZ_ALL])*10 + sd->left_weapon.addsize_pm[tstatus->size] + sd->left_weapon.addsize_pm[SZ_ALL]) / 1000;
 							for (const auto &raceit : t_race2)
 								cardfix_ = cardfix_ * (100 + sd->left_weapon.addrace2[raceit]) / 100;
 							cardfix_ = cardfix_ * (100 + sd->left_weapon.addclass[tstatus->class_] + sd->left_weapon.addclass[CLASS_ALL]) / 100;
@@ -1045,8 +1046,9 @@ int32 battle_calc_cardfix(int32 attack_type, block_list *src, block_list *target
 						//}
 						cardfix = cardfix * (100 + sd->right_weapon.addrace[tstatus->race] + sd->left_weapon.addrace[tstatus->race] +
 							sd->right_weapon.addrace[RC_ALL] + sd->left_weapon.addrace[RC_ALL]) / 100;
-						cardfix = cardfix * (100 + sd->right_weapon.addsize[tstatus->size] + sd->left_weapon.addsize[tstatus->size] +
-							sd->right_weapon.addsize[SZ_ALL] + sd->left_weapon.addsize[SZ_ALL]) / 100;
+						cardfix = cardfix * (1000 + (sd->right_weapon.addsize[tstatus->size] + sd->left_weapon.addsize[tstatus->size] +
+							sd->right_weapon.addsize[SZ_ALL] + sd->left_weapon.addsize[SZ_ALL])*10 + sd->right_weapon.addsize_pm[tstatus->size] + sd->left_weapon.addsize_pm[tstatus->size] +
+							sd->right_weapon.addsize_pm[SZ_ALL] + sd->left_weapon.addsize_pm[SZ_ALL]) / 1000;
 						for (const auto &raceit : t_race2)
 							cardfix = cardfix * (100 + sd->right_weapon.addrace2[raceit] + sd->left_weapon.addrace2[raceit]) / 100;
 						cardfix = cardfix * (100 + sd->right_weapon.addclass[tstatus->class_] + sd->left_weapon.addclass[tstatus->class_] +
@@ -3935,9 +3937,9 @@ static void battle_calc_damage_parts(struct Damage* wd, block_list *src,block_li
 	wd->equipAtk2 = battle_attr_fix(src, target, wd->equipAtk2, left_element, tstatus->def_ele, tstatus->ele_lv);
 
 	// AtkRate gives a static bonus from (W.ATK + E.ATK)
-	if (sd && sd->bonus.atk_rate) {
-		wd->percentAtk = (wd->weaponAtk + wd->equipAtk) * sd->bonus.atk_rate / 100;
-		wd->percentAtk2 = (wd->weaponAtk2 + wd->equipAtk2) * sd->bonus.atk_rate / 100;
+	if (sd && (sd->bonus.atk_rate || sd->bonus.atk_rate_pm)) {
+		wd->percentAtk = (wd->weaponAtk + wd->equipAtk) * (sd->bonus.atk_rate*10 + sd->bonus.atk_rate_pm) / 1000;
+		wd->percentAtk2 = (wd->weaponAtk2 + wd->equipAtk2) * (sd->bonus.atk_rate*10 + sd->bonus.atk_rate_pm) / 1000;
 	}
 
 	//Mastery ATK is a special kind of ATK that has no elemental properties
@@ -5540,14 +5542,14 @@ static struct Damage battle_calc_weapon_attack(block_list *src, block_list *targ
 			// CritAtkRate modifier
 			if (wd.type == DMG_CRITICAL || wd.type == DMG_MULTI_HIT_CRITICAL) {
 				if (skill_id > 0) {
-					wd.damage += (int64)floor((float)(wd.damage * sd->bonus.crit_atk_rate / 200));
+					wd.damage += (int64)floor((float)(wd.damage * (sd->bonus.crit_atk_rate*10 + sd->bonus.crit_atk_rate_pm) / 2000));
 					if (is_attack_left_handed(src, skill_id))
-						wd.damage2 += (int64)floor((float)(wd.damage2 * sd->bonus.crit_atk_rate / 200));
+						wd.damage2 += (int64)floor((float)(wd.damage2 * (sd->bonus.crit_atk_rate*10 + sd->bonus.crit_atk_rate_pm) / 2000));
 				}
 				else {
-					wd.damage += (int64)floor((float)(wd.damage * sd->bonus.crit_atk_rate / 100));
+					wd.damage += (int64)floor((float)(wd.damage * (sd->bonus.crit_atk_rate*10 + sd->bonus.crit_atk_rate_pm) / 1000));
 					if (is_attack_left_handed(src, skill_id))
-						wd.damage2 += (int64)floor((float)(wd.damage2 * sd->bonus.crit_atk_rate / 100));
+						wd.damage2 += (int64)floor((float)(wd.damage2 * (sd->bonus.crit_atk_rate*10 + sd->bonus.crit_atk_rate_pm) / 1000));
 				}
 			}
 			else if (std::shared_ptr<s_skill_db> skill_tmp = skill_db.find(skill_id); skill_tmp == nullptr || !skill_tmp->inf2[INF2_IGNORENONCRITATKBONUS]) {
@@ -5556,8 +5558,13 @@ static struct Damage battle_calc_weapon_attack(block_list *src, block_list *targ
 
 			if (wd.flag & BF_SHORT)
 				ATK_ADDRATE(wd.damage, wd.damage2, sd->bonus.short_attack_atk_rate);
-			if(wd.flag&BF_LONG && (skill_id != RA_WUGBITE && skill_id != RA_WUGSTRIKE)) //Long damage rate addition doesn't use weapon + equip attack
-				ATK_ADDRATE(wd.damage, wd.damage2, sd->bonus.long_attack_atk_rate);
+			if(wd.flag&BF_LONG && (skill_id != RA_WUGBITE && skill_id != RA_WUGSTRIKE)) { //Long damage rate addition doesn't use weapon + equip attack
+				// Prontera: 千分比精度（含词条小数部分）
+				int64 lrate = sd->bonus.long_attack_atk_rate*10 + sd->bonus.long_attack_atk_rate_pm;
+				wd.damage += (int64)floor((float)(wd.damage * lrate / 1000));
+				if (is_attack_left_handed(src, skill_id))
+					wd.damage2 += (int64)floor((float)(wd.damage2 * lrate / 1000));
+			}
 		}
 
 		// Skill ratio
@@ -5648,8 +5655,13 @@ static struct Damage battle_calc_weapon_attack(block_list *src, block_list *targ
 		} else
 			wd.damage = (int64)floor((float)(wd.damage * 1.4f));
 
-		if (tsd && tsd->bonus.crit_def_rate != 0)
-			ATK_ADDRATE(wd.damage, wd.damage2, -tsd->bonus.crit_def_rate);
+		if (tsd && (tsd->bonus.crit_def_rate != 0 || tsd->bonus.crit_def_rate_pm != 0)) {
+			// Prontera: 千分比精度
+			int32 cratedef = -(tsd->bonus.crit_def_rate*10 + tsd->bonus.crit_def_rate_pm);
+			wd.damage += (int64)floor((float)(wd.damage * cratedef / 1000));
+			if (is_attack_left_handed(src, skill_id))
+				wd.damage2 += (int64)floor((float)(wd.damage2 * cratedef / 1000));
+		}
 	}
 #endif
 
@@ -5729,9 +5741,11 @@ static struct Damage battle_calc_weapon_attack(block_list *src, block_list *targ
 			case RK_DRAGONBREATH:
 			case RK_DRAGONBREATH_WATER:
 				if(wd.flag&BF_LONG) { //Add check here, because we want to apply the same behavior in pre-renewal [exneval]
-					wd.damage = wd.damage * (100 + sd->bonus.long_attack_atk_rate) / 100;
+					// Prontera: 千分比精度
+					int64 lrate = sd->bonus.long_attack_atk_rate*10 + sd->bonus.long_attack_atk_rate_pm;
+					wd.damage = wd.damage * (1000 + lrate) / 1000;
 					if(is_attack_left_handed(src, skill_id))
-						wd.damage2 = wd.damage2 * (100 + sd->bonus.long_attack_atk_rate) / 100;
+						wd.damage2 = wd.damage2 * (1000 + lrate) / 1000;
 				}
 				break;
 			default:

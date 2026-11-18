@@ -3396,6 +3396,7 @@ struct status_data {
 		def2, mdef2,
 #ifdef RENEWAL_ASPD
 		aspd_rate2,
+		aspd_rate2_pm, // Prontera: n/1000（词条小数百分比）
 #endif
 		aspd_rate,
 		patk, smatk,

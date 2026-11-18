@@ -749,6 +749,22 @@
 	export_constant2("bAddEffOnSkill",SP_ADDEFF_ONSKILL);
 	export_constant2("bHealPower",SP_ADD_HEAL_RATE);
 	export_constant2("bHealPower2",SP_ADD_HEAL2_RATE);
+	// Prontera：千分比精度变体（val 单位 0.1%，随机选项小数百分比专用）
+	export_constant2("bMaxHPratePm",SP_MAXHPRATE_PM);
+	export_constant2("bMaxSPratePm",SP_MAXSPRATE_PM);
+	export_constant2("bAtkRatePm",SP_ATK_RATE_PM);
+	export_constant2("bMatkRatePm",SP_MATK_RATE_PM);
+	export_constant2("bAspdRatePm",SP_ASPD_RATE_PM);
+	export_constant2("bVariableCastratePm",SP_VARCASTRATE_PM);
+	export_constant2("bDelayratePm",SP_DELAYRATE_PM);
+	export_constant2("bUseSPratePm",SP_DSPRATE_PM);
+	export_constant2("bHealPowerPm",SP_ADD_HEAL_RATE_PM);
+	export_constant2("bHealPower2Pm",SP_ADD_HEAL2_RATE_PM);
+	export_constant2("bCritAtkRatePm",SP_CRIT_ATK_RATE_PM);
+	export_constant2("bCritDefRatePm",SP_CRIT_DEF_RATE_PM);
+	export_constant2("bLongAtkRatePm",SP_LONG_ATK_RATE_PM);
+	export_constant2("bLongAtkDefPm",SP_LONG_ATK_DEF_PM);
+	export_constant2("bAddSizePm",SP_ADDSIZE_PM);
 	export_constant2("bIgnoreResRaceRate",SP_SP_IGNORE_RES_RACE_RATE);
 	export_constant2("bIgnoreMResRaceRate",SP_SP_IGNORE_MRES_RACE_RATE);
 

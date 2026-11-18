@@ -3933,9 +3933,17 @@ void pc_bonus(map_session_data *sd,int32 type,int32 val)
 			if (sd->state.lr_flag != LR_FLAG_ARROW)
 				sd->hprate+=val;
 			break;
+		case SP_MAXHPRATE_PM:
+			if (sd->state.lr_flag != LR_FLAG_ARROW)
+				sd->hprate_pm += val;
+			break;
 		case SP_MAXSPRATE:
 			if (sd->state.lr_flag != LR_FLAG_ARROW)
 				sd->sprate+=val;
+			break;
+		case SP_MAXSPRATE_PM:
+			if (sd->state.lr_flag != LR_FLAG_ARROW)
+				sd->sprate_pm += val;
 			break;
 		case SP_MAXAPRATE:
 			if (sd->state.lr_flag != LR_FLAG_ARROW)
@@ -3944,6 +3952,10 @@ void pc_bonus(map_session_data *sd,int32 type,int32 val)
 		case SP_SPRATE:
 			if (sd->state.lr_flag != LR_FLAG_ARROW)
 				sd->dsprate+=val;
+			break;
+		case SP_DSPRATE_PM:
+			if (sd->state.lr_flag != LR_FLAG_ARROW)
+				sd->dsprate_pm += val;
 			break;
 		case SP_ATTACKRANGE:
 			switch (sd->state.lr_flag) {
@@ -3986,6 +3998,12 @@ void pc_bonus(map_session_data *sd,int32 type,int32 val)
 				status->aspd_rate2 += val;
 #endif
 			break;
+		case SP_ASPD_RATE_PM:
+#ifdef RENEWAL_ASPD
+			if (sd->state.lr_flag != LR_FLAG_ARROW)
+				status->aspd_rate2_pm += val;
+#endif
+			break;
 		case SP_HP_RECOV_RATE:
 			if (sd->state.lr_flag != LR_FLAG_ARROW)
 				sd->hprecov_rate += val;
@@ -4006,6 +4024,10 @@ void pc_bonus(map_session_data *sd,int32 type,int32 val)
 			if (sd->state.lr_flag != LR_FLAG_ARROW)
 				sd->bonus.long_attack_def_rate += val;
 			break;
+		case SP_LONG_ATK_DEF_PM:
+			if (sd->state.lr_flag != LR_FLAG_ARROW)
+				sd->bonus.long_attack_def_rate_pm += val;
+			break;
 		case SP_DOUBLE_RATE:
 			if (sd->state.lr_flag == LR_FLAG_NONE && sd->bonus.double_rate < val)
 				sd->bonus.double_rate = val;
@@ -4017,6 +4039,10 @@ void pc_bonus(map_session_data *sd,int32 type,int32 val)
 		case SP_MATK_RATE:
 			if (sd->state.lr_flag != LR_FLAG_ARROW)
 				sd->matk_rate += val;
+			break;
+		case SP_MATK_RATE_PM:
+			if (sd->state.lr_flag != LR_FLAG_ARROW)
+				sd->matk_rate_pm += val;
 			break;
 		case SP_IGNORE_DEF_ELE:
 			PC_BONUS_CHK_ELEMENT(val,SP_IGNORE_DEF_ELE);
@@ -4045,6 +4071,14 @@ void pc_bonus(map_session_data *sd,int32 type,int32 val)
 				sd->bonus.atk_rate += val;
 #else
 			ShowError( "pc_bonus: %s is not supported in Pre-Renewal mode.\n", QUOTE( SP_ATK_RATE ) );
+#endif
+			break;
+		case SP_ATK_RATE_PM:
+#ifdef RENEWAL
+			if (sd->state.lr_flag != LR_FLAG_ARROW)
+				sd->bonus.atk_rate_pm += val;
+#else
+			ShowError( "pc_bonus: %s is not supported in Pre-Renewal mode.\n", QUOTE( SP_ATK_RATE_PM ) );
 #endif
 			break;
 		case SP_MAGIC_ATK_DEF:
@@ -4302,6 +4336,10 @@ void pc_bonus(map_session_data *sd,int32 type,int32 val)
 			if (sd->state.lr_flag != LR_FLAG_ARROW)	//[Lupus] it should stack, too. As any other cards rate bonuses
 				sd->bonus.long_attack_atk_rate+=val;
 			break;
+		case SP_LONG_ATK_RATE_PM:
+			if (sd->state.lr_flag != LR_FLAG_ARROW)
+				sd->bonus.long_attack_atk_rate_pm += val;
+			break;
 		case SP_NON_CRIT_ATK_RATE:
 			if (sd->state.lr_flag != LR_FLAG_ARROW)
 				sd->bonus.non_crit_atk_rate += val;
@@ -4322,13 +4360,25 @@ void pc_bonus(map_session_data *sd,int32 type,int32 val)
 			if (sd->state.lr_flag != LR_FLAG_ARROW)
 				sd->bonus.delayrate -= val;
 			break;
+		case SP_DELAYRATE_PM:
+			if (sd->state.lr_flag != LR_FLAG_ARROW)
+				sd->bonus.delayrate_pm += val;
+			break;
 		case SP_CRIT_ATK_RATE:
 			if (sd->state.lr_flag != LR_FLAG_ARROW)
 				sd->bonus.crit_atk_rate += val;
 			break;
+		case SP_CRIT_ATK_RATE_PM:
+			if (sd->state.lr_flag != LR_FLAG_ARROW)
+				sd->bonus.crit_atk_rate_pm += val;
+			break;
 		case SP_CRIT_DEF_RATE:
 			if (sd->state.lr_flag != LR_FLAG_ARROW)
 				sd->bonus.crit_def_rate += val;
+			break;
+		case SP_CRIT_DEF_RATE_PM:
+			if (sd->state.lr_flag != LR_FLAG_ARROW)
+				sd->bonus.crit_def_rate_pm += val;
 			break;
 		case SP_NO_REGEN:
 			if (sd->state.lr_flag != LR_FLAG_ARROW)
@@ -4397,9 +4447,17 @@ void pc_bonus(map_session_data *sd,int32 type,int32 val)
 			if (sd->state.lr_flag != LR_FLAG_ARROW)
 				sd->bonus.add_heal_rate += val;
 			break;
+		case SP_ADD_HEAL_RATE_PM:
+			if (sd->state.lr_flag != LR_FLAG_ARROW)
+				sd->bonus.add_heal_rate_pm += val;
+			break;
 		case SP_ADD_HEAL2_RATE:
 			if (sd->state.lr_flag != LR_FLAG_ARROW)
 				sd->bonus.add_heal2_rate += val;
+			break;
+		case SP_ADD_HEAL2_RATE_PM:
+			if (sd->state.lr_flag != LR_FLAG_ARROW)
+				sd->bonus.add_heal2_rate_pm += val;
 			break;
 		case SP_ADD_ITEM_HEAL_RATE:
 			if (sd->state.lr_flag != LR_FLAG_ARROW)
@@ -4430,6 +4488,10 @@ void pc_bonus(map_session_data *sd,int32 type,int32 val)
 		case SP_VARCASTRATE:
 			if (sd->state.lr_flag != LR_FLAG_ARROW)
 				sd->bonus.varcastrate -= val;
+			break;
+		case SP_VARCASTRATE_PM:
+			if (sd->state.lr_flag != LR_FLAG_ARROW)
+				sd->bonus.varcastrate_pm += val;
 			break;
 #else
 		case SP_ADD_FIXEDCAST:
@@ -4540,6 +4602,15 @@ void pc_bonus2(map_session_data *sd,int32 type,int32 type2,int32 val)
 			sd->left_weapon.addsize[type2]+=val;
 		else if (sd->state.lr_flag == LR_FLAG_ARROW)
 			sd->indexed_bonus.arrow_addsize[type2]+=val;
+		break;
+	case SP_ADDSIZE_PM: // bonus2 bAddSizePm,s,x; Prontera: n/1000
+		PC_BONUS_CHK_SIZE(type2,SP_ADDSIZE_PM);
+		if (sd->state.lr_flag == LR_FLAG_NONE || sd->state.lr_flag == LR_FLAG_SHIELD)
+			sd->right_weapon.addsize_pm[type2]+=val;
+		else if (sd->state.lr_flag == LR_FLAG_WEAPON)
+			sd->left_weapon.addsize_pm[type2]+=val;
+		else if (sd->state.lr_flag == LR_FLAG_ARROW)
+			sd->indexed_bonus.arrow_addsize_pm[type2]+=val;
 		break;
 	case SP_SUBELE: // bonus2 bSubEle,e,x;
 		PC_BONUS_CHK_ELEMENT(type2,SP_SUBELE);
@@ -9610,7 +9681,8 @@ int32 pc_sub_skillatk_bonus(map_session_data *sd, uint16 skill_id)
 }
 
 int32 pc_skillheal_bonus(map_session_data *sd, uint16 skill_id) {
-	int32 bonus = sd->bonus.add_heal_rate;
+	// Prontera: 返回值改用千分比单位（0.1%），含词条小数部分
+	int32 bonus = sd->bonus.add_heal_rate*10 + sd->bonus.add_heal_rate_pm;
 
 	nullpo_ret(sd);
 
@@ -9641,7 +9713,8 @@ int32 pc_skillheal_bonus(map_session_data *sd, uint16 skill_id) {
 }
 
 int32 pc_skillheal2_bonus(map_session_data *sd, uint16 skill_id) {
-	int32 bonus = sd->bonus.add_heal2_rate;
+	// Prontera: 返回值改用千分比单位（0.1%），含词条小数部分
+	int32 bonus = sd->bonus.add_heal2_rate*10 + sd->bonus.add_heal2_rate_pm;
 
 	skill_id = skill_dummy2skill_id(skill_id);
 
