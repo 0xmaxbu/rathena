@@ -1,17 +1,25 @@
-autom4te.cache/
 
-#Global
-.cache
-.idea
-.vscode
 .Apple*
-.DS_Store
+.cache
 .clang_complete
+.DS_Store
+.idea
 .local.vimrc
+.vs
+.vscode
 .ycm_extra_conf.py*
-Thumbs.db
-
-# /
+*.a
+*.o
+*.slnLaunch.user
+*.VC.db
+*.VC.opendb
+*.vcxproj.user
+/.idea/.name
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/rathena.iml
+/.idea/vcs.xml
+/.idea/workspace.xml
 /*_fifo
 /*.exe
 /*.exe.*
@@ -27,128 +35,98 @@ Thumbs.db
 /*.sdf
 /*.stackdump
 /*.suo
-*.o
-*.a
-*.vcxproj.user
+/3rdparty/httplib/Makefile
+/3rdparty/httplib/obj
+/3rdparty/libconfig/*.o
+/3rdparty/libconfig/Makefile
+/3rdparty/libconfig/obj
+/3rdparty/rapidyaml/Makefile
+/3rdparty/yaml-cpp/Makefile
+/build/
+/cbuild/
 /char-server
-/csv2yaml
+/charserv.bat
+/CMakeFiles/
+/conf/import
+/conf/msg_conf/import
 /config.log
 /config.status
 /core
+/csv2yaml
+/csv2yaml.bat
+/db/import
 /enc_temp_folder
 /ipch
+/lib
+/libmysql.dll
+/log/*.leaks
+/log/*.log
 /login-server
+/logserv.bat
 /Makefile
 /Makefile.cache
 /map-server
 /map-server-generator
 /mapcache
+/mapcache.bat
+/mapserv.bat
+/navigenerator.bat
 /nbproject
-/web-server
-/yaml2sql
-/yamlupgrade
-
-# /3rdparty/libconfig/
-/3rdparty/libconfig/Makefile
-/3rdparty/libconfig/*.o
-/3rdparty/libconfig/obj
-
-# /3rdparty/rapidyaml/
-/3rdparty/rapidyaml/Makefile
-
-# /3rdparty/yaml-cpp/
-/3rdparty/yaml-cpp/Makefile
-
-# /3rdparty/httplib/
-/3rdparty/httplib/Makefile
-/3rdparty/httplib/obj
-
-# /db/
-/db/import
-
-# /conf/
-/conf/import
-/conf/msg_conf/import
-
-# /lib
-/lib
-
-# /log/
-/log/*.log
-/log/*.leaks
-
-# /src/char/
+/pcre8.dll
+/runserver.bat
+/serv.bat
 /src/char/Makefile
 /src/char/obj_sql
-
-# /src/common/
 /src/common/Makefile
 /src/common/obj_all
 /src/common/obj_sql
 /src/common/version.hpp
-
-# /src/custom/
 /src/custom
-
-# /src/login/
 /src/login/Makefile
 /src/login/obj_sql
-
-# /src/map/
 /src/map/Makefile
 /src/map/obj_sql
 /src/map/pcre.hpp
-
-# /src/web
-/src/web/Makefile
-/src/web/obj
-
-# /src/tool/
 /src/tool/Makefile
 /src/tool/obj_all
-
-# /tools/
-/tools/convert
-/tools/adduser
+/src/web/Makefile
+/src/web/obj
 /tools/*.exe
 /tools/*.ilk
 /tools/*.pdb
-
-# Visual Studio
-.vs
-*.VC.db
-*.VC.opendb
-*.slnLaunch.user
-
-/.idea/.name
-/.idea/misc.xml
-/.idea/modules.xml
-/.idea/rathena.iml
-/.idea/vcs.xml
-/.idea/workspace.xml
-/build/
-/cbuild/
-
-# bat tools
-/charserv.bat
-/csv2yaml.bat
-/logserv.bat
-/mapcache.bat
-/mapserv.bat
-/runserver.bat
-/serv.bat
+/tools/adduser
+/tools/convert
+/web-server
 /webserv.bat
+/yaml2sql
 /yaml2sql.bat
+/yamlupgrade
 /yamlupgrade.bat
-/navigenerator.bat
-
-# dlls
-/libmysql.dll
-/pcre8.dll
 /zlib.dll
-
+# /
+# /3rdparty/httplib/
+# /3rdparty/libconfig/
+# /3rdparty/rapidyaml/
+# /3rdparty/yaml-cpp/
+# /conf/
+# /db/
+# /lib
+# /log/
+# /src/char/
+# /src/common/
+# /src/custom/
+# /src/login/
+# /src/map/
+# /src/tool/
+# /src/web
+# /tools/
+# bat tools
 # CMakeFiles
-/CMakeFiles/
-
+# dlls
 # generated files
+# Visual Studio
+#Global
+autom4te.cache/
 generated
+graphify-out
+Thumbs.db
