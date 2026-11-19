@@ -2368,7 +2368,10 @@ void pc_reg_received(map_session_data *sd)
 	sd->die_counter = static_cast<int32>(pc_readglobalreg(sd, add_str(PCDIECOUNTER_VAR)));
 
 	sd->langtype = static_cast<int32>(pc_readaccountreg(sd, add_str(LANGTYPE_VAR)));
-	if (msg_checklangtype(sd->langtype,true) < 0)
+	// 0（#langtype 无记录，从未设置）或非法值 → 默认中文（本服面向中文玩家）。
+	// 注意：@langtype english 显式写入的 0 与"从未设置"在 acc_reg 层无法区分，
+	// 英文偏好的会话恢复由客户端 ro_player_lang_synced 机制自动重发 @langtype english。
+	if (sd->langtype == 0 || msg_checklangtype(sd->langtype,true) < 0)
 		sd->langtype = 4; //default to Chinese (CHN)
 
 	// Cash shop
