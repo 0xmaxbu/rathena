@@ -2258,15 +2258,9 @@ bool pc_authok(map_session_data *sd, uint32 login_id2, time_t expiration_time, i
 			pc_show_version(sd);
 
 		// Message of the Day [Valaris]
-		{
-			char (*motd_buf)[CHAT_SIZE_MAX] = (sd->langtype == 4 && motd_text_chn[0][0]) ? motd_text_chn : motd_text;
-			for(int32 i=0; i < MOTD_LINE_SIZE && motd_buf[i][0]; i++) {
-				if (battle_config.motd_type)
-					clif_messagecolor(sd, color_table[COLOR_LIGHT_GREEN], motd_buf[i], false, SELF);
-				else
-					clif_displaymessage(sd->fd, motd_buf[i]);
-			}
-		}
+		// 2026-11-21: moved to pc_reg_received -- this runs before acc_reg
+		// (#langtype) arrives, so sd->langtype was always 0 here and the
+		// CHN slot could never be selected.
 
 		if (expiration_time != 0)
 			sd->expiration_time = expiration_time;
@@ -2373,6 +2367,20 @@ void pc_reg_received(map_session_data *sd)
 	// 英文偏好的会话恢复由客户端 ro_player_lang_synced 机制自动重发 @langtype english。
 	if (sd->langtype == 0 || msg_checklangtype(sd->langtype,true) < 0)
 		sd->langtype = 4; //default to Chinese (CHN)
+
+	// Message of the Day [Valaris]
+	// 2026-11-21: sent here instead of pc_authok -- sd->langtype is only
+	// loaded above (acc_reg arrival), so the CHN slot can actually be
+	// selected for langtype 4 players.
+	{
+		char (*motd_buf)[CHAT_SIZE_MAX] = (sd->langtype == 4 && motd_text_chn[0][0]) ? motd_text_chn : motd_text;
+		for(int32 i=0; i < MOTD_LINE_SIZE && motd_buf[i][0]; i++) {
+			if (battle_config.motd_type)
+				clif_messagecolor(sd, color_table[COLOR_LIGHT_GREEN], motd_buf[i], false, SELF);
+			else
+				clif_displaymessage(sd->fd, motd_buf[i]);
+		}
+	}
 
 	// Cash shop
 	sd->cashPoints = static_cast<int32>(pc_readaccountreg(sd, add_str(CASHPOINT_VAR)));
