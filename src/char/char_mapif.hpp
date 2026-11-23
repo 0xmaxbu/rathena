@@ -34,6 +34,8 @@ int32 chmapif_parse_setcharonline(int32 fd, int32 id);
 int32 chmapif_parse_reqfamelist(int32 fd);
 int32 chmapif_parse_save_scdata(int32 fd);
 int32 chmapif_parse_keepalive(int32 fd);
+// ADR-0007：地图真实玩家进/出事件（0x2b30 map→char）→ 落库 map_users_live
+int32 chmapif_parse_map_presence(int32 fd);
 int32 chmapif_parse_reqauth(int32 fd, int32 id);
 int32 chmapif_parse_updmapip(int32 fd, int32 id);
 

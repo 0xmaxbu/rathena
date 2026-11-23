@@ -837,6 +837,9 @@ struct map_data {
 	int32 npc_num_warp; // number of warp npc on the map
 	int32 users;
 	int32 users_pvp;
+	/// 真实玩家数（ADR-0007）：与 users 同点维护但排除模拟会话（status.is_sim）。
+	/// 只在真实玩家 0→1 / 1→0 两个瞬间向 char-server 发 0x2b30 事件；带 >0 钳制。
+	int32 real_users;
 	int32 iwall_num; // Total of invisible walls in this map
 
 	struct point save;

@@ -10818,6 +10818,12 @@ void clif_parse_LoadEndAck(int32 fd,map_session_data *sd)
 
 	if( mapdata->users++ == 0 && battle_config.dynamic_mobs )
 		map_spawnmobs(sd->m);
+	// ADR-0007：真实玩家计数（排除模拟会话）。只在 0→1 瞬间上报 char-server。
+	if( !sd->status.is_sim ){
+		mapdata->real_users++;
+		if( mapdata->real_users == 1 )
+			chrif_map_presence(sd->m, true);
+	}
 	if( !pc_isinvisible(sd) ) { // increment the number of pvp players on the map
 		mapdata->users_pvp++;
 	}

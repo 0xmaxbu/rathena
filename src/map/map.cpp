@@ -3024,6 +3024,10 @@ void map_spawnmobs(int16 m)
 	{
 		ShowStatus("Map %s: Spawned '" CL_WHITE "%d" CL_RESET "' mobs.\n",mapdata->name, k);
 	}
+	// ADR-0007：动态刷怪跑了但一只都没补——「有人但零怪」不一致的直接探针
+	//（2026-11-23 prt_fild08 事故：全图零怪持续 9 小时无任何日志）。
+	if (k == 0 && mapdata->moblist[0] != nullptr)
+		ShowWarning("map_spawnmobs: Map %s has spawn data but spawned 0 mobs (active counter stale?).\n", mapdata->name);
 }
 
 int32 map_removemobs_sub(block_list *bl, va_list ap)

@@ -997,6 +997,59 @@ int32 chmapif_parse_keepalive(int32 fd){
 }
 
 /**
+ * ADR-0007：地图真实玩家进/出事件（0x2b30，map→char）→ 落库 `map_users_live`。
+ * 布局见 map/chrif.cpp chrif_map_presence。行集 = 当前有真实玩家的地图：
+ *   entered=1 → INSERT ... ON DUPLICATE KEY UPDATE（real_users/mob_count/entered_at）
+ *   entered=0 → DELETE
+ * 写库是 char-server 的职责（上游纪律：map-server 网络包路径零 SQL）。
+ * SQL 失败只记日志不中断 map 连接（观测数据，非游戏逻辑）。
+ * @return 1 已处理 / 0 数据不足
+ */
+int32 chmapif_parse_map_presence(int32 fd){
+	// 0x2b30.W len.W real_users.L map.MAP_NAME_LENGTH_EXT entered.B mob_count.W = 4 + MAP_NAME_LENGTH_EXT + 1 + 2
+	if( RFIFOREST(fd) < 4 || RFIFOREST(fd) < RFIFOW(fd,2) )
+		return 0;
+	else {
+		int32 real_users = RFIFOL(fd,4);
+		char mapname[MAP_NAME_LENGTH_EXT];
+		safestrncpy(mapname, RFIFOCP(fd,8), sizeof(mapname));
+		bool entered = RFIFOB(fd, 8 + MAP_NAME_LENGTH_EXT) != 0;
+		int32 mob_count = RFIFOW(fd, 8 + MAP_NAME_LENGTH_EXT + 1);
+
+		// 地图名来自 map-server 内存（只含 [_a-zA-Z0-9-]），仍走转义建立安全模式（fork WR-01 先例）
+		char esc_map[MAP_NAME_LENGTH_EXT * 2 + 1];
+		Sql_EscapeString(sql_handle, esc_map, mapname);
+
+		if( entered ){
+			if( SQL_ERROR == Sql_Query(sql_handle,
+				"INSERT INTO `map_users_live` (`map_name`, `real_users`, `mob_count`, `entered_at`) "
+				"VALUES ('%s', %d, %d, NOW()) "
+				"ON DUPLICATE KEY UPDATE `real_users`=%d, `mob_count`=%d, `entered_at`=NOW()",
+				esc_map, real_users, mob_count, real_users, mob_count) )
+			{
+				ShowError("chmapif_parse_map_presence: INSERT failed for map '%s'\n", mapname);
+				Sql_ShowDebug(sql_handle);
+			}
+		}
+		else {
+			if( SQL_ERROR == Sql_Query(sql_handle,
+				"DELETE FROM `map_users_live` WHERE `map_name`='%s'", esc_map) )
+			{
+				ShowError("chmapif_parse_map_presence: DELETE failed for map '%s'\n", mapname);
+				Sql_ShowDebug(sql_handle);
+			}
+		}
+		Sql_FreeResult(sql_handle);
+
+		if( charserv_config.log_inter )
+			ShowStatus("map presence: '%s' %s (real_users=%d, mob_count=%d)\n", mapname, entered ? "entered" : "left", real_users, mob_count);
+
+		RFIFOSKIP(fd, RFIFOW(fd,2));
+	}
+	return 1;
+}
+
+/**
  * auth request from map-server
  * @param fd: which fd to parse from
  * @return : 0 not enough data received, 1 success
@@ -1444,6 +1497,7 @@ int32 chmapif_parse(int32 fd){
 			//case 0x2b2c: /*free*/; break;
 			case 0x2b2d: next=chmapif_bonus_script_get(fd); break; //Load data
 			case 0x2b2e: next=chmapif_bonus_script_save(fd); break;//Save data
+			case 0x2b30: next=chmapif_parse_map_presence(fd); break; // ADR-0007：地图真实玩家进/出事件
 			default:
 			{
 					// inter server - packet

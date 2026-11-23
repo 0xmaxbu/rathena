@@ -39,6 +39,8 @@ struct auth_node {
 void chrif_setuserid(char* id);
 void chrif_setpasswd(char* pwd);
 void chrif_checkdefaultlogin(void);
+// ADR-0007：地图真实玩家进/出事件上报（0x2b30，map→char）。只报事实，char-server 负责落库。
+void chrif_map_presence(int16 m, bool entered);
 int32 chrif_setip(const char* ip);
 void chrif_setport(uint16 port);
 

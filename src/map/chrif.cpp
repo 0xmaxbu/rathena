@@ -396,6 +396,41 @@ int32 chrif_recvmap(int32 fd) {
 	return 0;
 }
 
+/**
+ * ADR-0007：地图真实玩家进/出事件 → char-server（0x2b30）。
+ * 布局：0x2b30.W | len.W(=4+4+MAP_NAME_LENGTH_EXT+1+2) | real_users.L | map_name.MAP_NAME_LENGTH_EXT | entered.B | mob_count.W
+ * 只在真实玩家 0→1（entered=1）与 1→0（entered=0）两个瞬间发；中间增减不报。
+ * mob_count 在进入瞬间采样（暴露「有人但零怪」不一致）；离开时填 0。
+ * 零 SQL、零阻塞：只写 char_fd 缓冲，落库由 char-server 负责。
+ * @param m 地图 id
+ * @param entered true=进入 false=离开
+ */
+static int32 presence_count_mob(block_list *bl, va_list ap) {
+	return 1;
+}
+
+void chrif_map_presence(int16 m, bool entered) {
+	if( !chrif_isconnected() )
+		return;
+	struct map_data *mapdata = map_getmapdata(m);
+	if (mapdata == nullptr)
+		return;
+
+	int32 mob_count = 0;
+	if (entered)
+		mob_count = map_foreachinmap(presence_count_mob, m, BL_MOB);
+
+	int32 len = 4 + 4 + MAP_NAME_LENGTH_EXT + 1 + 2;
+	WFIFOHEAD(char_fd, len);
+	WFIFOW(char_fd, 0) = 0x2b30;
+	WFIFOW(char_fd, 2) = len;
+	WFIFOL(char_fd, 4) = mapdata->real_users;
+	safestrncpy(WFIFOCP(char_fd, 8), mapdata->name, MAP_NAME_LENGTH_EXT);
+	WFIFOB(char_fd, 8 + MAP_NAME_LENGTH_EXT) = entered ? 1 : 0;
+	WFIFOW(char_fd, 8 + MAP_NAME_LENGTH_EXT + 1) = (uint16)mob_count;
+	WFIFOSET(char_fd, len);
+}
+
 // remove specified maps (used when some other map-server disconnects)
 int32 chrif_removemap(int32 fd) {
 	int32 i, j;

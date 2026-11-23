@@ -2,6 +2,7 @@
 // For more information, see LICENCE in the main folder
 
 #include "unit.hpp"
+#include "chrif.hpp"
 
 #include <cstdlib>
 #include <cstring>
@@ -3725,6 +3726,15 @@ int32 unit_remove_map_(block_list *bl, clr_type clrtype, const char* file, int32
 			}
 			else if (--map[bl->m].users == 0 && battle_config.dynamic_mobs)
 				map_removemobs(bl->m);
+
+			// ADR-0007：真实玩家计数（排除模拟会话），与 users-- 同点独立维护。
+			// 带 >0 钳制：unit_remove_map 历史上存在重复调用风险（上游以 debug_remove_map 防护）。
+			// 只在 1→0 瞬间上报 char-server。
+			if( !sd->status.is_sim && map[bl->m].real_users > 0 ){
+				map[bl->m].real_users--;
+				if( map[bl->m].real_users == 0 )
+					chrif_map_presence(bl->m, false);
+			}
 
 			if( !pc_isinvisible(sd) ) // Decrement the number of active pvp players on the map
 				--map[bl->m].users_pvp;

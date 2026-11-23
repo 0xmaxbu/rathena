@@ -631,6 +631,10 @@ struct mmo_charstatus {
 	unsigned char hotkey_rowshift2;
 	unsigned long title_id;
 	uint16 inventory_slots;
+
+	/// 玩家模拟标记（ADR-0006/0007）：char-server 从 `char`.is_sim 读入，随登录数据整结构下发 map-server。
+	/// map-server 据此区分真实玩家与模拟会话，只对真实玩家计数地图真实人数。
+	bool is_sim;
 };
 
 typedef enum mail_status {
